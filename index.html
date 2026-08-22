@@ -1,0 +1,3196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mapa del patrimoni casteller</title>
+
+<link
+rel="stylesheet"
+href="../leaflet/leaflet.css">
+
+<script
+src="../leaflet/leaflet.js">
+</script>
+
+<style>
+
+html, body, #map {
+
+    height: 100%;
+    margin: 0;
+
+}
+
+.icona-personalitzada {
+
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+.placa-carrusel {
+
+    display: none;
+
+}
+
+.placa-carrusel-activa {
+
+    display: block;
+
+}
+
+.placa-carrusel-controls {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin: 8px 0;
+
+}
+
+.placa-carrusel-boto {
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 26px;
+
+    cursor: pointer;
+
+    padding: 2px 8px;
+
+}
+
+.placa-comptador {
+
+    font-size: 14px;
+
+    color: #666;
+
+}
+
+
+
+
+
+
+.popup ul {
+
+    padding-left: 20px;
+
+}
+
+#filtres {
+
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    z-index: 1000;
+
+    background: white;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+#filtres label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+#titolMapa {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px;
+
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#comptadorLocalitzacions {
+
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+    font-size: 13px;
+
+}
+
+#botoFiltres {
+
+    display: none;
+
+}
+
+@media (max-width: 600px) {
+
+
+#botoFiltres {
+
+    display: block;
+
+    position: absolute;
+
+    top: 45px;
+    right: 10px;
+
+    z-index: 1001;
+
+    background: white;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 8px 12px;
+
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+    #filtres {
+
+    display: none;
+
+    position: absolute;
+
+    top: 75px;
+    right: 10px;
+
+    width: 230px;
+    max-width: calc(100vw - 20px);
+    box-sizing: border-box;
+
+    font-size: 14px;
+    padding: 8px;
+
+}
+
+    #filtres h4 {
+
+        font-size: 15px;
+        margin-top: 4px;
+        margin-bottom: 7px;
+
+    }
+
+    #filtres label {
+
+        margin-bottom: 6px;
+
+    }
+
+    #filtres input[type="checkbox"] {
+
+        width: 16px;
+        height: 16px;
+
+    }
+
+    #comptadorLocalitzacions {
+
+        font-size: 12px;
+
+    }
+
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="map">
+
+    <div id="titolMapa">
+        Mapa de Torres Humanes dels Països Catalans
+    </div>
+
+</div>
+
+<button id="botoFiltres">🔍 Filtres</button>
+
+<div id="filtres">
+
+<h4>🔍 Cerca per població</h4>
+
+<input
+    type="text"
+    id="cercaPoblacio"
+    placeholder="Escriu una població..."
+    autocomplete="off"
+    style="width: 180px; margin-bottom: 10px;"
+>
+
+<hr>
+
+<h4>Tradicions</h4>
+
+<label>
+    <input type="checkbox" id="fcastells" checked>
+    Castells
+</label>
+
+<label>
+    <input type="checkbox" id="fmuixerangues" checked>
+    Muixerangues
+</label>
+
+<label>
+    <input type="checkbox" id="ffalcons" checked>
+    Falcons
+</label>
+
+<hr>
+
+<h4>Elements patrimonials</h4>
+
+<label>
+    <input type="checkbox" id="f9">
+    9️⃣ Places de 9
+</label>
+
+<label>
+    <input type="checkbox" id="f10">
+    🔟 Places de 10
+</label>
+
+<label>
+    <input type="checkbox" id="fplaques">
+    🪧 Plaques commemoratives
+</label>
+
+<label>
+    <input type="checkbox" id="fmonuments">
+    🏛️ Monuments
+</label>
+
+<label>
+    <input type="checkbox" id="fcarrers">
+    🛣️ Altres elements
+</label>
+
+<label>
+    <input type="checkbox" id="fcolles">
+    🏠 Local o localització de colla
+</label>
+
+<div id="comptadorLocalitzacions">
+    📍 Localitzacions mostrades: <strong>0</strong>
+</div>
+
+</div>
+
+<script>
+
+var map = L.map("map").setView([40.3, 1.5], 7.3);
+
+var capaMarcadors;
+var poblacioCerca = "";
+
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+).addTo(map);
+
+fetch("localitzacions.geojson")
+
+.then(response => response.json())
+
+.then(data => {
+
+
+
+var numeroCarruselPlaques = 0;
+
+window.canviaPlaca = function(idCarrusel, direccio) {
+
+    var carrusel = document.getElementById(idCarrusel);
+
+    if (!carrusel) {
+        return;
+    }
+
+    var plaques =
+        carrusel.querySelectorAll(".placa-carrusel");
+
+    var actual =
+        carrusel.querySelector(".placa-carrusel-activa");
+
+    var indexActual =
+        Array.prototype.indexOf.call(plaques, actual);
+
+    var nouIndex =
+        indexActual + direccio;
+
+    if (nouIndex < 0) {
+        nouIndex = plaques.length - 1;
+    }
+
+    if (nouIndex >= plaques.length) {
+        nouIndex = 0;
+    }
+
+    plaques.forEach(function (placa) {
+
+        placa.classList.remove(
+            "placa-carrusel-activa"
+        );
+
+    });
+
+    plaques[nouIndex].classList.add(
+        "placa-carrusel-activa"
+    );
+
+    var comptador =
+        carrusel.querySelector(".placa-comptador");
+
+    if (comptador) {
+
+        comptador.textContent =
+            (nouIndex + 1) +
+            " / " +
+            plaques.length;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function crearIcona(p) {
+
+    var icona = "";
+
+    var algunElementPatrimonial =
+
+        document.getElementById("f9").checked ||
+        document.getElementById("f10").checked ||
+        document.getElementById("fplaques").checked ||
+        document.getElementById("fmonuments").checked ||
+        document.getElementById("fcarrers").checked ||
+        document.getElementById("fcolles").checked;
+
+
+    // CAP ELEMENT PATRIMONIAL SELECCIONAT
+    if (!algunElementPatrimonial) {
+
+        return "📍";
+
+    }
+
+
+    // ELEMENTS PATRIMONIALS SELECCIONATS
+
+    if (
+        document.getElementById("f9").checked &&
+        p.places9.length
+    ) {
+        icona += "9️⃣";
+    }
+
+    if (
+        document.getElementById("f10").checked &&
+        p.places10.length
+    ) {
+        icona += "🔟";
+    }
+
+    if (
+        document.getElementById("fplaques").checked &&
+        p.plaques.length
+    ) {
+        icona += "🪧";
+    }
+
+    if (
+        document.getElementById("fmonuments").checked &&
+        p.monuments.length
+    ) {
+        icona += "🏛️";
+    }
+
+    if (
+        document.getElementById("fcarrers").checked &&
+        p.carrers.length
+    ) {
+        icona += "🛣️";
+    }
+
+    if (
+        document.getElementById("fcolles").checked &&
+        p.colles.length
+    ) {
+        icona += "🏠";
+    }
+
+
+    // Quan hi ha filtres patrimonials seleccionats,
+    // no volem mostrar 📍
+    return icona;
+
+}
+
+
+
+function compleixFiltres(p) {
+
+    // -------------------------------------------------------------
+    // FILTRE DE POBLACIÓ
+    // -------------------------------------------------------------
+
+    if (
+        poblacioCerca &&
+        !p.poblacio
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .includes(
+                poblacioCerca
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+                    .toLowerCase()
+            )
+    ) {
+        return false;
+    }
+
+
+    // -------------------------------------------------------------
+    // TRADICIONS
+    // -------------------------------------------------------------
+
+    var algunaTradicioSeleccionada =
+
+        document.getElementById("fcastells").checked ||
+        document.getElementById("fmuixerangues").checked ||
+        document.getElementById("ffalcons").checked;
+
+
+    var tradicioSeleccionada = false;
+
+
+    if (
+        document.getElementById("fcastells").checked &&
+        p.castells === "Sí"
+    ) {
+        tradicioSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        p.muixerangues === "Sí"
+    ) {
+        tradicioSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        p.falcons === "Sí"
+    ) {
+        tradicioSeleccionada = true;
+    }
+
+
+    // -------------------------------------------------------------
+    // CAP TRADICIÓ SELECCIONADA
+    // -------------------------------------------------------------
+
+    // Si no hi ha cap tradició seleccionada,
+    // no mostrem cap localització.
+    //
+    // Això és així encara que hi hagi elements
+    // patrimonials seleccionats.
+
+    if (!algunaTradicioSeleccionada) {
+        return false;
+    }
+
+
+    // La localització ha de pertànyer a
+    // almenys una de les tradicions seleccionades.
+
+    if (!tradicioSeleccionada) {
+        return false;
+    }
+
+
+    // -------------------------------------------------------------
+    // ELEMENTS PATRIMONIALS
+    // -------------------------------------------------------------
+
+    var algunElementSeleccionat =
+
+        document.getElementById("f9").checked ||
+        document.getElementById("f10").checked ||
+        document.getElementById("fplaques").checked ||
+        document.getElementById("fmonuments").checked ||
+        document.getElementById("fcarrers").checked ||
+        document.getElementById("fcolles").checked;
+
+
+    // -------------------------------------------------------------
+    // CAP ELEMENT PATRIMONIAL SELECCIONAT
+    // -------------------------------------------------------------
+
+    // Si no hi ha cap element seleccionat,
+    // ja n'hi ha prou amb complir la tradició.
+
+    if (!algunElementSeleccionat) {
+        return true;
+    }
+
+
+    // -------------------------------------------------------------
+    // COMPROVEM ELS ELEMENTS PATRIMONIALS
+    // -------------------------------------------------------------
+
+    var categoriaSeleccionada = false;
+
+
+    if (
+        document.getElementById("f9").checked &&
+        p.places9.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("f10").checked &&
+        p.places10.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("fplaques").checked &&
+        p.plaques.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("fmonuments").checked &&
+        p.monuments.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("fcarrers").checked &&
+        p.carrers.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+    if (
+        document.getElementById("fcolles").checked &&
+        p.colles.length
+    ) {
+        categoriaSeleccionada = true;
+    }
+
+
+    // -------------------------------------------------------------
+    // RESULTAT FINAL
+    // -------------------------------------------------------------
+
+    return categoriaSeleccionada;
+
+}
+
+ capaMarcadors = L.geoJSON(data, {
+
+    filter: function(feature) {
+
+        return compleixFiltres(
+            feature.properties
+        );
+
+    },
+
+    pointToLayer: function(feature, latlng) {
+
+        var p = feature.properties;
+
+        var icona = crearIcona(p);
+        
+        return L.marker(
+            latlng,
+            {
+                icon: L.divIcon({
+
+                    className: "icona-personalitzada",
+
+                    html: "<div>" +
+                          icona +
+                          "</div>",
+
+                    iconSize: [40, 20]
+
+                })
+            }
+        );
+
+    },
+
+    onEachFeature: function(feature, layer) {
+
+            var p = feature.properties;
+
+            var html =
+                "<div class='popup'>" +
+                "<h3>" + p.nom + "</h3>" +
+                "<b>" + p.poblacio + "</b>";
+
+            if (p.comarca) {
+
+                html += "<br>" + p.comarca;
+
+            }
+
+            html += "<ul>";
+                        // FOTOGRAFIES GENERALS DE LA LOCALITZACIÓ
+            if (p.fotos && p.fotos.length) {
+
+                var teFotosLocalitzacio =
+                    p.fotos.some(function (foto) {
+                        return (
+                            (foto.url && foto.url.trim()) ||
+                            (foto.enllac_extern &&
+                             foto.enllac_extern.trim())
+                        );
+                    });
+
+                if (teFotosLocalitzacio) {
+
+                    p.fotos.forEach(function (foto) {
+
+                        // FOTO LOCAL O URL DIRECTA
+                        if (foto.url && foto.url.trim()) {
+
+                            html += "<li>";
+
+                            if (foto.text && foto.text.trim()) {
+
+                                html += "<em>" +
+                                    foto.text +
+                                    "</em><br>";
+
+                            }
+
+                            html += "<a href=\"" +
+                                foto.url +
+                                "\" target=\"_blank\">" +
+                                "<img src=\"" +
+                                foto.url +
+                                "\" style=\"max-width:100%; height:auto;\">" +
+                                "</a>";
+
+                            if (foto.autor && foto.autor.trim()) {
+
+                                html += "<br><strong>Autor:</strong> " +
+                                    foto.autor;
+
+                            }
+
+                            if (foto.font && foto.font.trim()) {
+
+                                html += "<br><strong>Font:</strong> ";
+
+                                if (
+                                    foto.font_url &&
+                                    foto.font_url.trim()
+                                ) {
+
+                                    html += "<a href=\"" +
+                                        foto.font_url +
+                                        "\" target=\"_blank\">" +
+                                        foto.font +
+                                        "</a>";
+
+                                } else {
+
+                                    html += foto.font;
+
+                                }
+
+                            }
+
+                            if (
+                                foto.llicencia &&
+                                foto.llicencia.trim()
+                            ) {
+
+                                html += "<br><strong>Llicència:</strong> ";
+
+                                if (
+                                    foto.llicencia_url &&
+                                    foto.llicencia_url.trim()
+                                ) {
+
+                                    html += "<a href=\"" +
+                                        foto.llicencia_url +
+                                        "\" target=\"_blank\">" +
+                                        foto.llicencia +
+                                        "</a>";
+
+                                } else {
+
+                                    html += foto.llicencia;
+
+                                }
+
+                            }
+
+                            html += "</li>";
+
+                        }
+
+
+                        // FOTO EXTERNA
+                        else if (
+                            foto.enllac_extern &&
+                            foto.enllac_extern.trim()
+                        ) {
+
+                            var textEnllac =
+                                foto.text &&
+                                foto.text.trim()
+                                    ? foto.text
+                                    : "Veure fotografia";
+
+                            html += "<li>🔗 " +
+                                "<a href=\"" +
+                                foto.enllac_extern +
+                                "\" target=\"_blank\">" +
+                                textEnllac +
+                                "</a>" +
+                                "</li>";
+
+                        }
+
+                    });
+
+                    html += "</ul>";
+
+                }
+
+            }
+
+           if (p.places9.length) {
+
+    html += "<li><b>9️⃣ Plaça de 9</b></li>";
+
+    html += "<ul>";
+
+    p.places9.forEach(function(placa) {
+
+        html += "<li>";
+
+        html += "<strong>" +
+            placa.castell +
+            " - " +
+            placa.colla +
+            "</strong>";
+
+        if (placa.diada || placa.data) {
+
+            html += "<br>" +
+                (placa.diada || "");
+
+            if (placa.diada && placa.data) {
+                html += " · ";
+            }
+
+            html += (placa.data || "");
+
+        }
+
+        if (placa.fotos && placa.fotos.length) {
+
+            placa.fotos.forEach(function(foto) {
+
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+
+}
+           if (p.places10.length) {
+
+    html += "<li><b>🔟 Plaça de 10</b></li>";
+
+    html += "<ul>";
+
+    p.places10.forEach(function(placa) {
+
+        html += "<li>";
+
+        html += "<strong>" +
+            placa.castell +
+            " - " +
+            placa.colla +
+            "</strong>";
+
+        if (placa.diada || placa.data) {
+
+            html += "<br>" +
+                (placa.diada || "");
+
+            if (placa.diada && placa.data) {
+                html += " · ";
+            }
+
+            html += (placa.data || "");
+
+        }
+
+        if (placa.fotos && placa.fotos.length) {
+
+            placa.fotos.forEach(function(foto) {
+
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+
+}
+       if (p.plaques.length) {
+
+    html += "<li>🪧 " +
+        p.plaques.length +
+        (p.plaques.length === 1 ? " placa" : " plaques") +
+        "</li>";
+
+    numeroCarruselPlaques++;
+
+    var idCarrusel =
+        "carrusel-plaques-" +
+        numeroCarruselPlaques;
+
+    html += "<div id=\"" +
+        idCarrusel +
+        "\">";
+
+
+    // ---------------------------------------------------------
+    // CONTROLS DEL CARRUSEL
+    // ---------------------------------------------------------
+
+    if (p.plaques.length > 1) {
+
+        html +=
+            "<div class=\"placa-carrusel-controls\">" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarrusel +
+            "', -1)\">" +
+            "‹" +
+            "</button>" +
+
+            "<span class=\"placa-comptador\">" +
+            "1 / " +
+            p.plaques.length +
+            "</span>" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarrusel +
+            "', 1)\">" +
+            "›" +
+            "</button>" +
+
+            "</div>";
+
+    }
+
+
+    // ---------------------------------------------------------
+    // PLAQUES
+    // ---------------------------------------------------------
+
+    p.plaques.forEach(function (placa, index) {
+
+        html +=
+            "<div class=\"placa-carrusel " +
+            (index === 0
+                ? "placa-carrusel-activa"
+                : "") +
+            "\">";
+
+
+        // INFORMACIÓ DE LA PLACA
+
+        html +=
+            "<strong>" +
+            placa.colla +
+            " - " +
+            placa.castell +
+            "</strong><br>" +
+            placa.data_castell;
+
+
+        if (
+            placa.data_placa &&
+            placa.data_placa.trim()
+        ) {
+
+            html +=
+                "<br>Data de la placa: " +
+                placa.data_placa;
+
+        }
+
+
+        if (
+            placa.incidencies &&
+            placa.incidencies.trim()
+        ) {
+
+            html +=
+                "<br>Incidències: " +
+                placa.incidencies;
+
+        }
+
+
+        // -----------------------------------------------------
+        // FOTOGRAFIES DE LA PLACA
+        // -----------------------------------------------------
+
+        if (
+            placa.fotos &&
+            placa.fotos.length
+        ) {
+
+            placa.fotos.forEach(function (foto) {
+
+
+                // FOTO LOCAL O URL DIRECTA
+
+                if (
+                    foto.url &&
+                    foto.url.trim()
+                ) {
+
+                    html += "<br><br>";
+
+
+                    if (
+                        foto.text &&
+                        foto.text.trim()
+                    ) {
+
+                        html +=
+                            "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+
+                    html +=
+                        "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+
+                        "<img src=\"" +
+                        foto.url +
+                        "\" " +
+                        "style=\"max-width:100%; height:auto;\">" +
+
+                        "</a>";
+
+
+                    if (
+                        foto.autor &&
+                        foto.autor.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+
+                    if (
+                        foto.font &&
+                        foto.font.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Font:</strong> ";
+
+                        if (
+                            foto.font_url &&
+                            foto.font_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+
+                    if (
+                        foto.llicencia &&
+                        foto.llicencia.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // -------------------------------------------------
+                // FOTO EXTERNA
+                // -------------------------------------------------
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text &&
+                        foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+
+                    html +=
+                        "<br>🔗 " +
+
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+
+                        textEnllac +
+
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+
+        html += "</div>";
+
+    });
+
+
+    html += "</div>";
+}
+        if (p.monuments.length) {
+
+    html += "<li>🏛️ " +
+        p.monuments.length +
+        (p.monuments.length === 1 ? " monument" : " monuments") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.monuments.forEach(function (monument) {
+
+        html += "<li>" +
+            "<strong>" + monument.nom + "</strong>";
+
+        if (monument.any && monument.any.trim()) {
+            html += "<br>" + monument.any;
+        }
+
+        if (monument.figura && monument.figura.trim()) {
+            html += "<br><strong>Figura:</strong> " +
+                monument.figura;
+        }
+
+        if (monument.autor && monument.autor.trim()) {
+            html += "<br><strong>Autor:</strong> " +
+                monument.autor;
+        }
+
+        if (monument.altres && monument.altres.trim()) {
+            html += "<br><strong>Altres:</strong> " +
+                monument.altres;
+        }
+
+
+        // FOTOGRAFIES
+        if (monument.fotos && monument.fotos.length) {
+
+            monument.fotos.forEach(function (foto) {
+
+                // FOTO QUE PODEM MOSTRAR
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // FOTO EXTERNA
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+}
+   if (p.carrers.length) {
+
+    html += "<li>🛣️ " +
+        p.carrers.length +
+        (p.carrers.length === 1 ? " localització" : " localitzacions") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.carrers.forEach(function (carrer) {
+
+        var teMotiu =
+            carrer.motiu &&
+            carrer.motiu.trim();
+
+        var teFotos =
+            carrer.fotos &&
+            carrer.fotos.some(function (foto) {
+                return (
+                    (foto.url && foto.url.trim()) ||
+                    (foto.enllac_extern &&
+                     foto.enllac_extern.trim())
+                );
+            });
+
+        // Només creem l'element si hi ha alguna informació
+        if (teMotiu || teFotos) {
+
+            html += "<li>";
+
+            // MOTIU
+            if (teMotiu) {
+
+                html += "<strong>Motiu:</strong> " +
+                    carrer.motiu;
+
+            }
+
+            // FOTOGRAFIES
+            if (teFotos) {
+
+                carrer.fotos.forEach(function (foto) {
+
+                    // FOTO LOCAL O AMB URL DIRECTA
+                    if (foto.url && foto.url.trim()) {
+
+if (teMotiu) {
+    html += "<br><br>";
+}
+
+if (foto.text && foto.text.trim()) {
+                            html += "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html += "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+
+                            html += "<br><strong>Autor:</strong> " +
+                                foto.autor;
+
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.font;
+
+                            }
+
+                        }
+
+                        if (foto.llicencia &&
+                            foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.llicencia;
+
+                            }
+
+                        }
+
+                    }
+
+                    // ENLLAÇ EXTERN
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text &&
+                            foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+if (teMotiu) {
+    html += "<br>";
+}
+
+html += "🔗 " +
+                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a>";
+
+                    }
+
+                });
+
+            }
+
+            html += "</li>";
+
+        }
+
+    });
+
+    html += "</ul>";
+}
+         if (p.colles.length) {
+
+    html += "<li>🏠 " +
+        p.colles.length +
+        (p.colles.length === 1 ? " colla" : " colles") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.colles.forEach(function (colla) {
+
+        var teFotos =
+            colla.fotos &&
+            colla.fotos.some(function (foto) {
+                return (
+                    (foto.url && foto.url.trim()) ||
+                    (foto.enllac_extern &&
+                     foto.enllac_extern.trim())
+                );
+            });
+
+        html += "<li>";
+
+        // NOM DE LA COLLA
+        if (colla.web && colla.web.trim()) {
+
+            html += "<strong><a href='" +
+                colla.web +
+                "' target='_blank'>" +
+                colla.nom +
+                "</a></strong>";
+
+        } else {
+
+            html += "<strong>" +
+                colla.nom +
+                "</strong>";
+
+        }
+
+        // FUNDACIÓ
+        if (colla.fundacio && colla.fundacio.trim()) {
+            html += "<br>" + colla.fundacio;
+        }
+
+        // INACTIVA
+        if (colla.inactiva && colla.inactiva.trim()) {
+            html += "<br><strong>Inactiva:</strong> " +
+                colla.inactiva;
+        }
+
+        // ESTRUCTURES MÀXIMES
+        if (colla.maxim_castell && colla.maxim_castell.trim()) {
+            html += "<br><strong>Estructures màximes:</strong> " +
+                colla.maxim_castell;
+        }
+
+
+        // FOTOGRAFIES
+        if (teFotos) {
+
+            colla.fotos.forEach(function (foto) {
+
+                // FOTO LOCAL O URL DIRECTA
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (
+                            foto.font_url &&
+                            foto.font_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia &&
+                        foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // FOTO EXTERNA
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text &&
+                        foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+}
+            if (p.altres) {
+
+                html += "<li>ℹ️ " +
+                        p.altres +
+                        "</li>";
+
+            }
+
+            html += "</ul></div>";
+
+            layer.bindPopup(html);
+
+        }
+
+    }).addTo(map);
+
+var comptador =
+    document.getElementById("comptadorLocalitzacions");
+
+if (comptador) {
+
+    comptador.innerHTML =
+        "📍 Localitzacions mostrades: <strong>" +
+        capaMarcadors.getLayers().length +
+        "</strong>";
+
+}   
+
+[
+    "fcastells",
+    "fmuixerangues",
+    "ffalcons",
+    "f9",
+    "f10",
+    "fplaques",
+    "fmonuments",
+    "fcarrers",
+    "fcolles"
+].forEach(id => {
+
+    document
+        .getElementById(id)
+        .addEventListener(
+            "change",
+            function() {
+
+                map.removeLayer(
+                    capaMarcadors
+                );
+
+                capaMarcadors =
+                    L.geoJSON(data, {
+
+                        filter:
+                            function(feature) {
+
+                                return compleixFiltres(
+                                    feature.properties
+                                );
+
+                            },
+
+                        pointToLayer:
+                            function(feature, latlng) {
+
+                                var p =
+                                    feature.properties;
+
+                              var icona = crearIcona(p);
+                              
+                                return L.marker(
+                                    latlng,
+                                    {
+                                        icon:
+                                            L.divIcon({
+
+                                                className:
+                                                    "icona-personalitzada",
+
+                                                html:
+                                                    "<div>" +
+                                                    icona +
+                                                    "</div>",
+
+                                                iconSize:
+                                                    [40, 20]
+
+                                            })
+                                    }
+                                );
+
+                            },
+
+                        onEachFeature:
+    function(feature, layer) {
+
+        var p = feature.properties;
+
+        var html =
+            "<div class='popup'>" +
+            "<h3>" + p.nom + "</h3>" +
+            "<b>" + p.poblacio + "</b>";
+
+        if (p.comarca) {
+
+            html += "<br>" + p.comarca;
+
+        }
+
+        html += "<ul>";
+        
+                    // FOTOGRAFIES GENERALS DE LA LOCALITZACIÓ
+            if (p.fotos && p.fotos.length) {
+
+                var teFotosLocalitzacio =
+                    p.fotos.some(function (foto) {
+                        return (
+                            (foto.url && foto.url.trim()) ||
+                            (foto.enllac_extern &&
+                             foto.enllac_extern.trim())
+                        );
+                    });
+
+                if (teFotosLocalitzacio) {
+
+                    p.fotos.forEach(function (foto) {
+
+                        // FOTO LOCAL O URL DIRECTA
+                        if (foto.url && foto.url.trim()) {
+
+                            html += "<li>";
+
+                            if (foto.text && foto.text.trim()) {
+
+                                html += "<em>" +
+                                    foto.text +
+                                    "</em><br>";
+
+                            }
+
+                            html += "<a href=\"" +
+                                foto.url +
+                                "\" target=\"_blank\">" +
+                                "<img src=\"" +
+                                foto.url +
+                                "\" style=\"max-width:100%; height:auto;\">" +
+                                "</a>";
+
+                            if (foto.autor && foto.autor.trim()) {
+
+                                html += "<br><strong>Autor:</strong> " +
+                                    foto.autor;
+
+                            }
+
+                            if (foto.font && foto.font.trim()) {
+
+                                html += "<br><strong>Font:</strong> ";
+
+                                if (
+                                    foto.font_url &&
+                                    foto.font_url.trim()
+                                ) {
+
+                                    html += "<a href=\"" +
+                                        foto.font_url +
+                                        "\" target=\"_blank\">" +
+                                        foto.font +
+                                        "</a>";
+
+                                } else {
+
+                                    html += foto.font;
+
+                                }
+
+                            }
+
+                            if (
+                                foto.llicencia &&
+                                foto.llicencia.trim()
+                            ) {
+
+                                html += "<br><strong>Llicència:</strong> ";
+
+                                if (
+                                    foto.llicencia_url &&
+                                    foto.llicencia_url.trim()
+                                ) {
+
+                                    html += "<a href=\"" +
+                                        foto.llicencia_url +
+                                        "\" target=\"_blank\">" +
+                                        foto.llicencia +
+                                        "</a>";
+
+                                } else {
+
+                                    html += foto.llicencia;
+
+                                }
+
+                            }
+
+                            html += "</li>";
+
+                        }
+
+
+                        // FOTO EXTERNA
+                        else if (
+                            foto.enllac_extern &&
+                            foto.enllac_extern.trim()
+                        ) {
+
+                            var textEnllac =
+                                foto.text &&
+                                foto.text.trim()
+                                    ? foto.text
+                                    : "Veure fotografia";
+
+                            html += "<li>🔗 " +
+                                "<a href=\"" +
+                                foto.enllac_extern +
+                                "\" target=\"_blank\">" +
+                                textEnllac +
+                                "</a>" +
+                                "</li>";
+
+                        }
+
+                    });
+
+                    html += "</ul>";
+
+                }
+
+            }
+        
+
+if (
+    p.places9.length &&
+    mostrarSeccioPopup("f9")
+) {
+
+    html += "<li><b>9️⃣ Plaça de 9</b></li>";
+
+    html += "<ul>";
+
+    p.places9.forEach(function(placa) {
+
+        html += "<li>";
+
+        html += "<strong>" +
+            placa.castell +
+            " - " +
+            placa.colla +
+            "</strong>";
+
+        if (placa.diada || placa.data) {
+
+            html += "<br>" +
+                (placa.diada || "");
+
+            if (placa.diada && placa.data) {
+                html += " · ";
+            }
+
+            html += (placa.data || "");
+
+        }
+
+        if (placa.fotos && placa.fotos.length) {
+
+            placa.fotos.forEach(function(foto) {
+
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+
+}
+
+if (
+    p.places10.length &&
+    mostrarSeccioPopup("f10")
+) {
+
+    html += "<li><b>🔟 Plaça de 10</b></li>";
+
+    html += "<ul>";
+
+    p.places10.forEach(function(placa) {
+
+        html += "<li>";
+
+        html += "<strong>" +
+            placa.castell +
+            " - " +
+            placa.colla +
+            "</strong>";
+
+        if (placa.diada || placa.data) {
+
+            html += "<br>" +
+                (placa.diada || "");
+
+            if (placa.diada && placa.data) {
+                html += " · ";
+            }
+
+            html += (placa.data || "");
+
+        }
+
+        if (placa.fotos && placa.fotos.length) {
+
+            placa.fotos.forEach(function(foto) {
+
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+
+}
+    
+    
+    function mostrarSeccioPopup(idFiltre) {
+
+    var algunElementSeleccionat =
+        document.getElementById("f9").checked ||
+        document.getElementById("f10").checked ||
+        document.getElementById("fplaques").checked ||
+        document.getElementById("fmonuments").checked ||
+        document.getElementById("fcarrers").checked ||
+        document.getElementById("fcolles").checked;
+
+    // Si no hi ha cap filtre patrimonial seleccionat,
+    // mostrem tota la informació
+    if (!algunElementSeleccionat) {
+        return true;
+    }
+
+    // Si hi ha filtres seleccionats,
+    // només mostrem aquesta categoria
+    return document.getElementById(idFiltre).checked;
+
+}
+    
+    
+    
+    
+     if (
+    p.plaques.length &&
+    mostrarSeccioPopup("fplaques")
+) {
+
+    html += "<li>🪧 " +
+        p.plaques.length +
+        (p.plaques.length === 1 ? " placa" : " plaques") +
+        "</li>";
+
+    numeroCarruselPlaques++;
+
+    var idCarrusel =
+        "carrusel-plaques-" +
+        numeroCarruselPlaques;
+
+    html += "<div id=\"" +
+        idCarrusel +
+        "\">";
+
+
+    // ---------------------------------------------------------
+    // CONTROLS DEL CARRUSEL
+    // ---------------------------------------------------------
+
+    if (p.plaques.length > 1) {
+
+        html +=
+            "<div class=\"placa-carrusel-controls\">" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarrusel +
+            "', -1)\">" +
+            "‹" +
+            "</button>" +
+
+            "<span class=\"placa-comptador\">" +
+            "1 / " +
+            p.plaques.length +
+            "</span>" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarrusel +
+            "', 1)\">" +
+            "›" +
+            "</button>" +
+
+            "</div>";
+
+    }
+
+
+    // ---------------------------------------------------------
+    // PLAQUES
+    // ---------------------------------------------------------
+
+    p.plaques.forEach(function (placa, index) {
+
+        html +=
+            "<div class=\"placa-carrusel " +
+            (index === 0
+                ? "placa-carrusel-activa"
+                : "") +
+            "\">";
+
+
+        // INFORMACIÓ DE LA PLACA
+
+        html +=
+            "<strong>" +
+            placa.colla +
+            " - " +
+            placa.castell +
+            "</strong><br>" +
+            placa.data_castell;
+
+
+        if (
+            placa.data_placa &&
+            placa.data_placa.trim()
+        ) {
+
+            html +=
+                "<br>Data de la placa: " +
+                placa.data_placa;
+
+        }
+
+
+        if (
+            placa.incidencies &&
+            placa.incidencies.trim()
+        ) {
+
+            html +=
+                "<br>Incidències: " +
+                placa.incidencies;
+
+        }
+
+
+        // -----------------------------------------------------
+        // FOTOGRAFIES DE LA PLACA
+        // -----------------------------------------------------
+
+        if (
+            placa.fotos &&
+            placa.fotos.length
+        ) {
+
+            placa.fotos.forEach(function (foto) {
+
+
+                // FOTO LOCAL O URL DIRECTA
+
+                if (
+                    foto.url &&
+                    foto.url.trim()
+                ) {
+
+                    html += "<br><br>";
+
+
+                    if (
+                        foto.text &&
+                        foto.text.trim()
+                    ) {
+
+                        html +=
+                            "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+
+                    html +=
+                        "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+
+                        "<img src=\"" +
+                        foto.url +
+                        "\" " +
+                        "style=\"max-width:100%; height:auto;\">" +
+
+                        "</a>";
+
+
+                    if (
+                        foto.autor &&
+                        foto.autor.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+
+                    if (
+                        foto.font &&
+                        foto.font.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Font:</strong> ";
+
+                        if (
+                            foto.font_url &&
+                            foto.font_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+
+                    if (
+                        foto.llicencia &&
+                        foto.llicencia.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // -------------------------------------------------
+                // FOTO EXTERNA
+                // -------------------------------------------------
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text &&
+                        foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+
+                    html +=
+                        "<br>🔗 " +
+
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+
+                        textEnllac +
+
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+
+        html += "</div>";
+
+    });
+
+
+    html += "</div>";
+}
+     if (
+    p.monuments.length &&
+    mostrarSeccioPopup("fmonuments")
+) {
+
+    html += "<li>🏛️ " +
+        p.monuments.length +
+        (p.monuments.length === 1 ? " monument" : " monuments") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.monuments.forEach(function (monument) {
+
+        html += "<li>" +
+            "<strong>" + monument.nom + "</strong>";
+
+        if (monument.any && monument.any.trim()) {
+            html += "<br>" + monument.any;
+        }
+
+        if (monument.figura && monument.figura.trim()) {
+            html += "<br><strong>Figura:</strong> " +
+                monument.figura;
+        }
+
+        if (monument.autor && monument.autor.trim()) {
+            html += "<br><strong>Autor:</strong> " +
+                monument.autor;
+        }
+
+        if (monument.altres && monument.altres.trim()) {
+            html += "<br><strong>Altres:</strong> " +
+                monument.altres;
+        }
+
+
+        // FOTOGRAFIES
+        if (monument.fotos && monument.fotos.length) {
+
+            monument.fotos.forEach(function (foto) {
+
+                // FOTO QUE PODEM MOSTRAR
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // FOTO EXTERNA
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+}
+       if (
+    p.carrers.length &&
+    mostrarSeccioPopup("fcarrers")
+) {
+
+    html += "<li>🛣️ " +
+        p.carrers.length +
+        (p.carrers.length === 1 ? " localització" : " localitzacions") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.carrers.forEach(function (carrer) {
+
+        var teMotiu =
+            carrer.motiu &&
+            carrer.motiu.trim();
+
+        var teFotos =
+            carrer.fotos &&
+            carrer.fotos.some(function (foto) {
+                return (
+                    (foto.url && foto.url.trim()) ||
+                    (foto.enllac_extern &&
+                     foto.enllac_extern.trim())
+                );
+            });
+
+        // Només creem l'element si hi ha alguna informació
+        if (teMotiu || teFotos) {
+
+            html += "<li>";
+
+            // MOTIU
+            if (teMotiu) {
+
+                html += "<strong>Motiu:</strong> " +
+                    carrer.motiu;
+
+            }
+
+            // FOTOGRAFIES
+            if (teFotos) {
+
+                carrer.fotos.forEach(function (foto) {
+
+                    // FOTO LOCAL O AMB URL DIRECTA
+                    if (foto.url && foto.url.trim()) {
+
+   if (teMotiu) {
+    html += "<br><br>";
+}
+    if (foto.text && foto.text.trim()) {
+
+                            html += "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html += "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+
+                            html += "<br><strong>Autor:</strong> " +
+                                foto.autor;
+
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.font;
+
+                            }
+
+                        }
+
+                        if (foto.llicencia &&
+                            foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.llicencia;
+
+                            }
+
+                        }
+
+                    }
+
+                    // ENLLAÇ EXTERN
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text &&
+                            foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+if (teMotiu) {
+    html += "<br>";
+}
+
+html += "🔗 " +                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a>";
+
+                    }
+
+                });
+
+            }
+
+            html += "</li>";
+
+        }
+
+    });
+
+    html += "</ul>";
+}      
+
+if (
+    p.colles.length &&
+    mostrarSeccioPopup("fcolles")
+) {
+
+    html += "<li>🏠 " +
+        p.colles.length +
+        (p.colles.length === 1 ? " colla" : " colles") +
+        "</li>";
+
+    html += "<ul>";
+
+    p.colles.forEach(function (colla) {
+
+        var teFotos =
+            colla.fotos &&
+            colla.fotos.some(function (foto) {
+                return (
+                    (foto.url && foto.url.trim()) ||
+                    (foto.enllac_extern &&
+                     foto.enllac_extern.trim())
+                );
+            });
+
+        html += "<li>";
+
+        // NOM DE LA COLLA
+        if (colla.web && colla.web.trim()) {
+
+            html += "<strong><a href='" +
+                colla.web +
+                "' target='_blank'>" +
+                colla.nom +
+                "</a></strong>";
+
+        } else {
+
+            html += "<strong>" +
+                colla.nom +
+                "</strong>";
+
+        }
+
+        // FUNDACIÓ
+        if (colla.fundacio && colla.fundacio.trim()) {
+            html += "<br>" + colla.fundacio;
+        }
+
+        // INACTIVA
+        if (colla.inactiva && colla.inactiva.trim()) {
+            html += "<br><strong>Inactiva:</strong> " +
+                colla.inactiva;
+        }
+
+        // ESTRUCTURES MÀXIMES
+        if (colla.maxim_castell && colla.maxim_castell.trim()) {
+            html += "<br><strong>Estructures màximes:</strong> " +
+                colla.maxim_castell;
+        }
+
+
+        // FOTOGRAFIES
+        if (teFotos) {
+
+            colla.fotos.forEach(function (foto) {
+
+                // FOTO LOCAL O URL DIRECTA
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    if (foto.text && foto.text.trim()) {
+
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    if (foto.autor && foto.autor.trim()) {
+
+                        html += "<br><strong>Autor:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (
+                            foto.font_url &&
+                            foto.font_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (foto.llicencia &&
+                        foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+
+                // FOTO EXTERNA
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text &&
+                        foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 " +
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        html += "</li>";
+
+    });
+
+    html += "</ul>";
+}
+        if (p.altres) {
+
+            html += "<li>ℹ️ " +
+                    p.altres +
+                    "</li>";
+
+        }
+
+        html += "</ul></div>";
+
+        layer.bindPopup(html);
+
+    }
+
+                    }).addTo(map);
+                    
+                    var comptador =
+    document.getElementById("comptadorLocalitzacions");
+
+if (comptador) {
+
+    comptador.innerHTML =
+        "📍 Localitzacions mostrades: <strong>" +
+        capaMarcadors.getLayers().length +
+        "</strong>";
+
+}
+
+            }
+
+        );
+
+});
+});
+
+document
+    .getElementById("cercaPoblacio")
+    .addEventListener(
+        "input",
+        function() {
+
+            poblacioCerca = this.value.trim();
+
+            document
+                .getElementById("fcastells")
+                .dispatchEvent(
+                    new Event("change")
+                );
+
+            if (
+                capaMarcadors &&
+                capaMarcadors.getBounds().isValid()
+            ) {
+
+                map.fitBounds(
+                    capaMarcadors.getBounds()
+                );
+
+            }
+
+        }
+    );
+
+
+document
+    .getElementById("botoFiltres")
+    .addEventListener(
+        "click",
+        function() {
+
+            var filtres =
+                document.getElementById("filtres");
+
+            if (
+                filtres.style.display === "none" ||
+                filtres.style.display === ""
+            ) {
+
+                filtres.style.display = "block";
+
+            } else {
+
+                filtres.style.display = "none";
+
+            }
+
+        }
+    );
+
+
+</script>
+
+</body>
+
+</html>
