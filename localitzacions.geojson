@@ -4451,8 +4451,8 @@
         "altres": "Les 3 colles de Barcelona que han fet el 2d8f l’han carregat per primer cop en aquesta plaça, la plaça va ser abans de GE (3d8ps, 20/08/200) que de 9",
         "fotos": [
           {
-            "url": "",
-            "text": "",
+            "url": "fotos/places9/IX49.jpg",
+            "text": "Torre del rellotge guarnida per Festa Major (2026)",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -4462,13 +4462,13 @@
           },
           {
             "url": "",
-            "text": "",
-            "font": "",
+            "text": "Casa de la Vila (Wikimedia Commons)",
+            "font": "Wikimedia Commons",
             "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
+            "autor": "Amadalvarez",
+            "llicencia": "CC BY-SA 3.0",
+            "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+            "enllac_extern": "https://commons.wikimedia.org/wiki/File:FcescBerenguer-barcelona-CasaVilaGracia-6658.JPG"
           },
           {
             "url": "",
@@ -4811,8 +4811,8 @@
             "data": "18 d'agost de 2002",
             "fotos": [
               {
-                "url": "fotos/places9/IX49.jpg",
-                "text": "Torre del rellotge guarnida per Festa Major",
+                "url": "",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -4821,13 +4821,13 @@
                 "enllac_extern": ""
               },
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/FcescBerenguer-barcelona-CasaVilaGracia-6658.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-                "text": "Casa de la Vila ",
-                "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:FcescBerenguer-barcelona-CasaVilaGracia-6658.JPG",
-                "autor": "Amadalvarez",
-                "llicencia": "CC BY-SA 3.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
                 "enllac_extern": ""
               },
               {
@@ -9928,8 +9928,8 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/plaques/PC39.jpeg",
+                "text": "Detall 2 plaques i castell",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -9989,7 +9989,7 @@
             "fotos": [
               {
                 "url": "fotos/plaques/PC40.jpeg",
-                "text": "",
+                "text": "Ampliació de les 2 plaques",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -11572,66 +11572,6 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC45",
-            "colla": "Castellers de Vilafranca",
-            "castell": "2d9fm, pd8fm",
-            "data_castell": "21/08/10",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
                 "url": "fotos/plaques/PC45.jpeg",
                 "text": "Plaques c.Vilafranca i J. Tarragona",
                 "font": "",
@@ -11692,8 +11632,68 @@
             "incidencies": "",
             "fotos": [
               {
+                "url": "fotos/plaques/PC47.jpeg",
+                "text": "Plaques de 4d9 (s.XXI) i 2d8 colla Vella",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
                 "url": "",
                 "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC45",
+            "colla": "Castellers de Vilafranca",
+            "castell": "2d9fm, pd8fm",
+            "data_castell": "21/08/10",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC45.jpeg",
+                "text": "Plaques c.Vilafranca i J. Tarragona",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -33422,8 +33422,8 @@
         "altres": "",
         "fotos": [
           {
-            "url": "",
-            "text": "",
+            "url": "fotos/localitzacions/LC171.jpeg",
+            "text": "Façana de l’ajuntament",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -34151,8 +34151,8 @@
         "altres": "",
         "fotos": [
           {
-            "url": "fotos/localitzacions/LC171.jpeg",
-            "text": "Façana de l’ajuntament",
+            "url": "",
+            "text": "",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -36104,8 +36104,8 @@
         "altres": "Primers 3d9 sense folre carregats de la història (27/10/19), primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024)",
         "fotos": [
           {
-            "url": "fotos/localitzacions/LC182.jpg",
-            "text": "Façana de l’ajuntament de Valls",
+            "url": "",
+            "text": "",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -40959,7 +40959,7 @@
           {
             "nom": "Als Falcons",
             "any": "1998",
-            "figura": "Interpretació escala de 10",
+            "figura": "Escala de 10",
             "autor": "",
             "altres": "",
             "fotos": [
@@ -42493,8 +42493,8 @@
         "altres": "",
         "fotos": [
           {
-            "url": "",
-            "text": "",
+            "url": "fotos/localitzacions/LC212.jpg",
+            "text": "Balcons guarntits per Carnaval amb Lona dels Bordegassos (2025)",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -42618,6 +42618,66 @@
                 "font": "",
                 "font_url": "",
                 "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC201",
+            "colla": "Bordegassos de Vilanova",
+            "castell": "Primer 3d9f (c) ",
+            "data_castell": "01/08/99",
+            "data_placa": "28/11/99",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC201.png",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "Mar Orriols",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -47064,7 +47124,7 @@
       },
       "properties": {
         "id": "LC243",
-        "nom": "Local Al·lots de Llevant",
+        "nom": "Al·lots de Llevant",
         "poblacio": "Manacor",
         "comarca": "Llevant, Mallorca",
         "territori": "",
@@ -47205,7 +47265,7 @@
       },
       "properties": {
         "id": "LC244",
-        "nom": "Local Bordegassos de Vilanova",
+        "nom": "Bordegassos de Vilanova",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "",
@@ -47346,7 +47406,7 @@
       },
       "properties": {
         "id": "LC245",
-        "nom": "Local Brivalls de Cornudella",
+        "nom": "Brivalls de Cornudella",
         "poblacio": "Cornudella de Montsant",
         "comarca": "Priorat",
         "territori": "",
@@ -47487,7 +47547,7 @@
       },
       "properties": {
         "id": "LC246",
-        "nom": "Local Capgrossos de Mataró",
+        "nom": "Capgrossos de Mataró",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "",
@@ -47628,7 +47688,7 @@
       },
       "properties": {
         "id": "LC247",
-        "nom": "Local Castellers d'Altafulla",
+        "nom": "Castellers d'Altafulla",
         "poblacio": "Altafulla",
         "comarca": "Tarragonès",
         "territori": "",
@@ -47769,7 +47829,7 @@
       },
       "properties": {
         "id": "LC248",
-        "nom": "Local Castellers d'Andorra",
+        "nom": "Castellers d'Andorra",
         "poblacio": "Escaldes-Engordany",
         "comarca": "Andorra",
         "territori": "",
@@ -47910,7 +47970,7 @@
       },
       "properties": {
         "id": "LC249",
-        "nom": "Local Castellers d'Esparreguera",
+        "nom": "Castellers d'Esparreguera",
         "poblacio": "Esparreguera",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -48051,7 +48111,7 @@
       },
       "properties": {
         "id": "LC250",
-        "nom": "Local Castellers d'Esplugues",
+        "nom": "Castellers d'Esplugues",
         "poblacio": "Esplugues de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -48192,7 +48252,7 @@
       },
       "properties": {
         "id": "LC251",
-        "nom": "Local Castellers de Badalona",
+        "nom": "Castellers de Badalona",
         "poblacio": "Badalona",
         "comarca": "Barcelonès",
         "territori": "",
@@ -48333,7 +48393,7 @@
       },
       "properties": {
         "id": "LC252",
-        "nom": "Local Castellers de Berga",
+        "nom": "Castellers de Berga",
         "poblacio": "Berga",
         "comarca": "Berguedà",
         "territori": "",
@@ -48474,7 +48534,7 @@
       },
       "properties": {
         "id": "LC253",
-        "nom": "Local Castellers de Caldes de Montbui",
+        "nom": "Castellers de Caldes de Montbui",
         "poblacio": "Caldes de Montbui",
         "comarca": "Vallès oriental",
         "territori": "",
@@ -48615,7 +48675,7 @@
       },
       "properties": {
         "id": "LC254",
-        "nom": "Local Castellers de Castellar del Vallès",
+        "nom": "Castellers de Castellar del Vallès",
         "poblacio": "Castellar del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -48756,7 +48816,7 @@
       },
       "properties": {
         "id": "LC255",
-        "nom": "Local Castellers de Castelldefels",
+        "nom": "Castellers de Castelldefels",
         "poblacio": "Castelldefels",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -48897,7 +48957,7 @@
       },
       "properties": {
         "id": "LC256",
-        "nom": "Local Castellers de Cerdanyola",
+        "nom": "Castellers de Cerdanyola",
         "poblacio": "Cerdanyola del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -49038,7 +49098,7 @@
       },
       "properties": {
         "id": "LC257",
-        "nom": "Local Castellers de Cornellà",
+        "nom": "Castellers de Cornellà",
         "poblacio": "Cornellà de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -49179,7 +49239,7 @@
       },
       "properties": {
         "id": "LC258",
-        "nom": "Local Castellers de l'Adroc",
+        "nom": "Castellers de l'Adroc",
         "poblacio": "Sant Andreu de la Barca",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -49461,7 +49521,7 @@
       },
       "properties": {
         "id": "LC260",
-        "nom": "Local Castellers de la Selva",
+        "nom": "Castellers de la Selva",
         "poblacio": "Santa Coloma de Farners",
         "comarca": "La Selva",
         "territori": "",
@@ -49602,7 +49662,7 @@
       },
       "properties": {
         "id": "LC261",
-        "nom": "Local Castellers de la Vila de Gràcia",
+        "nom": "Can Musons ",
         "poblacio": "Barcelona (Gràcia)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -49743,7 +49803,7 @@
       },
       "properties": {
         "id": "LC262",
-        "nom": "Local Castellers de Lleida",
+        "nom": "Castellers de Lleida",
         "poblacio": "Lleida",
         "comarca": "El Segrià",
         "territori": "",
@@ -49884,7 +49944,7 @@
       },
       "properties": {
         "id": "LC263",
-        "nom": "Local Castellers de Mallorca",
+        "nom": "Castellers de Mallorca",
         "poblacio": "Palma",
         "comarca": "Palma",
         "territori": "",
@@ -50025,7 +50085,7 @@
       },
       "properties": {
         "id": "LC264",
-        "nom": "Local Castellers de Mediona",
+        "nom": "Castellers de Mediona",
         "poblacio": "Sant Joan de Mediona",
         "comarca": "Alt Penedès",
         "territori": "",
@@ -50166,7 +50226,7 @@
       },
       "properties": {
         "id": "LC265",
-        "nom": "Local Castellers de Mollet",
+        "nom": "Castellers de Mollet",
         "poblacio": "Mollet del Vallès",
         "comarca": "Vallès oriental",
         "territori": "",
@@ -50307,7 +50367,7 @@
       },
       "properties": {
         "id": "LC266",
-        "nom": "Local Castellers de Montcada i Reixac",
+        "nom": "Castellers de Montcada i Reixac",
         "poblacio": "Montcada i Reixac",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -50448,7 +50508,7 @@
       },
       "properties": {
         "id": "LC267",
-        "nom": "Local Castellers de Sabadell",
+        "nom": "Castellers de Sabadell",
         "poblacio": "Sabadell",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -50589,7 +50649,7 @@
       },
       "properties": {
         "id": "LC268",
-        "nom": "Local Castellers de Sant Adrià",
+        "nom": "Castellers de Sant Adrià",
         "poblacio": "Sant Adrià de Besòs",
         "comarca": "Barcelonès",
         "territori": "",
@@ -50730,7 +50790,7 @@
       },
       "properties": {
         "id": "LC269",
-        "nom": "Local Castellers de Sant Cugat",
+        "nom": "Castellers de Sant Cugat",
         "poblacio": "Sant Cugat del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -50871,7 +50931,7 @@
       },
       "properties": {
         "id": "LC270",
-        "nom": "Local Castellers de Sant Feliu",
+        "nom": "Castellers de Sant Feliu",
         "poblacio": "Sant Feliu de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -51012,7 +51072,7 @@
       },
       "properties": {
         "id": "LC271",
-        "nom": "Local Castellers de Sant Vicenç dels Horts",
+        "nom": "Castellers de Sant Vicenç dels Horts",
         "poblacio": "Sant Vicenç dels Horts",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -51153,7 +51213,7 @@
       },
       "properties": {
         "id": "LC272",
-        "nom": "Local Castellers de Santa Coloma",
+        "nom": "Castellers de Santa Coloma",
         "poblacio": "Santa Coloma de Gramenet",
         "comarca": "Barcelonès",
         "territori": "",
@@ -51294,7 +51354,7 @@
       },
       "properties": {
         "id": "LC273",
-        "nom": "Local Castellers de Santpedor",
+        "nom": "Castellers de Santpedor",
         "poblacio": "Santpedor",
         "comarca": "Bages",
         "territori": "",
@@ -51435,8 +51495,8 @@
       },
       "properties": {
         "id": "LC274",
-        "nom": "Local Castellers de Sants",
-        "poblacio": "Barcleona (Sants)",
+        "nom": "Castellers de Sants",
+        "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "",
         "pais": "",
@@ -51576,7 +51636,7 @@
       },
       "properties": {
         "id": "LC275",
-        "nom": "Local Castellers de Sarrià",
+        "nom": "Castellers de Sarrià",
         "poblacio": "Barcelona (Sarrià)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -51717,7 +51777,7 @@
       },
       "properties": {
         "id": "LC276",
-        "nom": "Local Castellers de Terrassa",
+        "nom": "Castellers de Terrassa",
         "poblacio": "Terrassa",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -51858,7 +51918,7 @@
       },
       "properties": {
         "id": "LC277",
-        "nom": "Local Castellers de Tortosa",
+        "nom": "Castellers de Tortosa",
         "poblacio": "Tortosa",
         "comarca": "Baix Ebre",
         "territori": "",
@@ -51999,7 +52059,7 @@
       },
       "properties": {
         "id": "LC278",
-        "nom": "Local Castellers de Viladecans",
+        "nom": "Castellers de Viladecans",
         "poblacio": "Viladecans",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -52140,7 +52200,7 @@
       },
       "properties": {
         "id": "LC279",
-        "nom": "Local Castellers del Baix Montseny",
+        "nom": "Castellers del Baix Montseny",
         "poblacio": "Sant Celoni",
         "comarca": "Vallès oriental",
         "territori": "",
@@ -52281,7 +52341,7 @@
       },
       "properties": {
         "id": "LC280",
-        "nom": "Local Castellers del Foix de Cubelles",
+        "nom": "Castellers del Foix de Cubelles",
         "poblacio": "Cubelles",
         "comarca": "Garraf",
         "territori": "",
@@ -52422,7 +52482,7 @@
       },
       "properties": {
         "id": "LC281",
-        "nom": "Local Castellers del Pallars",
+        "nom": "Castellers del Pallars",
         "poblacio": "Sort",
         "comarca": "Pallars Sobirà",
         "territori": "",
@@ -52563,7 +52623,7 @@
       },
       "properties": {
         "id": "LC282",
-        "nom": "Local Castellers del Poble Sec",
+        "nom": "Castellers del Poble Sec",
         "poblacio": "Barcelona (Poble Sec)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -52704,7 +52764,7 @@
       },
       "properties": {
         "id": "LC283",
-        "nom": "Local Castellers del Prat de Llobregat",
+        "nom": "Castellers del Prat de Llobregat",
         "poblacio": "El Prat de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -53045,7 +53105,7 @@
       },
       "properties": {
         "id": "LC285",
-        "nom": "Local Colla Castellera de Cerdanya",
+        "nom": "Colla Castellera de Cerdanya",
         "poblacio": "Puigcerdà",
         "comarca": "La Cerdanya",
         "territori": "",
@@ -53186,7 +53246,7 @@
       },
       "properties": {
         "id": "LC286",
-        "nom": "Local Colla Castellera de Figueres",
+        "nom": "Colla Castellera de Figueres",
         "poblacio": "Figueres",
         "comarca": "Alt Empordà",
         "territori": "",
@@ -53327,7 +53387,7 @@
       },
       "properties": {
         "id": "LC287",
-        "nom": "Local Colla Castellera de l'Alt Maresme i la Selva Marítima",
+        "nom": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
         "poblacio": "Palafolls",
         "comarca": "La Selva",
         "territori": "",
@@ -53468,7 +53528,7 @@
       },
       "properties": {
         "id": "LC288",
-        "nom": "Local Colla Castellera de l'Esquerra de l'Eixample",
+        "nom": "Colla Castellera de l'Esquerra de l'Eixample",
         "poblacio": "Barcelona",
         "comarca": "Barcelonès",
         "territori": "",
@@ -53609,7 +53669,7 @@
       },
       "properties": {
         "id": "LC289",
-        "nom": "Local Colla Castellera de Vacarisses",
+        "nom": "Colla Castellera de Vacarisses",
         "poblacio": "Vacarisses",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -53750,7 +53810,7 @@
       },
       "properties": {
         "id": "LC290",
-        "nom": "Local Colla Castellera Els Encantats de Begues",
+        "nom": "Colla Castellera Els Encantats de Begues",
         "poblacio": "Begues",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -53891,7 +53951,7 @@
       },
       "properties": {
         "id": "LC291",
-        "nom": "Local Colla Castellera Jove de Barcelona",
+        "nom": "Colla Castellera Jove de Barcelona",
         "poblacio": "Barcelona (Sant Andreu)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -54032,7 +54092,7 @@
       },
       "properties": {
         "id": "LC292",
-        "nom": "Local Colla Castellera La Bisbal del Penedès",
+        "nom": "Colla Castellera La Bisbal del Penedès",
         "poblacio": "La Bisbal del Penedès",
         "comarca": "Baix Penedès",
         "territori": "",
@@ -54173,7 +54233,7 @@
       },
       "properties": {
         "id": "LC293",
-        "nom": "Local Colla Castellera Sant Pere i Sant Pau",
+        "nom": "Colla Castellera Sant Pere i Sant Pau",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "",
@@ -54371,7 +54431,7 @@
       },
       "properties": {
         "id": "LC294",
-        "nom": "Local Colla Jove de Castellers de Sitges",
+        "nom": "Colla Jove de Castellers de Sitges",
         "poblacio": "Sitges",
         "comarca": "Garraf",
         "territori": "",
@@ -54512,7 +54572,7 @@
       },
       "properties": {
         "id": "LC295",
-        "nom": "Local Colla Jove de l'Hospitalet",
+        "nom": "Colla Jove de l'Hospitalet",
         "poblacio": "L'Hospitalet de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -54653,7 +54713,7 @@
       },
       "properties": {
         "id": "LC296",
-        "nom": "Local Colla Vella dels Xiquets de Valls",
+        "nom": "Colla Vella dels Xiquets de Valls",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "",
@@ -54794,7 +54854,7 @@
       },
       "properties": {
         "id": "LC297",
-        "nom": "Local Esperxats de l'Estany",
+        "nom": "Esperxats de l'Estany",
         "poblacio": "Banyoles",
         "comarca": "Pla de l’Estany",
         "territori": "",
@@ -54935,7 +54995,7 @@
       },
       "properties": {
         "id": "LC298",
-        "nom": "Local Laietans de Gramenet",
+        "nom": "Laietans de Gramenet",
         "poblacio": "Santa Coloma de Gramenet",
         "comarca": "Barcelonès",
         "territori": "",
@@ -55076,7 +55136,7 @@
       },
       "properties": {
         "id": "LC299",
-        "nom": "Local Manyacs de Parets",
+        "nom": "Manyacs de Parets",
         "poblacio": "Parets del Vallès",
         "comarca": "Vallès oriental",
         "territori": "",
@@ -55217,7 +55277,7 @@
       },
       "properties": {
         "id": "LC300",
-        "nom": "Local Margeners de Guissona",
+        "nom": "Margeners de Guissona",
         "poblacio": "Guissona",
         "comarca": "La Segarra",
         "territori": "",
@@ -55358,7 +55418,7 @@
       },
       "properties": {
         "id": "LC301",
-        "nom": "Local Marrecs de Salt",
+        "nom": "Marrecs de Salt",
         "poblacio": "Salt",
         "comarca": "Gironès",
         "territori": "",
@@ -55499,7 +55559,7 @@
       },
       "properties": {
         "id": "LC302",
-        "nom": "Local Matossers de Molins de Rei",
+        "nom": "Matossers de Molins de Rei",
         "poblacio": "Molins de Rei",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -55640,7 +55700,7 @@
       },
       "properties": {
         "id": "LC303",
-        "nom": "Local Minyons de l'Arboç",
+        "nom": "Minyons de l'Arboç",
         "poblacio": "L'Arboç",
         "comarca": "Baix Penedès",
         "territori": "",
@@ -55781,7 +55841,7 @@
       },
       "properties": {
         "id": "LC304",
-        "nom": "Local Minyons de Santa Cristina d'Aro",
+        "nom": "Minyons de Santa Cristina d'Aro",
         "poblacio": "Santa Cristina d'Aro",
         "comarca": "Baix Empordà",
         "territori": "",
@@ -55922,7 +55982,7 @@
       },
       "properties": {
         "id": "LC305",
-        "nom": "Local Moixiganguers d'Igualada",
+        "nom": "Moixiganguers d'Igualada",
         "poblacio": "Igualada",
         "comarca": "Anoia",
         "territori": "",
@@ -56063,7 +56123,7 @@
       },
       "properties": {
         "id": "LC306",
-        "nom": "Local Nens del Vendrell",
+        "nom": "Nens del Vendrell",
         "poblacio": "El Vendrell",
         "comarca": "Baix Penedès",
         "territori": "",
@@ -56204,7 +56264,7 @@
       },
       "properties": {
         "id": "LC307",
-        "nom": "Local Nois de la Torre",
+        "nom": "Nois de la Torre",
         "poblacio": "Torredembarra",
         "comarca": "Tarragonès",
         "territori": "",
@@ -56345,7 +56405,7 @@
       },
       "properties": {
         "id": "LC308",
-        "nom": "Local Pallagos del Conflent",
+        "nom": "Pallagos del Conflent",
         "poblacio": "Prades",
         "comarca": "El Conflent",
         "territori": "",
@@ -56486,7 +56546,7 @@
       },
       "properties": {
         "id": "LC309",
-        "nom": "Local Sagals d'Osona",
+        "nom": "Sagals d'Osona",
         "poblacio": "Vic",
         "comarca": "Osona",
         "territori": "",
@@ -56627,7 +56687,7 @@
       },
       "properties": {
         "id": "LC310",
-        "nom": "Local Salats de Súria",
+        "nom": "Salats de Súria",
         "poblacio": "Súria",
         "comarca": "Bages",
         "territori": "",
@@ -56768,7 +56828,7 @@
       },
       "properties": {
         "id": "LC311",
-        "nom": "Local Tirallongues de Manresa",
+        "nom": "Tirallongues de Manresa",
         "poblacio": "Manresa",
         "comarca": "Bages",
         "territori": "",
@@ -56909,7 +56969,7 @@
       },
       "properties": {
         "id": "LC312",
-        "nom": "Local Torraires de Montblanc",
+        "nom": "Torraires de Montblanc",
         "poblacio": "Montblanc",
         "comarca": "Conca de Barberà",
         "territori": "",
@@ -57050,7 +57110,7 @@
       },
       "properties": {
         "id": "LC313",
-        "nom": "Local Vailets de Gelida",
+        "nom": "Vailets de Gelida",
         "poblacio": "Gelida",
         "comarca": "Alt Penedès",
         "territori": "",
@@ -57191,7 +57251,7 @@
       },
       "properties": {
         "id": "LC314",
-        "nom": "Local Xerrics d'Olot",
+        "nom": "Xerrics d'Olot",
         "poblacio": "Olot",
         "comarca": "La Garrotxa",
         "territori": "",
@@ -57332,7 +57392,7 @@
       },
       "properties": {
         "id": "LC315",
-        "nom": "Local Xics de Granollers",
+        "nom": "Xics de Granollers",
         "poblacio": "Granollers",
         "comarca": "Vallès oriental",
         "territori": "",
@@ -57473,7 +57533,7 @@
       },
       "properties": {
         "id": "LC316",
-        "nom": "Local Xiqüelos i Xiqüeles del Delta",
+        "nom": "Xiqüelos i Xiqüeles del Delta",
         "poblacio": "La Ràpita",
         "comarca": "Montsià",
         "territori": "",
@@ -57614,7 +57674,7 @@
       },
       "properties": {
         "id": "LC317",
-        "nom": "Local Xiquets de Cambrils",
+        "nom": "Xiquets de Cambrils",
         "poblacio": "Cambrils",
         "comarca": "Baix Camp",
         "territori": "",
@@ -57755,7 +57815,7 @@
       },
       "properties": {
         "id": "LC318",
-        "nom": "Local Xiquets de Reus",
+        "nom": "Xiquets de Reus",
         "poblacio": "Reus",
         "comarca": "Baix Camp",
         "territori": "",
@@ -57896,7 +57956,7 @@
       },
       "properties": {
         "id": "LC319",
-        "nom": "Local Xiquets de Tarragona",
+        "nom": "Xiquets de Tarragona",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "",
@@ -58037,7 +58097,7 @@
       },
       "properties": {
         "id": "LC320",
-        "nom": "Local Xiquets de Vila-seca",
+        "nom": "Xiquets de Vila-seca",
         "poblacio": "Vila-seca",
         "comarca": "Baix Camp",
         "territori": "",
@@ -58178,7 +58238,7 @@
       },
       "properties": {
         "id": "LC321",
-        "nom": "Local Xiquets del Serrallo",
+        "nom": "Xiquets del Serrallo",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "",
@@ -58319,7 +58379,7 @@
       },
       "properties": {
         "id": "LC322",
-        "nom": "Local Castellers de Rubí",
+        "nom": "Castellers de Rubí",
         "poblacio": "Rubí",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -58460,7 +58520,7 @@
       },
       "properties": {
         "id": "LC323",
-        "nom": "Local Colla Castellera de Gavà",
+        "nom": "Colla Castellera de Gavà",
         "poblacio": "Gavà",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -58601,7 +58661,7 @@
       },
       "properties": {
         "id": "LC324",
-        "nom": "Local Castellers del Lluçanès",
+        "nom": "Castellers del Lluçanès",
         "poblacio": "Prats de lluçanès",
         "comarca": "Lluçanès",
         "territori": "",
@@ -58742,7 +58802,7 @@
       },
       "properties": {
         "id": "LC325",
-        "nom": "Local Colla Castellera d'Horta",
+        "nom": "Colla Castellera d'Horta",
         "poblacio": "Barcelona (Horta-Guinardó)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -58883,7 +58943,7 @@
       },
       "properties": {
         "id": "LC326",
-        "nom": "Local Bergants del Campus de Terrassa",
+        "nom": "Bergants del Campus de Terrassa  ",
         "poblacio": "Terrassa",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -59024,7 +59084,7 @@
       },
       "properties": {
         "id": "LC327",
-        "nom": "Local Descargolats de l'EEBE",
+        "nom": "Descargolats de l'EEBE  ",
         "poblacio": "Barcelona (Sant Martí)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -59165,7 +59225,7 @@
       },
       "properties": {
         "id": "LC328",
-        "nom": "Local Emboirats de la Universitat de Vic",
+        "nom": "Emboirats de la Universitat de Vic  ",
         "poblacio": "Vic",
         "comarca": "Osona",
         "territori": "",
@@ -59306,7 +59366,7 @@
       },
       "properties": {
         "id": "LC329",
-        "nom": "Local Engrescats de URL",
+        "nom": "Engrescats de URL  ",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "",
@@ -59447,7 +59507,7 @@
       },
       "properties": {
         "id": "LC330",
-        "nom": "Local Gambirots de la UIB",
+        "nom": "Gambirots de la UIB  ",
         "poblacio": "Palma",
         "comarca": "Palma",
         "territori": "",
@@ -59588,7 +59648,7 @@
       },
       "properties": {
         "id": "LC331",
-        "nom": "Local Grillats del Campus del Baix Llobregat",
+        "nom": "Grillats del Campus del Baix Llobregat  ",
         "poblacio": "Castelldefels",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -59729,7 +59789,7 @@
       },
       "properties": {
         "id": "LC332",
-        "nom": "Local Llunàtics UPC Vilanova",
+        "nom": "Llunàtics UPC Vilanova  ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "",
@@ -59870,7 +59930,7 @@
       },
       "properties": {
         "id": "LC333",
-        "nom": "Local Passerells del TCM",
+        "nom": "Passerells del TCM  ",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "",
@@ -60011,7 +60071,7 @@
       },
       "properties": {
         "id": "LC334",
-        "nom": "Local Pataquers de la URV",
+        "nom": "Pataquers de la URV  ",
         "poblacio": "Reus",
         "comarca": "Baix Camp",
         "territori": "",
@@ -60152,7 +60212,7 @@
       },
       "properties": {
         "id": "LC335",
-        "nom": "Local Penjats del Campus de Manresa",
+        "nom": "Penjats del Campus de Manresa  ",
         "poblacio": "Manresa",
         "comarca": "Bages",
         "territori": "",
@@ -60293,7 +60353,7 @@
       },
       "properties": {
         "id": "LC336",
-        "nom": "Local Trempats de la UPF",
+        "nom": "Trempats de la UPF  ",
         "poblacio": "Barcelona (Borrn)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -60434,7 +60494,7 @@
       },
       "properties": {
         "id": "LC337",
-        "nom": "Local Xoriguers de la UdG",
+        "nom": "Xoriguers de la UdG  ",
         "poblacio": "Girona",
         "comarca": "Gironès",
         "territori": "",
@@ -60575,7 +60635,7 @@
       },
       "properties": {
         "id": "LC338",
-        "nom": "Local Colla Castellera de Madrid",
+        "nom": "Colla Castellera de Madrid",
         "poblacio": "Madrid",
         "comarca": "Espanya",
         "territori": "",
@@ -60716,7 +60776,7 @@
       },
       "properties": {
         "id": "LC339",
-        "nom": "Local Colla Castellera Los Mataresos de l'Alguer",
+        "nom": "Colla Castellera Los Mataresos de l'Alguer",
         "poblacio": "L’Alg",
         "comarca": "Sardenya",
         "territori": "",
@@ -60857,7 +60917,7 @@
       },
       "properties": {
         "id": "LC340",
-        "nom": "Local Euskal Herriko Casteller Taldea",
+        "nom": "Euskal Herriko Casteller Taldea",
         "poblacio": "Vitòria (Àlava)",
         "comarca": "País Vasc",
         "territori": "",
@@ -60998,7 +61058,7 @@
       },
       "properties": {
         "id": "LC341",
-        "nom": "Local Jove Muixeranga de València ",
+        "nom": "Jove Muixeranga de València ",
         "poblacio": "València",
         "comarca": "València",
         "territori": "",
@@ -61139,7 +61199,7 @@
       },
       "properties": {
         "id": "LC342",
-        "nom": "Local Muixeranga de la Vall d'Albaida ",
+        "nom": "Muixeranga de la Vall d'Albaida ",
         "poblacio": "Ontinyent",
         "comarca": "Vall d’Albaida",
         "territori": "",
@@ -61280,7 +61340,7 @@
       },
       "properties": {
         "id": "LC343",
-        "nom": "Local Conlloga Muixeranga de Castelló ",
+        "nom": "Conlloga Muixeranga de Castelló ",
         "poblacio": "Castelló de la Plana",
         "comarca": "Plana Alta",
         "territori": "",
@@ -61351,7 +61411,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
-            "web": "https://wwwconllogamuixeranga.com",
+            "web": "https://www.conllogamuixeranga.com",
             "fotos": [
               {
                 "url": "",
@@ -61421,7 +61481,7 @@
       },
       "properties": {
         "id": "LC344",
-        "nom": "Local Muixeranga de la Marina Baixa ",
+        "nom": "Muixeranga de la Marina Baixa ",
         "poblacio": "Altea",
         "comarca": "Marina Baixa",
         "territori": "",
@@ -61562,7 +61622,7 @@
       },
       "properties": {
         "id": "LC345",
-        "nom": "Local Muixeranga d'Alginet ",
+        "nom": "Muixeranga d'Alginet ",
         "poblacio": "Alginet",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -61703,7 +61763,7 @@
       },
       "properties": {
         "id": "LC346",
-        "nom": "Local Muixeranga d'Alacant ",
+        "nom": "Muixeranga d'Alacant ",
         "poblacio": "Alacant",
         "comarca": "L’Alacantí",
         "territori": "",
@@ -61844,7 +61904,7 @@
       },
       "properties": {
         "id": "LC347",
-        "nom": "Local Muixeranga la Carabassota ",
+        "nom": "Muixeranga la Carabassota ",
         "poblacio": "Guadassuar",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -61985,7 +62045,7 @@
       },
       "properties": {
         "id": "LC348",
-        "nom": "Local Muixeranga d'Algemesí ",
+        "nom": "Muixeranga d'Algemesí ",
         "poblacio": "Algemesí",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -62126,7 +62186,7 @@
       },
       "properties": {
         "id": "LC349",
-        "nom": "Local Muixeranga de Barcelona ",
+        "nom": "Muixeranga de Barcelona ",
         "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -62267,7 +62327,7 @@
       },
       "properties": {
         "id": "LC350",
-        "nom": "Local Muixeranga penyeta blanca de Cocentaina ",
+        "nom": "Muixeranga penyeta blanca de Cocentaina ",
         "poblacio": "Cocentaina",
         "comarca": "El Comtat",
         "territori": "",
@@ -62408,7 +62468,7 @@
       },
       "properties": {
         "id": "LC351",
-        "nom": "Local Muixeranga de la Marina Alta ",
+        "nom": "Muixeranga de la Marina Alta ",
         "poblacio": "El Verger",
         "comarca": "Marina Alta",
         "territori": "",
@@ -62549,7 +62609,7 @@
       },
       "properties": {
         "id": "LC352",
-        "nom": "Local Muixeranga de la Safor ",
+        "nom": "Muixeranga de la Safor ",
         "poblacio": "Gandia",
         "comarca": "La Safor",
         "territori": "",
@@ -62684,13 +62744,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5401,
-          39.1963
+          -0.5268,
+          39.1976
         ]
       },
       "properties": {
         "id": "LC353",
-        "nom": "Local Muixeranga Els negrets de l'Alcúdia ",
+        "nom": "Muixeranga Els negrets de l'Alcúdia ",
         "poblacio": "L’Alcúdia",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -62831,7 +62891,7 @@
       },
       "properties": {
         "id": "LC354",
-        "nom": "Local Muixeranga de Sueca ",
+        "nom": "Muixeranga de Sueca ",
         "poblacio": "Sueca",
         "comarca": "Ribera Baixa",
         "territori": "",
@@ -62972,7 +63032,7 @@
       },
       "properties": {
         "id": "LC355",
-        "nom": "Local Muixeranga La Torrentina ",
+        "nom": "Muixeranga La Torrentina ",
         "poblacio": "Torrent",
         "comarca": "Horta Sud",
         "territori": "",
@@ -63113,7 +63173,7 @@
       },
       "properties": {
         "id": "LC356",
-        "nom": "Local Muixeranga de Vinaròs  ",
+        "nom": "Muixeranga de Vinaròs  ",
         "poblacio": "Vinaròs",
         "comarca": "Baix Maestrat",
         "territori": "",
@@ -63254,7 +63314,7 @@
       },
       "properties": {
         "id": "LC357",
-        "nom": "Local Muixeranga La Socarrà de Xàtiva ",
+        "nom": "Muixeranga La Socarrà de Xàtiva ",
         "poblacio": "Xàtiva",
         "comarca": "La Costera",
         "territori": "",
@@ -63395,7 +63455,7 @@
       },
       "properties": {
         "id": "LC358",
-        "nom": "Local Muixeranga El Campello ",
+        "nom": "Muixeranga El Campello ",
         "poblacio": "El Campello",
         "comarca": "L’Alacantí",
         "territori": "",
@@ -63536,7 +63596,7 @@
       },
       "properties": {
         "id": "LC359",
-        "nom": "Local Muixeranga de Cullera ",
+        "nom": "Muixeranga de Cullera ",
         "poblacio": "Cullera",
         "comarca": "Ribera Baixa",
         "territori": "",
@@ -63677,7 +63737,7 @@
       },
       "properties": {
         "id": "LC360",
-        "nom": "Local Nova Muixeranga d'Algemesí ",
+        "nom": "Nova Muixeranga d'Algemesí ",
         "poblacio": "Algemesí",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -63818,7 +63878,7 @@
       },
       "properties": {
         "id": "LC361",
-        "nom": "Local Muixeranga de Segària ",
+        "nom": "Muixeranga de Segària ",
         "poblacio": "Beniarbeig",
         "comarca": "Marina Alta",
         "territori": "",
@@ -63959,7 +64019,7 @@
       },
       "properties": {
         "id": "LC362",
-        "nom": "Local Muixeranga d'Elx ",
+        "nom": "Muixeranga d'Elx ",
         "poblacio": "Elx",
         "comarca": "Baix Vinalopó",
         "territori": "",
@@ -64100,7 +64160,7 @@
       },
       "properties": {
         "id": "LC363",
-        "nom": "Local Muixeranga dels Ports ",
+        "nom": "Muixeranga dels Ports ",
         "poblacio": "Forcall",
         "comarca": "Els Ports",
         "territori": "",
@@ -64241,7 +64301,7 @@
       },
       "properties": {
         "id": "LC364",
-        "nom": "Local Muixeranga Valls del Vinalopó ",
+        "nom": "Muixeranga Valls del Vinalopó ",
         "poblacio": "Novelda",
         "comarca": "Vinalopó Mtijà",
         "territori": "",
@@ -64382,7 +64442,7 @@
       },
       "properties": {
         "id": "LC365",
-        "nom": "Local Muixeranga del Carraixet ",
+        "nom": "Muixeranga del Carraixet ",
         "poblacio": "Foios",
         "comarca": "Hora Nord",
         "territori": "",
@@ -64523,7 +64583,7 @@
       },
       "properties": {
         "id": "LC366",
-        "nom": "Local Falcons de Llorenç del Penedès",
+        "nom": "Falcons de Llorenç del Penedès",
         "poblacio": "Llorenç del Penedès",
         "comarca": "Baix Penedès",
         "territori": "",
@@ -64664,7 +64724,7 @@
       },
       "properties": {
         "id": "LC367",
-        "nom": "Local Falcons de Vilafranca del Penedès",
+        "nom": "Falcons de Vilafranca del Penedès",
         "poblacio": "Vilafranca del Penedès",
         "comarca": "Alt Penedès",
         "territori": "",
@@ -64805,7 +64865,7 @@
       },
       "properties": {
         "id": "LC368",
-        "nom": "Local Falcons de Piera",
+        "nom": "Falcons de Piera",
         "poblacio": "Piera",
         "comarca": "Anoia",
         "territori": "",
@@ -64946,7 +65006,7 @@
       },
       "properties": {
         "id": "LC369",
-        "nom": "Local Falcons de Vilanova i la Geltrú",
+        "nom": "Falcons de Vilanova i la Geltrú",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "",
@@ -65087,7 +65147,7 @@
       },
       "properties": {
         "id": "LC370",
-        "nom": "Local Falcons de Barcelona",
+        "nom": "Falcons de Barcelona",
         "poblacio": "Barcelona (Ciutat Vella)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -65228,7 +65288,7 @@
       },
       "properties": {
         "id": "LC371",
-        "nom": "Local Falcons de Castellcir",
+        "nom": "Falcons de Castellcir",
         "poblacio": "Castellcir",
         "comarca": "Moianès",
         "territori": "",
@@ -65369,7 +65429,7 @@
       },
       "properties": {
         "id": "LC372",
-        "nom": "Local Falcons de Vallbona d’Anoia",
+        "nom": "Falcons de Vallbona d’Anoia",
         "poblacio": "Vallbona d’Anoia",
         "comarca": "Anoia",
         "territori": "",
@@ -65510,7 +65570,7 @@
       },
       "properties": {
         "id": "LC373",
-        "nom": "Local Falcons de Capellades",
+        "nom": "Falcons de Capellades",
         "poblacio": "Capellades",
         "comarca": "Anoia",
         "territori": "",
@@ -65651,7 +65711,7 @@
       },
       "properties": {
         "id": "LC374",
-        "nom": "Local Falcons de Vilanova d’Espoia",
+        "nom": "Falcons de Vilanova d’Espoia",
         "poblacio": "Vilanova d’Espoia",
         "comarca": "Anoia",
         "territori": "",
@@ -71887,6 +71947,147 @@
         "places9": [],
         "places10": [],
         "colles": [],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5462468,
+          41.2303545
+        ]
+      },
+      "properties": {
+        "id": "LC419",
+        "nom": "Colla Castellera Los Xiquets de Flix",
+        "poblacio": "Flix",
+        "comarca": "Ribera d’Ebre",
+        "territori": "",
+        "pais": "",
+        "adreca": "c/Gombau, 49, Flix",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Colla Castellera Los Xiquets de Flix",
+            "fundacio": "2024",
+            "inactiva": "",
+            "maxim_castell": "(en formació)",
+            "web": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "monuments": [],
         "carrers": []
       }
