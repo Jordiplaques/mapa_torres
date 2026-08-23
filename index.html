@@ -3099,15 +3099,26 @@ if (
 
     html += "</ul>";
 }
-        if (
+       if (
     p.altres &&
-    !(
-        document.getElementById("f9").checked ||
-        document.getElementById("f10").checked ||
-        document.getElementById("fplaques").checked ||
-        document.getElementById("fmonuments").checked ||
-        document.getElementById("fcarrers").checked ||
-        document.getElementById("fcolles").checked
+    (
+        !(
+            document.getElementById("f9").checked ||
+            document.getElementById("f10").checked ||
+            document.getElementById("fplaques").checked ||
+            document.getElementById("fmonuments").checked ||
+            document.getElementById("fcarrers").checked ||
+            document.getElementById("fcolles").checked
+        )
+        ||
+        (
+            document.getElementById("f9").checked &&
+            document.getElementById("f10").checked &&
+            document.getElementById("fplaques").checked &&
+            document.getElementById("fmonuments").checked &&
+            document.getElementById("fcarrers").checked &&
+            document.getElementById("fcolles").checked
+        )
     )
 ) {
 
