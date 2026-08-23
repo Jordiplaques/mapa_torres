@@ -3925,7 +3925,7 @@
               },
               {
                 "url": "",
-                "text": "Peders al 2014 on s’observa que hi ha una placa metàl·lica (avui despareguda)",
+                "text": "Pedres al 2014 on s’observa que hi ha una placa metàl·lica (avui despareguda)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -3944,7 +3944,7 @@
                 "enllac_extern": ""
               },
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Font_dels_Castellers_2006.jpg?utm_source=ca.wikipedia.org&utm_campaign=index&utm_content=original",
+                "url": "",
                 "text": "Ubicació de les pedres al 2006 (font Wikimedia Commons)",
                 "font": "Wikimeda Commons",
                 "font_url": "",
@@ -4229,7 +4229,7 @@
             "fundacio": "1969",
             "inactiva": "",
             "maxim_castell": "3d9f, 9d8 (2014)",
-            "web": "castellersdebarceloba.cat",
+            "web": "https://www.castellersdebarceloba.cat",
             "fotos": [
               {
                 "url": "fotos/colles/CC184a.jpg",
@@ -8269,7 +8269,7 @@
             "fundacio": "1995",
             "inactiva": "",
             "maxim_castell": "4d8, 3d8 (c) (2025)",
-            "web": "arreplegats.cat",
+            "web": "https://www.arreplegats.cat",
             "fotos": [
               {
                 "url": "",
@@ -9043,7 +9043,7 @@
             "fundacio": "1994",
             "inactiva": "",
             "maxim_castell": "3d8f (2024)",
-            "web": "ganapies.cat",
+            "web": "https://www.ganapies.cat",
             "fotos": [
               {
                 "url": "",
@@ -10740,7 +10740,7 @@
       },
       "properties": {
         "id": "LC57",
-        "nom": "Plaça de l'Abat Olibav(Cerdanyola)",
+        "nom": "Plaça de l'Abat Oliba (Cerdanyola)",
         "poblacio": "Cerdanyola del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -15267,7 +15267,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -17550,6 +17550,66 @@
         ],
         "plaques": [
           {
+            "id": "PC16",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "2d8",
+            "data_castell": "15/08/18",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC79.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "id": "PC70",
             "colla": "Castellers de Vilafranca",
             "castell": "5d8a",
@@ -18039,66 +18099,6 @@
             "fotos": [
               {
                 "url": "fotos/plaques/PC78.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC79",
-            "colla": "Colla Joves dels Xiquets de Valls",
-            "castell": "2d8",
-            "data_castell": "15/08/18",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC79.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -19784,7 +19784,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -20767,7 +20767,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -21737,7 +21737,7 @@
         "id": "LC105",
         "nom": "Plaza Mayor",
         "poblacio": "Madrid",
-        "comarca": "Comunitat de Madrid",
+        "comarca": "Espanya",
         "territori": "",
         "pais": "Espanya",
         "adreca": "Plaça Major, Madrid, Espanya",
@@ -24861,7 +24861,7 @@
       },
       "properties": {
         "id": "LC123",
-        "nom": "Plaça de l'Abat Oliba",
+        "nom": "Plaça de l'Abat Oliba (Montserrat)",
         "poblacio": "Montserrat (Monistrol de Montserrat)",
         "comarca": "Bages",
         "territori": "Catalunya",
@@ -30542,14 +30542,14 @@
             "motiu": "Persiana pintada amb pilar dels C. Sitges (data foto 2022)",
             "fotos": [
               {
-                "url": "fotos/carrers/XC28.jpeg",
-                "text": "",
+                "url": "",
+                "text": "Foto",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "fotos/carrers/XC28.jpeg"
               },
               {
                 "url": "",
@@ -31877,10 +31877,10 @@
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "fotos/carrers/XC20d.jpeg"
               },
               {
-                "url": "fotos/carrers/XC20d.jpeg",
+                "url": "",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -32115,7 +32115,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "",
+        "altres": "Seu històrica del concurs de castells, seu actual de les jornades de dissabte i diumenge de les colles més ben classificades.",
         "fotos": [
           {
             "url": "",
@@ -36983,7 +36983,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "",
+        "altres": "Seu del museu casteller de Catalunya",
         "fotos": [
           {
             "url": "",
@@ -42945,7 +42945,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Cessió Unai Estévez",
+                "autor": "Unai Estévez i Muñoz",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -44077,7 +44077,7 @@
         "carrers": [
           {
             "emplaçament": "Passatge Mariona Galindo i Lora",
-            "motiu": "Homenatge a Mariona Galindo, enxaneta dels Capgrossos que va morir arran de les complicacions en una caiguda d’un castell",
+            "motiu": "Homenatge a Mariona Galindo, enxaneta dels Capgrossos que va morir arran de les complicacions en una caiguda d’un castell (2006)",
             "fotos": [
               {
                 "url": "",
@@ -47565,7 +47565,7 @@
                 "text": "Mural al local (data foto 2025)",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -47575,7 +47575,7 @@
                 "text": "Mural 25 aniversari (data foto 2025, autor Robert Capgrossos)",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "fotos/colles/CC4b.jpeg"
@@ -48686,7 +48686,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "castells de 7",
-            "web": "capgirats.cat",
+            "web": "https://www.capgirats.cat",
             "fotos": [
               {
                 "url": "",
@@ -53116,7 +53116,7 @@
             "fundacio": "2018",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "ccerdanya.cat",
+            "web": "https://www.ccerdanya.cat",
             "fotos": [
               {
                 "url": "",
@@ -53257,7 +53257,7 @@
             "fundacio": "1996",
             "inactiva": "",
             "maxim_castell": "2d7 (c), pd6 (c) (2000)",
-            "web": "castellersdefigueres.cat",
+            "web": "https://www.castellersdefigueres.cat",
             "fotos": [
               {
                 "url": "",
@@ -54724,7 +54724,7 @@
             "fundacio": "1947 (hereva S. XIX)",
             "inactiva": "",
             "maxim_castell": "4d10fm, 3d9 (2019)",
-            "web": "collavella.cat",
+            "web": "https://www.collavella.cat",
             "fotos": [
               {
                 "url": "",
@@ -60717,8 +60717,8 @@
       "properties": {
         "id": "LC339",
         "nom": "Local Colla Castellera Los Mataresos de l'Alguer",
-        "poblacio": "L'alguer",
-        "comarca": "Serdenya",
+        "poblacio": "L’Alg",
+        "comarca": "Sardenya",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -61069,7 +61069,7 @@
             "fundacio": "2014",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
-            "web": "jovemuixerangadevalencia.org",
+            "web": "https://wwwjovemuixerangadevalencia.org",
             "fotos": [
               {
                 "url": "",
@@ -61351,7 +61351,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
-            "web": "conllogamuixeranga.com",
+            "web": "https://wwwconllogamuixeranga.com",
             "fotos": [
               {
                 "url": "",
@@ -61774,7 +61774,7 @@
             "fundacio": "2014",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
-            "web": "muixalacant.org",
+            "web": "https://www.muixalacant.org",
             "fotos": [
               {
                 "url": "",
@@ -62056,7 +62056,7 @@
             "fundacio": "1973 (hereva 1733)",
             "inactiva": "",
             "maxim_castell": "Alta de 6",
-            "web": "muixeranga.net",
+            "web": "https://wwwmuixeranga.net",
             "fotos": [
               {
                 "url": "",
@@ -63748,7 +63748,7 @@
             "fundacio": "1997",
             "inactiva": "",
             "maxim_castell": "Alta de 6",
-            "web": "novamuixeranga.com",
+            "web": "https://www.novamuixeranga.com",
             "fotos": [
               {
                 "url": "",
@@ -71136,11 +71136,11 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Murals Xicots i Joves de Vilafranca",
+            "motiu": "Murals Xicots i Joves de Vilafranca (data foto 2024)",
             "fotos": [
               {
                 "url": "fotos/carrers/XC24a.jpeg",
-                "text": "",
+                "text": "4d8 Xicots",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -71149,14 +71149,14 @@
                 "enllac_extern": ""
               },
               {
-                "url": "fotos/carrers/XC24b.jpeg",
-                "text": "",
+                "url": "",
+                "text": "Pinya Joves V.",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "fotos/carrers/XC24b.jpeg"
               },
               {
                 "url": "",
@@ -71287,14 +71287,14 @@
                 "enllac_extern": ""
               },
               {
-                "url": "fotos/carrers/XC25b.jpeg",
+                "url": "",
                 "text": "Mural paret (localització no determinada, data foto 2024)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "fotos/carrers/XC25b.jpeg"
               },
               {
                 "url": "",
@@ -71419,7 +71419,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Robert Capgrossos",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -71698,6 +71698,148 @@
                 "llicencia": "CC BY-SA 4.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
                 "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.036699,
+          39.9895237
+        ]
+      },
+      "properties": {
+        "id": "LC418",
+        "nom": "Taverna l’Ovella Negra",
+        "poblacio": "Castelló de la Plana",
+        "comarca": "Plana Alta",
+        "territori": "",
+        "pais": "",
+        "adreca": "c/Sant Fèlix 36, Castelló",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC200",
+            "colla": "Conlloga Muixeranga de Castelló",
+            "castell": "Formació de la colla",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Menció al web de la conlloga de Castelló",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.conllogamuixeranga.com/activitats/119/descobriment-placa-commemorativa-a-lovella-negra"
               },
               {
                 "url": "",

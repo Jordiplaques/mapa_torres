@@ -734,7 +734,7 @@ function compleixFiltres(p) {
 
                             if (foto.autor && foto.autor.trim()) {
 
-                                html += "<br><strong>Autor:</strong> " +
+                                html += "<br><strong>Autor de la foto:</strong> " +
                                     foto.autor;
 
                             }
@@ -878,7 +878,7 @@ function compleixFiltres(p) {
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -1010,7 +1010,7 @@ function compleixFiltres(p) {
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -1241,7 +1241,7 @@ function compleixFiltres(p) {
                     ) {
 
                         html +=
-                            "<br><strong>Autor:</strong> " +
+                            "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -1407,7 +1407,7 @@ function compleixFiltres(p) {
                         "</a>";
 
                     if (foto.autor && foto.autor.trim()) {
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
                     }
 
@@ -1555,7 +1555,7 @@ if (foto.text && foto.text.trim()) {
 
                         if (foto.autor && foto.autor.trim()) {
 
-                            html += "<br><strong>Autor:</strong> " +
+                            html += "<br><strong>Autor de la foto:</strong> " +
                                 foto.autor;
 
                         }
@@ -1732,7 +1732,7 @@ html += "🔗 " +
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -1968,7 +1968,7 @@ if (comptador) {
 
                             if (foto.autor && foto.autor.trim()) {
 
-                                html += "<br><strong>Autor:</strong> " +
+                                html += "<br><strong>Autor de la foto:</strong> " +
                                     foto.autor;
 
                             }
@@ -2116,7 +2116,7 @@ if (
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -2252,7 +2252,7 @@ if (
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -2513,7 +2513,7 @@ if (
                     ) {
 
                         html +=
-                            "<br><strong>Autor:</strong> " +
+                            "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -2682,7 +2682,7 @@ if (
                         "</a>";
 
                     if (foto.autor && foto.autor.trim()) {
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
                     }
 
@@ -2833,7 +2833,7 @@ if (
 
                         if (foto.autor && foto.autor.trim()) {
 
-                            html += "<br><strong>Autor:</strong> " +
+                            html += "<br><strong>Autor de la foto:</strong> " +
                                 foto.autor;
 
                         }
@@ -3013,7 +3013,7 @@ if (
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor:</strong> " +
+                        html += "<br><strong>Autor de la foto:</strong> " +
                             foto.autor;
 
                     }
@@ -3099,7 +3099,17 @@ if (
 
     html += "</ul>";
 }
-        if (p.altres) {
+        if (
+    p.altres &&
+    !(
+        document.getElementById("f9").checked ||
+        document.getElementById("f10").checked ||
+        document.getElementById("fplaques").checked ||
+        document.getElementById("fmonuments").checked ||
+        document.getElementById("fcarrers").checked ||
+        document.getElementById("fcolles").checked
+    )
+) {
 
             html += "<li>ℹ️ " +
                     p.altres +
