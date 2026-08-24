@@ -259,6 +259,19 @@ html, body, #map {
     style="width: 180px; margin-bottom: 10px;"
 >
 
+<h4>🤸 Cerca per colla</h4>
+
+<input
+    type="text"
+    id="cercaColla"
+    placeholder="Escriu una colla..."
+    autocomplete="off"
+    style="width: 180px; margin-bottom: 5px;"
+>
+
+<div id="resultatsColles"></div>
+
+
 <hr>
 
 <h4>Tradicions</h4>
@@ -324,6 +337,8 @@ var map = L.map("map").setView([40.3, 1.5], 7.3);
 
 var capaMarcadors;
 var poblacioCerca = "";
+var collesDisponibles = [];
+var collaCerca = "";
 
 L.tileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -334,7 +349,25 @@ fetch("localitzacions.geojson")
 .then(response => response.json())
 
 .then(data => {
+    data.features.forEach(function(feature) {
 
+        if (feature.properties.colles_relacionades) {
+
+            feature.properties.colles_relacionades.forEach(function(colla) {
+
+                if (!collesDisponibles.includes(colla)) {
+                    collesDisponibles.push(colla);
+                }
+
+            });
+
+        }
+
+    });
+
+    collesDisponibles.sort(function(a, b) {
+        return a.localeCompare(b);
+    });
 
 
 var numeroCarruselPlaques = 0;
@@ -427,48 +460,129 @@ function crearIcona(p) {
 
     // ELEMENTS PATRIMONIALS SELECCIONATS
 
-    if (
-        document.getElementById("f9").checked &&
-        p.places9.length
-    ) {
-        icona += "9️⃣";
+var hiHaPlaça9 = p.places9.some(function (plaça) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("f10").checked &&
-        p.places10.length
-    ) {
-        icona += "🔟";
+    return plaça.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("f9").checked &&
+    hiHaPlaça9
+) {
+    icona += "9️⃣";
+}
+ var hiHaPlaça10 = p.places10.some(function (plaça) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fplaques").checked &&
-        p.plaques.length
-    ) {
-        icona += "🪧";
+    return plaça.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("f10").checked &&
+    hiHaPlaça10
+) {
+    icona += "🔟";
+}
+var hiHaPlaques = p.plaques.some(function (placa) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fmonuments").checked &&
-        p.monuments.length
-    ) {
-        icona += "🏛️";
+    return placa.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fplaques").checked &&
+    hiHaPlaques
+) {
+    icona += "🪧";
+}
+var hiHaMonument = p.monuments.some(function (monument) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fcarrers").checked &&
-        p.carrers.length
-    ) {
-        icona += "🛣️";
+    return monument.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fmonuments").checked &&
+    hiHaMonument
+) {
+    icona += "🏛️";
+}    
+
+
+var hiHaCarrer = p.carrers.some(function (carrer) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fcolles").checked &&
-        p.colles.length
-    ) {
-        icona += "🏠";
+    return carrer.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fcarrers").checked &&
+    hiHaCarrer
+) {
+    icona += "🛣️";
+}
+var hiHaColla = p.colles.some(function (colla) {
+
+    if (!collaCerca) {
+        return true;
     }
 
+    return colla.nom === collaCerca;
+
+});
+
+if (
+    document.getElementById("fcolles").checked &&
+    hiHaColla
+) {
+    icona += "🏠";
+}
 
     // Quan hi ha filtres patrimonials seleccionats,
     // no volem mostrar 📍
@@ -499,6 +613,24 @@ function compleixFiltres(p) {
     ) {
         return false;
     }
+
+
+    // -------------------------------------------------------------
+    // FILTRE DE COLLA
+    // -------------------------------------------------------------
+
+    if (collaCerca) {
+
+        if (
+            !p.colles_relacionades ||
+            !p.colles_relacionades.includes(collaCerca)
+        ) {
+            return false;
+        }
+
+    }
+
+
 
 
     // -------------------------------------------------------------
@@ -593,47 +725,131 @@ function compleixFiltres(p) {
     var categoriaSeleccionada = false;
 
 
-    if (
-        document.getElementById("f9").checked &&
-        p.places9.length
-    ) {
-        categoriaSeleccionada = true;
+var hiHaPlaça9Filtrada = p.places9.some(function (plaça) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("f10").checked &&
-        p.places10.length
-    ) {
-        categoriaSeleccionada = true;
+    return plaça.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("f9").checked &&
+    hiHaPlaça9Filtrada
+) {
+    categoriaSeleccionada = true;
+}
+
+var hiHaPlaça10Filtrada = p.places10.some(function (plaça) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fplaques").checked &&
-        p.plaques.length
-    ) {
-        categoriaSeleccionada = true;
+    return plaça.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("f10").checked &&
+    hiHaPlaça10Filtrada
+) {
+    categoriaSeleccionada = true;
+}
+var hiHaPlaquesFiltrades = p.plaques.some(function (placa) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fmonuments").checked &&
-        p.monuments.length
-    ) {
-        categoriaSeleccionada = true;
+    return placa.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fplaques").checked &&
+    hiHaPlaquesFiltrades
+) {
+    categoriaSeleccionada = true;
+}
+
+var hiHaMonumentsFiltrats = p.monuments.some(function (monument) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fcarrers").checked &&
-        p.carrers.length
-    ) {
-        categoriaSeleccionada = true;
+    return monument.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fmonuments").checked &&
+    hiHaMonumentsFiltrats
+) {
+    categoriaSeleccionada = true;
+}
+
+var hiHaCarrersFiltrats = p.carrers.some(function (carrer) {
+
+    if (!collaCerca) {
+        return true;
     }
 
-    if (
-        document.getElementById("fcolles").checked &&
-        p.colles.length
-    ) {
-        categoriaSeleccionada = true;
+    return carrer.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    document.getElementById("fcarrers").checked &&
+    hiHaCarrersFiltrats
+) {
+    categoriaSeleccionada = true;
+}
+
+var hiHaCollesFiltrades = p.colles.some(function (colla) {
+
+    if (!collaCerca) {
+        return true;
     }
+
+    return colla.nom === collaCerca;
+
+});
+
+if (
+    document.getElementById("fcolles").checked &&
+    hiHaCollesFiltrades
+) {
+    categoriaSeleccionada = true;
+}
 
 
     // -------------------------------------------------------------
@@ -2060,9 +2276,19 @@ if (comptador) {
 
 if (
     p.places9.length &&
-    mostrarSeccioPopup("f9")
+    mostrarSeccioPopup("f9") &&
+    (
+        !collaCerca ||
+        p.places9.some(function (placa) {
+            return placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+        })
+    )
 ) {
-
     html += "<li><b>9️⃣ Plaça de 9</b></li>";
 
     html += "<ul>";
@@ -2196,9 +2422,19 @@ if (
 
 if (
     p.places10.length &&
-    mostrarSeccioPopup("f10")
+    mostrarSeccioPopup("f10") &&
+    (
+        !collaCerca ||
+        p.places10.some(function (placa) {
+            return placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+        })
+    )
 ) {
-
     html += "<li><b>🔟 Plaça de 10</b></li>";
 
     html += "<ul>";
@@ -2356,14 +2592,29 @@ if (
     
     
     
-     if (
-    p.plaques.length &&
+    var plaquesFiltrades = p.plaques.filter(function (placa) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return placa.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+if (
+    plaquesFiltrades.length &&
     mostrarSeccioPopup("fplaques")
 ) {
 
     html += "<li>🪧 " +
-        p.plaques.length +
-        (p.plaques.length === 1 ? " placa" : " plaques") +
+        plaquesFiltrades.length +
+        (plaquesFiltrades.length === 1 ? " placa" : " plaques") +
         "</li>";
 
     numeroCarruselPlaques++;
@@ -2381,7 +2632,7 @@ if (
     // CONTROLS DEL CARRUSEL
     // ---------------------------------------------------------
 
-    if (p.plaques.length > 1) {
+    if (plaquesFiltrades.length > 1) {
 
         html +=
             "<div class=\"placa-carrusel-controls\">" +
@@ -2395,7 +2646,7 @@ if (
 
             "<span class=\"placa-comptador\">" +
             "1 / " +
-            p.plaques.length +
+            plaquesFiltrades.length +
             "</span>" +
 
             "<button class=\"placa-carrusel-boto\" " +
@@ -2414,7 +2665,24 @@ if (
     // PLAQUES
     // ---------------------------------------------------------
 
-    p.plaques.forEach(function (placa, index) {
+var plaquesFiltrades = p.plaques.filter(function (placa) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return placa.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+
+
+    plaquesFiltrades.forEach(function (placa, index) {
 
         html +=
             "<div class=\"placa-carrusel " +
@@ -2620,19 +2888,39 @@ if (
 
     html += "</div>";
 }
+
+
+var monumentsFiltrats = p.monuments.filter(function (monument) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return monument.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+
+
+
      if (
-    p.monuments.length &&
+    monumentsFiltrats.length &&
     mostrarSeccioPopup("fmonuments")
 ) {
 
     html += "<li>🏛️ " +
-        p.monuments.length +
-        (p.monuments.length === 1 ? " monument" : " monuments") +
+        monumentsFiltrats.length +
+        (monumentsFiltrats.length === 1 ? " monument" : " monuments") +
         "</li>";
 
     html += "<ul>";
 
-    p.monuments.forEach(function (monument) {
+    monumentsFiltrats.forEach(function (monument) {
 
         html += "<li>" +
             "<strong>" + monument.nom + "</strong>";
@@ -2763,19 +3051,48 @@ if (
 
     html += "</ul>";
 }
+
+
+
+var carrersFiltrats = p.carrers.filter(function (carrer) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return carrer.colla
+        .split(",")
+        .map(function (c) {
+            return c.trim();
+        })
+        .includes(collaCerca);
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
        if (
-    p.carrers.length &&
+    carrersFiltrats.length &&
     mostrarSeccioPopup("fcarrers")
 ) {
 
     html += "<li>🛣️ " +
-        p.carrers.length +
-        (p.carrers.length === 1 ? " localització" : " localitzacions") +
+        carrersFiltrats.length +
+        (carrersFiltrats.length === 1 ? " localització" : " localitzacions") +
         "</li>";
 
     html += "<ul>";
 
-    p.carrers.forEach(function (carrer) {
+    carrersFiltrats.forEach(function (carrer) {
 
         var teMotiu =
             carrer.motiu &&
@@ -2924,19 +3241,31 @@ html += "🔗 " +                            "<a href=\"" +
     html += "</ul>";
 }      
 
+
+var collesFiltrades = p.colles.filter(function (colla) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return colla.nom === collaCerca;
+
+});
+
+
 if (
-    p.colles.length &&
+    collesFiltrades.length &&
     mostrarSeccioPopup("fcolles")
 ) {
 
     html += "<li>🏠 " +
-        p.colles.length +
-        (p.colles.length === 1 ? " colla" : " colles") +
+        collesFiltrades.length +
+        (collesFiltrades.length === 1 ? " colla" : " colles") +
         "</li>";
 
     html += "<ul>";
 
-    p.colles.forEach(function (colla) {
+    collesFiltrades.forEach(function (colla) {
 
         var teFotos =
             colla.fotos &&
@@ -3182,6 +3511,87 @@ document
 
         }
     );
+
+
+document
+    .getElementById("cercaColla")
+    .addEventListener(
+        "input",
+        function() {
+
+            var text = this.value.trim();
+
+            var contenidor =
+                document.getElementById("resultatsColles");
+
+            contenidor.innerHTML = "";
+
+            if (!text) {
+                collaCerca = "";
+                return;
+            }
+
+            var textNormalitzat =
+                text
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+                    .toLowerCase();
+
+            var resultats =
+                collesDisponibles.filter(function(colla) {
+
+                    return colla
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .toLowerCase()
+                        .includes(textNormalitzat);
+
+                });
+
+            resultats.forEach(function(colla) {
+
+                var boto =
+                    document.createElement("button");
+
+                boto.textContent = colla;
+
+                boto.style.display = "block";
+                boto.style.width = "180px";
+                boto.style.textAlign = "left";
+                boto.style.marginBottom = "2px";
+                boto.style.cursor = "pointer";
+
+                boto.addEventListener(
+                    "click",
+                    function() {
+
+                        collaCerca = colla;
+
+                        document
+                            .getElementById("cercaColla")
+                            .value = colla;
+
+                        contenidor.innerHTML = "";
+
+                        document
+                            .getElementById("fcastells")
+                            .dispatchEvent(
+                                new Event("change")
+                            );
+
+                    }
+                );
+
+                contenidor.appendChild(boto);
+
+            });
+
+        }
+    );
+
+
+
+
 
 
 document
