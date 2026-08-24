@@ -341,7 +341,7 @@
         "plaques": [
           {
             "id": "PC197",
-            "colla": "Muixeranga d’Algemesí ",
+            "colla": "Muixeranga d'Algemesí",
             "castell": "Record 40 anys del 1er assaig en la recuperació de la muixeranga (1973)",
             "data_castell": "",
             "data_placa": "",
@@ -401,7 +401,7 @@
           },
           {
             "id": "PC198",
-            "colla": "Muixeranga d’Algemesí",
+            "colla": "Muixeranga d'Algemesí",
             "castell": "40 anys Muixeranga (1973-2013) ",
             "data_castell": "",
             "data_placa": "",
@@ -461,7 +461,7 @@
           },
           {
             "id": "PC199",
-            "colla": "Muixeranga d’Algemesí",
+            "colla": "Muixeranga d'Algemesí",
             "castell": "Muixeranga ",
             "data_castell": "",
             "data_placa": "",
@@ -583,7 +583,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Muixeranga d’Algemesí",
+          "Muixeranga d'Algemesí",
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
@@ -869,7 +869,7 @@
           },
           {
             "id": "PC2",
-            "colla": "Castellers d’Altafulla",
+            "colla": "Castellers d'Altafulla",
             "castell": "30 aniv",
             "data_castell": "",
             "data_placa": "",
@@ -1052,7 +1052,7 @@
         "colles": [],
         "colles_relacionades": [
           "Colla Joves dels Xiquets de Valls",
-          "Castellers d’Altafulla",
+          "Castellers d'Altafulla",
           "Castellers de Vilafranca",
           "Xiquets de Valls (s.XIX)"
         ],
@@ -8497,7 +8497,7 @@
       "properties": {
         "id": "LC45",
         "nom": "Plaça Bonet i Muixí",
-        "poblacio": "Barcleona (Sants)",
+        "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -8696,7 +8696,7 @@
             "colla": "Castellers de Sants",
             "fotos": [
               {
-                "url": "fotos/monuments/MC4a.jpeg",
+                "url": "fotos/monuments/MC4a.jpg",
                 "text": "Visió general",
                 "font": "",
                 "font_url": "",
@@ -8733,7 +8733,17 @@
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/monuments/MC4d.jpeg"
+                "enllac_extern": "fotos/monuments/MC4d.jpg"
+              },
+              {
+                "url": "",
+                "text": "Visió general",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "fotos/monuments/MC4e.jpeg"
               }
             ]
           }
@@ -19983,7 +19993,7 @@
             "fundacio": "2022",
             "inactiva": "",
             "maxim_castell": "Castells de 6 (aficionats del barri que aixequen castells per la festa major)",
-            "web": "",
+            "web": "https://www.instagram.com/espigolats/",
             "fotos": [
               {
                 "url": "",
@@ -21692,7 +21702,7 @@
             "fundacio": "s.XIX ",
             "inactiva": "",
             "maxim_castell": "Castells de 6, pd5 (aficionats de la vila que aixequen castells per la festa major)",
-            "web": "",
+            "web": "https://www.instagram.com/aficionatsllorenc/",
             "fotos": [
               {
                 "url": "",
@@ -30055,70 +30065,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Castellers de Sant Andreu de la Barca",
-            "fundacio": "1996",
-            "inactiva": "2008",
-            "maxim_castell": "castells de 7",
-            "web": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "nom": "Els Castellers Ribetans",
             "fundacio": "2016",
             "inactiva": "",
             "maxim_castell": "Castells de 6 (aficionats del barri que aixequen castells per la festa major)",
-            "web": "",
+            "web": "https://www.instagram.com/castellersribetants/",
             "fotos": [
               {
                 "url": "",
@@ -30175,7 +30126,6 @@
         ],
         "colles_relacionades": [
           "Castellers de Vilafranca",
-          "Castellers de Sant Andreu de la Barca",
           "Els Castellers Ribetans"
         ],
         "monuments": [],
@@ -30546,7 +30496,7 @@
         "plaques": [
           {
             "id": "PC133",
-            "colla": "Castellers de SantPedor",
+            "colla": "Castellers de Santpedor",
             "castell": "4d7, pd5",
             "data_castell": "25/09/16",
             "data_placa": "",
@@ -30668,7 +30618,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de SantPedor",
+          "Castellers de Santpedor",
           "Minyons de Terrassa"
         ],
         "monuments": [],
@@ -44882,7 +44832,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Muixeranga d’Algemesí"
+          "Muixeranga d'Algemesí"
         ],
         "monuments": [
           {
@@ -44891,7 +44841,7 @@
             "figura": "Alta de 5",
             "autor": "Ferran Garcia Monzó",
             "altres": "",
-            "colla": "Muixeranga d’Algemesí ",
+            "colla": "Muixeranga d'Algemesí",
             "fotos": [
               {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/15-Muixeranga.JPG",
@@ -47963,8 +47913,70 @@
         "plaques": [],
         "places9": [],
         "places10": [],
-        "colles": [],
-        "colles_relacionades": [],
+        "colles": [
+          {
+            "nom": "Castellers de Sant Andreu de la Barca",
+            "fundacio": "1996",
+            "inactiva": "2008",
+            "maxim_castell": "castells de 7",
+            "web": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Castellers de Sant Andreu de la Barca"
+        ],
         "monuments": [],
         "carrers": []
       }
@@ -52444,7 +52456,7 @@
       },
       "properties": {
         "id": "LC274",
-        "nom": "Castellers de Sants",
+        "nom": "Cal Borinot",
         "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -53379,7 +53391,7 @@
             "fundacio": "2019",
             "inactiva": "",
             "maxim_castell": "castells de 7",
-            "web": "",
+            "web": "https://www.instagram.com/castellersdelfoix/",
             "fotos": [
               {
                 "url": "",
@@ -53523,7 +53535,7 @@
             "fundacio": "2018",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.instagram.com/malfargatsdepallars/",
             "fotos": [
               {
                 "url": "",
@@ -54735,7 +54747,7 @@
             "fundacio": "2019",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.instagram.com/potes.roges/",
             "fotos": [
               {
                 "url": "",
@@ -55657,7 +55669,7 @@
             "fundacio": "2000",
             "inactiva": "",
             "maxim_castell": "castells de 7",
-            "web": "",
+            "web": "https://www.instagram.com/collajovelh/",
             "fotos": [
               {
                 "url": "",
@@ -57385,7 +57397,7 @@
             "fundacio": "1975",
             "inactiva": "",
             "maxim_castell": "4d8 (2025)",
-            "web": "",
+            "web": "https://www.instagram.com/noisdelatorre/",
             "fotos": [
               {
                 "url": "fotos/colles/CC65.jpeg",
@@ -59833,7 +59845,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "(en formació)",
-            "web": "",
+            "web": "https://www.instagram.com/castellersllucanes/",
             "fotos": [
               {
                 "url": "",
@@ -59977,7 +59989,7 @@
             "fundacio": "2026",
             "inactiva": "",
             "maxim_castell": "(en formació)",
-            "web": "",
+            "web": "https://www.instagram.com/collacastelleradhorta/",
             "fotos": [
               {
                 "url": "",
@@ -60121,7 +60133,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "3d8f (2025) (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/bergants.ct/",
             "fotos": [
               {
                 "url": "",
@@ -60265,7 +60277,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "castells de 7 (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/descargolats/",
             "fotos": [
               {
                 "url": "",
@@ -60409,7 +60421,7 @@
             "fundacio": "2003",
             "inactiva": "",
             "maxim_castell": "castells de 7 (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/emboirats.uvic/",
             "fotos": [
               {
                 "url": "",
@@ -60553,7 +60565,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "castells de 7 (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/engrescatsurl/",
             "fotos": [
               {
                 "url": "",
@@ -60697,7 +60709,7 @@
             "fundacio": "2003 (refundada 2024)",
             "inactiva": "",
             "maxim_castell": "Estructures de 5, pd4 ",
-            "web": "",
+            "web": "https://www.instagram.com/gambirots/",
             "fotos": [
               {
                 "url": "",
@@ -60841,7 +60853,7 @@
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "castells de 6 (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/grillatscbl/",
             "fotos": [
               {
                 "url": "",
@@ -61417,7 +61429,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "castells de 6 (colla universitària)",
-            "web": "",
+            "web": "https://www.instagram.com/penjatsdelcampus/",
             "fotos": [
               {
                 "url": "",
@@ -61923,7 +61935,7 @@
       "properties": {
         "id": "LC339",
         "nom": "Colla Castellera Los Mataresos de l'Alguer",
-        "poblacio": "L’Alg",
+        "poblacio": "L’Alguer",
         "comarca": "Sardenya",
         "territori": "",
         "pais": "",
@@ -62713,7 +62725,7 @@
             "fundacio": "2017",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangamarinabaixa/",
             "fotos": [
               {
                 "url": "",
@@ -62786,7 +62798,7 @@
       },
       "properties": {
         "id": "LC345",
-        "nom": "Muixeranga d'Alginet ",
+        "nom": "Muixeranga d'Alginet",
         "poblacio": "Alginet",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -62853,7 +62865,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga d'Alginet ",
+            "nom": "Muixeranga d'Alginet",
             "fundacio": "2014",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
@@ -62930,7 +62942,7 @@
       },
       "properties": {
         "id": "LC346",
-        "nom": "Muixeranga d'Alacant ",
+        "nom": "Muixeranga d'Alacant",
         "poblacio": "Alacant",
         "comarca": "L’Alacantí",
         "territori": "",
@@ -62997,7 +63009,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga d'Alacant ",
+            "nom": "Muixeranga d'Alacant",
             "fundacio": "2014",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
@@ -63074,7 +63086,7 @@
       },
       "properties": {
         "id": "LC347",
-        "nom": "Muixeranga la Carabassota ",
+        "nom": "Muixeranga la Carabassota",
         "poblacio": "Guadassuar",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -63141,7 +63153,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga la Carabassota ",
+            "nom": "Muixeranga la Carabassota",
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "4 altures",
@@ -63218,7 +63230,7 @@
       },
       "properties": {
         "id": "LC348",
-        "nom": "Muixeranga d'Algemesí ",
+        "nom": "Muixeranga d'Algemesí",
         "poblacio": "Algemesí",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -63285,7 +63297,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga d’Algemesí ",
+            "nom": "Muixeranga d'Algemesí",
             "fundacio": "1973 (hereva 1733)",
             "inactiva": "",
             "maxim_castell": "Alta de 6",
@@ -63345,7 +63357,7 @@
           }
         ],
         "colles_relacionades": [
-          "Muixeranga d’Algemesí"
+          "Muixeranga d'Algemesí"
         ],
         "monuments": [],
         "carrers": []
@@ -63362,7 +63374,7 @@
       },
       "properties": {
         "id": "LC349",
-        "nom": "Muixeranga de Barcelona ",
+        "nom": "Muixeranga de Barcelona",
         "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -63429,7 +63441,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de Barcelona ",
+            "nom": "Muixeranga de Barcelona",
             "fundacio": "2014",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
@@ -63506,7 +63518,7 @@
       },
       "properties": {
         "id": "LC350",
-        "nom": "Muixeranga penyeta blanca de Cocentaina ",
+        "nom": "Muixeranga penyeta blanca de Cocentaina",
         "poblacio": "Cocentaina",
         "comarca": "El Comtat",
         "territori": "",
@@ -63573,7 +63585,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga penyeta blanca de Cocentaina ",
+            "nom": "Muixeranga penyeta blanca de Cocentaina",
             "fundacio": "2017",
             "inactiva": "",
             "maxim_castell": "4 altures",
@@ -63650,7 +63662,7 @@
       },
       "properties": {
         "id": "LC351",
-        "nom": "Muixeranga de la Marina Alta ",
+        "nom": "Muixeranga de la Marina Alta",
         "poblacio": "El Verger",
         "comarca": "Marina Alta",
         "territori": "",
@@ -63717,11 +63729,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de la Marina Alta ",
+            "nom": "Muixeranga de la Marina Alta",
             "fundacio": "2017",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangamarinaalta/",
             "fotos": [
               {
                 "url": "",
@@ -63794,7 +63806,7 @@
       },
       "properties": {
         "id": "LC352",
-        "nom": "Muixeranga de la Safor ",
+        "nom": "Muixeranga de la Safor",
         "poblacio": "Gandia",
         "comarca": "La Safor",
         "territori": "",
@@ -63861,7 +63873,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de la Safor ",
+            "nom": "Muixeranga de la Safor",
             "fundacio": "2002",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
@@ -63938,7 +63950,7 @@
       },
       "properties": {
         "id": "LC353",
-        "nom": "Muixeranga Els negrets de l'Alcúdia ",
+        "nom": "Muixeranga Els negrets de l'Alcúdia",
         "poblacio": "L’Alcúdia",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -64005,11 +64017,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga Els negrets de l'Alcúdia ",
+            "nom": "Muixeranga Els negrets de l'Alcúdia",
             "fundacio": "1984 (hereva 1757)",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangaelsnegrets/",
             "fotos": [
               {
                 "url": "",
@@ -64082,7 +64094,7 @@
       },
       "properties": {
         "id": "LC354",
-        "nom": "Muixeranga de Sueca ",
+        "nom": "Muixeranga de Sueca",
         "poblacio": "Sueca",
         "comarca": "Ribera Baixa",
         "territori": "",
@@ -64149,7 +64161,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de Sueca ",
+            "nom": "Muixeranga de Sueca",
             "fundacio": "2006",
             "inactiva": "",
             "maxim_castell": "Alta de 5",
@@ -64226,7 +64238,7 @@
       },
       "properties": {
         "id": "LC355",
-        "nom": "Muixeranga La Torrentina ",
+        "nom": "Muixeranga La Torrentina",
         "poblacio": "Torrent",
         "comarca": "Horta Sud",
         "territori": "",
@@ -64293,11 +64305,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga La Torrentina ",
+            "nom": "Muixeranga La Torrentina",
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
-            "web": "",
+            "web": "https://www.instagram.com/mlatorrentina/",
             "fotos": [
               {
                 "url": "",
@@ -64370,7 +64382,7 @@
       },
       "properties": {
         "id": "LC356",
-        "nom": "Muixeranga de Vinaròs  ",
+        "nom": "Muixeranga de Vinaròs",
         "poblacio": "Vinaròs",
         "comarca": "Baix Maestrat",
         "territori": "",
@@ -64437,7 +64449,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de Vinaròs  ",
+            "nom": "Muixeranga de Vinaròs",
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
@@ -64514,7 +64526,7 @@
       },
       "properties": {
         "id": "LC357",
-        "nom": "Muixeranga La Socarrà de Xàtiva ",
+        "nom": "Muixeranga La Socarrà de Xàtiva",
         "poblacio": "Xàtiva",
         "comarca": "La Costera",
         "territori": "",
@@ -64581,11 +64593,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga La Socarrà de Xàtiva ",
+            "nom": "Muixeranga La Socarrà de Xàtiva",
             "fundacio": "2016",
             "inactiva": "",
             "maxim_castell": "Alta de 4",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangadexativa/",
             "fotos": [
               {
                 "url": "",
@@ -64658,7 +64670,7 @@
       },
       "properties": {
         "id": "LC358",
-        "nom": "Muixeranga El Campello ",
+        "nom": "Muixeranga El Campello",
         "poblacio": "El Campello",
         "comarca": "L’Alacantí",
         "territori": "",
@@ -64725,11 +64737,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga El Campello ",
+            "nom": "Muixeranga El Campello",
             "fundacio": "2016",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangaelcampello/",
             "fotos": [
               {
                 "url": "",
@@ -64802,7 +64814,7 @@
       },
       "properties": {
         "id": "LC359",
-        "nom": "Muixeranga de Cullera ",
+        "nom": "Muixeranga de Cullera",
         "poblacio": "Cullera",
         "comarca": "Ribera Baixa",
         "territori": "",
@@ -64869,11 +64881,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de Cullera ",
+            "nom": "Muixeranga de Cullera",
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangacullera/",
             "fotos": [
               {
                 "url": "",
@@ -64946,7 +64958,7 @@
       },
       "properties": {
         "id": "LC360",
-        "nom": "Nova Muixeranga d'Algemesí ",
+        "nom": "Nova Muixeranga d'Algemesí",
         "poblacio": "Algemesí",
         "comarca": "Ribera Alta",
         "territori": "",
@@ -65013,7 +65025,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Nova Muixeranga d'Algemesí ",
+            "nom": "Nova Muixeranga d'Algemesí",
             "fundacio": "1997",
             "inactiva": "",
             "maxim_castell": "Alta de 6",
@@ -65090,7 +65102,7 @@
       },
       "properties": {
         "id": "LC361",
-        "nom": "Muixeranga de Segària ",
+        "nom": "Muixeranga de Segària",
         "poblacio": "Beniarbeig",
         "comarca": "Marina Alta",
         "territori": "",
@@ -65157,11 +65169,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga de Segària ",
+            "nom": "Muixeranga de Segària",
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangadesegaria/",
             "fotos": [
               {
                 "url": "",
@@ -65234,7 +65246,7 @@
       },
       "properties": {
         "id": "LC362",
-        "nom": "Muixeranga d'Elx ",
+        "nom": "Muixeranga d'Elx",
         "poblacio": "Elx",
         "comarca": "Baix Vinalopó",
         "territori": "",
@@ -65301,7 +65313,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga d'Elx ",
+            "nom": "Muixeranga d'Elx",
             "fundacio": "2022",
             "inactiva": "",
             "maxim_castell": "3 altures",
@@ -65378,7 +65390,7 @@
       },
       "properties": {
         "id": "LC363",
-        "nom": "Muixeranga dels Ports ",
+        "nom": "Muixeranga dels Ports",
         "poblacio": "Forcall",
         "comarca": "Els Ports",
         "territori": "",
@@ -65445,11 +65457,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga dels Ports ",
+            "nom": "Muixeranga dels Ports",
             "fundacio": "2017",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangadelsports/",
             "fotos": [
               {
                 "url": "",
@@ -65522,7 +65534,7 @@
       },
       "properties": {
         "id": "LC364",
-        "nom": "Muixeranga Valls del Vinalopó ",
+        "nom": "Muixeranga Valls del Vinalopó",
         "poblacio": "Novelda",
         "comarca": "Vinalopó Mtijà",
         "territori": "",
@@ -65589,7 +65601,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga Valls del Vinalopó ",
+            "nom": "Muixeranga Valls del Vinalopó",
             "fundacio": "2019",
             "inactiva": "",
             "maxim_castell": "4 altures",
@@ -65666,7 +65678,7 @@
       },
       "properties": {
         "id": "LC365",
-        "nom": "Muixeranga del Carraixet ",
+        "nom": "Muixeranga del Carraixet",
         "poblacio": "Foios",
         "comarca": "Hora Nord",
         "territori": "",
@@ -65733,11 +65745,11 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Muixeranga del Carraixet ",
+            "nom": "Muixeranga del Carraixet",
             "fundacio": "2023",
             "inactiva": "",
             "maxim_castell": "4 altures",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangadelcarraixet/",
             "fotos": [
               {
                 "url": "",
@@ -66169,7 +66181,7 @@
             "fundacio": "1996",
             "inactiva": "",
             "maxim_castell": "Escala de 8",
-            "web": "",
+            "web": "https://www.instagram.com/falconspiera/",
             "fotos": [
               {
                 "url": "",
@@ -67033,7 +67045,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Escala de 6",
-            "web": "",
+            "web": "https://www.facebook.com/falconsespoia/",
             "fotos": [
               {
                 "url": "",
@@ -67177,7 +67189,7 @@
             "fundacio": "2023",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.casalcatalatolosa.cat/activitats/castellers-de-tolosa/",
             "fotos": [
               {
                 "url": "",
@@ -67465,7 +67477,7 @@
             "fundacio": "2025",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://www.facebook.com/muixerangadelaplana/",
             "fotos": [
               {
                 "url": "",
@@ -67609,7 +67621,7 @@
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://www.facebook.com/Muixerangadecarlet/",
             "fotos": [
               {
                 "url": "",
@@ -67897,7 +67909,7 @@
             "fundacio": "",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://www.instagram.com/muixerangavalencia/",
             "fotos": [
               {
                 "url": "",
@@ -68041,7 +68053,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "estructures de 5",
-            "web": "",
+            "web": "https://castellersestocolm.se/",
             "fotos": [
               {
                 "url": "",
@@ -69049,7 +69061,7 @@
             "fundacio": "2016",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.instagram.com/castellerssyd/",
             "fotos": [
               {
                 "url": "",
@@ -69625,7 +69637,7 @@
             "fundacio": "2018",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://castellers.berlin/inici/",
             "fotos": [
               {
                 "url": "",
@@ -69769,7 +69781,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.instagram.com/mannekesbru/",
             "fotos": [
               {
                 "url": "",
@@ -69913,7 +69925,7 @@
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "castells de 6",
-            "web": "",
+            "web": "https://www.instagram.com/xiquetscopenhagen/",
             "fotos": [
               {
                 "url": "",
@@ -70201,7 +70213,7 @@
             "fundacio": "2025",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://www.instagram.com/castellereshelsinki/",
             "fotos": [
               {
                 "url": "",
@@ -70345,7 +70357,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "",
-            "web": "",
+            "web": "https://www.instagram.com/castellersdetokyo/",
             "fotos": [
               {
                 "url": "",
@@ -71065,7 +71077,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "Castells de 7 (aficionats de la vila que aixequen castells per la festa major)",
-            "web": "",
+            "web": "https://www.instagram.com/escatllotsdelpla/",
             "fotos": [
               {
                 "url": "",
@@ -71209,7 +71221,7 @@
             "fundacio": "2015",
             "inactiva": "",
             "maxim_castell": "Castells de 6 (aficionats del barri que aixequen castells per la festa major)",
-            "web": "",
+            "web": "https://www.instagram.com/panarres/",
             "fotos": [
               {
                 "url": "",
@@ -73426,7 +73438,7 @@
             "fundacio": "2024",
             "inactiva": "",
             "maxim_castell": "(en formació)",
-            "web": "",
+            "web": "https://www.instagram.com/losxiquetsdeflix/",
             "fotos": [
               {
                 "url": "",

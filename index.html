@@ -567,16 +567,17 @@ if (
 ) {
     icona += "🛣️";
 }
-var hiHaColla = p.colles.some(function (colla) {
-
-    if (!collaCerca) {
-        return true;
-    }
-
-    return colla.nom === collaCerca;
-
-});
-
+var hiHaColla =
+    !collaCerca ||
+    (
+        p.colles_relacionades &&
+        p.colles_relacionades.includes(collaCerca)
+    );
+  
+  
+  
+  
+    
 if (
     document.getElementById("fcolles").checked &&
     hiHaColla
@@ -3579,11 +3580,21 @@ document
                                 new Event("change")
                             );
 
+                        if (
+                            capaMarcadors &&
+                            capaMarcadors.getBounds().isValid()
+                        ) {
+
+                            map.fitBounds(
+                                capaMarcadors.getBounds()
+                            );
+
+                        }
+
                     }
                 );
 
                 contenidor.appendChild(boto);
-
             });
 
         }
