@@ -12031,7 +12031,7 @@
         "places9": [
           {
             "castell": "3d9f(c)",
-            "colla": "Colla Jove dels Xiquets de Tarragona",
+            "colla": "Colla Jove Xiquets de Tarragona",
             "diada": "Festa Major del Catllar",
             "data": "27 d'agost de 1997",
             "fotos": [
@@ -12214,7 +12214,6 @@
           "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
           "Castellers de Vilafranca",
-          "Colla Jove dels Xiquets de Tarragona",
           "Marrecs del Catllar",
           "Xiquets i xiquetes del Catllar"
         ],
@@ -19992,7 +19991,7 @@
             "nom": "Espigolats de la Riera de Gaià",
             "fundacio": "2022",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats del barri que aixequen castells per la festa major)",
+            "maxim_castell": "Castells de 6 (aficionats de la vila que aixequen castells per la festa major)",
             "web": "https://www.instagram.com/espigolats/",
             "fotos": [
               {
@@ -46187,10 +46186,10 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Mangoners de la Universitat de Perpinyà (colla universitària)",
+            "nom": "Mangoners de la Universitat de Perpinyà",
             "fundacio": "2008",
             "inactiva": "2014",
-            "maxim_castell": "",
+            "maxim_castell": "Sense informació\n(colla universitària)",
             "web": "",
             "fotos": [
               {
@@ -46247,7 +46246,7 @@
           }
         ],
         "colles_relacionades": [
-          "Mangoners de la Universitat de Perpinyà (colla universitària)"
+          "Mangoners de la Universitat de Perpinyà"
         ],
         "monuments": [],
         "carrers": []

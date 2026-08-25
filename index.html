@@ -567,12 +567,15 @@ if (
 ) {
     icona += "🛣️";
 }
-var hiHaColla =
-    !collaCerca ||
-    (
-        p.colles_relacionades &&
-        p.colles_relacionades.includes(collaCerca)
-    );
+var hiHaColla = p.colles.some(function (colla) {
+
+    if (!collaCerca) {
+        return true;
+    }
+
+    return colla.nom.trim() === collaCerca.trim();
+
+});
   
   
   
