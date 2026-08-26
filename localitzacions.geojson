@@ -518,6 +518,66 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "id": "PC203",
+            "colla": "Muixeranga d'Algemesí",
+            "castell": "Km. 0 Muixeranguer",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notíca al blog desocaiarrel.blogspot.com",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://desocaiarrel.blogspot.com/2019/06/kilometro-0-muixeranguer.html"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "places9": [
@@ -4000,6 +4060,16 @@
               },
               {
                 "url": "",
+                "text": "Font amb trencadís (2007) avui desapareguda (font Wikimedia Commons)",
+                "font": "Wikimeda Commons",
+                "font_url": "",
+                "autor": "Universitat de Barcelona, Centre de Recerca Polis",
+                "llicencia": "CC BY-SA 4.0",
+                "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+                "enllac_extern": "https://ca.wikipedia.org/wiki/Fitxer:Font_dels_Castellers_2007.jpg"
+              },
+              {
+                "url": "",
                 "text": "Pedres al 2014 on s’observa que hi ha una placa metàl·lica (avui despareguda)",
                 "font": "",
                 "font_url": "",
@@ -4007,16 +4077,6 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "fotos/monuments/mc17b.jpg"
-              },
-              {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Font_dels_Castellers_2007.jpg?utm_source=ca.wikipedia.org&utm_campaign=index&utm_content=original",
-                "text": "Font amb trencadís (2007) avui desapareguda",
-                "font": "Wikimeda Commons",
-                "font_url": "https://ca.wikipedia.org/wiki/Fitxer:Font_dels_Castellers_2007.jpg",
-                "autor": "Universitat de Barcelona, Centre de Recerca Polis",
-                "llicencia": "CC BY-SA 4.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -8826,7 +8886,7 @@
         "plaques": [
           {
             "id": "PC32",
-            "colla": "Encantats de Begues",
+            "colla": "Encantats de Begues, Castellers de Barcelona, Castellers de Castelldefels",
             "castell": "Bateig+ 3d8 Castellers de Barcelona i 5d6 Castelldefels",
             "data_castell": "13/04/13",
             "data_placa": "",
@@ -9069,7 +9129,8 @@
         "colles": [],
         "colles_relacionades": [
           "Encantats de Begues",
-          "Castellers de Barcelona"
+          "Castellers de Barcelona",
+          "Castellers de Castelldefels"
         ],
         "monuments": [],
         "carrers": []
@@ -16803,7 +16864,67 @@
           }
         ],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Moixiganguers d'Igualada",
+            "fundacio": "1995",
+            "inactiva": "",
+            "maxim_castell": "4d9f, 3d9f (2024)",
+            "web": "https://moixiganguers.cat",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
           "Moixiganguers d'Igualada"
         ],
@@ -28533,7 +28654,7 @@
       },
       "properties": {
         "id": "LC140",
-        "nom": "Plaça Octaivià",
+        "nom": "Plaça Octavià",
         "poblacio": "Sant Cugat del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -30052,6 +30173,65 @@
         "places10": [],
         "colles": [
           {
+            "nom": "Castellers de Ribes",
+            "fundacio": "1981",
+            "inactiva": "1985",
+            "maxim_castell": "castells de 7",
+            "web": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "nom": "Els Castellers Ribetans",
             "fundacio": "2016",
             "inactiva": "",
@@ -30113,6 +30293,7 @@
         ],
         "colles_relacionades": [
           "Castellers de Vilafranca",
+          "Castellers de Ribes",
           "Els Castellers Ribetans"
         ],
         "monuments": [],
@@ -40321,6 +40502,426 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "id": "PC204",
+            "colla": "Castellers de Vilafranca",
+            "castell": "Colla de Vilafranca",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC204.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC205",
+            "colla": "Xicots de Vilafranca",
+            "castell": "Colla de Vilafranca",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC205.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC206",
+            "colla": "Colla Jove de Vilafranca",
+            "castell": "Colla de Vilafranca",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC206.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC207",
+            "colla": "Castellers de Vilafranca",
+            "castell": "Participació a Sant Fèlix",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC207.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC208",
+            "colla": "Colla Vella dels Xiquets de Valls",
+            "castell": "Participació a Sant Fèlix",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC208.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC209",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "Participació a Sant Fèlix",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC209.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC210",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "Participació a Sant Fèlix",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC210.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "places9": [
@@ -40516,9 +41117,11 @@
           "Falcons de Vilafranca del Penedès",
           "Castellers de Vilafranca",
           "Xicots de Vilafranca",
+          "Colla Jove de Vilafranca",
           "Colla Vella dels Xiquets de Valls",
-          "Colla Jove dels Castellers de Vilafranca",
-          "Colla Jove de Vilafranca"
+          "Colla Jove Xiquets de Tarragona",
+          "Colla Joves dels Xiquets de Valls",
+          "Colla Jove dels Castellers de Vilafranca"
         ],
         "monuments": [],
         "carrers": []
@@ -40667,14 +41270,14 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "Publicada a Instagram @martirs.street",
+                "url": "fotos/plaques/PC180.jpeg",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "https://www.instagram.com/p/DboNtyTMkF1/"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -41991,8 +42594,8 @@
                 "enllac_extern": ""
               },
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/colles/CC183b.jpeg",
+                "text": "Placa informativa",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -44822,7 +45425,7 @@
           {
             "nom": "Monument a la Muixeranga",
             "any": "1997",
-            "figura": "Alta de 5",
+            "figura": "Alta de 5\n (al 2023 s’hi afegeix una placa commemorant els 50 anys de resorgiment de la muixeranga)",
             "autor": "Ferran Garcia Monzó",
             "altres": "",
             "colla": "Muixeranga d'Algemesí",
@@ -47465,6 +48068,88 @@
         "plaques": [],
         "places9": [],
         "places10": [],
+        "colles": [],
+        "colles_relacionades": [],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.909847,
+          41.4836874
+        ]
+      },
+      "properties": {
+        "id": "LC240",
+        "nom": "",
+        "poblacio": "Martorell",
+        "comarca": "Baix Llobregat",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "places10": [],
         "colles": [
           {
             "nom": "Castellers de Martorell",
@@ -47538,15 +48223,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.909847,
-          41.4836874
+          2.241316,
+          41.5517229
         ]
       },
       "properties": {
-        "id": "LC240",
+        "id": "LC241",
         "nom": "",
-        "poblacio": "Martorell",
-        "comarca": "Baix Llobregat",
+        "poblacio": "Montmeló",
+        "comarca": "Vallès oriental",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -47672,150 +48357,6 @@
         ],
         "colles_relacionades": [
           "Castellers de Montmeló"
-        ],
-        "monuments": [],
-        "carrers": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.241316,
-          41.5517229
-        ]
-      },
-      "properties": {
-        "id": "LC241",
-        "nom": "",
-        "poblacio": "Montmeló",
-        "comarca": "Vallès oriental",
-        "territori": "",
-        "pais": "",
-        "adreca": "",
-        "castells": "Sí",
-        "muixerangues": "",
-        "falcons": "",
-        "altres": "",
-        "fotos": [
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          }
-        ],
-        "plaques": [],
-        "places9": [],
-        "places10": [],
-        "colles": [
-          {
-            "nom": "Castellers de Ribes",
-            "fundacio": "1981",
-            "inactiva": "1985",
-            "maxim_castell": "castells de 7",
-            "web": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
-        "colles_relacionades": [
-          "Castellers de Ribes"
         ],
         "monuments": [],
         "carrers": []
@@ -50782,7 +51323,7 @@
             "nom": "Castellers de Lleida",
             "fundacio": "1995",
             "inactiva": "",
-            "maxim_castell": "2d8f, pdf(c) (2008)",
+            "maxim_castell": "2d8f, pd7f(c) (2008)",
             "web": "https://www.castellersdelleida.cat/",
             "fotos": [
               {
@@ -57016,20 +57557,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.6160517,
-          41.582612
+          -0.1171835,
+          38.8419773
         ]
       },
       "properties": {
         "id": "LC305",
-        "nom": "Moixiganguers d'Igualada",
-        "poblacio": "Igualada",
-        "comarca": "Anoia",
+        "nom": "Plaça de l’Ajuntament (Pego)",
+        "poblacio": "Pego",
+        "comarca": "Marina Alta",
         "territori": "",
         "pais": "",
         "adreca": "",
         "castells": "Sí",
-        "muixerangues": "",
+        "muixerangues": "Sí",
         "falcons": "",
         "altres": "",
         "fotos": [
@@ -57084,26 +57625,24 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
-        "places9": [],
-        "places10": [],
-        "colles": [
+        "plaques": [
           {
-            "nom": "Moixiganguers d'Igualada",
-            "fundacio": "1995",
-            "inactiva": "",
-            "maxim_castell": "4d9f, 3d9f (2024)",
-            "web": "https://moixiganguers.cat",
+            "id": "PC202",
+            "colla": "Colla Castellera de l’Alt Maresme, Muixeranga de la Marina Alta",
+            "castell": "3d7 (Maduixots)",
+            "data_castell": "18/06/17",
+            "data_placa": "10/02/18",
+            "incidencies": "",
             "fotos": [
               {
                 "url": "",
-                "text": "",
+                "text": "Notícia a TV Dènia ",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "https://tvdenia.com/la-muixeranga-de-la-marina-alta-inaugura-una-placa-en-commemoracio-del-3d7-dels-castellers-de-lalt-maresme-a-pego/"
               },
               {
                 "url": "",
@@ -57148,8 +57687,12 @@
             ]
           }
         ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
         "colles_relacionades": [
-          "Moixiganguers d'Igualada"
+          "Colla Castellera de l’Alt Maresme",
+          "Muixeranga de la Marina Alta"
         ],
         "monuments": [],
         "carrers": []
@@ -60184,8 +60727,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7738177,
-          41.2605322
+          2.2206327,
+          41.414781
         ]
       },
       "properties": {
@@ -73479,6 +74022,150 @@
         ],
         "colles_relacionades": [
           "Colla Castellera Los Xiquets de Flix"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1243766,
+          42.0420877
+        ]
+      },
+      "properties": {
+        "id": "LC420",
+        "nom": "Espai Jove",
+        "poblacio": "Torroella de Montgrí",
+        "comarca": "Baix Empordà",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Merlets del Montgrí",
+            "fundacio": "2025",
+            "inactiva": "",
+            "maxim_castell": "Castells de 6 \n(en formació)",
+            "web": "https://www.instagram.com/merletsdelmontgri/",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Merlets del Montgrí"
         ],
         "monuments": [],
         "carrers": []
