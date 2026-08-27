@@ -2541,7 +2541,7 @@
             "castell": "3d9f",
             "data_castell": "16/07/16",
             "data_placa": "14/07/18",
-            "incidencies": "DESAPAREGUDA",
+            "incidencies": "No localitzada (2025)",
             "fotos": [
               {
                 "url": "",
@@ -3835,7 +3835,7 @@
             "castell": "4d8a(c)",
             "data_castell": "09/11/08",
             "data_placa": "",
-            "incidencies": "DESAPAREGUDA",
+            "incidencies": "No localitzada (2025)",
             "fotos": [
               {
                 "url": "fotos/plaques/PC13.jpeg",
@@ -9010,7 +9010,7 @@
             "castell": "Bateig",
             "data_castell": "13/04/13",
             "data_placa": "",
-            "incidencies": "NO LOCALITZADA",
+            "incidencies": "No localitzada (2025)",
             "fotos": [
               {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Placa_bateig_encantats_de_begues.jpg",
@@ -26875,7 +26875,7 @@
             "castell": "3d9f, 5d8(c)",
             "data_castell": "10/08 i 3/11 1996",
             "data_placa": "",
-            "incidencies": "NO LOCALITZADA",
+            "incidencies": "No localitzada (2024)",
             "fotos": [
               {
                 "url": "",
@@ -28253,7 +28253,7 @@
             "castell": "3d9f",
             "data_castell": "17/05/15",
             "data_placa": "",
-            "incidencies": "RENOVADA",
+            "incidencies": "Renovada",
             "fotos": [
               {
                 "url": "fotos/plaques/PC123.jpg",
@@ -29624,7 +29624,7 @@
             "castell": "pd6(c)",
             "data_castell": "13/11/77",
             "data_placa": "23/07/78",
-            "incidencies": "NO LOCALITZADA",
+            "incidencies": "No localitzada (2025)",
             "fotos": [
               {
                 "url": "",
@@ -32338,7 +32338,7 @@
             "nom": "Colla Jove Xiquets de Tarragona",
             "fundacio": "1979",
             "inactiva": "",
-            "maxim_castell": "5d9f, 3d10fm (2016)",
+            "maxim_castell": "4d9(c), 3d10fm (2016)",
             "web": "https://jovedetarragona.cat/",
             "fotos": [
               {
@@ -34378,7 +34378,7 @@
             "castell": "2d9fm(c)",
             "data_castell": "",
             "data_placa": "",
-            "incidencies": "NO LOCALITZADA menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
+            "incidencies": "No localitzada (2025) menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
             "fotos": [
               {
                 "url": "",
@@ -34438,7 +34438,7 @@
             "castell": "4d8(c)",
             "data_castell": "21/11/82",
             "data_placa": "",
-            "incidencies": "NO LOCALITZADA menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
+            "incidencies": "No localitzada (2025) menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
             "fotos": [
               {
                 "url": "",
@@ -34498,7 +34498,7 @@
             "castell": "4d8",
             "data_castell": "22/11/87",
             "data_placa": "",
-            "incidencies": "NO LOCALITZADA menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
+            "incidencies": "No localitzada (2025) menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
             "fotos": [
               {
                 "url": "",
@@ -35629,7 +35629,7 @@
             "nom": "Minyons de Terrassa",
             "fundacio": "1979",
             "inactiva": "",
-            "maxim_castell": "3d10fm, 4d10fm (2015)\nPrimera colla en descarregar un castell de 10 (1998)",
+            "maxim_castell": "3d10fm, 4d10fm (2015)\nPrimera colla en carregar un castell de gamma extra al s.XX (1993)\nPrimera colla en descarregar un castell de 10 (1998)",
             "web": "https://minyons.cat/",
             "fotos": [
               {
@@ -38562,7 +38562,7 @@
         ],
         "monuments": [
           {
-            "nom": "Vivendes C V X Valls",
+            "nom": "Vivendes de la Colla Vella",
             "any": "",
             "figura": "Estructura metàl·lica que recorda un pom de dalt",
             "autor": "",
@@ -40326,7 +40326,7 @@
           {
             "id": "PC176",
             "colla": "Castellers de Vilafranca",
-            "castell": "3d10fm",
+            "castell": "3d10fm, 4d9, 4d9fa, pdf8fm",
             "data_castell": "30/08/13",
             "data_placa": "08 – 2014",
             "incidencies": "",
@@ -43008,7 +43008,7 @@
             "castell": "3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Festa Major del Barri del Poble Nou",
-            "data": "10 dej uny de 2016",
+            "data": "10 de juny de 2016",
             "fotos": [
               {
                 "url": "",
@@ -43702,7 +43702,7 @@
             "castell": "castell de 9",
             "data_castell": "05/08/ 1852",
             "data_placa": "04/08/02",
-            "incidencies": "RENOVADA",
+            "incidencies": "Renovada",
             "fotos": [
               {
                 "url": "fotos/plaques/PC186.jpg",
