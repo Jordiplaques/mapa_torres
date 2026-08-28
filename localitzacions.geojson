@@ -17291,7 +17291,68 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC211",
+            "colla": "Castellers de Vilafranca",
+            "castell": "3d10fm",
+            "data_castell": "28/08/2016",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia al Diari de Tarragona",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.diaridetarragona.com/camp/221273/l-arboc-es-penja-el-10-ik20809364.html"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [
           {
             "castell": "4d9f(c)",
@@ -19578,8 +19639,8 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/plaques/PC88.jpeg",
+                "text": "Foto de les 2 plaques",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -19638,7 +19699,7 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC88.jpeg",
+                "url": "",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -48661,7 +48722,7 @@
       },
       "properties": {
         "id": "LC244",
-        "nom": "",
+        "nom": "Can Pinyana",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "",
@@ -48723,7 +48784,68 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC214",
+            "colla": "Bordegassos de Vilanova",
+            "castell": "Inauguració local",
+            "data_castell": "28/11/1998",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC213.jpg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "Unai Estévez i Muñoz",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [],
         "places10": [],
         "colles": [
@@ -59581,7 +59703,7 @@
       },
       "properties": {
         "id": "LC319",
-        "nom": "",
+        "nom": "Pati del Pou",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "",
@@ -74454,6 +74576,152 @@
         ],
         "colles_relacionades": [
           "Boixes i Boixos d’Eivissa"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5678117,
+          42.7353498
+        ]
+      },
+      "properties": {
+        "id": "LC423",
+        "nom": "Plaça de la Font del Lleó",
+        "poblacio": "Millars",
+        "comarca": "El Rosselló",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC213",
+            "colla": "Tirallongues de Manresa, Castellers del Riberal",
+            "castell": "2d7, 4d8, 5d7, 3d7a, 4d7a, 3d7, vd5",
+            "data_castell": "05/08/2017",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia al web del Tirallongues",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://tirallongues.cat/mhan-parlat-amb-catala-suposo-que-degut-al-meu-accent-i-mha-agradat-molt/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Tirallongues de Manresa",
+          "Castellers del Riberal"
         ],
         "monuments": [],
         "carrers": []
