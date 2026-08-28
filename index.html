@@ -34,6 +34,23 @@ html, body, #map {
 }
 
 
+.icona-placa {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: #6a1b9a;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+
+
+
+
+
 .placa-carrusel {
 
     display: none;
@@ -521,7 +538,7 @@ if (
     document.getElementById("fplaques").checked &&
     hiHaPlaques
 ) {
-    icona += "🪧";
+    icona += "<span class='icona-placa'>🪧</span>";
 }
 var hiHaMonument = p.monuments.some(function (monument) {
 

@@ -991,7 +991,7 @@
             "id": "PC3",
             "colla": "Castellers de Vilafranca",
             "castell": "pd8fm(c)",
-            "data_castell": "'14/11/1999",
+            "data_castell": "14/11/1999",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
@@ -7887,7 +7887,7 @@
       },
       "properties": {
         "id": "LC41",
-        "nom": "Local C Sagrada Família",
+        "nom": "Centre Cultural de la Sagrada Família",
         "poblacio": "Barcelona (Sagrada Família)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -8092,7 +8092,7 @@
       },
       "properties": {
         "id": "LC42",
-        "nom": "Hospital VH",
+        "nom": "Hospital Vall d’Hebron",
         "poblacio": "Barcelona (Vall d’Hebron)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -28374,7 +28374,7 @@
             "castell": "3d9f",
             "data_castell": "17/05/2015",
             "data_placa": "",
-            "incidencies": "",
+            "incidencies": "Placa actual (2025)",
             "fotos": [
               {
                 "url": "fotos/plaques/PC124.jpeg",
@@ -39730,7 +39730,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "Sí",
-        "altres": "",
+        "altres": "Coneguda com a la plaça més castellera",
         "fotos": [
           {
             "url": "",
@@ -43823,7 +43823,7 @@
             "castell": "castell de 9",
             "data_castell": "05/08/1852",
             "data_placa": "04/08/2002",
-            "incidencies": "",
+            "incidencies": "Placa actual (2026)",
             "fotos": [
               {
                 "url": "fotos/plaques/PC187.jpeg",
@@ -46768,7 +46768,7 @@
       },
       "properties": {
         "id": "LC230",
-        "nom": "",
+        "nom": "Universitat de Perpinyà",
         "poblacio": "Perpinyà",
         "comarca": "El Rosselló",
         "territori": "El Rosselló",
