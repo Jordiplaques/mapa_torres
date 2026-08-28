@@ -7963,7 +7963,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Cessió de l’usuària d’Instagram @mara.de.deu",
+                "autor": "Usuària d’Instagram @mara.de.deu",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -28374,11 +28374,11 @@
             "castell": "3d9f",
             "data_castell": "17/05/2015",
             "data_placa": "",
-            "incidencies": "Placa actual (2025)",
+            "incidencies": "",
             "fotos": [
               {
                 "url": "fotos/plaques/PC124.jpeg",
-                "text": "",
+                "text": "Placa actual (2025)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -32635,13 +32635,23 @@
               },
               {
                 "url": "",
-                "text": "Placa",
+                "text": "Placa 4d8",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "fotos/monuments/MC7d.jpeg"
+              },
+              {
+                "url": "",
+                "text": "Placa al terra de la Rambla, al web poblesdecatalunya.cat",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.poblesdecatalunya.cat/element.php?e=3881"
               }
             ]
           }
@@ -36849,14 +36859,14 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "Detall placa",
+                "url": "fotos/plaques/PC155.jpeg",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/plaques/PC155.jpeg"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -43767,7 +43777,7 @@
             "fotos": [
               {
                 "url": "fotos/plaques/PC186.jpg",
-                "text": "",
+                "text": "Placa antiga (data foto 2022)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -43823,11 +43833,11 @@
             "castell": "castell de 9",
             "data_castell": "05/08/1852",
             "data_placa": "04/08/2002",
-            "incidencies": "Placa actual (2026)",
+            "incidencies": "",
             "fotos": [
               {
                 "url": "fotos/plaques/PC187.jpeg",
-                "text": "",
+                "text": "Placa actual (2026)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
