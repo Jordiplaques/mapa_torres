@@ -868,15 +868,15 @@
         ],
         "plaques": [
           {
-            "id": "PC1",
-            "colla": "Colla Joves dels Xiquets de Valls",
-            "castell": "pd8fm",
-            "data_castell": "16/09/2023",
+            "id": "PC3",
+            "colla": "Castellers de Vilafranca",
+            "castell": "pd8fm(c)",
+            "data_castell": "14/11/1999",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC1.jpeg",
+                "url": "fotos/plaques/PC3.png",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -988,15 +988,15 @@
             ]
           },
           {
-            "id": "PC3",
-            "colla": "Castellers de Vilafranca",
-            "castell": "pd8fm(c)",
-            "data_castell": "14/11/1999",
+            "id": "PC1",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "pd8fm",
+            "data_castell": "16/09/2023",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC3.png",
+                "url": "fotos/plaques/PC1.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -1111,9 +1111,9 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Joves dels Xiquets de Valls",
-          "Castellers d'Altafulla",
           "Castellers de Vilafranca",
+          "Castellers d'Altafulla",
+          "Colla Joves dels Xiquets de Valls",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [
@@ -3770,15 +3770,15 @@
         ],
         "plaques": [
           {
-            "id": "PC12",
+            "id": "PC13",
             "colla": "Castellers de Barcelona",
-            "castell": "3d9f(c)",
-            "data_castell": "11/11/2012",
+            "castell": "4d8a(c)",
+            "data_castell": "09/11/2008",
             "data_placa": "",
-            "incidencies": "",
+            "incidencies": "No localitzada (2025)",
             "fotos": [
               {
-                "url": "fotos/plaques/PC12.jpeg",
+                "url": "fotos/plaques/PC13.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -3830,15 +3830,15 @@
             ]
           },
           {
-            "id": "PC13",
+            "id": "PC12",
             "colla": "Castellers de Barcelona",
-            "castell": "4d8a(c)",
-            "data_castell": "09/11/2008",
+            "castell": "3d9f(c)",
+            "data_castell": "11/11/2012",
             "data_placa": "",
-            "incidencies": "No localitzada (2025)",
+            "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC13.jpeg",
+                "url": "fotos/plaques/PC12.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -4237,15 +4237,15 @@
         ],
         "plaques": [
           {
-            "id": "PC14",
+            "id": "PC15",
             "colla": "Castellers de Barcelona",
-            "castell": "Pati Assaig Josep Sala",
-            "data_castell": "",
+            "castell": "Inauguració local",
+            "data_castell": "23/09/2006",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC14.jpeg",
+                "url": "fotos/plaques/PC15.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -4297,15 +4297,15 @@
             ]
           },
           {
-            "id": "PC15",
+            "id": "PC14",
             "colla": "Castellers de Barcelona",
-            "castell": "Inauguració local",
-            "data_castell": "23/09/2006",
+            "castell": "Pati Assaig Josep Sala",
+            "data_castell": "",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC15.jpeg",
+                "url": "fotos/plaques/PC14.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -4645,6 +4645,66 @@
         ],
         "plaques": [
           {
+            "id": "PC21",
+            "colla": "Castellers de Barcelona",
+            "castell": "2d8f(c)",
+            "data_castell": "09/07/1995",
+            "data_placa": "07/07/1996",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC21.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "id": "PC17",
             "colla": "Castellers de la Vila de Gràcia",
             "castell": "Primera diada",
@@ -4883,66 +4943,6 @@
                 "enllac_extern": ""
               }
             ]
-          },
-          {
-            "id": "PC21",
-            "colla": "Castellers de Barcelona",
-            "castell": "2d8f(c)",
-            "data_castell": "09/07/1995",
-            "data_placa": "07/07/1996",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC21.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
           }
         ],
         "places9": [
@@ -5068,8 +5068,8 @@
           }
         ],
         "colles_relacionades": [
-          "Castellers de la Vila de Gràcia",
           "Castellers de Barcelona",
+          "Castellers de la Vila de Gràcia",
           "Castellers de Vilafranca",
           "Xiquets de Gràcia"
         ],
@@ -10171,10 +10171,10 @@
         ],
         "plaques": [
           {
-            "id": "PC39",
-            "colla": "Minyons de Terrassa",
-            "castell": "castell de 9",
-            "data_castell": "20/0920/14",
+            "id": "PC40",
+            "colla": "Colla Castellera de l’Alt Maresme",
+            "castell": "bateig",
+            "data_castell": "26/04/2014",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
@@ -10231,10 +10231,10 @@
             ]
           },
           {
-            "id": "PC40",
-            "colla": "Colla Castellera de l’Alt Maresme",
-            "castell": "bateig",
-            "data_castell": "26/04/2014",
+            "id": "PC39",
+            "colla": "Minyons de Terrassa",
+            "castell": "castell de 9",
+            "data_castell": "20/09/2014",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
@@ -10354,8 +10354,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Minyons de Terrassa",
-          "Colla Castellera de l’Alt Maresme"
+          "Colla Castellera de l’Alt Maresme",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": []
@@ -18058,126 +18058,6 @@
         ],
         "plaques": [
           {
-            "id": "PC16",
-            "colla": "Colla Joves dels Xiquets de Valls",
-            "castell": "2d8",
-            "data_castell": "15/08/2018",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC79.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC70",
-            "colla": "Castellers de Vilafranca",
-            "castell": "5d8a",
-            "data_castell": "15/08/2010",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC70.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "id": "PC71",
             "colla": "Colla Joves dels Xiquets de Valls",
             "castell": "3d9f",
@@ -18358,75 +18238,15 @@
             ]
           },
           {
-            "id": "PC74",
-            "colla": "Colla Vella dels Xiquets de Valls",
-            "castell": "5d9f(c), 4d9fa",
-            "data_castell": "15/08/2016",
+            "id": "PC85",
+            "colla": "Castellers de Vilafranca",
+            "castell": "2d9fm",
+            "data_castell": "15/08/1999",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC74.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC75",
-            "colla": "Colla Castellera de La Bisbal del Penedès",
-            "castell": "3d7",
-            "data_castell": "15/08/2016",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC75.jpeg",
+                "url": "fotos/plaques/PC85.jpg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -18487,6 +18307,246 @@
             "fotos": [
               {
                 "url": "fotos/plaques/PC76.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC83",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "4d9(c)",
+            "data_castell": "15/08/2000",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC83.jpg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC81",
+            "colla": "Colla Vella dels Xiquets de Valls",
+            "castell": "3d8ps(c)",
+            "data_castell": "15/08/2001",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC81.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC82",
+            "colla": "Castellers de Vilafranca",
+            "castell": "3d8a",
+            "data_castell": "15/08/2007",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC82.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC70",
+            "colla": "Castellers de Vilafranca",
+            "castell": "5d8a",
+            "data_castell": "15/08/2010",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC70.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -18718,135 +18778,75 @@
             ]
           },
           {
-            "id": "PC81",
+            "id": "PC75",
+            "colla": "Colla Castellera de La Bisbal del Penedès",
+            "castell": "3d7",
+            "data_castell": "15/08/2016",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC75.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC74",
             "colla": "Colla Vella dels Xiquets de Valls",
-            "castell": "3d8ps(c)",
-            "data_castell": "15/08/2001",
+            "castell": "5d9f(c), 4d9fa",
+            "data_castell": "15/08/2016",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC81.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC82",
-            "colla": "Castellers de Vilafranca",
-            "castell": "3d8a",
-            "data_castell": "15/08/2007",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC82.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC83",
-            "colla": "Colla Joves dels Xiquets de Valls",
-            "castell": "4d9(c)",
-            "data_castell": "15/08/2000",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC83.jpg",
+                "url": "fotos/plaques/PC74.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -18958,15 +18958,15 @@
             ]
           },
           {
-            "id": "PC85",
-            "colla": "Castellers de Vilafranca",
-            "castell": "2d9fm",
-            "data_castell": "15/08/1999",
+            "id": "PC79",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "2d8",
+            "data_castell": "15/08/2018",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC85.jpg",
+                "url": "fotos/plaques/PC79.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -20917,15 +20917,15 @@
         ],
         "plaques": [
           {
-            "id": "PC92",
+            "id": "PC93",
             "colla": "Castellers de Lleida",
-            "castell": "pd6",
-            "data_castell": "10/11/2007",
-            "data_placa": "06/04/2008",
+            "castell": "4d8",
+            "data_castell": "30/09/2001",
+            "data_placa": "29/09/2002",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC92.jpeg",
+                "url": "fotos/plaques/PC93.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -20977,15 +20977,15 @@
             ]
           },
           {
-            "id": "PC93",
+            "id": "PC92",
             "colla": "Castellers de Lleida",
-            "castell": "4d8",
-            "data_castell": "30/09/2001",
-            "data_placa": "29/09/2002",
+            "castell": "pd6",
+            "data_castell": "10/11/2007",
+            "data_placa": "06/04/2008",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC93.jpeg",
+                "url": "fotos/plaques/PC92.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -24872,66 +24872,6 @@
         ],
         "plaques": [
           {
-            "id": "PC110",
-            "colla": "Castellers de Mollet",
-            "castell": "7d7, 5d7, 4d7a, vd5 2pd4",
-            "data_castell": "16/06/2024",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC110.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "id": "PC111",
             "colla": "Minyons de Terrassa",
             "castell": "3d9f(c)",
@@ -25050,6 +24990,66 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "id": "PC110",
+            "colla": "Castellers de Mollet",
+            "castell": "7d7, 5d7, 4d7a, vd5 2pd4",
+            "data_castell": "16/06/2024",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC110.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "places9": [
@@ -25115,8 +25115,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Mollet",
-          "Minyons de Terrassa"
+          "Minyons de Terrassa",
+          "Castellers de Mollet"
         ],
         "monuments": [],
         "carrers": []
@@ -32069,15 +32069,15 @@
             ]
           },
           {
-            "id": "PC138",
-            "colla": "",
-            "castell": "Commemoració Castells Patrimoni immat",
-            "data_castell": "16/11/2010",
+            "id": "PC139",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "2d8f, 3d8, 4d8",
+            "data_castell": "19/08/1993",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC138.jpeg",
+                "url": "fotos/plaques/PC139.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -32129,15 +32129,15 @@
             ]
           },
           {
-            "id": "PC139",
-            "colla": "Colla Jove Xiquets de Tarragona",
-            "castell": "2d8f, 3d8, 4d8",
-            "data_castell": "19/08/1993",
+            "id": "PC138",
+            "colla": "",
+            "castell": "Commemoració Castells Patrimoni immat",
+            "data_castell": "16/11/2010",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC139.jpeg",
+                "url": "fotos/plaques/PC138.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -35981,66 +35981,6 @@
         ],
         "plaques": [
           {
-            "id": "PC150",
-            "colla": "Colla Jove Xiquets de Tarragona",
-            "castell": "5d9f",
-            "data_castell": "14/07/2018",
-            "data_placa": "14/07/2019",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC150.png",
-                "text": "",
-                "font": "",
-                "font_url": "fotos/plaques/PC150.png",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "id": "PC151",
             "colla": "Nois de la Torre",
             "castell": "30 aniv",
@@ -36101,10 +36041,70 @@
             ]
           },
           {
+            "id": "PC150",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "5d9f",
+            "data_castell": "14/07/2018",
+            "data_placa": "14/07/2019",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC150.png",
+                "text": "",
+                "font": "",
+                "font_url": "fotos/plaques/PC150.png",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "id": "PC152",
             "colla": "Nois de la Torre",
             "castell": "4d8, 2d7, 7d7, 2pd5",
-            "data_castell": "31/08/2009",
+            "data_castell": "31/08/2025",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
@@ -36284,8 +36284,8 @@
           }
         ],
         "colles_relacionades": [
-          "Colla Jove Xiquets de Tarragona",
           "Nois de la Torre",
+          "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
           "Xiquets de Torredembarra"
         ],
@@ -40155,15 +40155,15 @@
             ]
           },
           {
-            "id": "PC172",
-            "colla": "Xicots de Vilafranca",
-            "castell": "3d9f(c) ",
-            "data_castell": "29/08/2025",
-            "data_placa": "",
+            "id": "PC178",
+            "colla": "Castellers de Vilafranca",
+            "castell": "3d9fa (primer descarregat història)",
+            "data_castell": "31/08/2009",
+            "data_placa": "05 – 2010",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC172.jpeg",
+                "url": "fotos/plaques/PC178.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -40215,75 +40215,15 @@
             ]
           },
           {
-            "id": "PC173",
+            "id": "PC177",
             "colla": "Castellers de Vilafranca",
-            "castell": "pd9fmp(c) (primer de la història)",
-            "data_castell": "01/11/2022",
-            "data_placa": "",
+            "castell": "2d8",
+            "data_castell": "01/11/2010",
+            "data_placa": "05 – 2011",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC173.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC174",
-            "colla": "Castellers de Vilafranca",
-            "castell": "9d9f(c) (primer de la història)",
-            "data_castell": "01/11/2023",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC174.jpeg",
+                "url": "fotos/plaques/PC177.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -40455,15 +40395,15 @@
             ]
           },
           {
-            "id": "PC177",
-            "colla": "Castellers de Vilafranca",
-            "castell": "2d8",
-            "data_castell": "01/11/2010",
-            "data_placa": "05 – 2011",
+            "id": "PC172",
+            "colla": "Xicots de Vilafranca",
+            "castell": "3d9f(c) ",
+            "data_castell": "29/08/2015",
+            "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC177.jpeg",
+                "url": "fotos/plaques/PC172.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -40515,15 +40455,75 @@
             ]
           },
           {
-            "id": "PC178",
+            "id": "PC173",
             "colla": "Castellers de Vilafranca",
-            "castell": "3d9fa (primer descarregat història)",
-            "data_castell": "31/08/2009",
-            "data_placa": "05 – 2010",
+            "castell": "pd9fmp(c) (primer de la història)",
+            "data_castell": "01/11/2022",
+            "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC178.jpeg",
+                "url": "fotos/plaques/PC173.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC174",
+            "colla": "Castellers de Vilafranca",
+            "castell": "9d9f(c) (primer de la història)",
+            "data_castell": "01/11/2023",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC174.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
