@@ -8887,7 +8887,7 @@
           {
             "id": "PC32",
             "colla": "Encantats de Begues, Castellers de Barcelona, Castellers de Castelldefels",
-            "castell": "Bateig+ 3d8 Castellers de Barcelona i 5d6 Castelldefels",
+            "castell": "Bateig Encantats, 3d8 Castellers de Barcelona i 5d6 Castelldefels",
             "data_castell": "13/04/2013",
             "data_placa": "",
             "incidencies": "",
@@ -28045,18 +28045,18 @@
         ],
         "plaques": [
           {
-            "id": "PC122",
+            "id": "PC192",
             "colla": "Marrecs de Salt",
-            "castell": "2d8f, 3d8, 4d8 (primera tripleta de 8)",
-            "data_castell": "28/07/2013",
+            "castell": "Primer castell de 8",
+            "data_castell": "28/07/2002",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2013.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2002.jpg",
                 "text": "",
                 "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2013.jpg",
+                "font_url": "https://commons.wikimedia.org/wiki/File:Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2002.jpg",
                 "autor": "JordiGran",
                 "llicencia": "CC BY-SA 3.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
@@ -28105,18 +28105,18 @@
             ]
           },
           {
-            "id": "PC192",
+            "id": "PC122",
             "colla": "Marrecs de Salt",
-            "castell": "Primer castell de 8",
-            "data_castell": "28/07/2002",
+            "castell": "2d8f, 3d8, 4d8 (primera tripleta de 8)",
+            "data_castell": "28/07/2013",
             "data_placa": "",
             "incidencies": "",
             "fotos": [
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2002.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2013.jpg",
                 "text": "",
                 "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2002.jpg",
+                "font_url": "https://commons.wikimedia.org/wiki/File:Placa_dedicada_als_Marrecs_a_l%27Ajuntament_de_Salt_2013.jpg",
                 "autor": "JordiGran",
                 "llicencia": "CC BY-SA 3.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
@@ -31072,66 +31072,6 @@
         ],
         "plaques": [
           {
-            "id": "PC134",
-            "colla": "Colla Jove de Castellers de Sitges",
-            "castell": "4d8",
-            "data_castell": "24/09/2006",
-            "data_placa": "",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC134.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "id": "PC135",
             "colla": "Castellers de Vilafranca",
             "castell": "4d9f",
@@ -31190,14 +31130,74 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "id": "PC134",
+            "colla": "Colla Jove de Castellers de Sitges",
+            "castell": "4d8",
+            "data_castell": "24/09/2006",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC134.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "4d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada de la Colla Jove de Sitges",
-            "data": "25 d'octubre de 2008",
+            "data": "10 de novembre de 1996",
             "fotos": [
               {
                 "url": "",
@@ -31315,8 +31315,8 @@
           }
         ],
         "colles_relacionades": [
-          "Colla Jove de Castellers de Sitges",
           "Castellers de Vilafranca",
+          "Colla Jove de Castellers de Sitges",
           "Castellers de Sitges"
         ],
         "monuments": [],
@@ -31457,10 +31457,10 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada de la Colla Jove de Sitges",
-            "data": "10 de novembre de 1996",
+            "data": "25 d'octubre de 2008",
             "fotos": [
               {
                 "url": "",
@@ -40696,7 +40696,7 @@
           },
           {
             "id": "PC206",
-            "colla": "Colla Jove de Vilafranca",
+            "colla": "Colla Jove Xiquets de Vilafranca",
             "castell": "Colla de Vilafranca",
             "data_castell": "",
             "data_placa": "",
@@ -40993,6 +40993,66 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "id": "PC212",
+            "colla": "Minyons de Terrassa",
+            "castell": "Participació a Sant Fèlix",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "No localitzada (2026), suposem que substituïda per la de Jove de Tarragona fins que no tornin a participar a Sant Fèlix",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia a l’Ajuntament de Vialfranca",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.vilafranca.cat/noticies/les-colles-castelleres-de-sant-felix-i-les-colles-locals-disposen-de-placa-propia-la-placa"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "places9": [
@@ -41125,7 +41185,7 @@
             ]
           },
           {
-            "nom": "Colla Jove de Vilafranca",
+            "nom": "Colla Jove Xiquets de Vilafranca",
             "fundacio": "2010",
             "inactiva": "2025",
             "maxim_castell": "2d7",
@@ -41188,10 +41248,11 @@
           "Falcons de Vilafranca del Penedès",
           "Castellers de Vilafranca",
           "Xicots de Vilafranca",
-          "Colla Jove de Vilafranca",
+          "Colla Jove Xiquets de Vilafranca",
           "Colla Vella dels Xiquets de Valls",
           "Colla Jove Xiquets de Tarragona",
           "Colla Joves dels Xiquets de Valls",
+          "Minyons de Terrassa",
           "Colla Jove dels Castellers de Vilafranca"
         ],
         "monuments": [],
@@ -41742,6 +41803,66 @@
         ],
         "plaques": [
           {
+            "id": "PC184",
+            "colla": "Penya els Castellers de Vilafranca del Penedès",
+            "castell": "homenatge",
+            "data_castell": "",
+            "data_placa": "23/08/2002",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC184.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "id": "PC182",
             "colla": "Xicots de Vilafranca",
             "castell": "Formació ",
@@ -41811,66 +41932,6 @@
             "fotos": [
               {
                 "url": "fotos/plaques/PC183.jpeg",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC184",
-            "colla": "Penya els Castellers de Vilafranca del Penedès",
-            "castell": "homenatge",
-            "data_castell": "",
-            "data_placa": "23/08/2022",
-            "incidencies": "",
-            "fotos": [
-              {
-                "url": "fotos/plaques/PC184.jpeg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -42104,9 +42165,9 @@
           }
         ],
         "colles_relacionades": [
+          "Penya els Castellers de Vilafranca del Penedès",
           "Xicots de Vilafranca",
-          "Minyons de Terrassa",
-          "Penya els Castellers de Vilafranca del Penedès"
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": []
@@ -73239,14 +73300,14 @@
         "colles": [],
         "colles_relacionades": [
           "Xicots de Vilafranca",
-          "Colla Jove de Vilafranca"
+          "Colla Jove Xiquets de Vilafranca"
         ],
         "monuments": [],
         "carrers": [
           {
             "emplaçament": "",
             "motiu": "Murals Xicots i Joves de Vilafranca (data foto 2024)",
-            "colla": "Xicots de Vilafranca, Colla Jove de Vilafranca",
+            "colla": "Xicots de Vilafranca, Colla Jove Xiquets de Vilafranca",
             "fotos": [
               {
                 "url": "fotos/carrers/XC24a.jpeg",
