@@ -1572,6 +1572,66 @@
         ],
         "plaques": [
           {
+            "id": "PC16",
+            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "3d9f",
+            "data_castell": "03/08/2019",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia a Culturàlia",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.culturalia.ad/noticia/45053/ja-tenim-placa-castellera-de-9"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "id": "PC195",
             "colla": "Colla Vella dels Xiquets de Valls",
             "castell": "3d9f, 4d9f, 5d8, pd6 “millor diada en l’àmbit internacional”",
@@ -1695,8 +1755,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Vella dels Xiquets de Valls",
-          "Colla Joves dels Xiquets de Valls"
+          "Colla Joves dels Xiquets de Valls",
+          "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
         "carrers": []
@@ -10738,6 +10798,66 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC215",
+            "colla": "Castellers de Castelldefels",
+            "castell": "4d8",
+            "data_castell": "08/12/2025",
+            "data_placa": "16/05/2026",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Instagram Ajuntament de Castelldefels",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/DYZeWCkDPza/"
               },
               {
                 "url": "",
