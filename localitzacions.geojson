@@ -45774,7 +45774,67 @@
         "plaques": [],
         "places9": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Capgrossos de Mataró",
+            "fundacio": "1996",
+            "inactiva": "",
+            "maxim_castell": "2d9fm, pd8fm, 5d9f (2017)",
+            "web": "https://capgrossos.cat/",
+            "fotos": [
+              {
+                "url": "fotos/colles/CC4a.jpeg",
+                "text": "Mural al local (data foto 2025)",
+                "font": "",
+                "font_url": "",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "Mural 25 aniversari (data foto 2025, autor Robert R. Verde @Elektrobeer)",
+                "font": "",
+                "font_url": "",
+                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "fotos/colles/CC4b.jpeg"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
           "Capgrossos de Mataró"
         ],
@@ -49246,150 +49306,6 @@
         ],
         "colles_relacionades": [
           "Brivalls de Cornudella"
-        ],
-        "monuments": [],
-        "carrers": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4532131,
-          41.5435953
-        ]
-      },
-      "properties": {
-        "id": "LC246",
-        "nom": "",
-        "poblacio": "Mataró",
-        "comarca": "Maresme",
-        "territori": "",
-        "pais": "",
-        "adreca": "",
-        "castells": "Sí",
-        "muixerangues": "",
-        "falcons": "",
-        "altres": "",
-        "fotos": [
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          }
-        ],
-        "plaques": [],
-        "places9": [],
-        "places10": [],
-        "colles": [
-          {
-            "nom": "Capgrossos de Mataró",
-            "fundacio": "1996",
-            "inactiva": "",
-            "maxim_castell": "2d9fm, pd8fm, 5d9f (2017)",
-            "web": "https://capgrossos.cat/",
-            "fotos": [
-              {
-                "url": "fotos/colles/CC4a.jpeg",
-                "text": "Mural al local (data foto 2025)",
-                "font": "",
-                "font_url": "",
-                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "Mural 25 aniversari (data foto 2025, autor Robert Capgrossos)",
-                "font": "",
-                "font_url": "",
-                "autor": "Robert Rodríguez Verde (IG @Elektrober)",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": "fotos/colles/CC4b.jpeg"
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
-        "colles_relacionades": [
-          "Capgrossos de Mataró"
         ],
         "monuments": [],
         "carrers": []
