@@ -22847,7 +22847,7 @@
       },
       "properties": {
         "id": "LC108",
-        "nom": "Plaça de Crist Rei",
+        "nom": "Plaça de Neus Català (antiga Crist Rei)",
         "poblacio": "Manresa",
         "comarca": "Bages",
         "territori": "Catalunya",
@@ -22909,7 +22909,128 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC217",
+            "colla": "Tirallongues de Manresa",
+            "castell": "4d8(c)",
+            "data_castell": "08/11/1998",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Foto en Notícia a Regió7",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.regio7.cat/manresa/2026/05/28/crist-rei-placa-neus-catala-130755696.html"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC218",
+            "colla": "Tirallongues de Manresa",
+            "castell": "3d8, 4d8, 2d7",
+            "data_castell": "05/11/2017",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Foto en Notícia a Regió7",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.regio7.cat/manresa/2026/05/28/crist-rei-placa-neus-catala-130755696.html"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [
           {
             "castell": "3d9f",
@@ -22973,6 +23094,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
+          "Tirallongues de Manresa",
           "Minyons de Terrassa"
         ],
         "monuments": [],
@@ -31859,7 +31981,7 @@
       },
       "properties": {
         "id": "LC156",
-        "nom": "Plaça Catalunya (Tarragona)",
+        "nom": "Plaça Catalunya (Sant Pere i Sant Pau)",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -49316,6 +49438,151 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.1423367,
+          41.1070975
+        ]
+      },
+      "properties": {
+        "id": "LC246",
+        "nom": "Plaça Miquel Martí i Pol",
+        "poblacio": "Vila-Seca",
+        "comarca": "Tarragonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC216",
+            "colla": "Colla Castellera Sant Pere i Sant Pau",
+            "castell": "pd7f",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Foto en Notícia a Regió7",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.regio7.cat/manresa/2026/05/28/crist-rei-placa-neus-catala-130755696.html"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Colla Castellera Sant Pere i Sant Pau"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           1.3738192,
           41.1433826
         ]
@@ -53422,7 +53689,7 @@
         "colles": [
           {
             "nom": "Castellers de Sarrià",
-            "fundacio": "1999",
+            "fundacio": "1999 (refundada 2016)",
             "inactiva": "",
             "maxim_castell": "4d8 (2025)",
             "web": "https://www.castellersdesarria.cat/",
@@ -56006,7 +56273,7 @@
       },
       "properties": {
         "id": "LC293",
-        "nom": "",
+        "nom": "Sant Pere i Sant Pau",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "",
@@ -61317,7 +61584,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Engrescats de URL",
+            "nom": "Engrescats de la URL",
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "castells de 7 (colla universitària)",
@@ -61377,7 +61644,7 @@
           }
         ],
         "colles_relacionades": [
-          "Engrescats de URL"
+          "Engrescats de la URL"
         ],
         "monuments": [],
         "carrers": []
