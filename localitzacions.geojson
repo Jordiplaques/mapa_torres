@@ -31566,17 +31566,17 @@
           {
             "emplaçament": "",
             "motiu": "Persiana pintada amb pilar dels C. Sitges (data foto 2022)",
-            "colla": "",
+            "colla": "Colla Jove de Castellers de Sitges",
             "fotos": [
               {
-                "url": "",
+                "url": "fotos/carrers/XC28.jpeg",
                 "text": "Foto",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/carrers/XC28.jpeg"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -73609,7 +73609,7 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Murals Xicots i Joves de Vilafranca (data foto 2024)",
+            "motiu": "Murals Xicots i Joves de Vilafranca (data fotos 2024)",
             "colla": "Xicots de Vilafranca, Colla Jove Xiquets de Vilafranca",
             "fotos": [
               {
@@ -74026,15 +74026,13 @@
         "places9": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [
-          "Colla Jove de Castellers de Sitges"
-        ],
+        "colles_relacionades": [],
         "monuments": [],
         "carrers": [
           {
             "emplaçament": "",
             "motiu": "Mural de ratolins fent un “castell”",
-            "colla": "Colla Jove de Castellers de Sitges",
+            "colla": "",
             "fotos": [
               {
                 "url": "fotos/carrers/XC27.jpeg",
