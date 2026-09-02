@@ -125,8 +125,17 @@ html, body, #map {
 
     border-radius: 5px;
 
-}
+    width: 360px;
 
+    max-width: calc(100vw - 40px);
+
+    max-height: 75vh;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+}
 #filtres label {
 
     display: block;
@@ -242,10 +251,70 @@ html, body, #map {
 
     }
 
+
+   #filtres.informacioOberta {
+    height: calc(100vh - 85px);
+    max-height: calc(100vh - 95px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#filtres.informacioOberta #informacioMapa {
+    display: block !important;
+    position: absolute;
+    top: 530px;
+    left: 8px;
+    right: 8px;
+    bottom: 35px;
+    max-height: none !important;
+    height: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+
+#filtres.informacioOberta #comptadorLocalitzacions {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    right: 8px;
+    background: white;
+    z-index: 10;
 }
 
 
 
+
+
+}
+
+
+/* Informació amb scroll en ordinador */
+@media (min-width: 601px) {
+
+    #filtres.informacioOberta {
+        height: calc(100vh - 30px);
+        max-height: calc(100vh - 30px);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #filtres.informacioOberta #informacioMapa {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 5px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+
+}
 
 
 </style>
@@ -341,6 +410,89 @@ html, body, #map {
     <input type="checkbox" id="fcolles">
     🏠 Local o localització de colla
 </label>
+
+<hr>
+
+<div id="botoInformacio" style="cursor: pointer; text-align: center; margin: 10px 0;">
+    <u>+ informació</u>
+</div>
+
+<div id="informacioMapa" style="display: none; margin: 10px 0; line-height: 1.4; font-size: 14px;">
+
+    <h4>Sobre aquest mapa</h4>
+
+    <p>
+        Aquest mapa recull elements relacionats amb les torres humanes dels Països Catalans i la seva memòria.
+    </p>
+    <p>
+        Aquest és un projecte voluntari fet des de l'amor als castells, i en construcció. Poden haver-hi dades inexactes o faltar informació i qualsevol aportació, rectificació o comentari és benvingut.
+        
+    </p>
+    <p>
+         <b>Ens voleu ajudar? Envieu-nos un missatge a Instagram @plaquescastelleres o per email a xorquemada [arrova] gmail.com. </b>
+    </p>
+   
+   <h4>Tradicions</h4>
+
+    <p>
+        El mapa inclou actualment tres tipus de construccions humanes ("tradicions"):
+    </p>
+
+    <p>
+        <strong>Castells · Muixerangues · Falcons</strong>
+    </p>
+
+    <p>
+        Els filtres permeten mostrar o amagar les localitzacions de cada tradició (si una mateixa localització té elements de 2 o més tradicions, aquests es mostraran amb qualsevol de les tradicions seleccionades).
+    </p>
+
+   
+    <p>
+        Hi trobaràs diferents tipus d'elements patrimonials:
+    </p>
+
+    <p>
+        <strong>🏠 Local o localització de colla</strong><br>
+        Locals de colles o, en el cas de colles desaparegudes o sense informació, indiquen la presència d'una colla en la població, amb un enllaç al web o xarxes socials. En cada colla hi ha informació sobre el seu nivell/construccions màximes assolides, i l'any en que es va assolir per primer cop.
+    </p>
+
+    <p>
+        <strong>🪧 Plaques commemoratives</strong><br>
+        Plaques que recorden actuacions, castells, efemèrides o altres fets relacionats amb les torres humanes.
+    </p>
+
+    <p>
+        <strong>🏛️ Monuments</strong><br>
+        Monuments i altres elements commemoratius. Amb informació sobre l'any d'inauguració, autor, etc.
+    </p>
+
+    <p>
+        <strong>9️⃣ Places de 9 i 🔟 Places de 10</strong><br>
+        Places on s'han assolit castells de 9 o de 10 pisos, d'acord amb les dades disponibles a la Viquipèdia.
+    </p>
+
+    <p>
+        <strong>🛣️ Altres elements</strong><br>
+        Localitzacions relacionades amb les torres humanes, principalment carrers amb algun nom relacionat i murals.
+    </p>
+
+        <h4>Com utilitzar el mapa</h4>
+
+    <p>
+        Pots combinar els diferents filtres per localitzar els elements que t'interessin, filtrant també per tradició. També pots cercar una població i/o una colla concretes, i consultar els elements patrimonials que hi estan documentats.
+    </p>
+
+    <p>
+        La icona 📍 es mostra quan no hi ha filtres dels diferents elements patrimonials actius, i ens mostra tota la informació d'una localització, mentre que si activem els filtres només veurem en la localització la informació seleccionada.
+    </p>
+
+    <h4>Fotografies</h4>
+
+    <p>
+        Les fotografies incorporades al mapa indiquen, quan està disponible, la seva font, autoria i llicència corresponent. Si disposem d'informació però no tenim autorització ni llicència per compartir-la, veureu un enllaç cap a la font externa. També, si hi ha més d'una foto de l'element, les següents es veuen en enllaços. Si no s'especifica una altra autoria/font, les fotografies pertanyen a Jordi de Mier Vinué (IG @plaquescastelleres).
+    </p>
+
+</div>
 
 <div id="comptadorLocalitzacions">
     📍 Localitzacions mostrades: <strong>0</strong>
@@ -3649,6 +3801,48 @@ document
 
         }
     );
+
+
+document
+    .getElementById("botoInformacio")
+    .addEventListener(
+        "click",
+        function() {
+
+            var informacio =
+                document.getElementById("informacioMapa");
+
+            var boto =
+                document.getElementById("botoInformacio");
+                
+            var filtres =
+                document.getElementById("filtres");
+                
+
+            if (informacio.style.display === "none") {
+
+                informacio.style.display = "block";
+                filtres.classList.add("informacioOberta");
+                boto.innerHTML = "<u>− informació</u>";
+
+            } else {
+
+                informacio.style.display = "none";
+                filtres.classList.remove("informacioOberta");
+                boto.innerHTML = "<u>+ informació</u>";
+
+            }
+
+        }
+    );
+
+
+
+
+
+
+
+
 
 
 </script>
