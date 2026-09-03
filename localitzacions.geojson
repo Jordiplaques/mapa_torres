@@ -1162,7 +1162,7 @@
       },
       "properties": {
         "id": "LC5",
-        "nom": "Baixada del Pilat de Vuit",
+        "nom": "Baixada del Pilar de Vuit",
         "poblacio": "Altafulla ",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -1235,7 +1235,7 @@
         "carrers": [
           {
             "emplaçament": "Baixada del pilar de vuit",
-            "motiu": "Recorda el pdf8m realitzat al S.XIX (1878)",
+            "motiu": "Recorda el pdf8m realitzat al s.XIX (1878)",
             "colla": "Xiquets de Valls (s.XIX)",
             "fotos": [
               {
@@ -36877,7 +36877,7 @@
         "carrers": [
           {
             "emplaçament": "C/Enxaneta D. Sánchez",
-            "motiu": "Homenatge a David Sánchez, enxaneta del Nois de la torre que va morir a causa d’una llenya (1983)",
+            "motiu": "Homenatge a David Sánchez, enxaneta del Nois de la torre que va morir a causa de la caiguda d’un castell (1983)",
             "colla": "Nois de la Torre",
             "fotos": [
               {
@@ -72594,12 +72594,12 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "",
+            "motiu": "Mural tres amb agulla c. Esparreguera (data foto 2026)",
             "colla": "Castellers d’Esparreguera",
             "fotos": [
               {
                 "url": "fotos/carrers/XC14.jpeg",
-                "text": "Mural tres amb agulla c. Esparreguera (data foto 2026)",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -72609,7 +72609,7 @@
               },
               {
                 "url": "",
-                "text": "Paret pintada amb pintada amb una pinya (localització desconeguda, data foto 2026)",
+                "text": "Paret pintada amb una pinya (localització desconeguda, data foto 2026)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -73022,7 +73022,7 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Mural torre amb personatges de Bola de Draic vestits amb les camises de les colles egarenques (data foto 2025)",
+            "motiu": "Mural d’una torre amb personatges de Bola de Draic vestits amb les camises de les colles egarenques (data foto 2025)",
             "colla": "Minyons de Terrassa, Castellers de Terrassa, Bergants del Campus de Terrassa",
             "fotos": [
               {
@@ -73588,7 +73588,7 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Mural castellers amb personatges (data foto 2024) ",
+            "motiu": "Mural d’un castell amb personatges pop (data foto 2024) ",
             "colla": "",
             "fotos": [
               {
@@ -73871,12 +73871,12 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "",
+            "motiu": "Restes mural bar l’enxaneta (data foto 2024)",
             "colla": "",
             "fotos": [
               {
                 "url": "fotos/carrers/XC25a.jpeg",
-                "text": "Restes mural bar l’enxaneta (data foto 2024)",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
