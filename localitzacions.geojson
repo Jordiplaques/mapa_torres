@@ -10637,7 +10637,68 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC221",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "3d9f",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Mencició a Instagram @xiquetscambrils",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/DPcFOBBDLgD/?img_index=1"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [
           {
             "castell": "3d9f",
@@ -11618,7 +11679,68 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC220",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "3d9f (primer de la comarca del Priorat)",
+            "data_castell": "05/07/2025",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Mencició a Instagram @collajovedetarragona",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/DabAyiUDUyD/?img_index=1"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [
           {
             "castell": "3d9f",
@@ -29594,7 +29716,7 @@
       },
       "properties": {
         "id": "LC144",
-        "nom": "Plaça de l’esglèsia (Sant Cugat S.)",
+        "nom": "Plaça de l’Església (Sant Cugat S.)",
         "poblacio": "Sant Cugat Sesgarrigues",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
@@ -75527,6 +75649,151 @@
         ],
         "colles_relacionades": [
           "Senglars de Canyelles"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0518581,
+          41.0745223
+        ]
+      },
+      "properties": {
+        "id": "LC427",
+        "nom": "Plaça de l’Església ",
+        "poblacio": "Cambrils",
+        "comarca": "Baix Camp",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC221",
+            "colla": "Xiquets de Cambrils",
+            "castell": "Primer pilar de 4 (1993)",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "Colocada al 1993, restituïda al 2013",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Menció a Ajuntament de Cambrils",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.cambrils.cat/ca/serveis/festes/entitats-festives/xiquets-de-cambrils"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Xiquets de Cambrils"
         ],
         "monuments": [],
         "carrers": []
