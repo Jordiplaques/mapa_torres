@@ -19265,7 +19265,7 @@
             "castell": "4d8, pd6, 3d8(c)",
             "data_castell": "1952 a 1975",
             "data_placa": "",
-            "incidencies": "(a l’interior de la Societat)",
+            "incidencies": "A l’interior de la Societat",
             "fotos": [
               {
                 "url": "fotos/plaques/PC196a.jpeg",
@@ -42788,7 +42788,7 @@
             "any": "1998",
             "figura": "Escala de 10",
             "autor": "",
-            "altres": "",
+            "altres": "El contorn de la font té la forma de l’escut de la colla",
             "colla": "Falcons de Vilafranca del Penedès",
             "fotos": [
               {
@@ -42810,6 +42810,16 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "fotos/monuments/MC16b.jpeg"
+              },
+              {
+                "url": "",
+                "text": "Vista aèria on sobserva la forma de la font, blog Anem de Blanc",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://anemdeblanc.wordpress.com/2012/04/19/caminada-popular-en-el-14e-aniversari-del-monument-als-falcons/"
               }
             ]
           }
@@ -67393,13 +67403,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7246,
-          41.2268
+          1.7246136,
+          41.2265959
         ]
       },
       "properties": {
         "id": "LC369",
-        "nom": "",
+        "nom": "Peixateria Vella",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "",
@@ -67473,8 +67483,8 @@
             "web": "https://falconsdevilanova.cat",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/colles/CC127.jpg",
+                "text": "Exteriors local guarnits pels 50è aniversari (foto del 2023)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -73442,14 +73452,14 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Falcons de Vilanova"
+          "Falcons de Vilanova i la Geltrú"
         ],
         "monuments": [],
         "carrers": [
           {
             "emplaçament": "",
             "motiu": "Mural 50 aniv. Falcons de Vilanova (data foto 2023)",
-            "colla": "Falcons de Vilanova",
+            "colla": "Falcons de Vilanova i la Geltrú",
             "fotos": [
               {
                 "url": "fotos/carrers/XC21.jpeg",
@@ -75795,6 +75805,149 @@
         "colles_relacionades": [
           "Xiquets de Cambrils"
         ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7229278,
+          41.2270694
+        ]
+      },
+      "properties": {
+        "id": "LC428",
+        "nom": "Agrupacíó de Balls Populars de Vilanova",
+        "poblacio": "Vilanova i la Geltrú",
+        "comarca": "Garraf",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC222",
+            "colla": "",
+            "castell": "Recuperació del ball de valencians a Vilanova",
+            "data_castell": "25/07/2000",
+            "data_placa": "",
+            "incidencies": "A l’interior del local de l’Agrupació",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC222a.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "Rajola amb diferens balls tradicionals i una torre humana",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "fotos/plaques/PC222b.jpg"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [],
         "monuments": [],
         "carrers": []
       }
