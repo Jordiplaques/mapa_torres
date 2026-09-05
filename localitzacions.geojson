@@ -200,7 +200,7 @@
             "nom": "Xiquets de la Vila d’Alcover",
             "fundacio": "1984",
             "inactiva": "2009",
-            "maxim_castell": "4d8 (c)",
+            "maxim_castell": "4d8(c) (1994)",
             "web": "",
             "fotos": [
               {
@@ -8541,7 +8541,7 @@
             "nom": "Arreplegats de la Zona Universitària",
             "fundacio": "1995",
             "inactiva": "",
-            "maxim_castell": "4d8, 3d8 (c) (2025) (colla universitària)",
+            "maxim_castell": "4d8, 3d8(c) (2025) (colla universitària)",
             "web": "https://www.arreplegats.cat",
             "fotos": [
               {
@@ -10639,7 +10639,7 @@
         ],
         "plaques": [
           {
-            "id": "PC221",
+            "id": "PC223",
             "colla": "Colla Jove Xiquets de Tarragona",
             "castell": "3d9f",
             "data_castell": "",
@@ -12029,8 +12029,8 @@
         "plaques": [
           {
             "id": "PC43",
-            "colla": "Colla Nova dels Xiquets de Valls (s.XIX)",
-            "castell": "4d9(c) (primer de la història)",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "castell": "4d9(c) (Colla Nova, primer de la història)",
             "data_castell": "29/08/1881",
             "data_placa": "",
             "incidencies": "",
@@ -12510,7 +12510,7 @@
           }
         ],
         "colles_relacionades": [
-          "Colla Nova dels Xiquets de Valls (s.XIX)",
+          "Xiquets de Valls (s.XIX)",
           "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
           "Castellers de Vilafranca",
@@ -22412,7 +22412,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "",
+                "autor": "Eva Llosa Orriols",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -40221,7 +40221,7 @@
           {
             "id": "PC167",
             "colla": "Falcons de Vilafranca del Penedès",
-            "castell": "50 aniv",
+            "castell": "50è aniversari",
             "data_castell": "2010",
             "data_placa": "",
             "incidencies": "",
@@ -44541,7 +44541,7 @@
                 "text": "",
                 "font": "",
                 "font_url": "",
-                "autor": "Mar Orriols",
+                "autor": "Mar Orriols Martins",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
@@ -53967,7 +53967,7 @@
             "nom": "Castellers de Terrassa",
             "fundacio": "1980",
             "inactiva": "",
-            "maxim_castell": "3d9f (c) (1995)",
+            "maxim_castell": "3d9f(c) (1995)",
             "web": "https://www.castellersdeterrassa.cat/",
             "fotos": [
               {
@@ -55178,7 +55178,7 @@
             "nom": "Falcons del Riberal",
             "fundacio": "2009",
             "inactiva": "",
-            "maxim_castell": "Esclala de 8",
+            "maxim_castell": "Esclala de 8 (2009)",
             "web": "https://www.airenou.cat/activitats/falcons-del-riberal",
             "fotos": [
               {
@@ -55467,7 +55467,7 @@
             "nom": "Colla Castellera de Figueres",
             "fundacio": "1996",
             "inactiva": "",
-            "maxim_castell": "2d7 (c), pd6 (c) (2000)",
+            "maxim_castell": "2d7(c), pd6(c) (2000)",
             "web": "https://www.castellersdefigueres.cat",
             "fotos": [
               {
@@ -57973,7 +57973,7 @@
             "nom": "Minyons de l'Arboç",
             "fundacio": "1958 (refundada 2002)",
             "inactiva": "",
-            "maxim_castell": "2d7, 4d8 (c) (2012)",
+            "maxim_castell": "2d7, 4d8(c) (2012)",
             "web": "http://www.minyonsdelarboc.cat/",
             "fotos": [
               {
@@ -59127,7 +59127,7 @@
             "nom": "Tirallongues de Manresa",
             "fundacio": "1993",
             "inactiva": "",
-            "maxim_castell": "2d8f (c) (2018)",
+            "maxim_castell": "2d8f(c) (2018)",
             "web": "https://tirallongues.cat/",
             "fotos": [
               {
@@ -59415,7 +59415,7 @@
             "nom": "Vailets de Gelida",
             "fundacio": "1986",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "castells de 6 (després de refundació)",
             "web": "https://vailetsdegelida.blogspot.com/",
             "fotos": [
               {
@@ -59703,7 +59703,7 @@
             "nom": "Xics de Granollers",
             "fundacio": "1991",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "7d8, 2d8f (1999)",
             "web": "https://www.xics.cat/",
             "fotos": [
               {
@@ -60135,7 +60135,7 @@
             "nom": "Xiquets de Reus",
             "fundacio": "1981",
             "inactiva": "",
-            "maxim_castell": "4d9f (c), 3d9f (1996)",
+            "maxim_castell": "4d9f(c), 3d9f (1996)",
             "web": "https://xiquetsdereus.cat/",
             "fotos": [
               {
@@ -60279,7 +60279,7 @@
             "nom": "Xiquets de Tarragona",
             "fundacio": "1926",
             "inactiva": "",
-            "maxim_castell": "pd8fm (c), 5d9f (c) (2015)",
+            "maxim_castell": "pd8fm(c), 5d9f(c) (2015)",
             "web": "https://www.xiquetsdetarragona.com/",
             "fotos": [
               {
@@ -60567,7 +60567,7 @@
             "nom": "Xiquets del Serrallo",
             "fundacio": "1988",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "4d8, 3d8 (2026)",
             "web": "https://www.xiquetsdelserrallo.cat/",
             "fotos": [
               {
@@ -63447,7 +63447,7 @@
             "nom": "Jove Muixeranga de València ",
             "fundacio": "2014",
             "inactiva": "",
-            "maxim_castell": "Alta de 5",
+            "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.jovemuixerangadevalencia.org",
             "fotos": [
               {
@@ -63591,7 +63591,7 @@
             "nom": "Muixeranga de la Vall d'Albaida ",
             "fundacio": "2017",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 4 (2019)",
             "web": "https://muixerangavalldalbaida.wordpress.com/",
             "fotos": [
               {
@@ -63735,7 +63735,7 @@
             "nom": "Conlloga Muixeranga de Castelló ",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "Alta de 5",
+            "maxim_castell": "Alta de 6 (2024)",
             "web": "https://www.conllogamuixeranga.com",
             "fotos": [
               {
@@ -64023,7 +64023,7 @@
             "nom": "Muixeranga d'Alginet",
             "fundacio": "2014",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 5 (2024)",
             "web": "https://www.muixerangaalginet.com/",
             "fotos": [
               {
@@ -64167,7 +64167,7 @@
             "nom": "Muixeranga d'Alacant",
             "fundacio": "2014",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.muixalacant.org",
             "fotos": [
               {
@@ -64311,7 +64311,7 @@
             "nom": "Muixeranga la Carabassota",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "4 altures",
+            "maxim_castell": "La Xopera (5 altures, 2026)",
             "web": "https://lacarabassota.com/",
             "fotos": [
               {
@@ -64455,7 +64455,7 @@
             "nom": "Muixeranga d'Algemesí",
             "fundacio": "1973 (hereva 1733)",
             "inactiva": "",
-            "maxim_castell": "Alta de 6",
+            "maxim_castell": "Alta de 6 (1989)",
             "web": "https://www.muixeranga.net",
             "fotos": [
               {
@@ -64599,7 +64599,7 @@
             "nom": "Muixeranga de Barcelona",
             "fundacio": "2014",
             "inactiva": "",
-            "maxim_castell": "Alta de 5",
+            "maxim_castell": "Alta de 5 (2020)",
             "web": "https://www.muixerangabarcelona.cat/",
             "fotos": [
               {
@@ -64887,7 +64887,7 @@
             "nom": "Muixeranga de la Marina Alta",
             "fundacio": "2017",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.instagram.com/muixerangamarinaalta/",
             "fotos": [
               {
@@ -65031,7 +65031,7 @@
             "nom": "Muixeranga de la Safor",
             "fundacio": "2002",
             "inactiva": "",
-            "maxim_castell": "Alta de 5",
+            "maxim_castell": "Alta de 5 (2007)",
             "web": "https://muixerangasafor.wordpress.com/",
             "fotos": [
               {
@@ -65319,7 +65319,7 @@
             "nom": "Muixeranga de Sueca",
             "fundacio": "2006",
             "inactiva": "",
-            "maxim_castell": "Alta de 5",
+            "maxim_castell": "Alta de 5 (2024)",
             "web": "https://lamuixerangadesueca.wordpress.com/",
             "fotos": [
               {
@@ -65463,7 +65463,7 @@
             "nom": "Muixeranga La Torrentina",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 4 (2015)",
             "web": "https://www.instagram.com/mlatorrentina/",
             "fotos": [
               {
@@ -65607,7 +65607,7 @@
             "nom": "Muixeranga de Vinaròs",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "Alta de 4, Mitja Marieta Doble (4 altures, 2019)",
             "web": "https://muixerangavinaros.wordpress.com/",
             "fotos": [
               {
@@ -65751,7 +65751,7 @@
             "nom": "Muixeranga La Socarrà de Xàtiva",
             "fundacio": "2016",
             "inactiva": "",
-            "maxim_castell": "Alta de 4",
+            "maxim_castell": "La Morera, Alta de 5 (2017)",
             "web": "https://www.instagram.com/muixerangadexativa/",
             "fotos": [
               {
@@ -65895,7 +65895,7 @@
             "nom": "Muixeranga El Campello",
             "fundacio": "2016",
             "inactiva": "",
-            "maxim_castell": "4 altures",
+            "maxim_castell": "Alta de 4 (2017)",
             "web": "https://www.instagram.com/muixerangaelcampello/",
             "fotos": [
               {
@@ -66037,9 +66037,9 @@
         "colles": [
           {
             "nom": "Muixeranga de Cullera",
-            "fundacio": "2013",
+            "fundacio": "2011",
             "inactiva": "",
-            "maxim_castell": "4 altures",
+            "maxim_castell": "4 altures (2013)",
             "web": "https://www.instagram.com/muixerangacullera/",
             "fotos": [
               {
@@ -66181,9 +66181,9 @@
         "colles": [
           {
             "nom": "Nova Muixeranga d'Algemesí",
-            "fundacio": "1997",
+            "fundacio": "1997 (hereva 1733)",
             "inactiva": "",
-            "maxim_castell": "Alta de 6",
+            "maxim_castell": "Alta de 6 (2003)",
             "web": "https://www.novamuixeranga.com",
             "fotos": [
               {
@@ -66759,7 +66759,7 @@
             "nom": "Muixeranga Valls del Vinalopó",
             "fundacio": "2019",
             "inactiva": "",
-            "maxim_castell": "4 altures",
+            "maxim_castell": "4 altures (2019)",
             "web": "https://muixerangadelvinalopo.org/",
             "fotos": [
               {
@@ -67047,7 +67047,7 @@
             "nom": "Falcons de Llorenç del Penedès",
             "fundacio": "1942",
             "inactiva": "",
-            "maxim_castell": "Piràmides evolutives, escala de 8",
+            "maxim_castell": "Piràmides evolutives, Escala de 8",
             "web": "https://elcentre.cat/seccions/falcons/",
             "fotos": [
               {
@@ -67191,7 +67191,7 @@
             "nom": "Falcons de Vilafranca del Penedès",
             "fundacio": "1959",
             "inactiva": "",
-            "maxim_castell": "Escala d’11, p6ps",
+            "maxim_castell": "p6ps, Escala d’11(c) (1993)",
             "web": "https://falconsdevilafranca.cat",
             "fotos": [
               {
@@ -67335,7 +67335,7 @@
             "nom": "Falcons de Piera",
             "fundacio": "1996",
             "inactiva": "",
-            "maxim_castell": "Escala de 8",
+            "maxim_castell": "Piràmide de 8, Estrella de 10",
             "web": "https://www.instagram.com/falconspiera/",
             "fotos": [
               {
@@ -67479,7 +67479,7 @@
             "nom": "Falcons de Vilanova i la Geltrú",
             "fundacio": "1972",
             "inactiva": "",
-            "maxim_castell": "Pira d’11 (c)",
+            "maxim_castell": "Pira d’11 (2019)",
             "web": "https://falconsdevilanova.cat",
             "fotos": [
               {
@@ -67623,7 +67623,7 @@
             "nom": "Falcons de Barcelona",
             "fundacio": "2003",
             "inactiva": "",
-            "maxim_castell": "Escala de 9",
+            "maxim_castell": "Escala de 9 (2012)",
             "web": "https://falconsdebarcelona.cat",
             "fotos": [
               {
@@ -67767,7 +67767,7 @@
             "nom": "Falcons de Castellcir",
             "fundacio": "2004",
             "inactiva": "",
-            "maxim_castell": "Escalal de 7",
+            "maxim_castell": "Escalal de 7 ",
             "web": "https://falconsdecastellcir.wordpress.com/",
             "fotos": [
               {
@@ -67911,7 +67911,7 @@
             "nom": "Falcons de Vallbona d’Anoia",
             "fundacio": "2009",
             "inactiva": "",
-            "maxim_castell": "Esclal de 7",
+            "maxim_castell": "Esclal de 7 (2010)",
             "web": "https://falconsdevallbona.blogspot.com/",
             "fotos": [
               {
@@ -68055,8 +68055,8 @@
             "nom": "Falcons de Capellades",
             "fundacio": "2012",
             "inactiva": "",
-            "maxim_castell": "Escala de 7",
-            "web": "http://falconsdecapellades.cat",
+            "maxim_castell": "Escala de 7 (2012)",
+            "web": "https://www.instagram.com/falconsdecapellades/",
             "fotos": [
               {
                 "url": "",
@@ -68199,7 +68199,7 @@
             "nom": "Falcons de Vilanova d’Espoia",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "Escala de 6",
+            "maxim_castell": "Escala de 6 (2016)",
             "web": "https://www.facebook.com/falconsespoia/",
             "fotos": [
               {
@@ -68631,7 +68631,7 @@
             "nom": "Muixeranga de la Plana",
             "fundacio": "2025",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "4 altures",
             "web": "https://www.facebook.com/muixerangadelaplana/",
             "fotos": [
               {
@@ -68775,7 +68775,7 @@
             "nom": "Muixeranga de Carlet",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "Sense informació",
             "web": "https://www.facebook.com/Muixerangadecarlet/",
             "fotos": [
               {
@@ -68919,7 +68919,7 @@
             "nom": "Ball de Locos de l'Olleria",
             "fundacio": "1996",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "Castell dels Locos d’Olleria (5 altures, 2007)",
             "web": "https://elballdelslocos.wordpress.com/",
             "fotos": [
               {
@@ -69063,7 +69063,7 @@
             "nom": "Muixeranga de València",
             "fundacio": "",
             "inactiva": "",
-            "maxim_castell": "",
+            "maxim_castell": "Sense informació",
             "web": "https://www.instagram.com/muixerangavalencia/",
             "fotos": [
               {
@@ -70071,7 +70071,7 @@
             "nom": "Castellers de París",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "2d6, pd5ps (c)",
+            "maxim_castell": "2d6, pd5ps(c)",
             "web": "https://www.castellersdeparis.fr/ca/",
             "fotos": [
               {
@@ -74297,7 +74297,7 @@
         "plaques": [
           {
             "id": "PC194",
-            "colla": "",
+            "colla": "Xiquets de Valls (s.XIX), Colla Joves dels Xiquets de Valls",
             "castell": "Naixement Josep Batet i Llobera",
             "data_castell": "",
             "data_placa": "",
@@ -74359,7 +74359,10 @@
         "places9": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Xiquets de Valls (s.XIX)",
+          "Colla Joves dels Xiquets de Valls"
+        ],
         "monuments": [],
         "carrers": []
       }
@@ -75885,7 +75888,7 @@
         "plaques": [
           {
             "id": "PC222",
-            "colla": "",
+            "colla": "Agrupació de Valls Populars de Vilanova",
             "castell": "Recuperació del ball de valencians a Vilanova",
             "data_castell": "25/07/2000",
             "data_placa": "",
@@ -75947,7 +75950,9 @@
         "places9": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Agrupació de Valls Populars de Vilanova"
+        ],
         "monuments": [],
         "carrers": []
       }
