@@ -405,7 +405,7 @@
             "castell": "40 anys Muixeranga (1973-2013) ",
             "data_castell": "",
             "data_placa": "",
-            "incidencies": "Localització no determinada",
+            "incidencies": "A la Capella de la Troballa",
             "fotos": [
               {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Muixeranga_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
@@ -465,7 +465,7 @@
             "castell": "Muixeranga ",
             "data_castell": "",
             "data_placa": "",
-            "incidencies": "Localització no clara, possiblement a l’interior de la Capella de la Troballa",
+            "incidencies": "Localització no clara, possiblement a la Capella de la Troballa",
             "fotos": [
               {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3._Taulells_de_la_muixeranga_a_la_capella_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
@@ -6477,7 +6477,7 @@
       },
       "properties": {
         "id": "LC32",
-        "nom": "c/Blai (biblioteca)",
+        "nom": "l’interior de ",
         "poblacio": "Barcelona (Poble Sec)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -14038,6 +14038,16 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "Podeu veure un detall de la placa amb poema de Josep Cañas al web Poblesdecatalunya.cat",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.poblesdecatalunya.cat/element.php?e=1320"
               }
             ]
           }
@@ -63732,7 +63742,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Conlloga Muixeranga de Castelló ",
+            "nom": "Conlloga Muixeranga de Castelló",
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Alta de 6 (2024)",
@@ -75952,6 +75962,295 @@
         "colles": [],
         "colles_relacionades": [
           "Agrupació de Valls Populars de Vilanova"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6353779,
+          41.626223
+        ]
+      },
+      "properties": {
+        "id": "LC429",
+        "nom": "Organització de Veïns de Pardinyes",
+        "poblacio": "Lleida (Pardinyes)",
+        "comarca": "Segrià",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC224",
+            "colla": "Castellers de Lleida",
+            "castell": "Inici primers assajos",
+            "data_castell": "1995",
+            "data_placa": "16/03/2025",
+            "incidencies": "En el patí de l’entitat",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Menció al blog La Maranya Digital",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://lamaranya.digital/2025/03/17/castellers-festeja-els-30-anys-dels-seus-inicis-a-pardinyes/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Lleida"
+        ],
+        "monuments": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.598138,
+          41.6281051
+        ]
+      },
+      "properties": {
+        "id": "LC430",
+        "nom": "Universitat de Lleida",
+        "poblacio": "Lleida",
+        "comarca": "Segrià",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Marracos de la UdL",
+            "fundacio": "2001",
+            "inactiva": "",
+            "maxim_castell": "5d7, 2d7f (2023) (colla universitària)",
+            "web": "https://www.instagram.com/losmarracos/",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Marracos de la UdL"
         ],
         "monuments": [],
         "carrers": []
