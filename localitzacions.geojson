@@ -11617,7 +11617,7 @@
       },
       "properties": {
         "id": "LC60",
-        "nom": "Plaça de la Vila (cornudella)",
+        "nom": "Plaça de la Vila (Cornudella)",
         "poblacio": "Cornudella de Montsant",
         "comarca": "Priorat",
         "territori": "Catalunya",
@@ -25579,14 +25579,74 @@
             "incidencies": "",
             "fotos": [
               {
-                "url": "",
-                "text": "Podeu veure-la al mapa de castell.manies.cat",
+                "url": "fotos/plaques/PC113.jpeg",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "https://castell.manies.cat/plaques"
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC225",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
+            "castell": "4d9f, 3d9f",
+            "data_castell": "11/09/2000",
+            "data_placa": "",
+            "incidencies": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC225.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -25694,7 +25754,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
         "carrers": []
@@ -37991,7 +38052,8 @@
         "colles": [],
         "colles_relacionades": [
           "Colla Joves dels Xiquets de Valls",
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [
           {
@@ -38000,7 +38062,7 @@
             "figura": "Piràmide amb estructures de 2d7, pd6, 4d9 ",
             "autor": "Josep Busquets i Òdena",
             "altres": "Inscripció “Valls, gènesi dels castells”",
-            "colla": "Colla Joves dels Xiquets de Valls, Colla Vella dels Xiquets de Valls",
+            "colla": "Colla Joves dels Xiquets de Valls, Colla Vella dels Xiquets de Valls, Xiquets de Valls (s.XIX)",
             "fotos": [
               {
                 "url": "fotos/monuments/MC11a.jpeg",
