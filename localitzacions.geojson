@@ -143,6 +143,7 @@
             "inactiva": "2019",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -202,6 +203,7 @@
             "inactiva": "2009",
             "maxim_castell": "4d8(c) (1994)",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -2745,7 +2747,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer 5d9f carregat del s.XX (24/09/1995), primera diada amb 3 “tripletes màgiques” (o superior) de colles de la mateixa ciutat (24/09/2014)",
+        "altres": "Primer 5d9f carregat del s.XX (24/09/1995).\nPrimera diada amb 3 “tripletes màgiques” (o superior) de colles de la mateixa ciutat (24/09/2014)",
         "fotos": [
           {
             "url": "",
@@ -2996,6 +2998,7 @@
             "inactiva": "1963",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -4426,6 +4429,7 @@
             "inactiva": "",
             "maxim_castell": "3d9f, 9d8 (2014)",
             "web": "https://www.castellersdebarceloba.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC184a.jpg",
@@ -4650,7 +4654,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Les 3 colles de Barcelona que han fet el 2d8f l’han carregat per primer cop en aquesta plaça, la plaça va ser abans de GE (3d8ps, 20/08/200) que de 9",
+        "altres": "Les 3 colles de Barcelona que han fet el 2d8f l’han carregat per primer cop en aquesta plaça. \nLa plaça va ser abans de GE (3d8ps, 20/08/200) que de 9",
         "fotos": [
           {
             "url": "fotos/places9/IX49.jpg",
@@ -5073,6 +5077,7 @@
             "inactiva": "1935",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -8080,6 +8085,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2015)",
             "web": "https://www.castellerssagradafamilia.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -8541,8 +8547,9 @@
             "nom": "Arreplegats de la Zona Universitària",
             "fundacio": "1995",
             "inactiva": "",
-            "maxim_castell": "4d8, 3d8(c) (2025) (colla universitària)",
+            "maxim_castell": "4d8, 3d8(c) (2025) ",
             "web": "https://www.arreplegats.cat",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -8624,7 +8631,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Inici del pilar caminant que els c. de Sants porten fins al Parc de l’Espanya Industrial (615 m.)",
+        "altres": "Inici del pilar caminant que els c. de Sants porten fins al Parc de l’Espanya Industrial per festa major (615 m.)",
         "fotos": [
           {
             "url": "",
@@ -9338,8 +9345,9 @@
             "nom": "Ganàpies de la UAB",
             "fundacio": "1994",
             "inactiva": "",
-            "maxim_castell": "3d8f (2024) (colla universitària)",
+            "maxim_castell": "3d8f (2024) ",
             "web": "https://www.ganapies.cat",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -12396,6 +12404,7 @@
             "inactiva": "1985",
             "maxim_castell": "pd4",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -12455,6 +12464,7 @@
             "inactiva": "2025",
             "maxim_castell": "pd4",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -13473,6 +13483,7 @@
             "inactiva": "1934",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -13532,6 +13543,7 @@
             "inactiva": "1975",
             "maxim_castell": "pd5",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -13591,6 +13603,7 @@
             "inactiva": "2004",
             "maxim_castell": "2d7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -15979,6 +15992,7 @@
             "inactiva": "1984",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -16450,6 +16464,7 @@
             "inactiva": "2020?",
             "maxim_castell": "3d9f (2018)",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -17123,6 +17138,7 @@
             "inactiva": "",
             "maxim_castell": "4d9f, 3d9f (2024)",
             "web": "https://moixiganguers.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -17824,6 +17840,7 @@
             "inactiva": "2005",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -19398,6 +19415,7 @@
             "inactiva": "1935",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -20417,8 +20435,9 @@
             "nom": "Espigolats de la Riera de Gaià",
             "fundacio": "2022",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/espigolats/",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -20625,6 +20644,7 @@
             "inactiva": "1980",
             "maxim_castell": "castells de 6, pd5",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -20684,6 +20704,7 @@
             "inactiva": "2022",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -22124,10 +22145,11 @@
         "colles": [
           {
             "nom": "Gent de Llorenç",
-            "fundacio": "s.XIX ",
+            "fundacio": "1890 o anterior",
             "inactiva": "",
-            "maxim_castell": "Castells de 6, pd5 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6, pd5",
             "web": "https://www.instagram.com/aficionatsllorenc/",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -27502,6 +27524,7 @@
             "inactiva": "2005",
             "maxim_castell": "2d7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -28932,6 +28955,7 @@
             "inactiva": "2007",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -30674,6 +30698,7 @@
             "inactiva": "1985",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -30731,8 +30756,9 @@
             "nom": "Els Castellers Ribetans",
             "fundacio": "2016",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/castellersribetants/",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -31695,6 +31721,7 @@
             "inactiva": "1987",
             "maxim_castell": "2d7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -32101,6 +32128,7 @@
             "inactiva": "2016",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -32836,6 +32864,7 @@
             "inactiva": "",
             "maxim_castell": "4d9(c), 3d10fm (2016)",
             "web": "https://jovedetarragona.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC185.jpg",
@@ -33657,6 +33686,7 @@
             "inactiva": "1897",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -33711,11 +33741,12 @@
             ]
           },
           {
-            "nom": "Xiquets de Tarragoba – Colla Nova",
+            "nom": "Xiquets de Tarragona – Colla Nova",
             "fundacio": "1932",
             "inactiva": "1934",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -33774,7 +33805,7 @@
           "Colla Jove Xiquets de Tarragona",
           "Castellers de Vilafranca",
           "Xiquets de Tarragona – Colla de la Mercè",
-          "Xiquets de Tarragoba – Colla Nova"
+          "Xiquets de Tarragona – Colla Nova"
         ],
         "monuments": [],
         "carrers": []
@@ -36135,8 +36166,9 @@
             "nom": "Minyons de Terrassa",
             "fundacio": "1979",
             "inactiva": "",
-            "maxim_castell": "3d10fm, 4d10fm (2015)\nPrimera colla en carregar un castell de gamma extra al s.XX (1993)\nPrimera colla en descarregar un castell de 10 (1998)",
+            "maxim_castell": "3d10fm, 4d10fm (2015)",
             "web": "https://minyons.cat/",
+            "altres": "Primera colla en carregar un castell de gamma extra al s.XX (1993)\nPrimera colla en descarregar un castell de 10 (1998)",
             "fotos": [
               {
                 "url": "fotos/colles/CC181.jpeg",
@@ -36664,6 +36696,7 @@
             "inactiva": "2026",
             "maxim_castell": "2d6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -37435,7 +37468,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primers 3d9 sense folre carregats de la història (27/10/19), primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024)",
+        "altres": "Primers 3d9 sense folre carregats de la història (27/10/19). \nPrimera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
         "fotos": [
           {
             "url": "",
@@ -37746,6 +37779,127 @@
             "inactiva": "1989",
             "maxim_castell": "3d7",
             "web": "",
+            "altres": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "nom": "Xiquets de Valls (1939-1947)",
+            "fundacio": "1939",
+            "inactiva": "1947",
+            "maxim_castell": "4d8 (1945)",
+            "web": "",
+            "altres": "Coneguda popularment com “La Barreja”, correspon a la unió de les 2 colles vallenques forçada després de la Guerra Civil, amb l’aparició al 1947 de la Colla Vella es trenca aquesta unió forçada.\nGuanyadora dels concursos de castells de Valls de 1941 (empatada amb Nens del Vendrell) i del Vendrell de 1945. ",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "nom": "Xiquets de Valls (s.XIX)",
+            "fundacio": "Segle XIX",
+            "inactiva": "",
+            "maxim_castell": "3d8ps, pd8fm, 5d9f, 4d9, alguns autors parlen de 3d9 i pd7 nets però sense evidències tan clares.",
+            "web": "",
+            "altres": "No correspon a una colla, però utilitzo aquesta etiqueta genèrica per referenciar els monuments, plaques, etc. que fan referència a les gestes dels Xiquets de Valls durant el segle XIX.",
             "fotos": [
               {
                 "url": "",
@@ -37803,7 +37957,9 @@
         "colles_relacionades": [
           "Colla Joves dels Xiquets de Valls",
           "Colla Vella dels Xiquets de Valls",
-          "Xicots de Valls"
+          "Xicots de Valls",
+          "Xiquets de Valls (1939-1947)",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
         "carrers": []
@@ -38662,8 +38818,9 @@
             "nom": "Colla Joves dels Xiquets de Valls",
             "fundacio": "1971 (hereva S. XIX)",
             "inactiva": "",
-            "maxim_castell": "2d9f, 3d9 (2019)\nGuanyadora del concurs de castells de Tarragona en 6 ocasions (1980, 1988, 1990 i 1992, al 1933 com a colla Nova i al 1952 com a Muixerra de Valls)",
+            "maxim_castell": "2d9f, 3d9 (2019)",
             "web": "https://collajoves.cat/",
+            "altres": "Hereva de la colla dels Menestrals (~1805-1840), després colla del Roser (1840-1876) i colla Nova (1876-1939, amb un període breu d’unificació de les 2 colles de Valls entre 1927 i 1929). Després de la Guerra Civil les 2 colles de Valls es veuen forçades a unificar-se. Al 1946-1947 retorna la dualitat de colles a Valls i el que era la colla unificada passa a anomenar-se La Muixerra que evoluciona el 1971 com a Colla Joves dels Xiquets de Valls. \nGuanyadora del concurs de castells de Tarragona en 6 ocasions (1980, 1988, 1990 i 1992, al 1933 com a colla Nova i al 1952 com a Muixerra de Valls), guanyadora del concurs de Vilafranca de 1935 (com a Colla Nova), i del concurs de Reus de 1948 (com a Muixerra).",
             "fotos": [
               {
                 "url": "",
@@ -41567,6 +41724,7 @@
             "inactiva": "1985",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -41626,6 +41784,7 @@
             "inactiva": "2025",
             "maxim_castell": "2d7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -42487,6 +42646,7 @@
             "inactiva": "",
             "maxim_castell": "4d9f, 3d9f (2016)",
             "web": "https://www.xicotsvilafranca.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC180.jpeg",
@@ -42546,6 +42706,7 @@
             "inactiva": "1929",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -43158,8 +43319,9 @@
             "nom": "Castellers de Vilafranca",
             "fundacio": "1948",
             "inactiva": "",
-            "maxim_castell": "2d9f(c), pd9fmp (2026)\nGuanyadora del concurs de castells de Tarragona en 13 ocasions (1972, 1996, 1998, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2022, 2024)\nPrimera colla en carregar un castell de 10 (1998)",
+            "maxim_castell": "2d9f(c), pd9fmp (2026)",
             "web": "https://castellersdevilafranca.cat/",
+            "altres": "Guanyadora del concurs de castells de Tarragona en 13 ocasions (1972, 1996, 1998, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2022, 2024)\nPrimera colla en carregar un castell de 10 (1998)",
             "fotos": [
               {
                 "url": "fotos/colles/CC183.jpeg",
@@ -44737,6 +44899,7 @@
             "inactiva": "1983",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -44796,6 +44959,7 @@
             "inactiva": "1994",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -46107,6 +46271,7 @@
             "inactiva": "",
             "maxim_castell": "2d9fm, pd8fm, 5d9f (2017)",
             "web": "https://capgrossos.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC4a.jpeg",
@@ -46697,6 +46862,7 @@
             "inactiva": "2018",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -46841,6 +47007,7 @@
             "inactiva": "1950",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -46985,6 +47152,7 @@
             "inactiva": "2022",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47129,6 +47297,7 @@
             "inactiva": "2026",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47273,6 +47442,7 @@
             "inactiva": "2022",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47415,8 +47585,9 @@
             "nom": "Mangoners de la Universitat de Perpinyà",
             "fundacio": "2008",
             "inactiva": "2014",
-            "maxim_castell": "Sense informació\n(colla universitària)",
+            "maxim_castell": "Sense informació",
             "web": "",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -47561,6 +47732,7 @@
             "inactiva": "2013",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47705,6 +47877,7 @@
             "inactiva": "2013",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47849,6 +48022,7 @@
             "inactiva": "2007",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -47993,6 +48167,7 @@
             "inactiva": "2023",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48137,6 +48312,7 @@
             "inactiva": "2019",
             "maxim_castell": "castells de 6, 3d7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48281,6 +48457,7 @@
             "inactiva": "2004",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48425,6 +48602,7 @@
             "inactiva": "1986",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48569,6 +48747,7 @@
             "inactiva": "1995",
             "maxim_castell": "pd4",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48795,6 +48974,7 @@
             "inactiva": "2002",
             "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -48939,6 +49119,7 @@
             "inactiva": "1983",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -49083,6 +49264,7 @@
             "inactiva": "2008",
             "maxim_castell": "castells de 7",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -49227,6 +49409,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2016)",
             "web": "https://al-lotsdellevant.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -49432,6 +49615,7 @@
             "inactiva": "",
             "maxim_castell": "3d9f (1999)",
             "web": "https://www.bordegassos.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -49572,10 +49756,11 @@
         "colles": [
           {
             "nom": "Brivalls de Cornudella",
-            "fundacio": "1976 (refundada 2012)",
+            "fundacio": "1976-1985 (refundada 2012)",
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://brivallsdecornudella.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -49865,6 +50050,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersaltafulla.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50009,6 +50195,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersandorra.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50153,6 +50340,7 @@
             "inactiva": "",
             "maxim_castell": "2d7 (2018)",
             "web": "https://castellersdesparreguera.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50297,6 +50485,7 @@
             "inactiva": "",
             "maxim_castell": "3d8 (2017)",
             "web": "http://www.cargolins.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50441,6 +50630,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2016)",
             "web": "https://castellersdebadalona.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50585,6 +50775,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2017)",
             "web": "https://castellersdeberga.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50729,6 +50920,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdecaldes.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -50873,6 +51065,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.capgirats.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51017,6 +51210,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2025)",
             "web": "https://www.castelldefels.org/ca/serveis/cultura/festes/agenda-festes/festa-major-estiu",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51161,6 +51355,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersdecerdanyola.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51305,6 +51500,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (1995)",
             "web": "https://castellersdecornella.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51449,6 +51645,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersadroc.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51593,6 +51790,7 @@
             "inactiva": "2023?",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51737,6 +51935,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.guillatsdelaselva.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -51881,6 +52080,7 @@
             "inactiva": "",
             "maxim_castell": "4d9f, 3d9f (2014)",
             "web": "https://www.cvg.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52025,6 +52225,7 @@
             "inactiva": "",
             "maxim_castell": "2d8f, pd7f(c) (2008)",
             "web": "https://www.castellersdelleida.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52169,6 +52370,7 @@
             "inactiva": "",
             "maxim_castell": "4d8(c) (2011)",
             "web": "https://www.castellersdemallorca.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52313,6 +52515,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdemediona.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52457,6 +52660,7 @@
             "inactiva": "",
             "maxim_castell": "2d7(c) (2024)",
             "web": "https://www.castellersdemollet.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52601,6 +52805,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdemontcadaireixac.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52745,6 +52950,7 @@
             "inactiva": "",
             "maxim_castell": "4d9f, 3d9f (2014)",
             "web": "https://www.saballuts.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -52889,6 +53095,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6, pd5",
             "web": "https://passadors.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -53033,6 +53240,7 @@
             "inactiva": "",
             "maxim_castell": "3d9f (2017)",
             "web": "https://www.gausacs.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC27.jpeg",
@@ -53177,6 +53385,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersdesantfeliu.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -53321,6 +53530,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://carallots.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -53465,6 +53675,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersdesantacoloma.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -53609,6 +53820,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdesantpedor.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -53753,6 +53965,7 @@
             "inactiva": "",
             "maxim_castell": "2d9fm, pd8fm, 5d9f (2016)",
             "web": "https://www.borinots.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC32.jpg",
@@ -53893,10 +54106,11 @@
         "colles": [
           {
             "nom": "Castellers de Sarrià",
-            "fundacio": "1999 (refundada 2016)",
+            "fundacio": "1999-2005 (refundada 2016)",
             "inactiva": "",
             "maxim_castell": "4d8 (2025)",
             "web": "https://www.castellersdesarria.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54041,6 +54255,7 @@
             "inactiva": "",
             "maxim_castell": "3d9f(c) (1995)",
             "web": "https://www.castellersdeterrassa.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54185,6 +54400,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersdetortosa.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54329,6 +54545,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://castellersdeviladecans.blogspot.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54473,6 +54690,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://ccbaixmontseny.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54617,6 +54835,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.instagram.com/castellersdelfoix/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54761,6 +54980,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/malfargatsdepallars/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -54905,6 +55125,7 @@
             "inactiva": "",
             "maxim_castell": "3d8 (2015)",
             "web": "https://www.bandidots.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55049,6 +55270,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdelprat.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55193,6 +55415,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.airenou.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55252,6 +55475,7 @@
             "inactiva": "",
             "maxim_castell": "Esclala de 8 (2009)",
             "web": "https://www.airenou.cat/activitats/falcons-del-riberal",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55397,6 +55621,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.ccerdanya.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55541,6 +55766,7 @@
             "inactiva": "",
             "maxim_castell": "2d7(c), pd6(c) (2000)",
             "web": "https://www.castellersdefigueres.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55685,6 +55911,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.maduixots.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55829,6 +56056,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://esquerdats.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -55973,6 +56201,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/potes.roges/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -56117,6 +56346,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://elsencantats.blogspot.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -56261,6 +56491,7 @@
             "inactiva": "",
             "maxim_castell": "3d8 (2024)",
             "web": "https://www.jovedebarcelona.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -56405,6 +56636,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://bousbisbal.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC50a.jpeg",
@@ -56549,6 +56781,7 @@
             "inactiva": "",
             "maxim_castell": "5d8, 4d8a (2026)",
             "web": "https://www.ccspisp.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -56751,6 +56984,7 @@
             "inactiva": "",
             "maxim_castell": "3d8 (2025)",
             "web": "https://jovedesitges.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -56895,6 +57129,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.instagram.com/collajovelh/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57037,8 +57272,9 @@
             "nom": "Colla Vella dels Xiquets de Valls",
             "fundacio": "1947 (hereva S. XIX)",
             "inactiva": "",
-            "maxim_castell": "4d10fm, 3d9 (2019)\nGuanyadora del concurs de castells de Tarragona en 9 ocasions (1954, 1956, 1982, 1984, 1986, 1994, 2000, 2018 i 1932 com a antiga colla Vella)\nPrimera colla en descarregar un castell de 9 (1981) i un castell de gamma extra (1994) al segle XX",
+            "maxim_castell": "4d10fm, 3d9 (2019)",
             "web": "https://www.collavella.cat",
+            "altres": "Inicialment com a Colla dels Pagesos a principis del s.XIX i la Muixerra (cap a 1820), després de la Guerra Civil es produeix la fusió de les 2 colles vallenques i al 1947 es reorganitza la Colla Vella.\nGuanyadora del concurs de castells de Tarragona en 9 ocasions (1954, 1956, 1982, 1984, 1986, 1994, 2000, 2018 i 1932 com a antiga colla Vella), guanyadora del concurs de castells de La Ciutadella (1902), del concurs Jorba-Preciados de Barcelona en 3 ocasions (1964, 1965, 1966) i dels concursos de castells de Vilafranca (1962 i 1973).\nPrimera colla en descarregar un castell de 9 (1981) i un castell de gamma extra (1994) al segle XX",
             "fotos": [
               {
                 "url": "",
@@ -57183,6 +57419,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://ccesperxats.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57327,6 +57564,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://laietansdegramenet.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57471,6 +57709,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://manyacs.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57615,6 +57854,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2011)",
             "web": "https://margeners.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57759,6 +57999,7 @@
             "inactiva": "",
             "maxim_castell": "3d9f (2017)",
             "web": "https://marrecs.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -57903,6 +58144,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://matossers.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -58047,6 +58289,7 @@
             "inactiva": "",
             "maxim_castell": "2d7, 4d8(c) (2012)",
             "web": "http://www.minyonsdelarboc.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -58191,6 +58434,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6, pd5",
             "web": "https://www.minyonsdesantacristina.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -58479,8 +58723,9 @@
             "nom": "Nens del Vendrell",
             "fundacio": "1926",
             "inactiva": "",
-            "maxim_castell": "3d9f, 4d9f (2024) \nGuanyadors del concurs de castells de Tarragona en 2 ocasions  (1952 i 1970)",
+            "maxim_castell": "3d9f, 4d9f (2024) ",
             "web": "https://nensdelvendrell.cat",
+            "altres": "Guanyadors del concurs de castells de Tarragona en 2 ocasions  (1952 i 1970). guanyadors del concurs de castells de Barcelona de 1936 i de Valls de 1941 (empatat amb els Xiquets de Valls unificats), i dels trofeus Anxaneta de Plata (Vilafranca del Penedès, 1968, 1969, 1970 i 1971).\nÉs la colla més antiga que ha mantigut el mateix nom.",
             "fotos": [
               {
                 "url": "",
@@ -58625,6 +58870,7 @@
             "inactiva": "",
             "maxim_castell": "4d8 (2025)",
             "web": "https://www.instagram.com/noisdelatorre/",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC65.jpeg",
@@ -58769,6 +59015,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://pallagos.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -58913,6 +59160,7 @@
             "inactiva": "",
             "maxim_castell": "5d8 (2017)",
             "web": "http://sagals.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59057,6 +59305,7 @@
             "inactiva": "",
             "maxim_castell": "2d7 (2016)",
             "web": "https://www.salats.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59201,6 +59450,7 @@
             "inactiva": "",
             "maxim_castell": "2d8f(c) (2018)",
             "web": "https://tirallongues.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59345,6 +59595,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://usuaris.tinet.cat/torraire/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59489,6 +59740,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6 (després de refundació)",
             "web": "https://vailetsdegelida.blogspot.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59633,6 +59885,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "http://www.xerrics.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59777,6 +60030,7 @@
             "inactiva": "",
             "maxim_castell": "7d8, 2d8f (1999)",
             "web": "https://www.xics.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -59921,6 +60175,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6, pd5",
             "web": "https://xiquelosixiquelesdeldelta.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60065,6 +60320,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://xiquetsdecambrils.carrd.co/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60209,6 +60465,7 @@
             "inactiva": "",
             "maxim_castell": "4d9f(c), 3d9f (1996)",
             "web": "https://xiquetsdereus.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60353,6 +60610,7 @@
             "inactiva": "",
             "maxim_castell": "pd8fm(c), 5d9f(c) (2015)",
             "web": "https://www.xiquetsdetarragona.com/",
+            "altres": "A partir de la reorganització dels Xiquets de Tarragona al 1926, que adoptaren després el nom de “colla Vella” (1932) en contraposació a la “colla Nova”. Després de la Guerra Civil tornen a ser “Xiquets de Tarragona” (principalment castellers de la “colla Vella”), i posteriorment apareix la “Colla Nova de Sant Magí” (1951), tornant els Xiquets de Tarragona a ser la “colla Vella”. Al 1970 es fusionen la colla nova i vella per donar lloc als Xiquets de Tarragona actuals.",
             "fotos": [
               {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tarragona_-_Placa_Xiquets_de_Tarragona.jpg/1920px-Tarragona_-_Placa_Xiquets_de_Tarragona.jpg?utm_source=ca.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -60497,6 +60755,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.xiquetsdevila-seca.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60641,6 +60900,7 @@
             "inactiva": "",
             "maxim_castell": "4d8, 3d8 (2026)",
             "web": "https://www.xiquetsdelserrallo.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60785,6 +61045,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://escarlats.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -60929,6 +61190,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6, pd5",
             "web": "https://castellersgava.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -61071,8 +61333,9 @@
             "nom": "Castellers del Lluçanès",
             "fundacio": "2024",
             "inactiva": "",
-            "maxim_castell": "(en formació)",
+            "maxim_castell": "",
             "web": "https://www.instagram.com/castellersllucanes/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -61215,8 +61478,9 @@
             "nom": "Colla Castellera d'Horta",
             "fundacio": "2026",
             "inactiva": "",
-            "maxim_castell": "(en formació)",
+            "maxim_castell": "",
             "web": "https://www.instagram.com/collacastelleradhorta/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -61359,8 +61623,9 @@
             "nom": "Bergants del Campus de Terrassa ",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "3d8f (2025) (colla universitària)",
+            "maxim_castell": "3d8f (2025) ",
             "web": "https://www.instagram.com/bergants.ct/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -61503,8 +61768,9 @@
             "nom": "Descargolats de l'EEBE",
             "fundacio": "2024",
             "inactiva": "",
-            "maxim_castell": "castells de 7 (colla universitària)",
+            "maxim_castell": "castells de 7 ",
             "web": "https://www.instagram.com/descargolats/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -61647,8 +61913,9 @@
             "nom": "Emboirats de la Universitat de Vic",
             "fundacio": "2003",
             "inactiva": "",
-            "maxim_castell": "castells de 7 (colla universitària)",
+            "maxim_castell": "castells de 7",
             "web": "https://www.instagram.com/emboirats.uvic/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -61791,8 +62058,9 @@
             "nom": "Engrescats de la URL",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "castells de 7 (colla universitària)",
+            "maxim_castell": "castells de 7 ",
             "web": "https://www.instagram.com/engrescatsurl/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -61933,10 +62201,11 @@
         "colles": [
           {
             "nom": "Gambirots de la UIB",
-            "fundacio": "2003 (refundada 2024)",
+            "fundacio": "2003-2010 (refundada 2024)",
             "inactiva": "",
             "maxim_castell": "Estructures de 5, pd4 ",
             "web": "https://www.instagram.com/gambirots/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62079,8 +62348,9 @@
             "nom": "Grillats del Campus del Baix Llobregat",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "castells de 6 (colla universitària)",
+            "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/grillatscbl/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62223,8 +62493,9 @@
             "nom": "Llunàtics UPC Vilanova",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "castells de 7 (colla universitària)",
+            "maxim_castell": "castells de 7 ",
             "web": "https://llunaticsupcvilanova.wordpress.com/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62367,8 +62638,9 @@
             "nom": "Passerells del TCM",
             "fundacio": "2011",
             "inactiva": "",
-            "maxim_castell": "2d7f, pd6f (2015) (colla universitària)",
+            "maxim_castell": "2d7f, pd6f (2015) ",
             "web": "https://passerells.tecnocampus.cat/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62511,8 +62783,9 @@
             "nom": "Pataquers de la URV",
             "fundacio": "2007",
             "inactiva": "",
-            "maxim_castell": "3d8f (2024) (colla universitària)",
+            "maxim_castell": "3d8f (2024) ",
             "web": "https://sites.google.com/view/pataquersurv/inici",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62655,8 +62928,9 @@
             "nom": "Penjats del Campus de Manresa",
             "fundacio": "2013",
             "inactiva": "",
-            "maxim_castell": "castells de 6 (colla universitària)",
+            "maxim_castell": "castells de 6 ",
             "web": "https://www.instagram.com/penjatsdelcampus/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62799,8 +63073,9 @@
             "nom": "Trempats de la UPF",
             "fundacio": "2014",
             "inactiva": "",
-            "maxim_castell": "2d7f (2024) (colla universitària)",
+            "maxim_castell": "2d7f (2024) ",
             "web": "https://trempatsupf.blogspot.com/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -62943,8 +63218,9 @@
             "nom": "Xoriguers de la UdG",
             "fundacio": "1998",
             "inactiva": "",
-            "maxim_castell": "2d7f (2013) (colla universitària)",
+            "maxim_castell": "2d7f (2013) ",
             "web": "https://www.xoriguers-udg.com/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",
@@ -63089,6 +63365,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6, pd5",
             "web": "https://collacastellerademadrid.net/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63233,6 +63510,7 @@
             "inactiva": "",
             "maxim_castell": "pd4",
             "web": "https://mataresos.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63377,6 +63655,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://ehcastellertaldea.eus/ca",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63521,6 +63800,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.jovemuixerangadevalencia.org",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63665,6 +63945,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 4 (2019)",
             "web": "https://muixerangavalldalbaida.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63809,6 +64090,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 6 (2024)",
             "web": "https://www.conllogamuixeranga.com",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -63953,6 +64235,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.instagram.com/muixerangamarinabaixa/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64097,6 +64380,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2024)",
             "web": "https://www.muixerangaalginet.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64241,6 +64525,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.muixalacant.org",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64385,6 +64670,7 @@
             "inactiva": "",
             "maxim_castell": "La Xopera (5 altures, 2026)",
             "web": "https://lacarabassota.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64529,6 +64815,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 6 (1989)",
             "web": "https://www.muixeranga.net",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64673,6 +64960,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2020)",
             "web": "https://www.muixerangabarcelona.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64817,6 +65105,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://penyetablanca.org/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -64961,6 +65250,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2018)",
             "web": "https://www.instagram.com/muixerangamarinaalta/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65105,6 +65395,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2007)",
             "web": "https://muixerangasafor.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65249,6 +65540,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.instagram.com/muixerangaelsnegrets/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65393,6 +65685,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2024)",
             "web": "https://lamuixerangadesueca.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65537,6 +65830,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 4 (2015)",
             "web": "https://www.instagram.com/mlatorrentina/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65681,6 +65975,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 4, Mitja Marieta Doble (4 altures, 2019)",
             "web": "https://muixerangavinaros.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65825,6 +66120,7 @@
             "inactiva": "",
             "maxim_castell": "La Morera, Alta de 5 (2017)",
             "web": "https://www.instagram.com/muixerangadexativa/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -65969,6 +66265,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 4 (2017)",
             "web": "https://www.instagram.com/muixerangaelcampello/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66113,6 +66410,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures (2013)",
             "web": "https://www.instagram.com/muixerangacullera/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66257,6 +66555,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 6 (2003)",
             "web": "https://www.novamuixeranga.com",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66401,6 +66700,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.instagram.com/muixerangadesegaria/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66545,6 +66845,7 @@
             "inactiva": "",
             "maxim_castell": "3 altures",
             "web": "https://muixerangadelx.com/es/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66689,6 +66990,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.instagram.com/muixerangadelsports/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66833,6 +67135,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures (2019)",
             "web": "https://muixerangadelvinalopo.org/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -66977,6 +67280,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.instagram.com/muixerangadelcarraixet/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67121,6 +67425,7 @@
             "inactiva": "",
             "maxim_castell": "Piràmides evolutives, Escala de 8",
             "web": "https://elcentre.cat/seccions/falcons/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67265,6 +67570,7 @@
             "inactiva": "",
             "maxim_castell": "p6ps, Escala d’11(c) (1993)",
             "web": "https://falconsdevilafranca.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67409,6 +67715,7 @@
             "inactiva": "",
             "maxim_castell": "Piràmide de 8, Estrella de 10",
             "web": "https://www.instagram.com/falconspiera/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67553,10 +67860,11 @@
             "inactiva": "",
             "maxim_castell": "Pira d’11 (2019)",
             "web": "https://falconsdevilanova.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "fotos/colles/CC127.jpg",
-                "text": "Exteriors local guarnits pels 50è aniversari (foto del 2023)",
+                "text": "Exteriors local guarnits pel 50è aniversari (foto del 2023)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -67697,6 +68005,7 @@
             "inactiva": "",
             "maxim_castell": "Escala de 9 (2012)",
             "web": "https://falconsdebarcelona.cat",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67841,6 +68150,7 @@
             "inactiva": "",
             "maxim_castell": "Escalal de 7 ",
             "web": "https://falconsdecastellcir.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -67985,6 +68295,7 @@
             "inactiva": "",
             "maxim_castell": "Esclal de 7 (2010)",
             "web": "https://falconsdevallbona.blogspot.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68129,6 +68440,7 @@
             "inactiva": "",
             "maxim_castell": "Escala de 7 (2012)",
             "web": "https://www.instagram.com/falconsdecapellades/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68273,6 +68585,7 @@
             "inactiva": "",
             "maxim_castell": "Escala de 6 (2016)",
             "web": "https://www.facebook.com/falconsespoia/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68417,6 +68730,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.casalcatalatolosa.cat/activitats/castellers-de-tolosa/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68561,6 +68875,7 @@
             "inactiva": "2006",
             "maxim_castell": "pd4ps",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68705,6 +69020,7 @@
             "inactiva": "",
             "maxim_castell": "4 altures",
             "web": "https://www.facebook.com/muixerangadelaplana/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68849,6 +69165,7 @@
             "inactiva": "",
             "maxim_castell": "Sense informació",
             "web": "https://www.facebook.com/Muixerangadecarlet/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -68993,6 +69310,7 @@
             "inactiva": "",
             "maxim_castell": "Castell dels Locos d’Olleria (5 altures, 2007)",
             "web": "https://elballdelslocos.wordpress.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69137,6 +69455,7 @@
             "inactiva": "",
             "maxim_castell": "Sense informació",
             "web": "https://www.instagram.com/muixerangavalencia/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69281,6 +69600,7 @@
             "inactiva": "",
             "maxim_castell": "estructures de 5",
             "web": "https://castellersestocolm.se/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69425,6 +69745,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://catalans.ie/castellers-deire/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69569,6 +69890,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://ccboston.cat/castellersboston_cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69713,6 +70035,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.catalansasuissa.org/castellers/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -69857,6 +70180,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 7",
             "web": "https://www.castellersdeloprado.cat/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70001,6 +70325,7 @@
             "inactiva": "",
             "maxim_castell": "pd4",
             "web": "https://www.castellersdemontreal.info/ca/inici/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70145,6 +70470,7 @@
             "inactiva": "",
             "maxim_castell": "2d6, pd5ps(c)",
             "web": "https://www.castellersdeparis.fr/ca/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70289,6 +70615,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/castellerssyd/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70433,6 +70760,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://cczuric.cat/castellers/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70577,6 +70905,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.castellersoflondon.org.uk/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70721,6 +71050,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.collacastelleraedinburgh.com/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -70865,6 +71195,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://castellers.berlin/inici/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71009,6 +71340,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/mannekesbru/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71153,6 +71485,7 @@
             "inactiva": "",
             "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/xiquetscopenhagen/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71297,6 +71630,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://ccvictoria.cat/2025/03/10/colla-castellera-koales-de-melbourne-2/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71441,6 +71775,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://www.instagram.com/castellereshelsinki/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71585,6 +71920,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://www.instagram.com/castellersdetokyo/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71729,6 +72065,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "https://cerclecatala.cat/castellers-de-marsella/",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -71873,6 +72210,7 @@
             "inactiva": "",
             "maxim_castell": "",
             "web": "",
+            "altres": "",
             "fotos": [
               {
                 "url": "",
@@ -72015,8 +72353,9 @@
             "nom": "Aficionats Albinyana",
             "fundacio": "2023",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -72159,8 +72498,9 @@
             "nom": "Aficionats de Masabornès",
             "fundacio": "2001",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6",
             "web": "",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -72303,8 +72643,9 @@
             "nom": "Escatllots del Pla",
             "fundacio": "2024",
             "inactiva": "",
-            "maxim_castell": "Castells de 7 (aficionats de la vila que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 7",
             "web": "https://www.instagram.com/escatllotsdelpla/",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -72371,8 +72712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.1297181,
-          41.3869429
+          2.1322284,
+          41.3867723
         ]
       },
       "properties": {
@@ -72447,8 +72788,9 @@
             "nom": "Panarres de les Corts",
             "fundacio": "2015",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 (aficionats del barri que aixequen castells per la festa major)",
+            "maxim_castell": "castells de 6",
             "web": "https://www.instagram.com/panarres/",
+            "altres": "Aficionats del barri que aixequen castells per la festa major.",
             "fotos": [
               {
                 "url": "",
@@ -74665,8 +75007,9 @@
             "nom": "Colla Castellera Los Xiquets de Flix",
             "fundacio": "2024",
             "inactiva": "",
-            "maxim_castell": "(en formació)",
+            "maxim_castell": "",
             "web": "https://www.instagram.com/losxiquetsdeflix/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -74809,8 +75152,9 @@
             "nom": "Merlets del Montgrí",
             "fundacio": "2025",
             "inactiva": "",
-            "maxim_castell": "Castells de 6 \n(en formació)",
+            "maxim_castell": "castells de 6 ",
             "web": "https://www.instagram.com/merletsdelmontgri/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -74953,8 +75297,9 @@
             "nom": "Castellers de Tramuntana",
             "fundacio": "2022",
             "inactiva": "",
-            "maxim_castell": "Pd4 \n(en formació)",
+            "maxim_castell": "Pd4 ",
             "web": "https://www.instagram.com/castellersdetramuntana/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -75097,8 +75442,9 @@
             "nom": "Boixes i Boixos d’Eivissa",
             "fundacio": "2023",
             "inactiva": "",
-            "maxim_castell": "Pd4 \n(en formació)",
+            "maxim_castell": "Pd4 ",
             "web": "https://www.instagram.com/boixesiboixosdeivissa/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -75532,8 +75878,9 @@
             "nom": "Vailets de Synera",
             "fundacio": "2026",
             "inactiva": "",
-            "maxim_castell": "(en formació)",
+            "maxim_castell": "",
             "web": "https://www.instagram.com/vailetsdesynera/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -75676,8 +76023,9 @@
             "nom": "Senglars de Canyelles",
             "fundacio": "2026",
             "inactiva": "",
-            "maxim_castell": "(en formació)",
+            "maxim_castell": "",
             "web": "https://www.instagram.com/senglarscanyelles/",
+            "altres": "En formació",
             "fotos": [
               {
                 "url": "",
@@ -75819,7 +76167,7 @@
             "castell": "Primer pilar de 4 (1993)",
             "data_castell": "",
             "data_placa": "",
-            "incidencies": "Colocada al 1993, restituïda al 2013",
+            "incidencies": "Colocada al 1994, restituïda al 2013",
             "fotos": [
               {
                 "url": "",
@@ -76255,8 +76603,9 @@
             "nom": "Marracos de la UdL",
             "fundacio": "2001",
             "inactiva": "",
-            "maxim_castell": "5d7, 2d7f (2023) (colla universitària)",
+            "maxim_castell": "5d7, 2d7f (2023) ",
             "web": "https://www.instagram.com/losmarracos/",
+            "altres": "Colla universitària",
             "fotos": [
               {
                 "url": "",

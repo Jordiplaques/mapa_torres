@@ -2093,6 +2093,11 @@ html += "🔗 " +
                 colla.maxim_castell;
         }
 
+// ALTRES
+        if (colla.altres && colla.altres.trim()) {
+            html += "<br><strong>Informació addicional:</strong> " +
+               colla.altres.replace(/\n/g, "<br>");
+}
 
         // FOTOGRAFIES
         if (teFotos) {
@@ -2210,9 +2215,9 @@ html += "🔗 " +
 }
             if (p.altres) {
 
-                html += "<li>ℹ️ " +
-                        p.altres +
-                        "</li>";
+               html += "<li>ℹ️ " +
+                  p.altres.replace(/\n/g, "<br>") +
+                  "</li>";
 
             }
 
@@ -3487,6 +3492,11 @@ if (
                 colla.maxim_castell;
         }
 
+// ALTRES
+        if (colla.altres && colla.altres.trim()) {
+            html += "<br><strong>Informació addicional:</strong> " +
+               colla.altres.replace(/\n/g, "<br>");
+        }
 
         // FOTOGRAFIES
         if (teFotos) {
@@ -3626,8 +3636,8 @@ if (
 ) {
 
             html += "<li>ℹ️ " +
-                    p.altres +
-                    "</li>";
+               p.altres.replace(/\n/g, "<br>") +
+               "</li>";
 
         }
 
