@@ -21407,75 +21407,11 @@
                 "enllac_extern": ""
               }
             ]
-          },
-          {
-            "nom": "Castellers de les Gavarres",
-            "fundacio": "2015",
-            "inactiva": "2022",
-            "maxim_castell": "castells de 6",
-            "web": "",
-            "altres": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
           }
         ],
         "colles_relacionades": [
           "Xics de Granollers",
-          "Castellers de la Roca",
-          "Castellers de les Gavarres"
+          "Castellers de la Roca"
         ],
         "monuments": [],
         "carrers": []
@@ -33374,8 +33310,8 @@
       },
       "properties": {
         "id": "LC156",
-        "nom": "Plaça Catalunya (Sant Pere i Sant Pau)",
-        "poblacio": "Tarragona",
+        "nom": "Plaça Catalunya ",
+        "poblacio": "Tarragona (Sant Pere i Sant Pau)",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -35344,7 +35280,7 @@
       "properties": {
         "id": "LC165",
         "nom": "Plaça del Bisbe Bonet",
-        "poblacio": "Tarragona",
+        "poblacio": "Tarragona (El Serrallo)",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -50576,8 +50512,74 @@
         "plaques": [],
         "places9": [],
         "places10": [],
-        "colles": [],
-        "colles_relacionades": [],
+        "colles": [
+          {
+            "nom": "Castellers de les Gavarres",
+            "fundacio": "2015",
+            "inactiva": "2022",
+            "maxim_castell": "castells de 6",
+            "web": "",
+            "altres": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Castellers de les Gavarres"
+        ],
         "monuments": [],
         "carrers": []
       }
@@ -58566,7 +58568,7 @@
       "properties": {
         "id": "LC293",
         "nom": "Sant Pere i Sant Pau",
-        "poblacio": "Tarragona",
+        "poblacio": "Tarragona (Sant Pere i Sant Pau)",
         "comarca": "Tarragonès",
         "territori": "",
         "pais": "",
@@ -62772,7 +62774,7 @@
       "properties": {
         "id": "LC321",
         "nom": "",
-        "poblacio": "Tarragona",
+        "poblacio": "Tarragona (El Serrallo)",
         "comarca": "Tarragonès",
         "territori": "",
         "pais": "",
