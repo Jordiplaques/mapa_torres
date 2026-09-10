@@ -18523,13 +18523,13 @@
       "properties": {
         "id": "LC89",
         "nom": "Plaça Mossèn Gaietà Viaplana",
-        "poblacio": "L’Arboç",
+        "poblacio": "L'Arboç",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
         "pais": "PPCC",
         "adreca": "Plaça Mossèn Gaietà Viaplana, L’Arboç, Catalunya, Espanya",
         "castells": "Sí",
-        "muixerangues": "",
+        "muixerangues": "Sí",
         "falcons": "",
         "altres": "",
         "fotos": [
@@ -18587,13 +18587,13 @@
         "plaques": [
           {
             "id": "PC68",
-            "colla": "Ball de valencians del Catllar",
+            "colla": "Ball de valencians del Catllar (s.XVIII)",
             "castell": "Primer castell de 6",
             "data_castell": "22/01/1770",
             "data_placa": "15/07/2023",
             "incidencies": "",
             "castells": "Sí",
-            "muixerangues": "",
+            "muixerangues": "Sí",
             "falcons": "",
             "fotos": [
               {
@@ -18653,7 +18653,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Ball de valencians del Catllar"
+          "Ball de valencians del Catllar (s.XVIII)"
         ],
         "monuments": [],
         "carrers": []
@@ -38808,7 +38808,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primers 3d9 sense folre carregats de la història (27/10/19). \nPrimera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+        "altres": "Primera referència a una agrupació que fa castells “Noys de Castells” (Festes Decennals de la Candela, 1791)\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
         "fotos": [
           {
             "url": "",
@@ -59142,7 +59142,7 @@
             "inactiva": "",
             "maxim_castell": "4d10fm, 3d9 (2019)",
             "web": "https://www.collavella.cat",
-            "altres": "Inicialment com a Colla dels Pagesos a principis del s.XIX i la Muixerra (cap a 1820), després de la Guerra Civil es produeix la fusió de les 2 colles vallenques i al 1947 es reorganitza la Colla Vella.\nPrimera colla en descarregar un castell de 9 (4d9f, 25/11/1981) i un castell de gamma extra (2d9fm, 23/10/1994) al segle XX, i en carregar 3 castells desfolrats en una mateixa diada (4d9, 3d9(c), 2d8, 27/10/2019). \nGuanyadora del concurs de castells de Tarragona en 9 ocasions (1954, 1956, 1982, 1984, 1986, 1994, 2000, 2018 i 1932 com a antiga colla Vella), guanyadora del concurs de castells de La Ciutadella (1902), del concurs Jorba-Preciados de Barcelona en 3 ocasions (1964, 1965, 1966) i dels concursos de castells de Vilafranca (1962 i 1973).",
+            "altres": "Inicialment com a Colla dels Pagesos a principis del s.XIX i la Muixerra (cap a 1820), cap al 1876 ja es coneix com a Colla Vella. Després de la Guerra Civil es produeix la fusió de les 2 colles vallenques i al 1947 es reorganitza la Colla Vella.\nPrimera colla en descarregar un castell de 9 (4d9f, 25/11/1981) i un castell de gamma extra (2d9fm, 23/10/1994) al segle XX, i en carregar 3 castells desfolrats en una mateixa diada (4d9, 3d9(c), 2d8, 27/10/2019). \nGuanyadora del concurs de castells de Tarragona en 9 ocasions (1954, 1956, 1982, 1984, 1986, 1994, 2000, 2018 i 1932 com a antiga colla Vella), guanyadora del concurs de castells de La Ciutadella (1902), del concurs Jorba-Preciados de Barcelona en 3 ocasions (1964, 1965, 1966) i dels concursos de castells de Vilafranca (1962 i 1973).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -69503,7 +69503,7 @@
             "inactiva": "",
             "maxim_castell": "Figures dinàmiques d’estil més gimnàstic, piràmides evolutives, escala de 8",
             "web": "https://elcentre.cat/seccions/falcons/",
-            "altres": "Colla més tradicional basada pels principis gimnàstics del Sokol i menys influenciada per les tècniques castelleres.",
+            "altres": "Colla més tradicional basada pels principis gimnàstics del Sokol i menys influïda per les tècniques castelleres.",
             "castells": "",
             "muixerangues": "",
             "falcons": "Sí",
@@ -78590,7 +78590,7 @@
               },
               {
                 "url": "",
-                "text": "Rajola amb diferens balls tradicionals i una torre humana",
+                "text": "Rajola que es troba a l’Agrupació amb diferents balls populars i un ventall falconer",
                 "font": "",
                 "font_url": "",
                 "autor": "",
