@@ -632,58 +632,108 @@ function crearIcona(p) {
 
 var hiHaPlaça9 = p.places9.some(function (plaça) {
 
-    if (!collaCerca) {
-        return true;
+    if (collaCerca) {
+
+        var coincideixColla =
+            plaça.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
     }
 
-    return plaça.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    // Les Places de 9 són només de Castells
+    return plaça.castells === "Sí";
 
 });
 
 if (
     document.getElementById("f9").checked &&
+    document.getElementById("fcastells").checked &&
     hiHaPlaça9
 ) {
     icona += "9️⃣";
 }
  var hiHaPlaça10 = p.places10.some(function (plaça) {
 
-    if (!collaCerca) {
-        return true;
+    if (collaCerca) {
+
+        var coincideixColla =
+            plaça.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
     }
 
-    return plaça.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    // Les Places de 10 són només de Castells
+    return plaça.castells === "Sí";
 
 });
 
 if (
     document.getElementById("f10").checked &&
+    document.getElementById("fcastells").checked &&
     hiHaPlaça10
 ) {
     icona += "🔟";
 }
+
+
 var hiHaPlaques = p.plaques.some(function (placa) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
         return true;
     }
 
-    return placa.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
 
@@ -693,20 +743,54 @@ if (
 ) {
     icona += "<span class='icona-placa'>🪧</span>";
 }
+
 var hiHaMonument = p.monuments.some(function (monument) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            monument.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        monument.castells === "Sí"
+    ) {
         return true;
     }
 
-    return monument.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        monument.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        monument.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
+
 
 if (
     document.getElementById("fmonuments").checked &&
@@ -718,35 +802,95 @@ if (
 
 var hiHaCarrer = p.carrers.some(function (carrer) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            carrer.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        carrer.castells === "Sí"
+    ) {
         return true;
     }
 
-    return carrer.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        carrer.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        carrer.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-
 if (
     document.getElementById("fcarrers").checked &&
     hiHaCarrer
 ) {
     icona += "🛣️";
 }
+
 var hiHaColla = p.colles.some(function (colla) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (colla.nom.trim() !== collaCerca.trim()) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        colla.castells === "Sí"
+    ) {
         return true;
     }
 
-    return colla.nom.trim() === collaCerca.trim();
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        colla.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        colla.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-  
   
   
   
@@ -763,7 +907,6 @@ if (
     return icona;
 
 }
-
 
 
 function compleixFiltres(p) {
@@ -805,225 +948,359 @@ function compleixFiltres(p) {
     }
 
 
-
-
     // -------------------------------------------------------------
-    // TRADICIONS
+    // TRADICIONS SELECCIONADES
     // -------------------------------------------------------------
 
-    var algunaTradicioSeleccionada =
+    var castellsSeleccionats =
+        document.getElementById("fcastells").checked;
 
-        document.getElementById("fcastells").checked ||
-        document.getElementById("fmuixerangues").checked ||
+    var muixeranguesSeleccionades =
+        document.getElementById("fmuixerangues").checked;
+
+    var falconsSeleccionats =
         document.getElementById("ffalcons").checked;
 
 
-    var tradicioSeleccionada = false;
-
-
-    if (
-        document.getElementById("fcastells").checked &&
-        p.castells === "Sí"
-    ) {
-        tradicioSeleccionada = true;
-    }
-
-    if (
-        document.getElementById("fmuixerangues").checked &&
-        p.muixerangues === "Sí"
-    ) {
-        tradicioSeleccionada = true;
-    }
-
-    if (
-        document.getElementById("ffalcons").checked &&
-        p.falcons === "Sí"
-    ) {
-        tradicioSeleccionada = true;
-    }
+    var algunaTradicioSeleccionada =
+        castellsSeleccionats ||
+        muixeranguesSeleccionades ||
+        falconsSeleccionats;
 
 
     // -------------------------------------------------------------
     // CAP TRADICIÓ SELECCIONADA
     // -------------------------------------------------------------
 
-    // Si no hi ha cap tradició seleccionada,
-    // no mostrem cap localització.
-    //
-    // Això és així encara que hi hagi elements
-    // patrimonials seleccionats.
-
     if (!algunaTradicioSeleccionada) {
         return false;
     }
 
 
-    // La localització ha de pertànyer a
-    // almenys una de les tradicions seleccionades.
-
-    if (!tradicioSeleccionada) {
-        return false;
-    }
-
-
     // -------------------------------------------------------------
-    // ELEMENTS PATRIMONIALS
+    // FILTRES PATRIMONIALS
     // -------------------------------------------------------------
 
-    var algunElementSeleccionat =
+    var f9 =
+        document.getElementById("f9").checked;
 
-        document.getElementById("f9").checked ||
-        document.getElementById("f10").checked ||
-        document.getElementById("fplaques").checked ||
-        document.getElementById("fmonuments").checked ||
-        document.getElementById("fcarrers").checked ||
+    var f10 =
+        document.getElementById("f10").checked;
+
+    var fplaques =
+        document.getElementById("fplaques").checked;
+
+    var fmonuments =
+        document.getElementById("fmonuments").checked;
+
+    var fcarrers =
+        document.getElementById("fcarrers").checked;
+
+    var fcolles =
         document.getElementById("fcolles").checked;
 
 
+    var algunElementSeleccionat =
+        f9 ||
+        f10 ||
+        fplaques ||
+        fmonuments ||
+        fcarrers ||
+        fcolles;
+
+
     // -------------------------------------------------------------
-    // CAP ELEMENT PATRIMONIAL SELECCIONAT
+    // FUNCIÓ PER COMPROVAR LA TRADICIÓ D'UN ELEMENT
     // -------------------------------------------------------------
 
-    // Si no hi ha cap element seleccionat,
-    // ja n'hi ha prou amb complir la tradició.
+    function compleixTradicio(element) {
 
-    if (!algunElementSeleccionat) {
-        return true;
+        if (
+            castellsSeleccionats &&
+            element.castells === "Sí"
+        ) {
+            return true;
+        }
+
+        if (
+            muixeranguesSeleccionades &&
+            element.muixerangues === "Sí"
+        ) {
+            return true;
+        }
+
+        if (
+            falconsSeleccionats &&
+            element.falcons === "Sí"
+        ) {
+            return true;
+        }
+
+        return false;
+
     }
 
 
     // -------------------------------------------------------------
-    // COMPROVEM ELS ELEMENTS PATRIMONIALS
+    // SI NO HI HA FILTRES PATRIMONIALS
     // -------------------------------------------------------------
+
+    // En aquest cas continuem utilitzant les tradicions
+    // generals de la localització.
+
+    if (!algunElementSeleccionat) {
+
+        var tradicioLocalitzacio = false;
+
+
+        if (
+            castellsSeleccionats &&
+            p.castells === "Sí"
+        ) {
+            tradicioLocalitzacio = true;
+        }
+
+        if (
+            muixeranguesSeleccionades &&
+            p.muixerangues === "Sí"
+        ) {
+            tradicioLocalitzacio = true;
+        }
+
+        if (
+            falconsSeleccionats &&
+            p.falcons === "Sí"
+        ) {
+            tradicioLocalitzacio = true;
+        }
+
+
+        return tradicioLocalitzacio;
+
+    }
+
+
+    // -------------------------------------------------------------
+    // AMB FILTRES PATRIMONIALS
+    // -------------------------------------------------------------
+
+    // Ara les tradicions es comproven a nivell d'element.
 
     var categoriaSeleccionada = false;
 
 
-var hiHaPlaça9Filtrada = p.places9.some(function (plaça) {
+    // -------------------------------------------------------------
+    // PLACES DE 9
+    // -------------------------------------------------------------
 
-    if (!collaCerca) {
-        return true;
+    if (f9) {
+
+        var hiHaPlaça9Filtrada =
+            p.places9.some(function(plaça) {
+
+                if (
+                    collaCerca &&
+                    (
+                        !plaça.colla ||
+                        !plaça.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+return (
+    castellsSeleccionats &&
+    plaça.castells === "Sí"
+);
+
+            });
+
+
+        if (hiHaPlaça9Filtrada) {
+            categoriaSeleccionada = true;
+        }
+
     }
 
-    return plaça.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
 
-});
+    // -------------------------------------------------------------
+    // PLACES DE 10
+    // -------------------------------------------------------------
 
-if (
-    document.getElementById("f9").checked &&
-    hiHaPlaça9Filtrada
-) {
-    categoriaSeleccionada = true;
-}
+    if (f10) {
 
-var hiHaPlaça10Filtrada = p.places10.some(function (plaça) {
+        var hiHaPlaça10Filtrada =
+            p.places10.some(function(plaça) {
 
-    if (!collaCerca) {
-        return true;
+                if (
+                    collaCerca &&
+                    (
+                        !plaça.colla ||
+                        !plaça.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+              return (
+    castellsSeleccionats &&
+    plaça.castells === "Sí"
+);
+
+            });
+
+
+        if (hiHaPlaça10Filtrada) {
+            categoriaSeleccionada = true;
+        }
+
     }
 
-    return plaça.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
 
-});
+    // -------------------------------------------------------------
+    // PLAQUES
+    // -------------------------------------------------------------
 
-if (
-    document.getElementById("f10").checked &&
-    hiHaPlaça10Filtrada
-) {
-    categoriaSeleccionada = true;
-}
-var hiHaPlaquesFiltrades = p.plaques.some(function (placa) {
+    if (fplaques) {
 
-    if (!collaCerca) {
-        return true;
+        var hiHaPlaquesFiltrades =
+            p.plaques.some(function(placa) {
+
+                if (
+                    collaCerca &&
+                    (
+                        !placa.colla ||
+                        !placa.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+                return compleixTradicio(placa);
+
+            });
+
+
+        if (hiHaPlaquesFiltrades) {
+            categoriaSeleccionada = true;
+        }
+
     }
 
-    return placa.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
 
-});
+    // -------------------------------------------------------------
+    // MONUMENTS
+    // -------------------------------------------------------------
 
-if (
-    document.getElementById("fplaques").checked &&
-    hiHaPlaquesFiltrades
-) {
-    categoriaSeleccionada = true;
-}
+    if (fmonuments) {
 
-var hiHaMonumentsFiltrats = p.monuments.some(function (monument) {
+        var hiHaMonumentsFiltrats =
+            p.monuments.some(function(monument) {
 
-    if (!collaCerca) {
-        return true;
+                if (
+                    collaCerca &&
+                    (
+                        !monument.colla ||
+                        !monument.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+                return compleixTradicio(monument);
+
+            });
+
+
+        if (hiHaMonumentsFiltrats) {
+            categoriaSeleccionada = true;
+        }
+
     }
 
-    return monument.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
 
-});
+    // -------------------------------------------------------------
+    // CARRERS
+    // -------------------------------------------------------------
 
-if (
-    document.getElementById("fmonuments").checked &&
-    hiHaMonumentsFiltrats
-) {
-    categoriaSeleccionada = true;
-}
+    if (fcarrers) {
 
-var hiHaCarrersFiltrats = p.carrers.some(function (carrer) {
+        var hiHaCarrersFiltrats =
+            p.carrers.some(function(carrer) {
 
-    if (!collaCerca) {
-        return true;
+                if (
+                    collaCerca &&
+                    (
+                        !carrer.colla ||
+                        !carrer.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+                return compleixTradicio(carrer);
+
+            });
+
+
+        if (hiHaCarrersFiltrats) {
+            categoriaSeleccionada = true;
+        }
+
     }
 
-    return carrer.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
 
-});
+    // -------------------------------------------------------------
+    // COLLES
+    // -------------------------------------------------------------
 
-if (
-    document.getElementById("fcarrers").checked &&
-    hiHaCarrersFiltrats
-) {
-    categoriaSeleccionada = true;
-}
+    if (fcolles) {
 
-var hiHaCollesFiltrades = p.colles.some(function (colla) {
+        var hiHaCollesFiltrades =
+            p.colles.some(function(colla) {
 
-    if (!collaCerca) {
-        return true;
+                if (
+                    collaCerca &&
+                    colla.nom !== collaCerca
+                ) {
+                    return false;
+                }
+
+                return compleixTradicio(colla);
+
+            });
+
+
+        if (hiHaCollesFiltrades) {
+            categoriaSeleccionada = true;
+        }
+
     }
-
-    return colla.nom === collaCerca;
-
-});
-
-if (
-    document.getElementById("fcolles").checked &&
-    hiHaCollesFiltrades
-) {
-    categoriaSeleccionada = true;
-}
 
 
     // -------------------------------------------------------------
@@ -1033,6 +1310,9 @@ if (
     return categoriaSeleccionada;
 
 }
+
+
+
 
  capaMarcadors = L.geoJSON(data, {
 
@@ -1213,13 +1493,41 @@ if (
 
             }
 
-           if (p.places9.length) {
+if (p.places9.length) {
 
     html += "<li><b>9️⃣ Plaça de 9</b></li>";
 
     html += "<ul>";
 
-    p.places9.forEach(function(placa) {
+var places9Filtrades = p.places9.filter(function(placa) {
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+places9Filtrades.forEach(function(placa) {
 
         html += "<li>";
 
@@ -1230,16 +1538,13 @@ if (
             "</strong>";
 
         if (placa.diada || placa.data) {
-
-            html += "<br>" +
-                (placa.diada || "");
+            html += "<br>" + (placa.diada || "");
 
             if (placa.diada && placa.data) {
                 html += " · ";
             }
 
             html += (placa.data || "");
-
         }
 
         if (placa.fotos && placa.fotos.length) {
@@ -1251,35 +1556,40 @@ if (
                     html += "<br><br>";
 
                     if (foto.text && foto.text.trim()) {
-
                         html += "<em>" +
                             foto.text +
                             "</em><br>";
-
                     }
 
-                    html += "<a href=\"" +
+                    html +=
+                        "<a href=\"" +
                         foto.url +
                         "\" target=\"_blank\">" +
+
                         "<img src=\"" +
                         foto.url +
-                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "\" " +
+                        "style=\"max-width:100%; height:auto;\">" +
+
                         "</a>";
 
                     if (foto.autor && foto.autor.trim()) {
 
-                        html += "<br><strong>Autor/a de la foto:</strong> " +
+                        html +=
+                            "<br><strong>Autor/a de la foto:</strong> " +
                             foto.autor;
 
                     }
 
                     if (foto.font && foto.font.trim()) {
 
-                        html += "<br><strong>Font:</strong> ";
+                        html +=
+                            "<br><strong>Font:</strong> ";
 
                         if (foto.font_url && foto.font_url.trim()) {
 
-                            html += "<a href=\"" +
+                            html +=
+                                "<a href=\"" +
                                 foto.font_url +
                                 "\" target=\"_blank\">" +
                                 foto.font +
@@ -1295,11 +1605,13 @@ if (
 
                     if (foto.llicencia && foto.llicencia.trim()) {
 
-                        html += "<br><strong>Llicència:</strong> ";
+                        html +=
+                            "<br><strong>Llicència:</strong> ";
 
                         if (foto.llicencia_url && foto.llicencia_url.trim()) {
 
-                            html += "<a href=\"" +
+                            html +=
+                                "<a href=\"" +
                                 foto.llicencia_url +
                                 "\" target=\"_blank\">" +
                                 foto.llicencia +
@@ -1314,18 +1626,15 @@ if (
                     }
 
                 }
-
-                else if (
-                    foto.enllac_extern &&
-                    foto.enllac_extern.trim()
-                ) {
+                else if (foto.enllac_extern && foto.enllac_extern.trim()) {
 
                     var textEnllac =
                         foto.text && foto.text.trim()
                             ? foto.text
                             : "Veure fotografia";
 
-                    html += "<br>🔗 " +
+                    html +=
+                        "<br>🔗 " +
                         "<a href=\"" +
                         foto.enllac_extern +
                         "\" target=\"_blank\">" +
@@ -1343,15 +1652,41 @@ if (
     });
 
     html += "</ul>";
-
-}
-           if (p.places10.length) {
+}           if (p.places10.length) {
 
     html += "<li><b>🔟 Plaça de 10</b></li>";
 
     html += "<ul>";
 
-    p.places10.forEach(function(placa) {
+var places10Filtrades = p.places10.filter(function(placa) {
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+places10Filtrades.forEach(function(placa) {
 
         html += "<li>";
 
@@ -1477,11 +1812,39 @@ if (
     html += "</ul>";
 
 }
-       if (p.plaques.length) {
+     
+var plaquesFiltrades = p.plaques.filter(function(placa) {
+
+        if (
+            document.getElementById("fcastells").checked &&
+            placa.castells === "Sí"
+        ) {
+            return true;
+        }
+
+        if (
+            document.getElementById("fmuixerangues").checked &&
+            placa.muixerangues === "Sí"
+        ) {
+            return true;
+        }
+
+        if (
+            document.getElementById("ffalcons").checked &&
+            placa.falcons === "Sí"
+        ) {
+            return true;
+        }
+
+        return false;
+
+    });       
+    
+if (plaquesFiltrades.length) {    
 
     html += "<li>🪧 " +
-        p.plaques.length +
-        (p.plaques.length === 1 ? " placa" : " plaques") +
+        plaquesFiltrades.length +
+        (plaquesFiltrades.length === 1 ? " placa" : " plaques") +
         "</li>";
 
     numeroCarruselPlaques++;
@@ -1499,7 +1862,7 @@ if (
     // CONTROLS DEL CARRUSEL
     // ---------------------------------------------------------
 
-    if (p.plaques.length > 1) {
+    if (plaquesFiltrades.length > 1) {
 
         html +=
             "<div class=\"placa-carrusel-controls\">" +
@@ -1513,7 +1876,7 @@ if (
 
             "<span class=\"placa-comptador\">" +
             "1 / " +
-            p.plaques.length +
+            plaquesFiltrades.length +
             "</span>" +
 
             "<button class=\"placa-carrusel-boto\" " +
@@ -1532,7 +1895,8 @@ if (
     // PLAQUES
     // ---------------------------------------------------------
 
-    p.plaques.forEach(function (placa, index) {
+
+plaquesFiltrades.forEach(function(placa, index) {
 
         html +=
             "<div class=\"placa-carrusel " +
@@ -2453,26 +2817,50 @@ if (comptador) {
             }
         
 
-if (
-    p.places9.length &&
-    mostrarSeccioPopup("f9") &&
-    (
-        !collaCerca ||
-        p.places9.some(function (placa) {
-            return placa.colla
+var places9Filtrades = p.places9.filter(function (placa) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
                 .split(",")
                 .map(function (c) {
                     return c.trim();
                 })
                 .includes(collaCerca);
-        })
-    )
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+    // Les Places de 9 són només de Castells
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+if (
+    places9Filtrades.length &&
+    mostrarSeccioPopup("f9")
 ) {
     html += "<li><b>9️⃣ Plaça de 9</b></li>";
 
     html += "<ul>";
 
-    p.places9.forEach(function(placa) {
+    places9Filtrades.forEach(function(placa) {
 
         html += "<li>";
 
@@ -2599,26 +2987,47 @@ if (
 
 }
 
-if (
-    p.places10.length &&
-    mostrarSeccioPopup("f10") &&
-    (
-        !collaCerca ||
-        p.places10.some(function (placa) {
-            return placa.colla
+var places10Filtrades = p.places10.filter(function (placa) {
+
+    // FILTRE PER COLLA
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
                 .split(",")
                 .map(function (c) {
                     return c.trim();
                 })
                 .includes(collaCerca);
-        })
-    )
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+    // FILTRE PER TRADICIÓ
+    // Les Places de 10 són només de Castells
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+if (
+    places10Filtrades.length &&
+    mostrarSeccioPopup("f10")
 ) {
     html += "<li><b>🔟 Plaça de 10</b></li>";
 
     html += "<ul>";
 
-    p.places10.forEach(function(placa) {
+    places10Filtrades.forEach(function(placa) {
 
         html += "<li>";
 
@@ -2771,18 +3180,50 @@ if (
     
     
     
-    var plaquesFiltrades = p.plaques.filter(function (placa) {
+var plaquesFiltrades = p.plaques.filter(function (placa) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
         return true;
     }
 
-    return placa.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
 
@@ -2846,19 +3287,50 @@ if (
 
 var plaquesFiltrades = p.plaques.filter(function (placa) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
         return true;
     }
 
-    return placa.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-
 
 
     plaquesFiltrades.forEach(function (placa, index) {
@@ -3071,19 +3543,50 @@ var plaquesFiltrades = p.plaques.filter(function (placa) {
 
 var monumentsFiltrats = p.monuments.filter(function (monument) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            monument.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        monument.castells === "Sí"
+    ) {
         return true;
     }
 
-    return monument.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        monument.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        monument.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-
 
 
 
@@ -3235,19 +3738,50 @@ var monumentsFiltrats = p.monuments.filter(function (monument) {
 
 var carrersFiltrats = p.carrers.filter(function (carrer) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            carrer.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        carrer.castells === "Sí"
+    ) {
         return true;
     }
 
-    return carrer.colla
-        .split(",")
-        .map(function (c) {
-            return c.trim();
-        })
-        .includes(collaCerca);
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        carrer.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        carrer.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-
 
 
 
@@ -3423,14 +3957,42 @@ html += "🔗 " +                            "<a href=\"" +
 
 var collesFiltrades = p.colles.filter(function (colla) {
 
-    if (!collaCerca) {
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (colla.nom.trim() !== collaCerca.trim()) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        colla.castells === "Sí"
+    ) {
         return true;
     }
 
-    return colla.nom === collaCerca;
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        colla.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        colla.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
 
 });
-
 
 if (
     collesFiltrades.length &&
