@@ -263,71 +263,86 @@ html, body, #map {
     }
 
 
-   #filtres.informacioOberta {
-    height: calc(100vh - 85px);
+#filtres.informacioOberta {
+    height: calc(100vh - 95px);
     max-height: calc(100vh - 95px);
+    overflow: hidden;
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 #filtres.informacioOberta #informacioMapa {
     display: block !important;
-    position: absolute;
-    top: 530px;
-    left: 8px;
-    right: 8px;
-    bottom: 35px;
-    max-height: none !important;
-    height: auto !important;
+    position: static;
+
+    height: 135px !important;
+    max-height: 135px !important;
+
     overflow-y: auto !important;
     overflow-x: hidden;
+
     padding-right: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     box-sizing: border-box;
 }
 
-
 #filtres.informacioOberta #comptadorLocalitzacions {
-    position: absolute;
-    bottom: 5px;
-    left: 8px;
-    right: 8px;
+    flex: 0 0 auto;
+
+    position: static;
+    display: block;
+
+    margin-top: 10px;
+    padding-top: 8px;
+
     background: white;
-    z-index: 10;
+}
 }
 
-
-
-
-
-}
-
-
-/* Informació amb scroll en ordinador */
+/* Informació amb scroll només dins del text en ordinador */
 @media (min-width: 601px) {
 
-    #filtres.informacioOberta {
-        height: calc(100vh - 30px);
-        max-height: calc(100vh - 30px);
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
+ #filtres.informacioOberta {
+    height: auto;
+    max-height: calc(100vh - 20px);
+    overflow: hidden;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
 
     #filtres.informacioOberta #informacioMapa {
+        display: block !important;
+        position: static;
+
         flex: 1 1 auto;
         min-height: 0;
-        overflow-y: auto;
+
+        height: auto !important;
+        max-height: none !important;
+
+        overflow-y: auto !important;
         overflow-x: hidden;
+
         padding-right: 5px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         box-sizing: border-box;
     }
 
+    #filtres.informacioOberta #comptadorLocalitzacions {
+        flex: 0 0 auto;
+
+        display: block;
+        margin-top: 10px;
+        padding-top: 8px;
+
+        background: white;
+    }
+
 }
-
-
 </style>
 
 </head>
