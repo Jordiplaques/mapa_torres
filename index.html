@@ -223,7 +223,7 @@ html, body, #map {
 
     position: absolute;
 
-    top: 75px;
+    top: 65px;
     right: 10px;
 
     width: 230px;
@@ -277,8 +277,8 @@ html, body, #map {
     display: block !important;
     position: static;
 
-    height: 125px !important;
-    max-height: 125px !important;
+    height: 110px !important;
+    max-height: 110px !important;
 
     overflow-y: auto !important;
     overflow-x: hidden;
@@ -435,7 +435,7 @@ html, body, #map {
 
 <label>
     <input type="checkbox" id="fcolles">
-    🏠 Local o localització de colla
+    🏠 Local/localització de colla
 </label>
 
 <label>
@@ -443,6 +443,10 @@ html, body, #map {
     🛣️ Altres elements
 </label>
 
+<label>
+    <input type="checkbox" id="fmesinfo">
+    ℹ️ Altres dades
+</label>
 
 <hr>
 
@@ -485,9 +489,9 @@ html, body, #map {
     </p>
     
     <p>
-        <strong>9️⃣ Places de 9, de gamma extra ⭐ i 🔟 Places de 10</strong><br>
+        <strong>9️⃣ Places de 9, ⭐ de Gamma Extra i 🔟 Places de 10</strong><br>
         Places on s'han assolit castells de 9 o de 10 pisos, d'acord amb les dades disponibles a la Viquipèdia, especificant primer castell i colla que van fer un castell de 9 o 10.
-	Per les places de gamma extra es consulta la base de dades de la Coordinadora, i es mostren tots els castells de gamma extra i colles que els han assolit en la diada on la plaça va esdevenir de gemma extra.
+	Per a les places de gamma extra s'ha consultat la base de dades de la Coordinadora, i es mostren tots els castells de gamma extra i colles que els han assolit en la diada on la plaça va esdevenir de gamma extra.
     </p>
 
     <p>
@@ -511,6 +515,9 @@ Les dades de colles antigues estan extretes principalment de l'Enciclopèdia Cas
         Localitzacions relacionades amb les torres humanes, principalment carrers amb algun nom relacionat i murals.
     </p>
 
+<strong>ℹ️ Altres dades</strong><br>
+       Dades històriques, curiositats, etc. (que no apareixen ja en altres elements de la localització).
+    </p>
         <h4>Com utilitzar el mapa</h4>
 
     <p>
@@ -643,6 +650,7 @@ window.canviaPlaca = function(idCarrusel, direccio) {
 function crearIcona(p) {
 
     var icona = "";
+   
 
     var algunElementPatrimonial =
 
@@ -652,7 +660,8 @@ function crearIcona(p) {
         document.getElementById("fplaques").checked ||
         document.getElementById("fmonuments").checked ||
         document.getElementById("fcarrers").checked ||
-        document.getElementById("fcolles").checked;
+        document.getElementById("fcolles").checked ||
+document.getElementById("fmesinfo").checked;
 
 
     // CAP ELEMENT PATRIMONIAL SELECCIONAT
@@ -968,6 +977,64 @@ if (
     icona += "🏠";
 }
 
+
+var hiHaMesinfo = p.mesinfo.some(function (mesinfo) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            mesinfo.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        mesinfo.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        mesinfo.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        mesinfo.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+if (
+    document.getElementById("fmesinfo").checked &&
+    hiHaMesinfo
+) {
+    icona += "ℹ️";
+}
+
+
+
     // Quan hi ha filtres patrimonials seleccionats,
     // no volem mostrar 📍
     return icona;
@@ -1067,6 +1134,10 @@ function compleixFiltres(p) {
 
     var fcolles =
         document.getElementById("fcolles").checked;
+        
+    var fmesinfo =
+        document.getElementById("fmesinfo").checked;
+
 
 
     var algunElementSeleccionat =
@@ -1076,7 +1147,8 @@ function compleixFiltres(p) {
         fplaques ||
         fmonuments ||
         fcarrers ||
-        fcolles;
+        fcolles ||
+        fmesinfo;
 
 
     // -------------------------------------------------------------
@@ -1422,7 +1494,42 @@ return (
 
     }
 
+    // -------------------------------------------------------------
+    // ALTRES DADES
+    // -------------------------------------------------------------
 
+    if (fmesinfo) {
+
+        var hiHaMesinfoFiltrades =
+            p.mesinfo.some(function(mesinfo) {
+
+                if (
+                    collaCerca &&
+                    (
+                        !mesinfo.colla ||
+                        !mesinfo.colla
+                            .split(",")
+                            .map(function(c) {
+                                return c.trim();
+                            })
+                            .includes(collaCerca)
+                    )
+                ) {
+                    return false;
+                }
+
+                return compleixTradicio(mesinfo);
+
+            });
+
+
+        if (hiHaMesinfoFiltrades) {
+            categoriaSeleccionada = true;
+        }
+
+    }
+    
+    
     // -------------------------------------------------------------
     // RESULTAT FINAL
     // -------------------------------------------------------------
@@ -2911,7 +3018,8 @@ if (comptador) {
     "fplaques",
     "fmonuments",
     "fcarrers",
-    "fcolles"
+    "fcolles",
+    "fmesinfo"
 ].forEach(id => {
 
     document
@@ -2971,6 +3079,10 @@ if (comptador) {
     function(feature, layer) {
 
         var p = feature.properties;
+
+
+
+
 
         var html =
             "<div class='popup'>" +
@@ -3639,7 +3751,9 @@ if (
         document.getElementById("fplaques").checked ||
         document.getElementById("fmonuments").checked ||
         document.getElementById("fcarrers").checked ||
-        document.getElementById("fcolles").checked;
+        document.getElementById("fcolles").checked ||        
+        document.getElementById("fmesinfo").checked;
+
 
     // Si no hi ha cap filtre patrimonial seleccionat,
     // mostrem tota la informació
@@ -4658,6 +4772,89 @@ if (colla.padrines && colla.padrines.trim()) {
 
     html += "</ul>";
 }
+
+// -----------------------------------------------------------------
+// ALTRES DADES
+// -----------------------------------------------------------------
+
+var mesinfoFiltrades = p.mesinfo.filter(function (mesinfo) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (
+            !mesinfo.colla ||
+            !mesinfo.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca)
+        ) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        mesinfo.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        mesinfo.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        mesinfo.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+if (
+    mesinfoFiltrades.length &&
+    mostrarSeccioPopup("fmesinfo")
+) {
+
+    html += "<li>ℹ️ Altres dades</li>";
+
+    html += "<ul>";
+
+    mesinfoFiltrades.forEach(function (mesinfo) {
+
+        if (
+            mesinfo.info &&
+            mesinfo.info.trim()
+        ) {
+
+            html += "<li>" +
+                mesinfo.info.replace(/\n/g, "<br>") +
+                "</li>";
+
+        }
+
+    });
+
+    html += "</ul>";
+
+}
+
+
+
        if (
     p.altres &&
     (
@@ -4668,7 +4865,8 @@ if (colla.padrines && colla.padrines.trim()) {
             document.getElementById("fplaques").checked ||
             document.getElementById("fmonuments").checked ||
             document.getElementById("fcarrers").checked ||
-            document.getElementById("fcolles").checked
+            document.getElementById("fcolles").checked ||
+            document.getElementById("fmesinfo").checked
         )
         ||
         (
@@ -4678,7 +4876,8 @@ if (colla.padrines && colla.padrines.trim()) {
             document.getElementById("fplaques").checked &&
             document.getElementById("fmonuments").checked &&
             document.getElementById("fcarrers").checked &&
-            document.getElementById("fcolles").checked
+            document.getElementById("fcolles").checked &&
+            document.getElementById("mesinfo").checked
         )
     )
 ) {

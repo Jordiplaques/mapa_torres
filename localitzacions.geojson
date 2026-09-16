@@ -21,7 +21,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1880) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -273,10 +273,73 @@
         "colles_relacionades": [
           "Colla Jove Xiquets de Tarragona",
           "Xiquets d’Alcover",
-          "Xiquets de la Vila d’Alcover"
+          "Xiquets de la Vila d’Alcover",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC1",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1880) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -290,7 +353,7 @@
       },
       "properties": {
         "id": "LC2",
-        "nom": "Plaça Major (Algemesí)",
+        "nom": "Plaça Major ",
         "poblacio": "Algemesí",
         "comarca": "Ribera Alta",
         "territori": "País Valencià",
@@ -299,7 +362,7 @@
         "castells": "Sí",
         "muixerangues": "Sí",
         "falcons": "",
-        "altres": "Primera plaça de 9 al País Valencià",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -677,7 +740,69 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC2",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "info": "Primera plaça de 9 al País Valencià.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -824,7 +949,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -847,7 +973,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1878) i de gamma extra al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -1260,7 +1386,69 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC3",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1878) i de gamma extra al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1406,7 +1594,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -1420,7 +1609,7 @@
       },
       "properties": {
         "id": "LC6",
-        "nom": "Plaça de la Vila (Amposta)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Amposta",
         "comarca": "Montsià",
         "territori": "Catalunya",
@@ -1429,7 +1618,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primera plaça de 9 a les Terres de l’Ebre",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -1617,7 +1806,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -1640,7 +1830,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primera plaça de 9 a Andorra",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -1892,7 +2082,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -1906,7 +2097,7 @@
       },
       "properties": {
         "id": "LC8",
-        "nom": "Plaça de l'Església (Ascó)",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Ascó",
         "comarca": "Ribera d'Ebre",
         "territori": "Catalunya",
@@ -2105,7 +2296,8 @@
           "Falcons d’Ascó"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -2119,7 +2311,7 @@
       },
       "properties": {
         "id": "LC9",
-        "nom": "Plaça de la Vila (Badalona)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Badalona",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -2318,7 +2510,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -2655,7 +2848,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -2804,7 +2998,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -3015,7 +3210,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -3038,7 +3234,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer 5d9f carregat del s.XX (24/09/1995).\nPrimera diada amb 3 “tripletes màgiques” (o superior) de colles de la mateixa ciutat (24/09/2014)",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -3427,10 +3623,74 @@
           "Castellers de Barcelona",
           "Colla Joves dels Xiquets de Valls",
           "Minyons de Terrassa",
-          "Cos de castellers dels Ballets de Catalunya"
+          "Cos de castellers dels Ballets de Catalunya",
+          "Castellers de Sants",
+          "Castellers de la Vila de Gràcia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC4",
+            "colla": "Minyons de Terrassa, Castellers de Barcelona, Castellers de Sants, Castellers de la Vila de Gràcia",
+            "info": "Primer 5d9f carregat del s.XX (24/09/1995).\nPrimera diada amb 3 “tripletes màgiques” (o superior) de colles de la mateixa ciutat (24/09/2014)",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -3557,7 +3817,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -3704,7 +3965,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -3851,7 +4113,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -3998,7 +4261,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -4012,7 +4276,7 @@
       },
       "properties": {
         "id": "LC18",
-        "nom": "Pla de la Seu (Barcelona)",
+        "nom": "Pla de la Seu ",
         "poblacio": "Barcelona (Ciutat Vella)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -4145,7 +4409,8 @@
           "Castellers de Sants"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -4481,7 +4746,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -4691,7 +4957,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -4968,7 +5235,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -5115,7 +5383,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -5138,7 +5407,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Les 3 colles de Barcelona que han fet el 2d8f l’han carregat per primer cop en aquesta plaça. \nLa plaça va ser abans de GE (3d8ps, 20/08/200) que de 9",
+        "altres": "",
         "fotos": [
           {
             "url": "fotos/places9/IX49.jpg",
@@ -5706,10 +5975,73 @@
           "Castellers de la Vila de Gràcia",
           "Castellers de Vilafranca",
           "Colla Vella dels Xiquets de Valls",
-          "Xiquets de Gràcia"
+          "Xiquets de Gràcia",
+          "Castellers de Sants"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC5",
+            "colla": "Castellers de Barcelona, Castellers de Sants, Castellers de la Vila de Gràcia, Colla Vella dels Xiquets de Valls",
+            "info": "Les 3 colles de Barcelona que han fet el 2d8f l’han carregat per primer cop en aquesta plaça. \nLa plaça va ser abans de GE (3d8ps, 20/08/200) que de 9,",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5732,7 +6064,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Per festa major s’hi fa un pilar caminant (CVG) fins a la plaça de la Vila.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -5858,7 +6190,8 @@
           "Castellers de Barcelona",
           "Colla Joves dels Xiquets de Valls",
           "Colla Vella dels Xiquets de Valls",
-          "Xiquets de Valls (s.XIX)"
+          "Xiquets de Valls (s.XIX)",
+          "Castellers de la Vila de Gràcia"
         ],
         "monuments": [],
         "carrers": [
@@ -5873,6 +6206,68 @@
               {
                 "url": "fotos/carrers/XC3.jpeg",
                 "text": "Placa del carrer",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": [
+          {
+            "id": "DC6",
+            "colla": "Castellers de la Vila de Gràcia",
+            "info": "Per festa major s’hi fa un pilar caminant (Castellers de la Vila de Gràcia) fins a la plaça de la Vila.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -6069,7 +6464,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -6216,7 +6612,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -6363,7 +6760,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -6510,7 +6908,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -6848,7 +7247,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -6995,7 +7395,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -7142,7 +7543,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -7417,7 +7819,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -7564,7 +7967,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -7711,7 +8115,8 @@
           "Castellers de la Vila de Gràcia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -7858,7 +8263,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8005,7 +8411,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8152,7 +8559,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8299,7 +8707,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8510,7 +8919,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8657,7 +9067,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8871,7 +9282,8 @@
           "Castellers de la Sagrada Família"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -8988,7 +9400,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -9137,7 +9550,8 @@
           "Arreplegats de la Zona Universitària"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -9351,7 +9765,8 @@
           "Arreplegats de la Zona Universitària"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -9374,7 +9789,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Inici del pilar caminant que els c. de Sants porten fins al Parc de l’Espanya Industrial per festa major (615 m.)",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -9690,7 +10105,69 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC7",
+            "colla": "Castellers de Sants",
+            "info": "Inici del pilar caminant que els c. de Sants porten fins al Parc de l’Espanya Industrial per festa major (615 m.)",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -10029,7 +10506,8 @@
           "Castellers de Castelldefels"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -10243,7 +10721,8 @@
           "Ganàpies de la UAB"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -10390,7 +10869,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -10413,7 +10893,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1879) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -10598,10 +11078,73 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC8",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1879) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -10615,7 +11158,7 @@
       },
       "properties": {
         "id": "LC50",
-        "nom": "Plaça Catalunya (Calafell)",
+        "nom": "Plaça Catalunya",
         "poblacio": "Calafell",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -10812,7 +11355,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -11023,7 +11567,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -11037,7 +11582,7 @@
       },
       "properties": {
         "id": "LC52",
-        "nom": "Plaça de l’Ajuntament (Calella)",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "Calella",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -11298,7 +11843,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -11312,7 +11858,7 @@
       },
       "properties": {
         "id": "LC53",
-        "nom": "Plaça de la Vila (Cambrils)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Cambrils",
         "comarca": "Baix Camp",
         "territori": "Catalunya",
@@ -11445,7 +11991,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -11656,7 +12203,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -11670,7 +12218,7 @@
       },
       "properties": {
         "id": "LC55",
-        "nom": "Plaça de l’esglèsia (Castelldefls)",
+        "nom": "Plaça de l’esglèsia ",
         "poblacio": "Castelldefels",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -11868,7 +12416,8 @@
           "Castellers de Castelldefels"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12079,7 +12628,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12093,7 +12643,7 @@
       },
       "properties": {
         "id": "LC57",
-        "nom": "Plaça de l'Abat Oliba (Cerdanyola)",
+        "nom": "Plaça de l'Abat Oliba ",
         "poblacio": "Cerdanyola del Vallès",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -12226,7 +12776,8 @@
           "Castellers de Sabadell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12240,7 +12791,7 @@
       },
       "properties": {
         "id": "LC58",
-        "nom": "Carrer Major (Constantí)",
+        "nom": "Carrer Major ",
         "poblacio": "Constantí",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -12249,7 +12800,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1879) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -12370,10 +12921,73 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Jove Xiquets de Tarragona"
+          "Colla Jove Xiquets de Tarragona",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC9",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1879) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -12387,7 +13001,7 @@
       },
       "properties": {
         "id": "LC59",
-        "nom": "Plaça de l'Església (Cornellà",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Cornellà de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -12520,7 +13134,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12534,7 +13149,7 @@
       },
       "properties": {
         "id": "LC60",
-        "nom": "Plaça de la Vila (Cornudella)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Cornudella de Montsant",
         "comarca": "Priorat",
         "territori": "Catalunya",
@@ -12731,7 +13346,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12878,7 +13494,8 @@
           "Castellers de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -12892,7 +13509,7 @@
       },
       "properties": {
         "id": "LC62",
-        "nom": "Plaça de la Vila (El Catllar)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "EL Catllar",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -12901,7 +13518,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1877) i de gamma extra al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -13537,7 +14154,69 @@
           "Xiquets i xiquetes del Catllar"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC10",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1877) i de gamma extra (4d9(c), 1881) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -13551,7 +14230,7 @@
       },
       "properties": {
         "id": "LC63",
-        "nom": "Plaça de l’esglèsia (El Masnou)",
+        "nom": "Plaça de l’esglèsia ",
         "poblacio": "El Masnou",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -13748,7 +14427,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -13762,7 +14442,7 @@
       },
       "properties": {
         "id": "LC64",
-        "nom": "Plaça de la Vila (El Prat)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "El Prat de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -14023,7 +14703,8 @@
           "Castellers del Prat"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -14245,7 +14926,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -14259,7 +14941,7 @@
       },
       "properties": {
         "id": "LC66",
-        "nom": "Plaça Vella (El Vendrell)",
+        "nom": "Plaça Vella ",
         "poblacio": "El Vendrell",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -14268,7 +14950,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1881) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -15110,10 +15792,73 @@
           "Mirons del Vendrell",
           "Nens del Vendrell  colla del Ganso",
           "Nens del Vendrell  colla del Truià",
-          "Nens del Vendrell  colla del Caio"
+          "Nens del Vendrell  colla del Caio",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC11",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1881) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -15127,7 +15872,7 @@
       },
       "properties": {
         "id": "LC67",
-        "nom": "c/Barceloneta Alta",
+        "nom": "Carrer Barceloneta Alta",
         "poblacio": "El Vendrell",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -15262,7 +16007,8 @@
           "Nens del Vendrell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -15276,7 +16022,7 @@
       },
       "properties": {
         "id": "LC68",
-        "nom": "C/Castellers (El Vendrell)",
+        "nom": "Carrer Castellers ",
         "poblacio": "El Vendrell",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -15406,7 +16152,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -15420,7 +16167,7 @@
       },
       "properties": {
         "id": "LC69",
-        "nom": "Monument als Castellers (El Vendrell)",
+        "nom": "Monument als Castellers ",
         "poblacio": "El Vendrell",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -15523,7 +16270,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -15732,7 +16480,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -15879,7 +16628,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16026,7 +16776,8 @@
           "Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16040,7 +16791,7 @@
       },
       "properties": {
         "id": "LC73",
-        "nom": "Plaça Ajuntament (Esparreguera)",
+        "nom": "Plaça Ajuntament ",
         "poblacio": "Esparreguera",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -16237,7 +16988,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16448,7 +17200,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16659,7 +17412,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16673,7 +17427,7 @@
       },
       "properties": {
         "id": "LC76",
-        "nom": "Ajuntament (Esplugues)",
+        "nom": "Ajuntament",
         "poblacio": "Esplugues",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -16932,7 +17686,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -16946,7 +17701,7 @@
       },
       "properties": {
         "id": "LC77",
-        "nom": "Plaça de l'Ajuntament (Figueres)",
+        "nom": "Plaça de l'Ajuntament",
         "poblacio": "Figueres",
         "comarca": "Alt Empordà",
         "territori": "Catalunya",
@@ -17079,7 +17834,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -17490,7 +18246,8 @@
           "Marrecs de Salt"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -17830,7 +18587,8 @@
           "Castellers de Granollers"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -17844,7 +18602,7 @@
       },
       "properties": {
         "id": "LC80",
-        "nom": "Plaça Major (Guissona)",
+        "nom": "Plaça Major ",
         "poblacio": "Guissona",
         "comarca": "La Segarra",
         "territori": "Catalunya",
@@ -18042,7 +18800,8 @@
           "Margeners de Guissona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -18065,7 +18824,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer castell de 9 a Àsia",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -18319,7 +19078,69 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC12",
+            "colla": "Colla Vella dels Xiquets de Valls",
+            "info": "Primer castell de 9 a Àsia",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -18333,7 +19154,7 @@
       },
       "properties": {
         "id": "LC82",
-        "nom": "Pavelló de la Colònia ANTEX",
+        "nom": "Pavelló de la Colònia ANTEX  (coordenades aprox)",
         "poblacio": "Hangzhou",
         "comarca": "",
         "territori": "Catalunya",
@@ -18466,7 +19287,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -18480,7 +19302,7 @@
       },
       "properties": {
         "id": "LC83",
-        "nom": "Plaça Ajuntament (Igualada)",
+        "nom": "Plaça Ajuntament",
         "poblacio": "Igualada",
         "comarca": "Anoia",
         "territori": "Catalunya",
@@ -18867,7 +19689,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -19079,7 +19902,8 @@
           "Moixiganguers d'Igualada"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -19292,7 +20116,8 @@
           "Moixigangues d’Igualada (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -19439,7 +20264,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -19453,7 +20279,7 @@
       },
       "properties": {
         "id": "LC87",
-        "nom": "Carrer Major (L’Arboç)",
+        "nom": "Carrer Major ",
         "poblacio": "L'Arboç",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -19462,7 +20288,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1883) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -19645,7 +20471,7 @@
         ],
         "placesge": [
           {
-            "castell": "2d9fm, 3d8ps",
+            "castell": "2d9fm (Vilafranca), 3d8ps (Vella)",
             "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls",
             "diada": "Diada de Festa Major",
             "data": "26 d’agost de 2001",
@@ -19721,10 +20547,73 @@
         "colles": [],
         "colles_relacionades": [
           "Castellers de Vilafranca",
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC13",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1883) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -19937,7 +20826,8 @@
           "Castellers de l’Hospitalet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -20086,7 +20976,8 @@
           "Ball de valencians del Catllar (s.XVIII)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -20100,7 +20991,7 @@
       },
       "properties": {
         "id": "LC90",
-        "nom": "Plaça Ajuntament (L’Hospitalet)",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "L’Hospitalet de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -20297,7 +21188,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -20311,7 +21203,7 @@
       },
       "properties": {
         "id": "LC91",
-        "nom": "c/Dr. Robert (Societat Bisbalenca)",
+        "nom": "Carrer Dr. Robert (Societat Bisbalenca)",
         "poblacio": "La Bisbal del Penedès",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -20320,7 +21212,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Durant molts anys anomenada “la plaça més castellera sense colla pròpia”",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -21648,7 +22540,69 @@
           "Xiquets Bisbalences"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC14",
+            "colla": "",
+            "info": "Durant molts anys anomenada “la plaça més castellera sense colla pròpia”",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -21662,7 +22616,7 @@
       },
       "properties": {
         "id": "LC92",
-        "nom": "C/Anxaneta (La Bisbal)",
+        "nom": "Carrer Anxaneta ",
         "poblacio": "La Bisbal del Penedès",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -21792,7 +22746,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -22003,7 +22958,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -22278,7 +23234,8 @@
           "Xicots de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -22425,7 +23382,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -22439,7 +23397,7 @@
       },
       "properties": {
         "id": "LC96",
-        "nom": "Plaça Major (La Riera)",
+        "nom": "Plaça Major",
         "poblacio": "La Riera de Gaià",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -22448,7 +23406,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1881) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -22699,10 +23657,73 @@
         ],
         "colles_relacionades": [
           "Xiquets de Tarragona",
-          "Espigolats de la Riera de Gaià"
+          "Espigolats de la Riera de Gaià",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC15",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1881) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -22716,7 +23737,7 @@
       },
       "properties": {
         "id": "LC97",
-        "nom": "c/Catalunya (Ajuntament)",
+        "nom": "Carrer Catalunya (Ajuntament)",
         "poblacio": "La Roca del Vallès",
         "comarca": "Vallès oriental",
         "territori": "Catalunya",
@@ -22917,7 +23938,8 @@
           "Castellers de la Roca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -22931,7 +23953,7 @@
       },
       "properties": {
         "id": "LC98",
-        "nom": "Plaça Major (La Selva)",
+        "nom": "Plaça Major ",
         "poblacio": "La Selva del Camp",
         "comarca": "Baix Camp",
         "territori": "Catalunya",
@@ -23191,7 +24213,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -23338,7 +24361,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -23802,7 +24826,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -23816,7 +24841,7 @@
       },
       "properties": {
         "id": "LC101",
-        "nom": "Plaça de la Vila (Llinars)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Llinars del Vallès",
         "comarca": "Vallès oriental",
         "territori": "Catalunya",
@@ -23951,7 +24976,8 @@
           "Xics de Granollers"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -23965,7 +24991,7 @@
       },
       "properties": {
         "id": "LC102",
-        "nom": "Ajuntament (Llorenç)",
+        "nom": "Ajuntament ",
         "poblacio": "Llorenç del Penedès",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -24607,7 +25633,8 @@
           "Gent de Llorenç"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -24754,7 +25781,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -24768,7 +25796,7 @@
       },
       "properties": {
         "id": "LC104",
-        "nom": "Plaça de la Vila (Lloret)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Lloret de Mar",
         "comarca": "La Selva",
         "territori": "Catalunya",
@@ -24965,7 +25993,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -25112,7 +26141,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -25135,7 +26165,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer castell de 9 a les Illes Balears",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -25259,7 +26289,69 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC16",
+            "colla": "Castellers de Vilafranca",
+            "info": "Primer castell de 9 a les Illes Balears.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -25273,7 +26365,7 @@
       },
       "properties": {
         "id": "LC107",
-        "nom": "Plaça Major (Manresa)",
+        "nom": "Plaça Major",
         "poblacio": "Manresa",
         "comarca": "Bages",
         "territori": "Catalunya",
@@ -25406,7 +26498,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -25681,7 +26774,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -25828,7 +26922,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -25975,7 +27070,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -26122,7 +27218,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -26269,7 +27366,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -26669,7 +27767,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -26880,7 +27979,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -27091,7 +28191,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -27105,7 +28206,7 @@
       },
       "properties": {
         "id": "LC116",
-        "nom": "Plaça Ajuntament (Mataró)",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -27302,7 +28403,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -27449,7 +28551,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -27472,7 +28575,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer castell de 9 a Itàlia",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -27596,7 +28699,69 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC17",
+            "colla": "Colla Jove Xiquets de Tarragona",
+            "info": "Primer castell de 9 a Itàlia",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -27743,7 +28908,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -28081,7 +29247,8 @@
           "Castellers de Mollet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -28095,7 +29262,7 @@
       },
       "properties": {
         "id": "LC121",
-        "nom": "Plaça Major (Montblanc)",
+        "nom": "Plaça Major",
         "poblacio": "Montblanc",
         "comarca": "Conca de Barberà",
         "territori": "Catalunya",
@@ -28104,7 +29271,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (~1864) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -28353,10 +29520,73 @@
         "colles": [],
         "colles_relacionades": [
           "Colla Vella dels Xiquets de Valls",
-          "Colla Joves dels Xiquets de Valls"
+          "Colla Joves dels Xiquets de Valls",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC18",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (~1864) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -28503,7 +29733,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -28517,7 +29748,7 @@
       },
       "properties": {
         "id": "LC123",
-        "nom": "Plaça de l'Abat Oliba (Montserrat)",
+        "nom": "Plaça de l'Abat Oliba ",
         "poblacio": "Montserrat (Monistrol de Montserrat)",
         "comarca": "Bages",
         "territori": "Catalunya",
@@ -28650,7 +29881,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -28797,7 +30029,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -29008,7 +30241,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -29031,7 +30265,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer castell de 9 a Euskal Herria i a la península (fora dels PPCC)",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -29155,7 +30389,69 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC19",
+            "colla": "Castellers de Vilafranca",
+            "info": "Primera plaça de de 9 a Euskal Herria i a la península (fora dels PPCC).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -29169,7 +30465,7 @@
       },
       "properties": {
         "id": "LC127",
-        "nom": "Plaça de la Vila (Palau Solità)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Palau Solità i Plegamans",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -29366,7 +30662,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -29513,7 +30810,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -29536,7 +30834,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Primer castell de 9 a Catalunya Nord",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -29660,7 +30958,69 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC20",
+            "colla": "Minyons de Terrassa",
+            "info": "Primera plaça de 9 a la Catalunya Nord.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -29674,7 +31034,7 @@
       },
       "properties": {
         "id": "LC130",
-        "nom": "C/del Nord (Ajuntament)",
+        "nom": "Carrer del Nord (Ajuntament)",
         "poblacio": "Premià de Mar",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -29871,7 +31231,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -29894,7 +31255,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1856) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -30285,10 +31646,73 @@
           "Castellers de Vilafranca",
           "Minyons de Terrassa",
           "Colla Vella dels Xiquets de Valls",
-          "Ganxets de Reus"
+          "Ganxets de Reus",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC21",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1856) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -30435,7 +31859,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -30582,7 +32007,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -30919,7 +32345,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -31068,7 +32495,8 @@
           "Castellers de Sabadell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -31215,7 +32643,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -31489,7 +32918,8 @@
           "Marrecs de Salt"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -31503,7 +32933,7 @@
       },
       "properties": {
         "id": "LC138",
-        "nom": "Plaça Ajuntament (Sant Boi)",
+        "nom": "Plaça Ajuntament ",
         "poblacio": "Sant Boi",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -31829,7 +33259,8 @@
           "Castellers de Sant Boi"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -31843,7 +33274,7 @@
       },
       "properties": {
         "id": "LC139",
-        "nom": "Can Masallera (Mallorca 30-34)",
+        "nom": "Can Masallera",
         "poblacio": "Sant Boi",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -31978,7 +33409,8 @@
           "Castellers de Sant Boi"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -32253,7 +33685,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -32400,7 +33833,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -32547,7 +33981,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -32696,7 +34131,8 @@
           "Castellers de Sant Cugat"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -32710,7 +34146,7 @@
       },
       "properties": {
         "id": "LC144",
-        "nom": "Plaça de l’Església (Sant Cugat S.)",
+        "nom": "Plaça de l’Església ",
         "poblacio": "Sant Cugat Sesgarrigues",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
@@ -32970,7 +34406,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33119,7 +34556,8 @@
           "Nois de la Torre"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33266,7 +34704,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33413,7 +34852,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33427,7 +34867,7 @@
       },
       "properties": {
         "id": "LC148",
-        "nom": "Plaça de la Vila (Sant Pere)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Sant Pere de Ribes",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -33755,7 +35195,8 @@
           "Els Castellers Ribetans"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33769,7 +35210,7 @@
       },
       "properties": {
         "id": "LC149",
-        "nom": "Plaça de l'Església (Sant Quintí)",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Sant Quintí de Mediona",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
@@ -33964,7 +35405,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -33978,7 +35420,7 @@
       },
       "properties": {
         "id": "LC150",
-        "nom": "Plaça de la Vila (Sant Vicenç)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Sant Vicenç dels Horts",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -34179,7 +35621,8 @@
           "Falcons de Sant Vicenç dels Horts"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -34391,7 +35834,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -34405,7 +35849,7 @@
       },
       "properties": {
         "id": "LC152",
-        "nom": "Plaça de l'Església (Santpedor)",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Santpedor",
         "comarca": "Bages",
         "territori": "Catalunya",
@@ -34538,7 +35982,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -35067,7 +36512,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -35081,7 +36527,7 @@
       },
       "properties": {
         "id": "LC154",
-        "nom": "Plaça de l’ajuntament (Sitges)",
+        "nom": "Plaça de l’Ajuntament",
         "poblacio": "Sitges",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -35277,7 +36723,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -35490,7 +36937,8 @@
           "Castellers de Solsona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -35703,7 +37151,8 @@
           "Colla Castellera Sant Pere i Sant Pau"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -35726,7 +37175,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1851, primer castell de 9 documentat) i de gamma extra al s.XIX.\nPunt d’inici del pilar caminat que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.).",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -36035,7 +37484,7 @@
         ],
         "placesge": [
           {
-            "castell": "2d9fm, 5d9f",
+            "castell": "2d9fm (Xiquets), 5d9f (Jove)",
             "colla": "Xiquets de Tarragona, Colla Jove Xiquets de Tarragona",
             "diada": "Diada de Sant Magí",
             "data": "19 d’agost de 2014",
@@ -36100,10 +37549,75 @@
         "colles": [],
         "colles_relacionades": [
           "Xiquets de Tarragona",
-          "Colla Jove Xiquets de Tarragona"
+          "Colla Jove Xiquets de Tarragona",
+          "Xiquets de Valls (s.XIX)",
+          "Xiquets del Serrallo",
+          "Colla Castellera Sant Pere i Sant Pau"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC22",
+            "colla": "Xiquets de Valls (s.XIX), Xiquets de Tarragona, Colla Jove Xiquets de Tarragona, Xiquets del Serrallo, Colla Castellera Sant Pere i Sant Pau",
+            "info": "Plaça de 9 (1851, primer castell de 9 documentat) i de gamma extra (1881, 4d9, 3d8ps) al s.XIX.\nPunt d’inici del pilar caminat que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -36377,7 +37891,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -36580,7 +38095,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -36791,7 +38307,8 @@
           "Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -36814,7 +38331,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Seu històrica del concurs de castells, seu actual de les jornades de dissabte i diumenge de les colles més ben classificades.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -37012,7 +38529,69 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC23",
+            "colla": "",
+            "info": "Seu històrica del concurs de castells, seu actual de les jornades de dissabte i diumenge de les colles més ben classificades.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -37429,7 +39008,8 @@
           "Colla Nova dels Xiquets de Tarragona – Sant Magí"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -37443,7 +39023,7 @@
       },
       "properties": {
         "id": "LC163",
-        "nom": "Pla de la Seu (Tarragona)",
+        "nom": "Pla de la Seu ",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -37638,7 +39218,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -37785,7 +39366,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -37932,7 +39514,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -38079,7 +39662,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -38093,7 +39677,7 @@
       },
       "properties": {
         "id": "LC167",
-        "nom": "Plaça Vella (Terrassa)",
+        "nom": "Plaça Vella ",
         "poblacio": "Terrassa",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -38489,7 +40073,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39026,7 +40611,8 @@
           "Castellers de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39173,7 +40759,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39320,7 +40907,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39467,7 +41055,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39614,7 +41203,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39761,7 +41351,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -39908,7 +41499,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -40120,7 +41712,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -40267,7 +41860,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -40281,7 +41875,7 @@
       },
       "properties": {
         "id": "LC177",
-        "nom": "Plaça de la Vila (Torredembarra)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Torredembarra",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -40290,7 +41884,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1852) i de gamma extra al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -40796,7 +42390,8 @@
           "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
           "Xiquets de Torredembarra",
-          "Xiquets de la Torre"
+          "Xiquets de la Torre",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [
           {
@@ -40823,7 +42418,69 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC24",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 i de gamma extra (3d8ps) al s.XIX (1852).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -40942,7 +42599,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -41088,7 +42746,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -41237,7 +42896,8 @@
           "Colla Castellera de Madrid"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -41251,7 +42911,7 @@
       },
       "properties": {
         "id": "LC181",
-        "nom": "Plaça Major (Vallmoll)",
+        "nom": "Plaça Major ",
         "poblacio": "Vallmoll",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -41260,7 +42920,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1858) i possiblement gamma extra al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -41508,10 +43168,73 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC25",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 i gamma extra (pd8fm) al s.XIX (1858).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -41534,7 +43257,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791)\nPlaça de 9 (1852) i de gamma extra al s.XIX.\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -42118,7 +43841,69 @@
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC26",
+            "colla": "Xiquets de Valls (s.XIX), Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
+            "info": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791).\nPlaça de 9 (1852) i de gamma extra al s.XIX (5d9f, 1883).\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -42352,7 +44137,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -42366,7 +44152,7 @@
       },
       "properties": {
         "id": "LC184",
-        "nom": "Monument als Castellers (Valls)",
+        "nom": "Monument als Castellers ",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -42493,7 +44279,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -42507,7 +44294,7 @@
       },
       "properties": {
         "id": "LC185",
-        "nom": "Monument A. Clavé",
+        "nom": "Monument a Anselm Clavé",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -42600,7 +44387,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -42614,7 +44402,7 @@
       },
       "properties": {
         "id": "LC186",
-        "nom": "Rotonda entrada",
+        "nom": "Rotonda d’entrada N240",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -42707,7 +44495,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -42730,7 +44519,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Seu del Museu Casteller de Catalunya",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -42918,7 +44707,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -43132,7 +44922,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -43278,7 +45069,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -43575,7 +45367,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -43589,7 +45382,7 @@
       },
       "properties": {
         "id": "LC191",
-        "nom": "Cal Blanco (Costa del Puntarró 10)",
+        "nom": "Cal Blanco",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -43724,7 +45517,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -43871,7 +45665,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44018,7 +45813,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44165,7 +45961,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44179,7 +45976,7 @@
       },
       "properties": {
         "id": "LC195",
-        "nom": "Plaça Major (Vic)",
+        "nom": "Plaça Major ",
         "poblacio": "Vic",
         "comarca": "Osona",
         "territori": "Catalunya",
@@ -44312,7 +46109,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44522,7 +46320,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44536,7 +46335,7 @@
       },
       "properties": {
         "id": "LC197",
-        "nom": "Plaça de l’esglèsia (Vila-Seca)",
+        "nom": "Plaça de l’esglèsia ",
         "poblacio": "Vila-Seca",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -44733,7 +46532,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -44747,7 +46547,7 @@
       },
       "properties": {
         "id": "LC198",
-        "nom": "Plaça de la Vila (Vilafranca)",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Vilafranca del Penedès",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
@@ -44756,7 +46556,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "Sí",
-        "altres": "Plaça de 9 (1860) i de gamma extra al s.XIX.\nConeguda com a la plaça més castellera.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -46411,10 +48211,73 @@
           "Colla Jove Xiquets de Tarragona",
           "Colla Joves dels Xiquets de Valls",
           "Minyons de Terrassa",
-          "Colla Jove dels Castellers de Vilafranca"
+          "Colla Jove dels Castellers de Vilafranca",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC27",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1860) i de gamma extra (pd8fm, 1880) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -46751,7 +48614,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -47024,7 +48888,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -47492,7 +49357,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -47663,7 +49529,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -47854,7 +49721,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -48130,7 +49998,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48277,7 +50146,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48486,7 +50356,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48633,7 +50504,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48780,7 +50652,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48927,7 +50800,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -48941,7 +50815,7 @@
       },
       "properties": {
         "id": "LC210",
-        "nom": "Plaça de l'Església (Vilallonga)",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Vilallonga del Camp",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -49264,7 +51138,8 @@
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -49287,7 +51162,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1852) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -49477,7 +51352,69 @@
           "Bordegassos de Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC28",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1852) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -49491,7 +51428,7 @@
       },
       "properties": {
         "id": "LC212",
-        "nom": "Plaça Ajuntament (Vilanova)",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50019,7 +51956,8 @@
           "Colla Jove de Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -50033,7 +51971,7 @@
       },
       "properties": {
         "id": "LC213",
-        "nom": "C/Cuba ",
+        "nom": "Carrer de Cuba ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50168,7 +52106,8 @@
           "Bordegassos de Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -50182,7 +52121,7 @@
       },
       "properties": {
         "id": "LC214",
-        "nom": "Plaça de l’anxaneta (Vilanova)",
+        "nom": "Plaça de l’anxaneta ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50312,7 +52251,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -50326,7 +52266,7 @@
       },
       "properties": {
         "id": "LC215",
-        "nom": "c/Salvador Raldiris",
+        "nom": "Carrer de Salvador Raldiris",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50458,7 +52398,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -50472,7 +52413,7 @@
       },
       "properties": {
         "id": "LC216",
-        "nom": "c/ del Pont",
+        "nom": "Carrer del Pont",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50604,7 +52545,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -50618,7 +52560,7 @@
       },
       "properties": {
         "id": "LC217",
-        "nom": "Plaça de les Cols (Vilanova)",
+        "nom": "Plaça de les Cols ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -50751,7 +52693,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -50765,7 +52708,7 @@
       },
       "properties": {
         "id": "LC218",
-        "nom": "Plaça Ajuntament (Vilassar)",
+        "nom": "Plaça Ajuntament ",
         "poblacio": "Vilassar de Mar",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -50962,7 +52905,8 @@
           "Capgrossos de Mataró"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -51109,7 +53053,8 @@
           "Castellers de Vilafranca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -51218,7 +53163,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -51429,7 +53375,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -51443,7 +53390,7 @@
       },
       "properties": {
         "id": "LC222",
-        "nom": "Plaça dels castellers (Sitges)",
+        "nom": "Plaça dels Castellers ",
         "poblacio": "Sitges",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -51536,7 +53483,8 @@
             ]
           }
         ],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -51550,7 +53498,7 @@
       },
       "properties": {
         "id": "LC223",
-        "nom": "Plaça Major (Gandia)",
+        "nom": "Plaça Major ",
         "poblacio": "Gandia",
         "comarca": "La Safor",
         "territori": "País Valencià",
@@ -51685,7 +53633,8 @@
           "Xics de Granollers"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -51829,7 +53778,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -51979,7 +53929,8 @@
           "Xics Caleros"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52194,7 +54145,8 @@
           "Xiquets de Gavà"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52344,7 +54296,8 @@
           "Vailets de l’Empordà"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52352,8 +54305,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7259846,
-          41.2277638
+          1.741494,
+          41.2267108
         ]
       },
       "properties": {
@@ -52494,7 +54447,8 @@
           "Castellers de les Roquetes"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52644,7 +54598,8 @@
           "Nyerros de la Plana"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52794,7 +54749,8 @@
           "Mangoners de la Universitat de Perpinyà"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -52944,7 +54900,8 @@
           "La Global de Salou"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53094,7 +55051,8 @@
           "Ses Talaies de Formentera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53244,7 +55202,8 @@
           "Vailets de Ripollet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53394,7 +55353,8 @@
           "Colla Castellera la Gavarresa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53544,7 +55504,8 @@
           "Angelets del Vallespir"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53694,7 +55655,8 @@
           "Castellers de l’Albera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53844,7 +55806,8 @@
           "Castellers del Collell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -53994,7 +55957,8 @@
           "Colla Jove de Castellers de Cubelles"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54144,7 +56108,8 @@
           "Castellers de les Gavarres"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54294,7 +56259,8 @@
           "Castellers de Martorell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54444,7 +56410,8 @@
           "Castellers de Montmeló"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54594,7 +56561,8 @@
           "Castellers de Sant Andreu de la Barca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54744,7 +56712,8 @@
           "Al·lots de Llevant"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -54958,7 +56927,8 @@
           "Bordegassos de Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55173,7 +57143,8 @@
           "Aficionats Sant Jaume dels Domenys"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55322,7 +57293,8 @@
           "Colla Castellera Sant Pere i Sant Pau"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55472,7 +57444,8 @@
           "Castellers d'Altafulla"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55622,7 +57595,8 @@
           "Castellers d'Andorra"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55772,7 +57746,8 @@
           "Castellers d'Esparreguera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -55922,7 +57897,8 @@
           "Castellers d'Esplugues"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56072,7 +58048,8 @@
           "Castellers de Badalona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56222,7 +58199,8 @@
           "Castellers de Berga"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56372,7 +58350,8 @@
           "Castellers de Caldes de Montbui"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56522,7 +58501,8 @@
           "Castellers de Castellar del Vallès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56672,7 +58652,8 @@
           "Castellers de Castelldefels"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56822,7 +58803,8 @@
           "Castellers de Cerdanyola"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -56972,7 +58954,8 @@
           "Castellers de Cornellà"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57122,7 +59105,8 @@
           "Castellers de l'Adroc"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57272,7 +59256,8 @@
           "Xiquets de l’Alster"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57422,7 +59407,8 @@
           "Castellers de la Selva"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57572,7 +59558,8 @@
           "Castellers de la Vila de Gràcia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57722,7 +59709,8 @@
           "Castellers de Lleida"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -57872,7 +59860,8 @@
           "Castellers de Mallorca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58022,7 +60011,8 @@
           "Castellers de Mediona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58172,7 +60162,8 @@
           "Castellers de Mollet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58322,7 +60313,8 @@
           "Castellers de Montcada i Reixac"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58472,7 +60464,8 @@
           "Castellers de Sabadell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58622,7 +60615,8 @@
           "Castellers de Sant Adrià"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58772,7 +60766,8 @@
           "Castellers de Sant Cugat"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -58922,7 +60917,8 @@
           "Castellers de Sant Feliu"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59072,7 +61068,8 @@
           "Castellers de Sant Vicenç dels Horts"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59222,7 +61219,8 @@
           "Castellers de Santa Coloma"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59372,7 +61370,8 @@
           "Castellers de Santpedor"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59522,7 +61521,8 @@
           "Castellers de Sants"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59672,7 +61672,8 @@
           "Castellers de Sarrià"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59822,7 +61823,8 @@
           "Castellers de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -59972,7 +61974,8 @@
           "Castellers de Tortosa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60122,7 +62125,8 @@
           "Castellers de Viladecans"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60272,7 +62276,8 @@
           "Castellers del Baix Montseny"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60422,7 +62427,8 @@
           "Castellers del Foix de Cubelles"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60572,7 +62578,8 @@
           "Castellers del Pallars"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60722,7 +62729,8 @@
           "Castellers del Poble Sec"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -60872,7 +62880,8 @@
           "Castellers del Prat de Llobregat"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61087,7 +63096,8 @@
           "Falcons del Riberal"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61237,7 +63247,8 @@
           "Colla Castellera de Cerdanya"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61387,7 +63398,8 @@
           "Colla Castellera de Figueres"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61537,7 +63549,8 @@
           "Colla Castellera de l'Alt Maresme i la Selva Marítima"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61687,7 +63700,8 @@
           "Colla Castellera de l'Esquerra de l'Eixample"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61837,7 +63851,8 @@
           "Colla Castellera de Vacarisses"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -61987,7 +64002,8 @@
           "Colla Castellera Els Encantats de Begues"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -62137,7 +64153,8 @@
           "Colla Castellera Jove de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -62287,7 +64304,8 @@
           "Colla Castellera de La Bisbal del Penedès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -62498,7 +64516,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -62648,7 +64667,8 @@
           "Colla Jove de Castellers de Sitges"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -62798,7 +64818,8 @@
           "Colla Jove de l'Hospitalet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -62948,7 +64969,8 @@
           "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63098,7 +65120,8 @@
           "Esperxats de l'Estany"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63248,7 +65271,8 @@
           "Laietans de Gramenet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63398,7 +65422,8 @@
           "Manyacs de Parets"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63548,7 +65573,8 @@
           "Margeners de Guissona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63698,7 +65724,8 @@
           "Marrecs de Salt"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63848,7 +65875,8 @@
           "Matossers de Molins de Rei"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -63998,7 +66026,8 @@
           "Minyons de l'Arboç"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64148,7 +66177,8 @@
           "Minyons de Santa Cristina d'Aro"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64298,7 +66328,8 @@
           "Muixeranga de la Marina Alta"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64448,7 +66479,8 @@
           "Nens del Vendrell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64598,7 +66630,8 @@
           "Nois de la Torre"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64748,7 +66781,8 @@
           "Pallagos del Conflent"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -64898,7 +66932,8 @@
           "Sagals d'Osona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65048,7 +67083,8 @@
           "Salats de Súria"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65198,7 +67234,8 @@
           "Tirallongues de Manresa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65348,7 +67385,8 @@
           "Torraires de Montblanc"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65498,7 +67536,8 @@
           "Vailets de Gelida"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65648,7 +67687,8 @@
           "Xerrics d'Olot"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65798,7 +67838,8 @@
           "Xics de Granollers"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -65948,7 +67989,8 @@
           "Xiqüelos i Xiqüeles del Delta"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66098,7 +68140,8 @@
           "Xiquets de Cambrils"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66248,7 +68291,8 @@
           "Xiquets de Reus"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66398,7 +68442,8 @@
           "Xiquets de Tarragona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66548,7 +68593,8 @@
           "Xiquets de Vila-seca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66698,7 +68744,8 @@
           "Xiquets del Serrallo"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66848,7 +68895,8 @@
           "Castellers de Rubí"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -66998,7 +69046,8 @@
           "Colla Castellera de Gavà"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67148,7 +69197,8 @@
           "Castellers del Lluçanès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67298,7 +69348,8 @@
           "Colla Castellera d'Horta"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67448,7 +69499,8 @@
           "Bergants del Campus de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67598,7 +69650,8 @@
           "Descargolats de l'EEBE"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67748,7 +69801,8 @@
           "Emboirats de la Universitat de Vic"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -67898,7 +69952,8 @@
           "Engrescats de la URL"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68048,7 +70103,8 @@
           "Gambirots de la UIB"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68198,7 +70254,8 @@
           "Grillats del Campus del Baix Llobregat"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68348,7 +70405,8 @@
           "Llunàtics UPC Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68498,7 +70556,8 @@
           "Passerells del TCM"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68648,7 +70707,8 @@
           "Pataquers de la URV"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68798,7 +70858,8 @@
           "Penjats del Campus de Manresa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -68948,7 +71009,8 @@
           "Trempats de la UPF"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69098,7 +71160,8 @@
           "Xoriguers de la UdG"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69248,7 +71311,8 @@
           "Colla Castellera de Madrid"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69398,7 +71462,8 @@
           "Colla Castellera Los Mataresos de l'Alguer"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69548,7 +71613,8 @@
           "Euskal Herriko Casteller Taldea"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69698,7 +71764,8 @@
           "Jove Muixeranga de València"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69848,7 +71915,8 @@
           "Muixeranga de la Vall d'Albaida"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -69998,7 +72066,8 @@
           "Conlloga Muixeranga de Castelló"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70148,7 +72217,8 @@
           "Muixeranga de la Marina Baixa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70298,7 +72368,8 @@
           "Muixeranga d'Alginet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70448,7 +72519,8 @@
           "Muixeranga d'Alacant"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70598,7 +72670,8 @@
           "Muixeranga la Carabassota"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70748,7 +72821,8 @@
           "Muixeranga d'Algemesí"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -70898,7 +72972,8 @@
           "Muixeranga de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71048,7 +73123,8 @@
           "Muixeranga penyeta blanca de Cocentaina"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71198,7 +73274,8 @@
           "Muixeranga de la Marina Alta"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71348,7 +73425,8 @@
           "Muixeranga de la Safor"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71498,7 +73576,8 @@
           "Muixeranga Els negrets de l'Alcúdia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71648,7 +73727,8 @@
           "Muixeranga de Sueca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71798,7 +73878,8 @@
           "Muixeranga La Torrentina"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -71948,7 +74029,8 @@
           "Muixeranga de Vinaròs"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72098,7 +74180,8 @@
           "Muixeranga La Socarrà de Xàtiva"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72248,7 +74331,8 @@
           "Muixeranga El Campello"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72398,7 +74482,8 @@
           "Muixeranga de Cullera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72548,7 +74633,8 @@
           "Nova Muixeranga d'Algemesí"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72698,7 +74784,8 @@
           "Muixeranga de Segària"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72848,7 +74935,8 @@
           "Muixeranga d'Elx"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -72998,7 +75086,8 @@
           "Muixeranga dels Ports"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73148,7 +75237,8 @@
           "Muixeranga Valls del Vinalopó"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73298,7 +75388,8 @@
           "Muixeranga del Carraixet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73448,7 +75539,8 @@
           "Falcons de Llorenç del Penedès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73598,7 +75690,8 @@
           "Falcons de Vilafranca del Penedès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73748,7 +75841,8 @@
           "Falcons de Piera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -73898,7 +75992,8 @@
           "Falcons de Vilanova i la Geltrú"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74048,7 +76143,8 @@
           "Falcons de Barcelona"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74198,7 +76294,8 @@
           "Falcons de Castellcir"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74348,7 +76445,8 @@
           "Falcons de Vallbona dAnoia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74498,7 +76596,8 @@
           "Falcons de Capellades"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74648,7 +76747,8 @@
           "Falcons de Vilanova dEspoia"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74798,7 +76898,8 @@
           "Castellers de Tolosa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -74948,7 +77049,8 @@
           "Joves des Raiguer"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75098,7 +77200,8 @@
           "Muixeranga de la Plana"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75248,7 +77351,8 @@
           "Muixeranga de Carlet"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75398,7 +77502,8 @@
           "Ball de Locos de l'Olleria"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75548,7 +77653,8 @@
           "Muixeranga de València"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75698,7 +77804,8 @@
           "Castellers d'Estocolm"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75848,7 +77955,8 @@
           "Castellers d’Éire"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -75998,7 +78106,8 @@
           "Castellers de Boston"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76148,7 +78257,8 @@
           "Castellers de Lausanne"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76298,7 +78408,8 @@
           "Castellers de Lo Prado"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76448,7 +78559,8 @@
           "Castellers de Montreal"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76598,7 +78710,8 @@
           "Castellers de París"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76748,7 +78861,8 @@
           "Castellers de Sydney"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -76898,7 +79012,8 @@
           "Castellers de Zürich"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77048,7 +79163,8 @@
           "Castellers of London"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77198,7 +79314,8 @@
           "Colla Castellera d’Edinburgh"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77348,7 +79465,8 @@
           "Colla Castellera de Berlín"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77498,7 +79616,8 @@
           "Mannekes de Brussel·les"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77648,7 +79767,8 @@
           "Xiquets de Copenhagen"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77798,7 +79918,8 @@
           "Koales de Melbourne"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -77948,7 +80069,8 @@
           "Castellers de Helsinki"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78098,7 +80220,8 @@
           "Castellers de Tokyo"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78248,7 +80371,8 @@
           "Castellers de Marsella"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78398,7 +80522,8 @@
           "Colla Pobl y Taf"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78548,7 +80673,8 @@
           "Aficionats d’Albinyana"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78698,7 +80824,8 @@
           "Aficionats de Masabornès"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78848,7 +80975,8 @@
           "Escatllots del Pla"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -78998,7 +81126,8 @@
           "Panarres de les Corts"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -79021,7 +81150,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Els Marrec de Salt pugen les escales de la catedral en un pilar caminat el dia de Tots Sants al vespre.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -79079,9 +81208,73 @@
         "placesge": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Marrecs de Salt"
+        ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC29",
+            "colla": "Marrecs de Salt",
+            "info": "Els Marrec de Salt pugen les escales de la catedral en un pilar caminat el dia de Tots Sants al vespre.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -79227,7 +81420,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -79373,7 +81567,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -79519,7 +81714,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -79667,7 +81863,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -79813,7 +82010,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -79959,7 +82157,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80105,7 +82304,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80249,7 +82449,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80396,7 +82597,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80540,7 +82742,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80686,7 +82889,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80830,7 +83034,8 @@
               }
             ]
           }
-        ]
+        ],
+        "mesinfo": []
       }
     },
     {
@@ -80980,7 +83185,8 @@
           "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81129,7 +83335,8 @@
           "Conlloga Muixeranga de Castelló"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81279,7 +83486,8 @@
           "Colla Castellera Los Xiquets de Flix"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81429,7 +83637,8 @@
           "Merlets del Montgrí"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81579,7 +83788,8 @@
           "Castellers de Tramuntana"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81729,7 +83939,8 @@
           "Boixes i Boixos d’Eivissa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -81879,7 +84090,8 @@
           "Castellers del Riberal"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82028,7 +84240,8 @@
           "Minyons de Terrassa"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82178,7 +84391,8 @@
           "Vailets de Synera"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82328,7 +84542,8 @@
           "Senglars de Canyelles"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82477,7 +84692,8 @@
           "Xiquets de Cambrils"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82626,7 +84842,8 @@
           "Agrupació de Valls Populars de Vilanova"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82775,7 +84992,8 @@
           "Castellers de Lleida"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -82925,7 +85143,8 @@
           "Marracos de la UdL"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83075,7 +85294,8 @@
           "Falcons d’Ivars d’Urgell"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83225,7 +85445,8 @@
           "Falcons de Cubelles"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83375,7 +85596,8 @@
           "Falcons de la Ràpita"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83525,7 +85747,8 @@
           "Falcons de Santa Margarida i els Monjos"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83675,7 +85898,8 @@
           "Falcons dels País del Cava"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83825,7 +86049,8 @@
           "Falcons de Puigdàlber"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -83975,7 +86200,8 @@
           "Falcons de la Salanca"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -84125,7 +86351,8 @@
           "Falcons de Malla"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -84340,7 +86567,8 @@
           "Aficionats de Solivella"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -84490,7 +86718,8 @@
           "Colla de Cal Morles / Colla de Cal Fuster"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -84640,7 +86869,8 @@
           "Xiquets de les Torres"
         ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": []
       }
     },
     {
@@ -84663,7 +86893,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1856) i de gamma extra al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -84721,9 +86951,73 @@
         "placesge": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Xiquets de Valls (s.XIX)"
+        ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC30",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 i de gamma extra (pd8fm) al s.XIX (1856) .",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -84746,7 +87040,7 @@
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
-        "altres": "Plaça de 9 (1879) al s.XIX.",
+        "altres": "",
         "fotos": [
           {
             "url": "",
@@ -84804,9 +87098,73 @@
         "placesge": [],
         "places10": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Xiquets de Valls (s.XIX)"
+        ],
         "monuments": [],
-        "carrers": []
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC31",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 (1879) al s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     }
   ]
