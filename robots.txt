@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://terradepilars.xorquem.cat/sitemap.xml
