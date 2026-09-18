@@ -77,7 +77,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Colla Jove Xiquets de Tarragona",
             "diada": "Santa Úrsula",
             "data": "20 d'octubre de 2013",
@@ -882,7 +882,7 @@
         "places9": [
           {
             "castell": "3d9f",
-            "colla": "Colla Joves dels Xiquets de Valls",
+            "colla": "Colla Joves dels Xiquets de Valls, Minyons de Terrassa",
             "diada": "Diada del 45è aniversari dels Castellers d'Altafulla",
             "data": "15 de setembre de 2018",
             "castells": "Sí",
@@ -946,7 +946,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Joves dels Xiquets de Valls"
+          "Colla Joves dels Xiquets de Valls",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": [],
@@ -1219,7 +1220,7 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 2d9fm",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada de Sant Martí",
             "data": "14 de novembre de 1999",
@@ -1284,7 +1285,7 @@
           {
             "castell": "2d9fm, pd8fm(c)",
             "colla": "Castellers de Vilafranca",
-            "diada": "Diada de Festa Major",
+            "diada": "Diada de Sant Martí",
             "data": "14 de novembre de 1999",
             "castells": "Sí",
             "muixerangues": "",
@@ -2440,8 +2441,8 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Minyons de Terrassa",
+            "castell": "3d9f (tots), 4d9f (Vilafranca)",
+            "colla": "Minyons de Terrassa, Castellers de Vilafranca, Capgrossos de Mataró",
             "diada": "Diada de la Capital de la Cultura Catalana",
             "data": "20 de juny de 2010",
             "castells": "Sí",
@@ -2717,8 +2718,8 @@
         ],
         "places9": [
           {
-            "castell": "3d9f(c)",
-            "colla": "Castellers de Sabadell",
+            "castell": "3d9f (Sabadell (c))",
+            "colla": "Castellers de Sabadell, Colla Jove Xiquets de Tarragona",
             "diada": "Festa Major",
             "data": "5 de juliol de 2015",
             "castells": "Sí",
@@ -2845,7 +2846,8 @@
         "colles": [],
         "colles_relacionades": [
           "Castellers de Sabadell",
-          "Castellers de Vilafranca"
+          "Castellers de Vilafranca",
+          "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
         "carrers": [],
@@ -3417,8 +3419,8 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "3d9f (Joves i Minyons(c)), 4d9f (Minyons i Vilafranca(c)), 2d9fm(c) (Minyons)",
+            "colla": "Colla Joves dels Xiquets de Valls, Minyons de Terrassa, Castellers de Vilafranca",
             "diada": "Diada de la Mercè",
             "data": "24 de setembre de 1994",
             "castells": "Sí",
@@ -3623,6 +3625,7 @@
           "Castellers de Barcelona",
           "Colla Joves dels Xiquets de Valls",
           "Minyons de Terrassa",
+          "Castellers de Vilafranca",
           "Cos de castellers dels Ballets de Catalunya",
           "Castellers de Sants",
           "Castellers de la Vila de Gràcia"
@@ -4045,8 +4048,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Minyons de Terrassa",
+            "castell": "3d9f (Minyons), 4d9f (Capgrossos)",
+            "colla": "Minyons de Terrassa, Capgrossos de Mataró",
             "diada": "Diada de 1714",
             "data": "11 de setembre de 2014",
             "castells": "Sí",
@@ -4110,7 +4113,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Minyons de Terrassa"
+          "Minyons de Terrassa",
+          "Capgrossos de Mataró"
         ],
         "monuments": [],
         "carrers": [],
@@ -6260,7 +6264,7 @@
           {
             "id": "DC6",
             "colla": "Castellers de la Vila de Gràcia",
-            "info": "Per festa major s’hi fa un pilar caminant (Castellers de la Vila de Gràcia) fins a la plaça de la Vila.",
+            "info": "Per festa major s’hi fa un pilar caminant (castellers de la Vila de Gràcia) fins a la plaça de la Vila.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -6396,7 +6400,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Minyons de Terrassa",
             "diada": "Festa Major del Camp d'en Grassot",
             "data": "29 de juny de 2014",
@@ -8343,7 +8347,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Capgrossos de Mataró",
             "diada": "Diada dels Castellers de Sants",
             "data": "17 d'octubre de 2010",
@@ -8491,7 +8495,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4D9F",
             "colla": "Minyons de Terrassa",
             "diada": "Festa Major de Sants",
             "data": "28 d'agost de 2011",
@@ -8639,7 +8643,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Fira d'entitats",
             "data": "8 de juny de 2013",
@@ -8852,7 +8856,7 @@
         "places9": [
           {
             "castell": "3d9f",
-            "colla": "Castellers de Barcelona",
+            "colla": "Castellers de Barcelona, Minyons de Terrassa",
             "diada": "Festa Major de Sarrià",
             "data": "13 d'octubre de 2013",
             "castells": "Sí",
@@ -8916,7 +8920,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Barcelona"
+          "Castellers de Barcelona",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": [],
@@ -9909,7 +9914,7 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada dels Castellers de Sants",
             "data": "14 d'octubre de 2001",
@@ -10110,7 +10115,7 @@
           {
             "id": "DC7",
             "colla": "Castellers de Sants",
-            "info": "Inici del pilar caminant que els c. de Sants porten fins al Parc de l’Espanya Industrial per festa major (615 m.)",
+            "info": "Inici del pilar caminant que els castellers de Sants porten fins al Parc de l’Espanya Industrial per festa major (615 m.)",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -10801,7 +10806,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f (Capgrossos), 4d9f (Minyons i Capgrossos)",
             "colla": "Castellers de Vilafranca",
             "diada": "La Patum",
             "data": "12 de juny de 2011",
@@ -11287,7 +11292,7 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f(c)",
             "colla": "Castellers de Vilafranca",
             "diada": "Festa Major del Poble de Calafell",
             "data": "19 de juliol de 2009",
@@ -12857,7 +12862,7 @@
         "places9": [
           {
             "castell": "3d9f",
-            "colla": "Colla Jove Xiquets de Tarragona",
+            "colla": "Colla Jove Xiquets de Tarragona, Colla Joves dels Xiquets de Valls",
             "diada": "Festa Major",
             "data": "26 de juliol de 2025",
             "castells": "Sí",
@@ -12922,6 +12927,7 @@
         "colles": [],
         "colles_relacionades": [
           "Colla Jove Xiquets de Tarragona",
+          "Colla Joves dels Xiquets de Valls",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
@@ -13426,8 +13432,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
-            "colla": "Castellers de Barcelona",
+            "castell": "4d9f (BCN), 3d9f (Gràcia, BCN)",
+            "colla": "Castellers de Barcelona, Castellers de la Vila de Gràcia",
             "diada": "Diada C. Sagrada Família",
             "data": "19 d'octubre de 2014",
             "castells": "Sí",
@@ -13491,7 +13497,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Barcelona"
+          "Castellers de Barcelona",
+          "Castellers de la Vila de Gràcia"
         ],
         "monuments": [],
         "carrers": [],
@@ -14359,7 +14366,7 @@
         ],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f(c)",
             "colla": "Capgrossos de Mataró",
             "diada": "Festa Major",
             "data": "29 de juny de 2014",
@@ -14783,8 +14790,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Castellers de Sants",
+            "castell": "3d9f (Sants, Vella), 5d9f (Minyons), 4d9fp (Vella), 4d9f (Sants)",
+            "colla": "Castellers de Sants, Colla Vella dels Xiquets de Valls, Monyons de Terrassa",
             "diada": "Diada de la Nova Atenes",
             "data": "11 d'octubre de 2015",
             "castells": "Sí",
@@ -14912,7 +14919,7 @@
             "castell": "3d10fm",
             "colla": "Minyons de Terrassa",
             "diada": "Diada de la Nova Atenes",
-            "data": "11/10/15",
+            "data": "11 d’octubre de 2015",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -14922,8 +14929,9 @@
         "colles": [],
         "colles_relacionades": [
           "Castellers de Sants",
-          "Minyons de Terrassa",
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Monyons de Terrassa",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": [],
@@ -16350,8 +16358,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
-            "colla": "Castellers de Vilafranca",
+            "castell": "4d9f (Vilafranca), 2d9fm (Vilafranca), 3d9f (tots, Nens(c))",
+            "colla": "Castellers de Vilafranca, Colla Jove Xiquets de Tarragona, Colla Joves dels Xiquets de Valls, Nens del Vendrell",
             "diada": "Diada Jan Julivert",
             "data": "2 de juliol de 2016",
             "castells": "Sí",
@@ -16477,7 +16485,10 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Vilafranca"
+          "Castellers de Vilafranca",
+          "Colla Jove Xiquets de Tarragona",
+          "Colla Joves dels Xiquets de Valls",
+          "Nens del Vendrell"
         ],
         "monuments": [],
         "carrers": [],
@@ -17427,7 +17438,7 @@
       },
       "properties": {
         "id": "LC76",
-        "nom": "Ajuntament",
+        "nom": "Plaça de Santa Magdalena",
         "poblacio": "Esplugues",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -18104,7 +18115,7 @@
         ],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Minyons de Terrassa",
             "diada": "Diada de Sant Narcís",
             "data": "27 d'octubre de 1996",
@@ -18233,7 +18244,7 @@
             "castell": "3d10fm",
             "colla": "Minyons de Terrassa",
             "diada": "Diada de Sant Narcís",
-            "data": "26/10/14",
+            "data": "26 d’octubre de 2014",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -18731,7 +18742,7 @@
         ],
         "places9": [
           {
-            "castell": "3d9f(c)",
+            "castell": "3d9f",
             "colla": "Minyons de Terrassa",
             "diada": "II Diada dels Margeners",
             "data": "8 de novembre de 2009",
@@ -22973,7 +22984,7 @@
       },
       "properties": {
         "id": "LC94",
-        "nom": "C/Estació (Ajuntament)",
+        "nom": "Carrer Estació (Ajuntament)",
         "poblacio": "La Granada del Penedès",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
@@ -24985,13 +24996,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5489341,
-          41.2817618
+          1.5529735,
+          41.2827947
         ]
       },
       "properties": {
         "id": "LC102",
-        "nom": "Ajuntament ",
+        "nom": "Plaça de la Vila ",
         "poblacio": "Llorenç del Penedès",
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
@@ -24999,7 +25010,7 @@
         "adreca": "Rambla de la Marinada 27, Llorenç del Penedès, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
-        "falcons": "",
+        "falcons": "Sí",
         "altres": "",
         "fotos": [
           {
@@ -25562,6 +25573,70 @@
         "places10": [],
         "colles": [
           {
+            "nom": "Falcons de Llorenç del Penedès",
+            "fundacio": "1942",
+            "inactiva": "",
+            "maxim_castell": "Figures dinàmiques destil més gimnàstic, piràmides evolutives, escala de 8",
+            "web": "https://elcentre.cat/seccions/falcons/",
+            "padrines": "",
+            "altres": "Colla més tradicional basada pels principis gimnàstics del Sokol i menys influïda per les tècniques castelleres.",
+            "castells": "",
+            "muixerangues": "",
+            "falcons": "Sí",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "nom": "Gent de Llorenç",
             "fundacio": "1890 o anterior",
             "inactiva": "",
@@ -25630,6 +25705,7 @@
           "Castellers de Vilafranca",
           "Nens del Vendrell",
           "Colla Jove Xiquets de Tarragona",
+          "Falcons de Llorenç del Penedès",
           "Gent de Llorenç"
         ],
         "monuments": [],
@@ -25714,7 +25790,7 @@
         "places9": [
           {
             "castell": "3d9f",
-            "colla": "Colla Joves dels Xiquets de Valls",
+            "colla": "Colla Joves dels Xiquets de Valls, Colla Jove Xiquets de Tarragona",
             "diada": "Festa Major de Llorenç del Penedès",
             "data": "11 d'agost de 2019",
             "castells": "Sí",
@@ -25778,7 +25854,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Joves dels Xiquets de Valls"
+          "Colla Joves dels Xiquets de Valls",
+          "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
         "carrers": [],
@@ -28483,7 +28560,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Capgrossos de Mataró",
             "diada": "Diada de la Mariona Galindo Lora",
             "data": "8 de novembre de 2014",
@@ -28631,8 +28708,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
-            "colla": "Colla Jove Xiquets de Tarragona",
+            "castell": "4d9f (Jove), 3d9f (Vilafranca)",
+            "colla": "Colla Jove Xiquets de Tarragona, Castellers de Vilafranca",
             "diada": "Expo Milano 2015",
             "data": "13 de juny de 2015",
             "castells": "Sí",
@@ -28696,7 +28773,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Jove Xiquets de Tarragona"
+          "Colla Jove Xiquets de Tarragona",
+          "Castellers de Vilafranca"
         ],
         "monuments": [],
         "carrers": [],
@@ -28840,7 +28918,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "X Aniversari dels Matossers",
             "data": "17 de juny de 2012",
@@ -29454,8 +29532,8 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Colla Vella dels Xiquets de Valls",
+            "castell": "3d9f(Vella), 4d9f (Vella i Joves)",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "diada": "Festa Major de Montblanc (Diada Nacional de Catalunya)",
             "data": "11 de setembre de 2000",
             "castells": "Sí",
@@ -30318,7 +30396,71 @@
             "enllac_extern": ""
           }
         ],
-        "plaques": [],
+        "plaques": [
+          {
+            "id": "PC226",
+            "colla": "Castellers de Vilafranca",
+            "castell": "3d9f",
+            "data_castell": "14/07/2018",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia a orioguka.eus",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://orioguka.eus/orio/1655641277467-orioko-plaza-placa-de-nou"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places9": [
           {
             "castell": "3d9f",
@@ -31438,8 +31580,8 @@
         ],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "3d9f (Joves), 4d9f (Vella)",
+            "colla": "Colla Joves dels Xiquets de Valls, Colla Vella dels Xiquets de Valls",
             "diada": "IV Centenari de la Misericòrdia",
             "data": "9 d'octubre de 1993",
             "castells": "Sí",
@@ -31643,9 +31785,9 @@
         "colles_relacionades": [
           "Xiquets de Reus",
           "Colla Joves dels Xiquets de Valls",
+          "Colla Vella dels Xiquets de Valls",
           "Castellers de Vilafranca",
           "Minyons de Terrassa",
-          "Colla Vella dels Xiquets de Valls",
           "Ganxets de Reus",
           "Xiquets de Valls (s.XIX)"
         ],
@@ -34784,7 +34926,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Festa Major de Sant Martí Sarroca",
             "data": "15 de juliol de 2001",
@@ -35275,7 +35417,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 2d9fm, 3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Campus Joan Amades",
             "data": "4 de juny de 2016",
@@ -37560,7 +37702,7 @@
           {
             "id": "DC22",
             "colla": "Xiquets de Valls (s.XIX), Xiquets de Tarragona, Colla Jove Xiquets de Tarragona, Xiquets del Serrallo, Colla Castellera Sant Pere i Sant Pau",
-            "info": "Plaça de 9 (1851, primer castell de 9 documentat) i de gamma extra (1881, 4d9, 3d8ps) al s.XIX.\nPunt d’inici del pilar caminat que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.).",
+            "info": "Plaça de 9 (1851, primer castell de 9 documentat) i de gamma extra (1881, 4d9, 3d8ps) al s.XIX.\nPunt d’inici del pilar caminant que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -39088,7 +39230,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada del pla de la Seu",
             "data": "7 de juliol de 2012",
@@ -39234,7 +39376,7 @@
       "properties": {
         "id": "LC164",
         "nom": "Plaça de Sant Magí",
-        "poblacio": "Tarragona",
+        "poblacio": "Tarragona (El Serrallo)",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -39932,7 +40074,7 @@
         ],
         "places9": [
           {
-            "castell": "2d9fm(c)",
+            "castell": "2d9fm(c), 3d9f, 4d9f",
             "colla": "Minyons de Terrassa",
             "diada": "Festa Major",
             "data": "5 de juliol de 1998",
@@ -41135,7 +41277,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Minyons de Terrassa",
             "diada": "Vigília Diada Minyons",
             "data": "21 de novembre de 2015",
@@ -41283,7 +41425,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
+            "castell": "3d9f, 4d9f",
             "colla": "Minyons de Terrassa",
             "diada": "Vigília Diada Minyons",
             "data": "19 de novembre de 2016",
@@ -42003,7 +42145,7 @@
           },
           {
             "id": "PC150",
-            "colla": "Colla Jove Xiquets de Tarragona",
+            "colla": "https://orioguka.eus/orio/1655641277467-orioko-plaza-placa-de-nou",
             "castell": "5d9f",
             "data_castell": "14/07/2018",
             "data_placa": "14/07/2019",
@@ -42387,7 +42529,7 @@
         ],
         "colles_relacionades": [
           "Nois de la Torre",
-          "Colla Jove Xiquets de Tarragona",
+          "https://orioguka.eus/orio/1655641277467-orioko-plaza-placa-de-nou",
           "Colla Vella dels Xiquets de Valls",
           "Xiquets de Torredembarra",
           "Xiquets de la Torre",
@@ -43846,7 +43988,7 @@
           {
             "id": "DC26",
             "colla": "Xiquets de Valls (s.XIX), Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
-            "info": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791).\nPlaça de 9 (1852) i de gamma extra al s.XIX (5d9f, 1883).\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+            "info": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791).\nPlaça de 9 (1852) i de gamma extra al s.XIX (5d9f, 1883).\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i de 10, i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -45745,8 +45887,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f",
-            "colla": "Minyons de Terrassa",
+            "castell": "3d9f (Minyons i Vella), 4d9f (Vella",
+            "colla": "Minyons de Terrassa, Colla Vella dels Xiquets de Valls",
             "diada": "Diada de Sant Isidre",
             "data": "14 de maig de 2016",
             "castells": "Sí",
@@ -45810,7 +45952,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Minyons de Terrassa"
+          "Minyons de Terrassa",
+          "Colla Vella dels Xiquets de Valls"
         ],
         "monuments": [],
         "carrers": [],
@@ -48758,7 +48901,7 @@
         ],
         "places9": [
           {
-            "castell": "2d9fm",
+            "castell": "2d9fm, 3d9f, 4d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Diada de Sant Miquel",
             "data": "25 de setembre de 2016",
@@ -50226,7 +50369,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "4d9f",
+            "castell": "4d9f, 3d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "Aniversari de Cal Figarot",
             "data": "20 d'agost de 2005",
@@ -51008,7 +51151,7 @@
         "places9": [
           {
             "castell": "3d9f",
-            "colla": "Colla Vella dels Xiquets de Valls",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Jove Xiquets de Tarragona",
             "diada": "Festa Major de Vilallonga del Camp",
             "data": "21 de juliol de 2011",
             "castells": "Sí",
@@ -75397,157 +75540,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5435,
-          41.2851
-        ]
-      },
-      "properties": {
-        "id": "LC366",
-        "nom": "",
-        "poblacio": "Llorenç del Penedès",
-        "comarca": "Baix Penedès",
-        "territori": "",
-        "pais": "",
-        "adreca": "",
-        "castells": "",
-        "muixerangues": "",
-        "falcons": "Sí",
-        "altres": "",
-        "fotos": [
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          }
-        ],
-        "plaques": [],
-        "places9": [],
-        "placesge": [],
-        "places10": [],
-        "colles": [
-          {
-            "nom": "Falcons de Llorenç del Penedès",
-            "fundacio": "1942",
-            "inactiva": "",
-            "maxim_castell": "Figures dinàmiques destil més gimnàstic, piràmides evolutives, escala de 8",
-            "web": "https://elcentre.cat/seccions/falcons/",
-            "padrines": "",
-            "altres": "Colla més tradicional basada pels principis gimnàstics del Sokol i menys influïda per les tècniques castelleres.",
-            "castells": "",
-            "muixerangues": "",
-            "falcons": "Sí",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
-        "colles_relacionades": [
-          "Falcons de Llorenç del Penedès"
-        ],
-        "monuments": [],
-        "carrers": [],
-        "mesinfo": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           1.6934,
           41.3444
         ]
@@ -84772,7 +84764,7 @@
         "plaques": [
           {
             "id": "PC222",
-            "colla": "Agrupació de Valls Populars de Vilanova",
+            "colla": "Agrupació de Balls Populars de Vilanova",
             "castell": "Recuperació del ball de valencians a Vilanova",
             "data_castell": "25/07/2000",
             "data_placa": "",
@@ -84839,7 +84831,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Agrupació de Valls Populars de Vilanova"
+          "Agrupació de Balls Populars de Vilanova"
         ],
         "monuments": [],
         "carrers": [],
@@ -87165,6 +87157,153 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.737851,
+          41.347825
+        ]
+      },
+      "properties": {
+        "id": "LC444",
+        "nom": "Carrer del Bosc de Ferran",
+        "poblacio": "Vilafranca del Penedès (Pere Pau)",
+        "comarca": "Alt Penedès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Vilafranca"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "",
+            "motiu": "Mural 4d9",
+            "colla": "Castellers de Vilafranca",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Mural_dels_Castellers_de_Vilafranca_-_Pere_Pau_-_20260607_191305.jpg",
+                "text": "",
+                "font": "Wikimedia Commons",
+                "font_url": "https://commons.wikimedia.org/wiki/File:Mural_dels_Castellers_de_Vilafranca_-_Pere_Pau_-_20260607_191305.jpg",
+                "autor": "Pere López Brosa",
+                "llicencia": "CC BY-SA 4.0",
+                "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
       }
     }
   ]
