@@ -5785,7 +5785,7 @@
           {
             "castell": "3d9f",
             "colla": "Castellers de Vilafranca",
-            "diada": "Diada de Festa major",
+            "diada": "Diada de Festa Major",
             "data": "18 d'agost de 2002",
             "castells": "Sí",
             "muixerangues": "",
@@ -36133,8 +36133,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.8118609,
-          41.2352225
+          1.8096904,
+          41.2367087
         ]
       },
       "properties": {
@@ -36144,7 +36144,7 @@
         "comarca": "Garraf",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lajuntament, Sitges, Catalunya, Espanya",
+        "adreca": "",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "Sí",
@@ -36663,8 +36663,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.8091446,
-          41.2349477
+          1.8118609,
+          41.2352225
         ]
       },
       "properties": {
@@ -40916,7 +40916,7 @@
       },
       "properties": {
         "id": "LC170",
-        "nom": "Esglésies de Sant Pere",
+        "nom": "Esglésies de Sant Pere (Plaça del Rector Homs)",
         "poblacio": "Terrassa",
         "comarca": "Vallès Occidental",
         "territori": "Catalunya",
@@ -41042,7 +41042,69 @@
             ]
           }
         ],
-        "placesge": [],
+        "placesge": [
+          {
+            "castell": "9d8",
+            "colla": "Minyons de Terrassa",
+            "diada": "Diada del Patrimoni",
+            "data": "23 de maig de 2015",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "places10": [],
         "colles": [],
         "colles_relacionades": [
@@ -45357,7 +45419,7 @@
           {
             "castell": "3d9f(c)",
             "colla": "Colla Vella dels Xiquets de Valls",
-            "diada": "Festa major de les Cases de la Colla Vella",
+            "diada": "Festa Major de les Cases de la Colla Vella",
             "data": "22 de juliol de 2000",
             "castells": "Sí",
             "muixerangues": "",
@@ -48363,7 +48425,7 @@
           {
             "id": "DC27",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (1860) i de gamma extra (pd8fm, 1880) al s.XIX.",
+            "info": "Plaça de 9 (1860) i de gamma extra (pd8fm, 1880) al s.XIX.\nTotes les colles que han fet algun castell de gamma extra en el s.XXI, n’han fet almenys un en aquesta plaça.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -87529,7 +87591,7 @@
           {
             "castell": "3d9f",
             "colla": "Minyons de Terrassa",
-            "diada": "Diada de Festa major",
+            "diada": "Diada de Festa Major",
             "data": "20 de setembre de 2026",
             "castells": "Sí",
             "muixerangues": "",
