@@ -27452,8 +27452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4421884,
-          41.537728
+          2.4448236,
+          41.5376987
         ]
       },
       "properties": {
@@ -28065,13 +28065,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4460878,
-          41.5413583
+          2.446277,
+          41.540788
         ]
       },
       "properties": {
         "id": "LC115",
-        "nom": "Basílica Santa Maria",
+        "nom": "Plaça de Santa Maria",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -28489,8 +28489,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4414278,
-          41.5413864
+          2.443953,
+          41.541277
         ]
       },
       "properties": {
@@ -36528,7 +36528,7 @@
             "maxim_castell": "cinc de cintura, pira d11(c) (1977)",
             "web": "",
             "padrines": "",
-            "altres": "Després d’questa colla apareix la Colla Nova de Falcons de Sitges (a l’mpara de l’Agrupació de Balls Populars de Sitges) amb una durada breu (1989-1990).",
+            "altres": "Després d’questa colla apareix la Colla Nova de Falcons de Sitges (a l’empara de l’Agrupació de Balls Populars de Sitges) amb una durada breu (1989-1990).",
             "castells": "",
             "muixerangues": "",
             "falcons": "Sí",
@@ -43909,13 +43909,13 @@
             ]
           },
           {
-            "nom": "Xiquets de Valls (1939-1947)",
+            "nom": "Xiquets de Valls unificats (s.XX)",
             "fundacio": "1939",
             "inactiva": "1947",
             "maxim_castell": "4d8 (1945)",
             "web": "",
             "padrines": "",
-            "altres": "Coneguda popularment com La Barreja, correspon a la unió de les 2 colles vallenques forçada després de la Guerra Civil, amb l’parició al 1947 de la Colla Vella es trenca aquesta unió forçada.\nGuanyadora dels concursos de castells de Valls de 1941 (empatada amb Nens del Vendrell) i del Vendrell de 1945. ",
+            "altres": "Durant el període 1927-1929 es produeix una unificació de les colles Vella i Nova arran de l’apariciód e les colles del Vendrell i Tarragona. Per Sant Joan de 1930 tornen a actuar les 2 colles.\nEntre 1939 i 1947, coneguda popularment com La Barreja, correspon a la unió de les 2 colles vallenques forçada després de la Guerra Civil, amb l’aparició al 1947 de la Colla Vella es trenca aquesta unió forçada.\nGuanyadora dels concursos de castells de Valls de 1941 (empatada amb Nens del Vendrell) i del Vendrell de 1945. ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -44041,7 +44041,7 @@
           "Colla Joves dels Xiquets de Valls",
           "Colla Vella dels Xiquets de Valls",
           "Xicots de Valls",
-          "Xiquets de Valls (1939-1947)",
+          "Xiquets de Valls unificats (s.XX)",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
@@ -54516,7 +54516,7 @@
       },
       "properties": {
         "id": "LC228",
-        "nom": "Carrer Espronceda, 08812 Barcelona",
+        "nom": "Carrer Espronceda",
         "poblacio": "Les Roquetes",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -84914,7 +84914,7 @@
         "adreca": "",
         "castells": "",
         "muixerangues": "Sí",
-        "falcons": "",
+        "falcons": "Sí",
         "altres": "",
         "fotos": [
           {
@@ -84992,13 +84992,13 @@
               },
               {
                 "url": "",
-                "text": "Rajola que es troba a l’Agrupació amb diferents balls populars i un ventall falconer",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/plaques/PC222b.jpg"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -85041,7 +85041,68 @@
           "Agrupació de Balls Populars de Vilanova"
         ],
         "monuments": [],
-        "carrers": [],
+        "carrers": [
+          {
+            "emplaçament": "Agrupació Balls populars",
+            "motiu": "Rajola a l’interior de l’Agrupació amb diferents balls populars i un ventall falconer",
+            "colla": "Agrupació de Balls Populars de Vilanova",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "Sí",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC222b.jpg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "mesinfo": []
       }
     },

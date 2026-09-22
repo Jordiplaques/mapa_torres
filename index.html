@@ -9,7 +9,12 @@
 
 <link rel="icon" type="image/png" href="fotos/faviconTdP.png">
 
-<title>Torres humanes dels Països Catalans</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<title>Terra de Pilars, torres humanes dels Països Catalans</title>
 
 <meta name="description" content="Mapa interactiu del patrimoni de torres humanes (castellers, muixerangues, falcons) dels Països Catalans, amb places castelelres de 9, de 10 i de gamma extra, plaques commemoratives, monuments, carrers, locals de colles i altres elements relacionats amb els castells.">
 
@@ -33,6 +38,10 @@ src="leaflet/leaflet.js">
 </script>
 
 <style>
+
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 html, body, #map {
 
@@ -358,6 +367,20 @@ html, body, #map {
     }
 
 }
+
+.tradicio-castells {
+    color: #c62828;
+}
+
+.tradicio-muixerangues {
+    color: #8e44ad;
+}
+
+.tradicio-falcons {
+    color: #27ae60;
+}
+
+
 </style>
 
 </head>
@@ -367,7 +390,7 @@ html, body, #map {
 <div id="map">
 
     <div id="titolMapa">
-        Torres Humanes dels Països Catalans
+        Terra de Pilars, torres Humanes dels Països Catalans
     </div>
 
 </div>
@@ -403,17 +426,17 @@ html, body, #map {
 
 <h4>Tradicions</h4>
 
-<label>
+<label class="tradicio-castells">
     <input type="checkbox" id="fcastells" checked>
     Castells
 </label>
 
-<label>
+<label class="tradicio-muixerangues">
     <input type="checkbox" id="fmuixerangues" checked>
     Muixerangues
 </label>
 
-<label>
+<label class="tradicio-falcons">
     <input type="checkbox" id="ffalcons" checked>
     Falcons
 </label>
@@ -455,7 +478,7 @@ html, body, #map {
 
 <label>
     <input type="checkbox" id="fcarrers">
-    🛣️ Altres elements
+    🔎 Altres elements
 </label>
 
 <label>
@@ -499,7 +522,7 @@ html, body, #map {
     </p>
 
     <p>
-        Els filtres permeten mostrar o amagar les localitzacions de cada tradició. Dins de les localitzacions només es mostraran els elements patrimonials corresponents als filtres actius. Les referències que tenim de balls de valencians de moment s'inclouen dins de "Muixerangues".
+        Els filtres permeten mostrar o amagar les localitzacions de cada tradició. Dins de les localitzacions només es mostraran els elements patrimonials corresponents als filtres actius. Les referències que tenim de balls de valencians de moment s'inclouen dins de "Muixerangues". Cada element es mostra amb el color corresponent de la tradició; vermell pels castells, morat per les muixerangues i verd pels falcons.
     </p>
 
    
@@ -524,12 +547,12 @@ html, body, #map {
 
     <p>
         <strong>🏠 Local o localització de colla</strong><br>
-        Locals de colles o, en el cas de colles desaparegudes o sense informació, indiquen la presència d'una colla en la població. En cada colla hi ha informació sobre el seu nivell/construccions màximes assolides, i l'any en que es va assolir per primer cop, i enllaç a web o xarxes socials. En alguns casos s'adjunten altres informacions d'interés com les seves colles padrines o fotos del local. 
+        Locals de colles o, en el cas de colles desaparegudes o sense informació, indiquen la presència d'una colla en la població. En cada colla hi ha informació sobre el seu nivell/construccions màximes assolides, i l'any en que es va assolir per primer cop, i enllaç a web o xarxes socials. En alguns casos s'adjunten altres informacions d'interés com les seves colles padrines o fotos del local. Els locals de colles castelleres surten en color vermell, els de muxiernagues en morat i els de falcons en verd.
 
     </p>
 
     <p>
-        <strong>🛣️ Altres elements</strong><br>
+        <strong>🔎 Altres elements</strong><br>
         Localitzacions relacionades amb les torres humanes, principalment carrers amb algun nom relacionat i murals.
     </p>
 
@@ -686,16 +709,130 @@ function crearIcona(p) {
         document.getElementById("fmonuments").checked ||
         document.getElementById("fcarrers").checked ||
         document.getElementById("fcolles").checked ||
-document.getElementById("fmesinfo").checked;
+        document.getElementById("fmesinfo").checked;
 
 
-    // CAP ELEMENT PATRIMONIAL SELECCIONAT
-    if (!algunElementPatrimonial) {
 
-        return "📍";
+   // CAP ELEMENT PATRIMONIAL SELECCIONAT
+if (!algunElementPatrimonial) {
+
+    var colorsLocalitzacio = [];
+
+
+    // CASTELLS
+
+    if (
+        document.getElementById("fcastells").checked &&
+        p.castells === "Sí"
+    ) {
+        colorsLocalitzacio.push("#c62828");
+    }
+
+
+    // MUIXERANGUES
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        p.muixerangues === "Sí"
+    ) {
+        colorsLocalitzacio.push("#8e44ad");
+    }
+
+
+    // FALCONS
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        p.falcons === "Sí"
+    ) {
+        colorsLocalitzacio.push("#27ae60");
+    }
+
+
+    // ICONA DE LOCALITZACIÓ
+
+    if (colorsLocalitzacio.length) {
+
+        var idGradientLocalitzacio =
+            "gradientLocalitzacio" +
+            p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+        var gradientLocalitzacio = "";
+
+
+        if (colorsLocalitzacio.length === 1) {
+
+            gradientLocalitzacio =
+                '<stop offset="0%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>' +
+                '<stop offset="100%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>';
+
+        } else if (colorsLocalitzacio.length === 2) {
+
+            gradientLocalitzacio =
+                '<stop offset="0%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>' +
+                '<stop offset="50%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>' +
+                '<stop offset="50%" stop-color="' +
+                colorsLocalitzacio[1] + '"/>' +
+                '<stop offset="100%" stop-color="' +
+                colorsLocalitzacio[1] + '"/>';
+
+        } else {
+
+            gradientLocalitzacio =
+                '<stop offset="0%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>' +
+                '<stop offset="33.33%" stop-color="' +
+                colorsLocalitzacio[0] + '"/>' +
+                '<stop offset="33.33%" stop-color="' +
+                colorsLocalitzacio[1] + '"/>' +
+                '<stop offset="66.66%" stop-color="' +
+                colorsLocalitzacio[1] + '"/>' +
+                '<stop offset="66.66%" stop-color="' +
+                colorsLocalitzacio[2] + '"/>' +
+                '<stop offset="100%" stop-color="' +
+                colorsLocalitzacio[2] + '"/>';
+        }
+
+
+        return (
+
+            '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+            'xmlns="http://www.w3.org/2000/svg">' +
+
+            '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+            '<defs>' +
+                '<linearGradient id="' + idGradientLocalitzacio + '" ' +
+                'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                    gradientLocalitzacio +
+                '</linearGradient>' +
+            '</defs>' +
+
+            // Pin de localització
+            '<path d="M12 2.5 ' +
+            'C8 2.5 5 5.5 5 9.5 ' +
+            'C5 14.5 12 21 12 21 ' +
+            'C12 21 19 14.5 19 9.5 ' +
+            'C19 5.5 16 2.5 12 2.5 Z" ' +
+            'fill="url(#' + idGradientLocalitzacio + ')"/>' +
+
+            // Cercle interior
+            '<circle cx="12" cy="9.5" r="2.7" fill="white"/>' +
+
+            '</svg>'
+
+        );
 
     }
 
+
+    return "";
+
+}
 
     // ELEMENTS PATRIMONIALS SELECCIONATS
 
@@ -726,9 +863,22 @@ if (
     document.getElementById("fcastells").checked &&
     hiHaPlaça9
 ) {
-    icona += "9️⃣";
-}
 
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<text x="12" y="17" ' +
+        'text-anchor="middle" ' +
+        'font-family="Arial, sans-serif" ' +
+        'font-size="17" ' +
+        'font-weight="bold" ' +
+        'fill="#c62828">9</text>' +
+
+        '</svg>';
+}
 var hiHaPlaçaGE = p.placesge.some(function (plaça) {
 
     if (collaCerca) {
@@ -756,9 +906,27 @@ if (
     document.getElementById("fcastells").checked &&
     hiHaPlaçaGE
 ) {
-    icona += "<span class='icona-gamma-extra'>⭐</span>";
-    }
 
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<path d="M12 4.5 ' +
+        'L14.1 9.1 ' +
+        'L19.1 9.7 ' +
+        'L15.4 13.1 ' +
+        'L16.4 18 ' +
+        'L12 15.5 ' +
+        'L7.6 18 ' +
+        'L8.6 13.1 ' +
+        'L4.9 9.7 ' +
+        'L9.9 9.1 Z" ' +
+        'fill="#c62828"/>' +
+
+        '</svg>';
+}
  var hiHaPlaça10 = p.places10.some(function (plaça) {
 
     if (collaCerca) {
@@ -786,8 +954,34 @@ if (
     document.getElementById("fcastells").checked &&
     hiHaPlaça10
 ) {
-    icona += "🔟";
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<text x="12" y="17" ' +
+        'text-anchor="middle" ' +
+        'font-family="Arial, sans-serif" ' +
+        'font-size="14" ' +
+        'font-weight="bold" ' +
+        'fill="#c62828">10</text>' +
+
+        '</svg>';
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 var hiHaPlaques = p.plaques.some(function (placa) {
@@ -837,13 +1031,131 @@ var hiHaPlaques = p.plaques.some(function (placa) {
 
 });
 
+
+var colorsPlaques = [];
+
+p.plaques.forEach(function (placa) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            placa.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return;
+        }
+    }
+
+
+    // CASTELLS
+
+    if (
+        document.getElementById("fcastells").checked &&
+        placa.castells === "Sí"
+    ) {
+        if (!colorsPlaques.includes("#c62828")) {
+            colorsPlaques.push("#c62828");
+        }
+    }
+
+
+    // MUIXERANGUES
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        placa.muixerangues === "Sí"
+    ) {
+        if (!colorsPlaques.includes("#8e44ad")) {
+            colorsPlaques.push("#8e44ad");
+        }
+    }
+
+
+    // FALCONS
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        placa.falcons === "Sí"
+    ) {
+        if (!colorsPlaques.includes("#27ae60")) {
+            colorsPlaques.push("#27ae60");
+        }
+    }
+
+});
+
 if (
     document.getElementById("fplaques").checked &&
     hiHaPlaques
 ) {
-    icona += "<span class='icona-placa'>🪧</span>";
-}
 
+    var idGradientPlaca =
+        "gradientPlaca" + p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+    var gradientPlaca = "";
+
+    if (colorsPlaques.length === 1) {
+
+        gradientPlaca =
+            '<stop offset="0%" stop-color="' + colorsPlaques[0] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsPlaques[0] + '"/>';
+
+    } else if (colorsPlaques.length === 2) {
+
+        gradientPlaca =
+            '<stop offset="0%" stop-color="' + colorsPlaques[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsPlaques[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsPlaques[1] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsPlaques[1] + '"/>';
+
+    } else {
+
+        gradientPlaca =
+            '<stop offset="0%" stop-color="' + colorsPlaques[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsPlaques[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsPlaques[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsPlaques[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsPlaques[2] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsPlaques[2] + '"/>';
+    }
+
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<defs>' +
+            '<linearGradient id="' + idGradientPlaca + '" ' +
+            'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                gradientPlaca +
+            '</linearGradient>' +
+        '</defs>' +
+
+        // Placa
+        '<rect x="5" y="5" width="14" height="14" rx="1.5" ' +
+        'fill="url(#' + idGradientPlaca + ')"/>' +
+
+        // Petit detall interior de la placa
+        '<line x1="8" y1="9" x2="16" y2="9" ' +
+        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
+
+        '<line x1="8" y1="12" x2="16" y2="12" ' +
+        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
+
+        '<line x1="8" y1="15" x2="14" y2="15" ' +
+        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
+
+        '</svg>';
+}
 var hiHaMonument = p.monuments.some(function (monument) {
 
     // FILTRE PER COLLA
@@ -891,15 +1203,165 @@ var hiHaMonument = p.monuments.some(function (monument) {
 
 });
 
+var colorsMonuments = [];
+
+p.monuments.forEach(function (monument) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        var coincideixColla =
+            monument.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return;
+        }
+    }
+
+
+    // CASTELLS
+
+    if (
+        document.getElementById("fcastells").checked &&
+        monument.castells === "Sí"
+    ) {
+        if (!colorsMonuments.includes("#c62828")) {
+            colorsMonuments.push("#c62828");
+        }
+    }
+
+
+    // MUIXERANGUES
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        monument.muixerangues === "Sí"
+    ) {
+        if (!colorsMonuments.includes("#8e44ad")) {
+            colorsMonuments.push("#8e44ad");
+        }
+    }
+
+
+    // FALCONS
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        monument.falcons === "Sí"
+    ) {
+        if (!colorsMonuments.includes("#27ae60")) {
+            colorsMonuments.push("#27ae60");
+        }
+    }
+
+});
+
+
 
 if (
     document.getElementById("fmonuments").checked &&
     hiHaMonument
 ) {
-    icona += "🏛️";
-}    
+
+    var fonsCercleMonument = "";
+
+    if (colorsMonuments.length === 1) {
+
+        fonsCercleMonument =
+            colorsMonuments[0];
+
+    } else if (colorsMonuments.length === 2) {
+
+        fonsCercleMonument =
+            "linear-gradient(to right, " +
+            colorsMonuments[0] + " 0%, " +
+            colorsMonuments[0] + " 50%, " +
+            colorsMonuments[1] + " 50%, " +
+            colorsMonuments[1] + " 100%)";
+
+    } else if (colorsMonuments.length >= 3) {
+
+        fonsCercleMonument =
+            "linear-gradient(to right, " +
+            colorsMonuments[0] + " 0%, " +
+            colorsMonuments[0] + " 33.33%, " +
+            colorsMonuments[1] + " 33.33%, " +
+            colorsMonuments[1] + " 66.66%, " +
+            colorsMonuments[2] + " 66.66%, " +
+            colorsMonuments[2] + " 100%)";
+    }
 
 
+    var idGradientMonument =
+        "gradientMonument" + p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+    var gradientMonument = "";
+
+    if (colorsMonuments.length === 1) {
+
+        gradientMonument =
+            '<stop offset="0%" stop-color="' + colorsMonuments[0] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMonuments[0] + '"/>';
+
+    } else if (colorsMonuments.length === 2) {
+
+        gradientMonument =
+            '<stop offset="0%" stop-color="' + colorsMonuments[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsMonuments[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsMonuments[1] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMonuments[1] + '"/>';
+
+    } else {
+
+        gradientMonument =
+            '<stop offset="0%" stop-color="' + colorsMonuments[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsMonuments[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsMonuments[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsMonuments[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsMonuments[2] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMonuments[2] + '"/>';
+    }
+
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<defs>' +
+            '<linearGradient id="' + idGradientMonument + '" ' +
+            'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                gradientMonument +
+            '</linearGradient>' +
+        '</defs>' +
+
+        '<path d="M3 9L12 4L21 9H3Z" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '<rect x="4" y="9" width="16" height="2" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '<rect x="5" y="11" width="3" height="7" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '<rect x="10.5" y="11" width="3" height="7" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '<rect x="16" y="11" width="3" height="7" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '<rect x="3" y="18" width="18" height="2" ' +
+        'fill="url(#' + idGradientMonument + ')"/>' +
+
+        '</svg>';
+}
 var hiHaCarrer = p.carrers.some(function (carrer) {
 
     // FILTRE PER COLLA
@@ -946,12 +1408,134 @@ var hiHaCarrer = p.carrers.some(function (carrer) {
     return false;
 
 });
+
+
+var colorsCarrers = [];
+
+p.carrers.forEach(function (carrer) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (!carrer.colla) {
+            return;
+        }
+
+        var coincideixColla =
+            carrer.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return;
+        }
+    }
+
+
+    // CASTELLS
+
+    if (
+        document.getElementById("fcastells").checked &&
+        carrer.castells === "Sí"
+    ) {
+        if (!colorsCarrers.includes("#c62828")) {
+            colorsCarrers.push("#c62828");
+        }
+    }
+
+
+    // MUIXERANGUES
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        carrer.muixerangues === "Sí"
+    ) {
+        if (!colorsCarrers.includes("#8e44ad")) {
+            colorsCarrers.push("#8e44ad");
+        }
+    }
+
+
+    // FALCONS
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        carrer.falcons === "Sí"
+    ) {
+        if (!colorsCarrers.includes("#27ae60")) {
+            colorsCarrers.push("#27ae60");
+        }
+    }
+
+});
+
+
 if (
     document.getElementById("fcarrers").checked &&
     hiHaCarrer
 ) {
-    icona += "🛣️";
+
+    var idGradientCarrer =
+        "gradientCarrer" + p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+    var gradientCarrer = "";
+
+    if (colorsCarrers.length === 1) {
+
+        gradientCarrer =
+            '<stop offset="0%" stop-color="' + colorsCarrers[0] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCarrers[0] + '"/>';
+
+    } else if (colorsCarrers.length === 2) {
+
+        gradientCarrer =
+            '<stop offset="0%" stop-color="' + colorsCarrers[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsCarrers[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsCarrers[1] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCarrers[1] + '"/>';
+
+    } else {
+
+        gradientCarrer =
+            '<stop offset="0%" stop-color="' + colorsCarrers[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsCarrers[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsCarrers[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsCarrers[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsCarrers[2] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCarrers[2] + '"/>';
+    }
+
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<defs>' +
+            '<linearGradient id="' + idGradientCarrer + '" ' +
+            'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                gradientCarrer +
+            '</linearGradient>' +
+        '</defs>' +
+
+        // Cercle de la lupa
+        '<circle cx="10" cy="10" r="5.5" ' +
+        'fill="none" stroke="url(#' + idGradientCarrer + ')" ' +
+        'stroke-width="3"/>' +
+
+        // Mànec
+        '<line x1="14" y1="14" x2="20" y2="20" ' +
+        'stroke="url(#' + idGradientCarrer + ')" ' +
+        'stroke-width="3" stroke-linecap="round"/>' +
+
+        '</svg>';
 }
+
 
 var hiHaColla = p.colles.some(function (colla) {
 
@@ -999,7 +1583,106 @@ if (
     document.getElementById("fcolles").checked &&
     hiHaColla
 ) {
-    icona += "🏠";
+
+    var colorsCases = [];
+
+    p.colles.forEach(function (colla) {
+
+        // FILTRE PER COLLA
+
+        if (
+            collaCerca &&
+            colla.nom.trim() !== collaCerca.trim()
+        ) {
+            return;
+        }
+
+        // CASTELLS
+
+        if (
+            document.getElementById("fcastells").checked &&
+            colla.castells === "Sí"
+        ) {
+            if (!colorsCases.includes("#c62828")) {
+                colorsCases.push("#c62828");
+            }
+        }
+
+        // MUIXERANGUES
+
+        if (
+            document.getElementById("fmuixerangues").checked &&
+            colla.muixerangues === "Sí"
+        ) {
+            if (!colorsCases.includes("#8e44ad")) {
+                colorsCases.push("#8e44ad");
+            }
+        }
+
+        // FALCONS
+
+        if (
+            document.getElementById("ffalcons").checked &&
+            colla.falcons === "Sí"
+        ) {
+            if (!colorsCases.includes("#27ae60")) {
+                colorsCases.push("#27ae60");
+            }
+        }
+
+    });
+
+    if (colorsCases.length) {
+
+    var idGradient = "gradientCasa" + p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+    var gradient = "";
+
+    if (colorsCases.length === 1) {
+
+        gradient =
+            '<stop offset="0%" stop-color="' + colorsCases[0] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCases[0] + '"/>';
+
+    } else if (colorsCases.length === 2) {
+
+        gradient =
+            '<stop offset="0%" stop-color="' + colorsCases[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsCases[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsCases[1] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCases[1] + '"/>';
+
+    } else {
+
+        gradient =
+            '<stop offset="0%" stop-color="' + colorsCases[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsCases[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsCases[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsCases[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsCases[2] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsCases[2] + '"/>';
+    }
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<defs>' +
+            '<linearGradient id="' + idGradient + '" ' +
+            'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                gradient +
+            '</linearGradient>' +
+        '</defs>' +
+
+        '<path d="M12 3L3 10v10h6v-6h6v6h6V10l-9-7z" ' +
+        'fill="url(#' + idGradient + ')"/>' +
+
+        '</svg>';
+
+}
+
 }
 
 
@@ -1008,6 +1691,10 @@ var hiHaMesinfo = p.mesinfo.some(function (mesinfo) {
     // FILTRE PER COLLA
 
     if (collaCerca) {
+
+        if (!mesinfo.colla) {
+            return false;
+        }
 
         var coincideixColla =
             mesinfo.colla
@@ -1051,13 +1738,138 @@ var hiHaMesinfo = p.mesinfo.some(function (mesinfo) {
 });
 
 
+
+var colorsMesinfo = [];
+
+p.mesinfo.forEach(function (mesinfo) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (!mesinfo.colla) {
+            return;
+        }
+
+        var coincideixColla =
+            mesinfo.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca);
+
+        if (!coincideixColla) {
+            return;
+        }
+    }
+
+
+    // CASTELLS
+
+    if (
+        document.getElementById("fcastells").checked &&
+        mesinfo.castells === "Sí"
+    ) {
+        if (!colorsMesinfo.includes("#c62828")) {
+            colorsMesinfo.push("#c62828");
+        }
+    }
+
+
+    // MUIXERANGUES
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        mesinfo.muixerangues === "Sí"
+    ) {
+        if (!colorsMesinfo.includes("#8e44ad")) {
+            colorsMesinfo.push("#8e44ad");
+        }
+    }
+
+
+    // FALCONS
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        mesinfo.falcons === "Sí"
+    ) {
+        if (!colorsMesinfo.includes("#27ae60")) {
+            colorsMesinfo.push("#27ae60");
+        }
+    }
+
+});
+
+
+
+
+
+
+
 if (
     document.getElementById("fmesinfo").checked &&
     hiHaMesinfo
 ) {
-    icona += "ℹ️";
-}
 
+    var idGradientMesinfo =
+        "gradientMesinfo" + p.id.replace(/[^a-zA-Z0-9]/g, "");
+
+    var gradientMesinfo = "";
+
+    if (colorsMesinfo.length === 1) {
+
+        gradientMesinfo =
+            '<stop offset="0%" stop-color="' + colorsMesinfo[0] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMesinfo[0] + '"/>';
+
+    } else if (colorsMesinfo.length === 2) {
+
+        gradientMesinfo =
+            '<stop offset="0%" stop-color="' + colorsMesinfo[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsMesinfo[0] + '"/>' +
+            '<stop offset="50%" stop-color="' + colorsMesinfo[1] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMesinfo[1] + '"/>';
+
+    } else {
+
+        gradientMesinfo =
+            '<stop offset="0%" stop-color="' + colorsMesinfo[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsMesinfo[0] + '"/>' +
+            '<stop offset="33.33%" stop-color="' + colorsMesinfo[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsMesinfo[1] + '"/>' +
+            '<stop offset="66.66%" stop-color="' + colorsMesinfo[2] + '"/>' +
+            '<stop offset="100%" stop-color="' + colorsMesinfo[2] + '"/>';
+    }
+
+
+    icona +=
+        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+        'xmlns="http://www.w3.org/2000/svg">' +
+
+        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+
+        '<defs>' +
+            '<linearGradient id="' + idGradientMesinfo + '" ' +
+            'x1="0%" y1="0%" x2="100%" y2="0%">' +
+                gradientMesinfo +
+            '</linearGradient>' +
+        '</defs>' +
+
+// Cercle interior
+'<circle cx="12" cy="12" r="8" ' +
+'fill="url(#' + idGradientMesinfo + ')"/>' +
+
+// Punt de la i
+'<circle cx="12" cy="7.8" r="1.35" fill="white"/>' +
+
+// Pal de la i
+'<rect x="10.45" y="10.2" width="3.1" height="7.8" ' +
+'rx="1.55" fill="white"/>' +
+
+        '</svg>';
+}
 
 
     // Quan hi ha filtres patrimonials seleccionats,
@@ -2663,7 +3475,7 @@ plaquesFiltrades.forEach(function(placa, index) {
 }
    if (p.carrers.length) {
 
-    html += "<li>🛣️ " +
+    html += "<li>🔎 " +
         p.carrers.length +
         (p.carrers.length === 1 ? " localització" : " localitzacions") +
         "</li>";
@@ -4413,7 +5225,7 @@ var carrersFiltrats = p.carrers.filter(function (carrer) {
     mostrarSeccioPopup("fcarrers")
 ) {
 
-    html += "<li>🛣️ " +
+    html += "<li>🔎 " +
         carrersFiltrats.length +
         (carrersFiltrats.length === 1 ? " localització" : " localitzacions") +
         "</li>";
