@@ -11587,7 +11587,7 @@
       },
       "properties": {
         "id": "LC52",
-        "nom": "Plaça de lAjuntament ",
+        "nom": "Plaça de l'Ajuntament ",
         "poblacio": "Calella",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -21002,7 +21002,7 @@
       },
       "properties": {
         "id": "LC90",
-        "nom": "Plaça de lAjuntament ",
+        "nom": "Plaça de l'Ajuntament ",
         "poblacio": "LHospitalet de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -28283,7 +28283,7 @@
       },
       "properties": {
         "id": "LC116",
-        "nom": "Plaça de lAjuntament ",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -36669,12 +36669,12 @@
       },
       "properties": {
         "id": "LC154",
-        "nom": "Plaça de lAjuntament",
+        "nom": "Plaça de l'Ajuntament",
         "poblacio": "Sitges",
         "comarca": "Garraf",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lajuntament, Sitges, Catalunya, Espanya",
+        "adreca": "Plaça de l'Ajuntament, Sitges, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -40243,7 +40243,7 @@
         "fotos": [
           {
             "url": "",
-            "text": "Façana de lajuntament",
+            "text": "Façana de l'Ajuntament",
             "font": "",
             "font_url": "",
             "autor": "",
@@ -51633,7 +51633,7 @@
       },
       "properties": {
         "id": "LC212",
-        "nom": "Plaça de lAjuntament ",
+        "nom": "Plaça de l'Ajuntament ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
@@ -66397,7 +66397,7 @@
       },
       "properties": {
         "id": "LC305",
-        "nom": "Plaça de lAjuntament (Pego)",
+        "nom": "Plaça de l'Ajuntament (Pego)",
         "poblacio": "Pego",
         "comarca": "Marina Alta",
         "territori": "",
