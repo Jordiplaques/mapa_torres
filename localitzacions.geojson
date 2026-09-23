@@ -7562,7 +7562,7 @@
       },
       "properties": {
         "id": "LC32",
-        "nom": "linterior de ",
+        "nom": "Carrer Blai",
         "poblacio": "Barcelona (Poble Sec)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
@@ -9303,12 +9303,12 @@
       },
       "properties": {
         "id": "LC42",
-        "nom": "Hospital Vall dHebron",
-        "poblacio": "Barcelona (Vall dHebron)",
+        "nom": "Hospital Vall d'Hebron",
+        "poblacio": "Barcelona (Vall d'Hebron)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Hospital Vall dHebron, Barcelona, Catalunya, Espanya",
+        "adreca": "Hospital Vall d'Hebron, Barcelona, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -10187,12 +10187,12 @@
       },
       "properties": {
         "id": "LC46",
-        "nom": "Passeig de lEsglésia",
+        "nom": "Passeig de l'Església",
         "poblacio": "Begues",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Passeig de lEsglèsia, Begues, Catalunya, Espanya",
+        "adreca": "Passeig de l'Esglèsia, Begues, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -12224,12 +12224,12 @@
       },
       "properties": {
         "id": "LC55",
-        "nom": "Plaça de lesglèsia ",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Castelldefels",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lesglèsia, Castelldefels, Catalunya, Espanya",
+        "adreca": "Plaça de l'esglèsia, Castelldefels, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -14238,12 +14238,12 @@
       },
       "properties": {
         "id": "LC63",
-        "nom": "Plaça de lesglèsia ",
+        "nom": "Plaça de l'Església ",
         "poblacio": "El Masnou",
         "comarca": "Maresme",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lesglèsia, El Masnou, Catalunya, Espanya",
+        "adreca": "Plaça de l'esglèsia, El Masnou, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -20858,7 +20858,7 @@
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça Mossèn Gaietà Viaplana, LArboç, Catalunya, Espanya",
+        "adreca": "Plaça Mossèn Gaietà Viaplana, L'Arboç, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "Sí",
         "falcons": "",
@@ -21070,11 +21070,11 @@
       "properties": {
         "id": "LC90",
         "nom": "Plaça de l'Ajuntament ",
-        "poblacio": "LHospitalet de Llobregat",
+        "poblacio": "L'Hospitalet de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça Ajuntament, LHospitalet de Llobregat, Catalunya, Espanya",
+        "adreca": "Plaça Ajuntament, L'Hospitalet de Llobregat, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -28143,7 +28143,7 @@
         "comarca": "Maresme",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "C/Sant Francesc dAssís 25, Mataró, Catalunya, Espanya",
+        "adreca": "C/Sant Francesc d'Assís 25, Mataró, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -28350,7 +28350,7 @@
       },
       "properties": {
         "id": "LC116",
-        "nom": "Plaça de l’Ajuntament ",
+        "nom": "Plaça de l’Ajuntament ",
         "poblacio": "Mataró",
         "comarca": "Maresme",
         "territori": "Catalunya",
@@ -34421,12 +34421,12 @@
       },
       "properties": {
         "id": "LC144",
-        "nom": "Plaça de lEsglésia ",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Sant Cugat Sesgarrigues",
         "comarca": "Alt Penedès",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lesglèsia, Sant Cugat Sesgarrigues, Catalunya, Espanya",
+        "adreca": "Plaça de l'esglèsia, Sant Cugat Sesgarrigues, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -34701,7 +34701,7 @@
         "comarca": "Baix Penedès",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça den Joan Roig 2, Sant Jaume dels Domenys, Catalunya, Espanya",
+        "adreca": "Plaça d'en Joan Roig 2, Sant Jaume dels Domenys, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -37906,7 +37906,7 @@
       },
       "properties": {
         "id": "LC158",
-        "nom": "Plaça de lEsperidió",
+        "nom": "Plaça de l'Esperidió",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -39280,11 +39280,75 @@
           "Castellers de Vilafranca",
           "Xiquets de Tarragona – Colla de la Mercè",
           "Xiquets de Tarragona – Colla Nova",
-          "Colla Nova dels Xiquets de Tarragona – Sant Magí"
+          "Colla Nova dels Xiquets de Tarragona – Sant Magí",
+          "Xiquets de Tarragona",
+          "Xiquets del Serrallo",
+          "Colla Castellera Sant Pere i Sant Pau"
         ],
         "monuments": [],
         "carrers": [],
-        "mesinfo": []
+        "mesinfo": [
+          {
+            "id": "DC32",
+            "colla": "Xiquets de Tarragona, Colla Jove Xiquets de Tarragona, Xiquets del Serrallo, Colla Castellera Sant Pere i Sant Pau",
+            "info": "Primera diada on 4 colles de la mateixa ciutat carreguen almenys un castell folrat (23/09/2026).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -42206,8 +42270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.3933617,
-          41.1460926
+          1.3964049887385386,
+          41.14474686163081
         ]
       },
       "properties": {
@@ -42340,7 +42404,7 @@
           },
           {
             "id": "PC150",
-            "colla": "https://orioguka.eus/orio/1655641277467-orioko-plaza-placa-de-nou",
+            "colla": "Colla Jove Xiquets de Tarragona",
             "castell": "5d9f",
             "data_castell": "14/07/2018",
             "data_placa": "14/07/2019",
@@ -42724,7 +42788,7 @@
         ],
         "colles_relacionades": [
           "Nois de la Torre",
-          "https://orioguka.eus/orio/1655641277467-orioko-plaza-placa-de-nou",
+          "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
           "Xiquets de Torredembarra",
           "Xiquets de la Torre",
@@ -42825,8 +42889,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.4034397,
-          41.1449605
+          1.4091992288908273,
+          41.14604
         ]
       },
       "properties": {
@@ -42945,13 +43009,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.3989656,
-          41.1482082
+          1.4014167630997463,
+          41.14813758403298
         ]
       },
       "properties": {
         "id": "LC179",
-        "nom": "C/Enxaneta D. Sánchez",
+        "nom": "Carrer de l’Enxaneta D. Sánchez",
         "poblacio": "Torredembarra",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -44254,7 +44318,7 @@
       },
       "properties": {
         "id": "LC183",
-        "nom": "Plaça del pati",
+        "nom": "Plaça del Pati",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -44739,7 +44803,7 @@
       },
       "properties": {
         "id": "LC186",
-        "nom": "Rotonda dentrada N240",
+        "nom": "Rotonda d’entrada N240",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
@@ -45059,12 +45123,12 @@
       },
       "properties": {
         "id": "LC188",
-        "nom": "Carrer den Gassó",
+        "nom": "Carrer d'en Gassó",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Carrer den Gassó, Valls, Catalunya, Espanya",
+        "adreca": "Carrer d'en Gassó, Valls, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -46673,12 +46737,12 @@
       },
       "properties": {
         "id": "LC197",
-        "nom": "Plaça de lesglèsia ",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Vila-Seca",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lesglèsia, Vila-Seca, Catalunya, Espanya",
+        "adreca": "Plaça de l'esglèsia, Vila-Seca, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -52525,12 +52589,12 @@
       },
       "properties": {
         "id": "LC214",
-        "nom": "Plaça de lanxaneta ",
+        "nom": "Plaça de l'anxaneta ",
         "poblacio": "Vilanova i la Geltrú",
         "comarca": "Garraf",
         "territori": "Catalunya",
         "pais": "PPCC",
-        "adreca": "Plaça de lanxaneta, Vilanova i la Geltrú, Catalunya, Espanya",
+        "adreca": "Plaça de l'anxaneta, Vilanova i la Geltrú, Catalunya, Espanya",
         "castells": "Sí",
         "muixerangues": "",
         "falcons": "",
@@ -54198,7 +54262,7 @@
       "properties": {
         "id": "LC225",
         "nom": "",
-        "poblacio": "LAmetlla de Mar",
+        "poblacio": "L'Ametlla de Mar",
         "comarca": "Baix Ebre",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -54565,7 +54629,7 @@
       "properties": {
         "id": "LC227",
         "nom": "",
-        "poblacio": "Castelló dEmpúries",
+        "poblacio": "Castelló d'Empúries",
         "comarca": "Alt Empordà",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -65231,13 +65295,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2439456,
+          1.2465205,
           41.2818676
         ]
       },
       "properties": {
         "id": "LC296",
-        "nom": "",
+        "nom": "Crta. Tarragona",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "",
@@ -65308,7 +65372,7 @@
             "nom": "Colla Vella dels Xiquets de Valls",
             "fundacio": "1947 (hereva S. XIX)",
             "inactiva": "",
-            "maxim_castell": "4d10fm, 3d9 (2019)",
+            "maxim_castell": "4d10fm, 3d9(c) (2019)",
             "web": "https://www.collavella.cat",
             "padrines": "",
             "altres": "Inicialment com a Colla dels Pagesos a principis del s.XIX i la Muixerra (cap a 1820), cap al 1876 ja es coneix com a Colla Vella. Després de la Guerra Civil es produeix la fusió de les 2 colles vallenques i al 1947 es reorganitza la Colla Vella.\nPrimera colla en descarregar un castell de 9 (4d9f, 25/11/1981) i un castell de gamma extra (2d9fm, 23/10/1994) al segle XX, i en carregar 3 castells desfolrats en una mateixa diada (4d9, 3d9(c), 2d8, 27/10/2019). \nGuanyadora del concurs de castells de Tarragona en 9 ocasions (1954, 1956, 1982, 1984, 1986, 1994, 2000, 2018 i 1932 com a antiga colla Vella), guanyadora del concurs de castells de La Ciutadella (1902), del concurs Jorba-Preciados de Barcelona en 3 ocasions (1964, 1965, 1966) i dels concursos de castells de Vilafranca (1962 i 1973).",
@@ -65390,7 +65454,7 @@
         "id": "LC297",
         "nom": "",
         "poblacio": "Banyoles",
-        "comarca": "Pla de lEstany",
+        "comarca": "Pla de l'Estany",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -66892,13 +66956,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.3901989,
-          41.1515078
+          1.3969572,
+          41.145247
         ]
       },
       "properties": {
         "id": "LC307",
-        "nom": "",
+        "nom": "Carrer Freginal",
         "poblacio": "Torredembarra",
         "comarca": "Tarragonès",
         "territori": "",
@@ -66979,7 +67043,7 @@
             "fotos": [
               {
                 "url": "fotos/colles/CC65.jpeg",
-                "text": "Placa a lentrada del local",
+                "text": "Placa a l’entrada del local",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -69918,7 +69982,7 @@
       },
       "properties": {
         "id": "LC327",
-        "nom": "Escola dEnginyera de Barcelona",
+        "nom": "Escola d'Enginyera de Barcelona",
         "poblacio": "Barcelona (Sant Martí)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -71731,7 +71795,7 @@
       "properties": {
         "id": "LC339",
         "nom": "",
-        "poblacio": "LAlguer",
+        "poblacio": "L'Alguer",
         "comarca": "Sardenya",
         "territori": "",
         "pais": "",
@@ -72185,7 +72249,7 @@
         "id": "LC342",
         "nom": "",
         "poblacio": "Ontinyent",
-        "comarca": "Vall dAlbaida",
+        "comarca": "Vall d'Albaida",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -72789,7 +72853,7 @@
         "id": "LC346",
         "nom": "",
         "poblacio": "Alacant",
-        "comarca": "LAlacantí",
+        "comarca": "L'Alacantí",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -73845,7 +73909,7 @@
       "properties": {
         "id": "LC353",
         "nom": "",
-        "poblacio": "LAlcúdia",
+        "poblacio": "L'Alcúdia",
         "comarca": "Ribera Alta",
         "territori": "",
         "pais": "",
@@ -74601,7 +74665,7 @@
         "id": "LC358",
         "nom": "",
         "poblacio": "El Campello",
-        "comarca": "LAlacantí",
+        "comarca": "L'Alacantí",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -76708,7 +76772,7 @@
       "properties": {
         "id": "LC372",
         "nom": "",
-        "poblacio": "Vallbona dAnoia",
+        "poblacio": "Vallbona d'Anoia",
         "comarca": "Anoia",
         "territori": "",
         "pais": "",
@@ -77010,7 +77074,7 @@
       "properties": {
         "id": "LC374",
         "nom": "",
-        "poblacio": "Vilanova dEspoia",
+        "poblacio": "Vilanova d'Espoia",
         "comarca": "Anoia",
         "territori": "",
         "pais": "",
@@ -77765,8 +77829,8 @@
       "properties": {
         "id": "LC379",
         "nom": "",
-        "poblacio": "LOlleria",
-        "comarca": "Vall dAlbaida",
+        "poblacio": "L'Olleria",
+        "comarca": "Vall d'Albaida",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -83075,7 +83139,7 @@
       },
       "properties": {
         "id": "LC414",
-        "nom": "Carer Santa Anna",
+        "nom": "Carrer de Santa Anna",
         "poblacio": "Valls",
         "comarca": "Alt Camp",
         "territori": "",
@@ -83663,7 +83727,7 @@
       },
       "properties": {
         "id": "LC418",
-        "nom": "Taverna lOvella Negra",
+        "nom": "Taverna l'Ovella Negra",
         "poblacio": "Castelló de la Plana",
         "comarca": "Plana Alta",
         "territori": "",
@@ -83815,7 +83879,7 @@
         "id": "LC419",
         "nom": "",
         "poblacio": "Flix",
-        "comarca": "Ribera dEbre",
+        "comarca": "Ribera d'Ebre",
         "territori": "",
         "pais": "",
         "adreca": "c/Gombau, 49, Flix",
@@ -84267,7 +84331,7 @@
       "properties": {
         "id": "LC422",
         "nom": "",
-        "poblacio": "Puig den Valls",
+        "poblacio": "Puig d'en Valls",
         "comarca": "Illes Pitiüses",
         "territori": "",
         "pais": "",
@@ -84568,7 +84632,7 @@
       },
       "properties": {
         "id": "LC424",
-        "nom": "Masia Can Torres (era den Xavi Bacardit)",
+        "nom": "Masia Can Torres (era d'en Xavi Bacardit)",
         "poblacio": "Matadepera",
         "comarca": "Vallès Occidental",
         "territori": "",
@@ -85020,7 +85084,7 @@
       },
       "properties": {
         "id": "LC427",
-        "nom": "Plaça de lEsglésia ",
+        "nom": "Plaça de l'Església ",
         "poblacio": "Cambrils",
         "comarca": "Baix Camp",
         "territori": "",
@@ -85683,8 +85747,8 @@
       "properties": {
         "id": "LC431",
         "nom": "",
-        "poblacio": "Ivars dUrgell",
-        "comarca": "Pla dUrgell",
+        "poblacio": "Ivars d'Urgell",
+        "comarca": "Pla d'Urgell",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -86287,7 +86351,7 @@
       "properties": {
         "id": "LC435",
         "nom": "",
-        "poblacio": "Sant Sadurní dAnoia",
+        "poblacio": "Sant Sadurní d'Anoia",
         "comarca": "Alt Penedès",
         "territori": "",
         "pais": "",
@@ -87258,7 +87322,7 @@
       "properties": {
         "id": "LC441",
         "nom": "",
-        "poblacio": "LEspluga de Francolí",
+        "poblacio": "L'Espluga de Francolí",
         "comarca": "Conca de Barberà",
         "territori": "",
         "pais": "",
@@ -87556,7 +87620,7 @@
       "properties": {
         "id": "LC443",
         "nom": "",
-        "poblacio": "El Pont dArmentera",
+        "poblacio": "El Pont d'Armentera",
         "comarca": "Alt Camp",
         "territori": "",
         "pais": "",
@@ -88503,6 +88567,300 @@
         "monuments": [],
         "carrers": [],
         "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.719311,
+          41.226347
+        ]
+      },
+      "properties": {
+        "id": "LC449",
+        "nom": "Carrer de l’Economia",
+        "poblacio": "Vilanova i la Geltrú",
+        "comarca": "Garraf",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Bordegassos de Vilanova"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "C/Economina",
+            "motiu": "Rajoles decoratives amb un 4d7 dels Bordegassos",
+            "colla": "Bordegassos de Vilanova",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/XC32.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "Unai Estévez i Muñoz",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.395325,
+          41.145587176951665
+        ]
+      },
+      "properties": {
+        "id": "LC450",
+        "nom": "Plaça del Castell",
+        "poblacio": "Torredembarra",
+        "comarca": "Tarragonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Nois de la Torre"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC33",
+            "colla": "Nois de la Torre",
+            "info": "Seu del Concurs de Castells Vila de Torredembarra (“Concurs7”) organitzat bianualment pels Nois de la Torre entre els anys 1997 i 2013, seu de la primera sessió del Concurs de Castells de Tarragona a partir de 2014. ",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     }
   ]
