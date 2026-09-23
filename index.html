@@ -399,25 +399,36 @@ html, body, #map {
 
 <div id="filtres">
 
-<h4>🔍 Cerca per població</h4>
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
 
-<input
-    type="text"
-    id="cercaPoblacio"
-    placeholder="Escriu una població..."
-    autocomplete="off"
-    style="width: 180px; margin-bottom: 10px;"
->
+    <h4 style="font-size: 13px; margin: 0;">
+        🏙️ Cerca per població
+    </h4>
 
-<h4>🤸 Cerca per colla</h4>
+    <input
+        type="text"
+        id="cercaPoblacio"
+        placeholder="Escriu una població..."
+        autocomplete="off"
+        style="width: 180px;"
+    >
 
-<input
-    type="text"
-    id="cercaColla"
-    placeholder="Escriu una colla..."
-    autocomplete="off"
-    style="width: 180px; margin-bottom: 5px;"
->
+</div>
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+
+    <h4 style="font-size: 13px; margin: 0;">
+        🤸 Cerca per colla
+    </h4>
+
+    <input
+        type="text"
+        id="cercaColla"
+        placeholder="Escriu una colla..."
+        autocomplete="off"
+        style="width: 180px;"
+    >
+
+</div>
 
 <div id="resultatsColles"></div>
 
