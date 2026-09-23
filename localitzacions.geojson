@@ -8347,8 +8347,8 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f, 4d9f",
-            "colla": "Capgrossos de Mataró",
+            "castell": "3d9f (Minyons i Capgrossos), 4d9f (Capgrossos)",
+            "colla": "Capgrossos de Mataró, Minyons de Terrassa",
             "diada": "Diada dels Castellers de Sants",
             "data": "17 d'octubre de 2010",
             "castells": "Sí",
@@ -8412,7 +8412,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Capgrossos de Mataró"
+          "Capgrossos de Mataró",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "carrers": [],
@@ -8495,7 +8496,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f, 4D9F",
+            "castell": "3d9f, 4d9F",
             "colla": "Minyons de Terrassa",
             "diada": "Festa Major de Sants",
             "data": "28 d'agost de 2011",
@@ -10806,7 +10807,7 @@
         "plaques": [],
         "places9": [
           {
-            "castell": "3d9f (Capgrossos), 4d9f (Minyons i Capgrossos)",
+            "castell": "3d9f, 4d9f",
             "colla": "Castellers de Vilafranca",
             "diada": "La Patum",
             "data": "12 de juny de 2011",
@@ -20982,9 +20983,75 @@
         "places9": [],
         "placesge": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Aficionats de l’Arboç",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres d’aficionats locals que fan castells per les festivitats de la vila (~1892).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
-          "Ball de valencians del Catllar (s.XVIII)"
+          "Ball de valencians del Catllar (s.XVIII)",
+          "Aficionats de l’Arboç"
         ],
         "monuments": [],
         "carrers": [],
@@ -29595,10 +29662,76 @@
         ],
         "placesge": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Torraires de Montblanc (s.XIX)",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "castells de 8",
+            "web": "",
+            "padrines": "",
+            "altres": "Coexistien 2 colles a la vila, amb actuacions locals i a d’altres municipis.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
           "Colla Vella dels Xiquets de Valls",
           "Colla Joves dels Xiquets de Valls",
+          "Torraires de Montblanc (s.XIX)",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
@@ -35697,7 +35830,7 @@
             "nom": "Falcons de Sant Vicenç dels Horts",
             "fundacio": "1935",
             "inactiva": "~1995",
-            "maxim_castell": "Figures dinàmiques destil més gimnàstic.",
+            "maxim_castell": "Figures dinàmiques d’estil més gimnàstic.",
             "web": "",
             "padrines": "",
             "altres": "",
@@ -36528,7 +36661,7 @@
             "maxim_castell": "cinc de cintura, pira d11(c) (1977)",
             "web": "",
             "padrines": "",
-            "altres": "Després d’questa colla apareix la Colla Nova de Falcons de Sitges (a l’empara de l’Agrupació de Balls Populars de Sitges) amb una durada breu (1989-1990).",
+            "altres": "Després d’aquesta colla apareix la Colla Nova de Falcons de Sitges (a l’empara de l’Agrupació de Balls Populars de Sitges) amb una durada breu (1989-1990).",
             "castells": "",
             "muixerangues": "",
             "falcons": "Sí",
@@ -51551,10 +51684,76 @@
         "places9": [],
         "placesge": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Aficionats de la Geltrú",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres d’aficionats locals que fan castells per les festivitats de la vila (~1892).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
           "Xiquets de Valls (s.XIX)",
-          "Bordegassos de Vilanova"
+          "Bordegassos de Vilanova",
+          "Aficionats de la Geltrú"
         ],
         "monuments": [],
         "carrers": [],
@@ -73114,7 +73313,7 @@
             "inactiva": "",
             "maxim_castell": "Alta de 5 (2020)",
             "web": "https://www.muixerangabarcelona.cat/",
-            "padrines": "Castelles de la Sagrada Família.",
+            "padrines": "Castellers de la Sagrada Família.",
             "altres": "",
             "castells": "",
             "muixerangues": "Sí",
@@ -81168,10 +81367,75 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "nom": "Aficionats del Pla de Cabra",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres de “xiquets locals” que fan castells per les festivitats de la vila (~1878).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "colles_relacionades": [
-          "Escatllots del Pla"
+          "Escatllots del Pla",
+          "Aficionats del Pla de Cabra"
         ],
         "monuments": [],
         "carrers": [],
@@ -82519,7 +82783,7 @@
       "properties": {
         "id": "LC412",
         "nom": "Carrer Riera Blanca",
-        "poblacio": "LHospitalet de Llobregat",
+        "poblacio": "L’Hospitalet de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
         "pais": "",
@@ -85489,7 +85753,7 @@
             "nom": "Falcons d’Ivars d’Urgell",
             "fundacio": "1943",
             "inactiva": "~1975",
-            "maxim_castell": "Figures dinàmiques destil més gimnàstic, fins a 5 altures.",
+            "maxim_castell": "Figures dinàmiques d’estil més gimnàstic, fins a 5 altures.",
             "web": "",
             "padrines": "",
             "altres": "Trenca amb la tendència més propera a la Federació de Joves Cristians inicial de les colles de Sant Vicenç i Llorenç.",
@@ -87357,8 +87621,74 @@
         "places9": [],
         "placesge": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Aficionats d’El Pont d’Armentera",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres de “xiquets locals” que fan castells per les festivitats de la vila (~1878).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
+          "Aficionats d’El Pont d’Armentera",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
@@ -87716,6 +88046,459 @@
         "colles": [],
         "colles_relacionades": [
           "Minyons de Terrassa"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.17747,
+          41.3341
+        ]
+      },
+      "properties": {
+        "id": "LC446",
+        "nom": "",
+        "poblacio": "Vilaverd",
+        "comarca": "Conca de Barberà",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Aficionats de Vilaverd",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres d’aficionats locals que fan castells per les festivitats de la vila (~1892).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Aficionats de Vilaverd"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.58334,
+          41.27963
+        ]
+      },
+      "properties": {
+        "id": "LC447",
+        "nom": "",
+        "poblacio": "Banyeres del Penedès",
+        "comarca": "Baix Penedès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Aficionats de Banyeres del Penedès",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres d’aficionats locals que fan castells per les festivitats de la vila (~1892).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Aficionats de Banyeres del Penedès"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.45682,
+          41.18565
+        ]
+      },
+      "properties": {
+        "id": "LC448",
+        "nom": "",
+        "poblacio": "Roda de Berà",
+        "comarca": "Tarragonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Aficionats de Roda de Berà",
+            "fundacio": "Mitjans/finals s.XIX",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Registres d’aficionats locals que fan castells per les festivitats de la vila (~1892).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Aficionats de Roda de Berà"
         ],
         "monuments": [],
         "carrers": [],
