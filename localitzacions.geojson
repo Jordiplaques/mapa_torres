@@ -34826,9 +34826,75 @@
         "places9": [],
         "placesge": [],
         "places10": [],
-        "colles": [],
+        "colles": [
+          {
+            "nom": "Aficionats Sant Jaume dels Domenys",
+            "fundacio": "finals s.XIX",
+            "inactiva": "1934",
+            "maxim_castell": "",
+            "web": "",
+            "padrines": "",
+            "altres": "Aficionats de la vila que aixequen castells per la festa major, hi ha constància daquesta activitat els anys 1934 i 1935 així com durant el s.XIX.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles_relacionades": [
-          "Nois de la Torre"
+          "Nois de la Torre",
+          "Aficionats Sant Jaume dels Domenys"
         ],
         "monuments": [],
         "carrers": [],
@@ -57540,75 +57606,10 @@
                 "enllac_extern": ""
               }
             ]
-          },
-          {
-            "nom": "Aficionats Sant Jaume dels Domenys",
-            "fundacio": "finals s.XIX",
-            "inactiva": "1934",
-            "maxim_castell": "",
-            "web": "",
-            "padrines": "",
-            "altres": "Aficionats de la vila que aixequen castells per la festa major, hi ha constància daquesta activitat els anys 1934 i 1935 així com durant el s.XIX.",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
           }
         ],
         "colles_relacionades": [
-          "Brivalls de Cornudella",
-          "Aficionats Sant Jaume dels Domenys"
+          "Brivalls de Cornudella"
         ],
         "monuments": [],
         "carrers": [],
