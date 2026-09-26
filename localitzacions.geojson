@@ -1350,8 +1350,7 @@
           "Castellers de Vilafranca",
           "Castellers d'Altafulla",
           "Colla Joves dels Xiquets de Valls",
-          "Xiquets de Valls (s.XIX)",
-          "Castellers d’Altafulla"
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [
           {
@@ -1392,7 +1391,7 @@
         "mesinfo": [
           {
             "id": "DC3",
-            "colla": "Xiquets de Valls (s.XIX), Castellers d’Altafulla",
+            "colla": "Xiquets de Valls (s.XIX), Castellers d'Altafulla",
             "info": "Plaça de gamma extra al s.XIX (pd8fm, 1878).\nPunt d’inici del pilar caminant que realitza el dia de Sant Martí (11/11) la colla local fins a l’església del patró pujant 41 esglaons (~100 m.). Ja es realitzava al segle XIX.",
             "castells": "Sí",
             "muixerangues": "",
@@ -11716,7 +11715,7 @@
         "plaques": [
           {
             "id": "PC40",
-            "colla": "Colla Castellera de l’Alt Maresme",
+            "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "castell": "bateig",
             "data_castell": "26/04/2014",
             "data_placa": "",
@@ -11908,7 +11907,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Castellera de l’Alt Maresme",
+          "Colla Castellera de l'Alt Maresme i la Selva Marítima",
           "Minyons de Terrassa"
         ],
         "monuments": [],
@@ -58639,7 +58638,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Castellers d'Esparreguera",
+            "nom": "Castellers d’Esparreguera",
             "fundacio": "1994",
             "inactiva": "",
             "maxim_castell": "2d7 (2018)",
@@ -58704,7 +58703,7 @@
           }
         ],
         "colles_relacionades": [
-          "Castellers d'Esparreguera"
+          "Castellers d’Esparreguera"
         ],
         "monuments": [],
         "carrers": [],
@@ -58790,7 +58789,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Castellers d'Esplugues",
+            "nom": "Castellers d’Esplugues",
             "fundacio": "1994",
             "inactiva": "",
             "maxim_castell": "3d8 (2017)",
@@ -58855,7 +58854,7 @@
           }
         ],
         "colles_relacionades": [
-          "Castellers d'Esplugues"
+          "Castellers d’Esplugues"
         ],
         "monuments": [],
         "carrers": [],
@@ -67218,7 +67217,7 @@
         "plaques": [
           {
             "id": "PC202",
-            "colla": "Colla Castellera de l’Alt Maresme, Muixeranga de la Marina Alta",
+            "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima, Muixeranga de la Marina Alta",
             "castell": "3d7 (Maduixots)",
             "data_castell": "18/06/2017",
             "data_placa": "10/02/2018",
@@ -67285,7 +67284,7 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Colla Castellera de l’Alt Maresme",
+          "Colla Castellera de l'Alt Maresme i la Selva Marítima",
           "Muixeranga de la Marina Alta"
         ],
         "monuments": [],
@@ -68580,7 +68579,7 @@
         "places10": [],
         "colles": [
           {
-            "nom": "Xerrics d'Olot",
+            "nom": "Xerrics d’Olot",
             "fundacio": "2001",
             "inactiva": "",
             "maxim_castell": "castells de 7",
@@ -68645,7 +68644,7 @@
           }
         ],
         "colles_relacionades": [
-          "Xerrics d'Olot"
+          "Xerrics d’Olot"
         ],
         "monuments": [],
         "carrers": [],
@@ -90034,7 +90033,7 @@
           {
             "id": "DC40",
             "colla": "Xerrics d’Olot",
-            "info": "Durant les festes del Tura (principis de setembre) els Xerrics fan un pilar caminant que puja les escales que porten a aquesta església",
+            "info": "Durant les festes del Tura (principis de setembre) els Xerrics fan un pilar caminant que puja les escales que porten a aquesta església.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -90181,7 +90180,7 @@
           {
             "id": "DC41",
             "colla": "Castellers d’Esplugues",
-            "info": "A partir de la creació de la Processó del Ferro l’any 2011 a les festes de Santa Magdalena (cap al 20 de juliol), els castellers locals fan un pilar caminant des del Parc dels Torrents que acaba en aquesta església (~200 m.)",
+            "info": "A partir de la creació de la Processó del Ferro l’any 2011 a les festes de Santa Magdalena (cap al 20 de juliol), els castellers locals fan un pilar caminant des del Parc dels Torrents que acaba en aquesta església (~200 m.).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -90614,15 +90613,15 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers d'Esparreguera"
+          "Castellers d’Esparreguera"
         ],
         "monuments": [],
         "carrers": [],
         "mesinfo": [
           {
             "id": "DC45",
-            "colla": "Castellers d'Esparreguera",
-            "info": "Des de 2024, per festa major (~10 de juliol), la colla bordeus ha recuperat el pilar caminant per aquest carrer des del passatge de l’Ateneu fins al carrer Major (~200 m.).",
+            "colla": "Castellers d’Esparreguera",
+            "info": "Des de 2024, per festa major (~10 de juliol), la colla bordeus ha recuperat el pilar caminant per aquest carrer des del passatge de l’Ateneu fins al carrer Gran (~200 m.).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
