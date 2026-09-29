@@ -13580,7 +13580,7 @@
       "properties": {
         "id": "LC62",
         "nom": "Plaça de la Vila ",
-        "poblacio": "EL Catllar",
+        "poblacio": "El Catllar",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -39927,11 +39927,73 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Vilafranca"
+          "Castellers de Vilafranca",
+          "Xiquets de Tarragona"
         ],
         "monuments": [],
         "carrers": [],
-        "mesinfo": []
+        "mesinfo": [
+          {
+            "id": "DC52",
+            "colla": "Xiquets de Tarragona",
+            "info": "Per celebrar els 200 anys del Port de Tarragona i els 20 anys de la colla, els matalassers van completar un pilar caminant des del pla de la seu fins a la plaça dels Carros al port (1350 m., 26/05/1990)",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -41686,7 +41748,7 @@
           {
             "id": "DC37",
             "colla": "Minyons de Terrassa",
-            "info": "Per la Diada del Patrimoni, sobre el 25 de maig, els Minyons porten un pilar caminant des de la Creu Gran fins aquesta plaça creuant el pont de Sant Pere (350 m.).",
+            "info": "Des del 2014 per la Diada del Patrimoni, sobre el 25 de maig, els Minyons porten un pilar caminant des de la Creu Gran fins aquesta plaça creuant el pont de Sant Pere (350 m.).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -65345,72 +65407,7 @@
         "places9": [],
         "placesge": [],
         "places10": [],
-        "colles": [
-          {
-            "nom": "Colla Castellera Sant Pere i Sant Pau",
-            "fundacio": "1990",
-            "inactiva": "",
-            "maxim_castell": "5d8, 4d8a (2026)",
-            "web": "https://www.ccspisp.cat/",
-            "padrines": "Xiquets de Tarragona, Xiquets de Reus.",
-            "altres": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
+        "colles": [],
         "colles_relacionades": [
           "Colla Castellera Sant Pere i Sant Pau"
         ],
@@ -65477,7 +65474,68 @@
             ]
           }
         ],
-        "mesinfo": []
+        "mesinfo": [
+          {
+            "id": "DC53",
+            "colla": "Colla Castellera Sant Pere i Sant Pau",
+            "info": "Per celebrar els 20 anys de la colla (12/10/2010), els de Sant Pere i Sant Pau van intentar un pilar caminant des de l’entrada al barri fins al centre de Tarragona (a l’alçada del cementiri, 1100 m.), el pilar va caura a uns 200 m. de l’arribada. El 12/10/2015, per celebrar el 25è aniversari ho van aconseguir.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -90829,6 +90887,606 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5357168,
+          42.885481
+        ]
+      },
+      "properties": {
+        "id": "LC461",
+        "nom": "Centro Xove de Creación Cultural da Almáciga",
+        "poblacio": "Santiago de Compostela",
+        "comarca": "Galícia",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Castellers de Santiago de Compostela",
+            "fundacio": "2025",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "https://www.instagram.com/castellersscq/",
+            "padrines": "",
+            "altres": "En formació",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Castellers de Santiago de Compostela"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.31667,
+          41.16667
+        ]
+      },
+      "properties": {
+        "id": "LC462",
+        "nom": "La Torre d’en Guiu",
+        "poblacio": "El Catllar",
+        "comarca": "Tarragonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Colla Castellera del Catllar",
+            "fundacio": "2025",
+            "inactiva": "",
+            "maxim_castell": "castells de 6",
+            "web": "https://castellersdelcatllar.cat/",
+            "padrines": "Torraires de Montblanc",
+            "altres": "En formació",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Colla Castellera del Catllar"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.187973135225974,
+          41.4855468259893
+        ]
+      },
+      "properties": {
+        "id": "LC463",
+        "nom": "Carrer Major (Casa de la Vila)",
+        "poblacio": "Montcada i Reixac",
+        "comarca": "Vallès Occidental",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Montcada i Reixac"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC51",
+            "colla": "Castellers de Montcada i Reixac",
+            "info": "En la primera època dels castellers de Montcada, hi ha referències a un pilar caminant al carrer Major, el 28 de juliol de 2018 en van fer un des de la Casa de la Vila a la plaça de l’Esglèsia (120 m.).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2536452736716228,
+          41.13756739932364
+        ]
+      },
+      "properties": {
+        "id": "LC464",
+        "nom": "Carrer A",
+        "poblacio": "Tarragona (Sant Pere i Sant Pau)",
+        "comarca": "Tarragonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Colla Castellera Sant Pere i Sant Pau",
+            "fundacio": "1990",
+            "inactiva": "",
+            "maxim_castell": "5d8, 4d8a (2026)",
+            "web": "https://www.ccspisp.cat/",
+            "padrines": "Xiquets de Tarragona, Xiquets de Reus.",
+            "altres": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Colla Castellera Sant Pere i Sant Pau"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
       }
     }
   ]
