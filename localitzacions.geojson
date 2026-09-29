@@ -347,8 +347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.4394309,
-          39.1889844
+          -0.4368517,
+          39.1889959
         ]
       },
       "properties": {
@@ -417,197 +417,8 @@
         ],
         "plaques": [
           {
-            "id": "",
-            "colla": "Muixeranga d'Algemesí",
-            "castell": "Record 40 anys del 1er assaig en la recuperació de la muixeranga (1973)",
-            "data_castell": "",
-            "data_placa": "",
-            "incidencies": "Localització no determinada",
-            "castells": "",
-            "muixerangues": "Sí",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/La_muixeranga.jpg",
-                "text": "",
-                "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:La_muixeranga.jpg",
-                "autor": "Vicenç Salvador Torres Guerola",
-                "llicencia": "CC BY-SA 3.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC198",
-            "colla": "Muixeranga d'Algemesí",
-            "castell": "40 anys Muixeranga (1973-2013) ",
-            "data_castell": "",
-            "data_placa": "",
-            "incidencies": "A la Capella de la Troballa",
-            "castells": "",
-            "muixerangues": "Sí",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Muixeranga_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
-                "text": "",
-                "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:Muixeranga_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
-                "autor": "Vicenç Salvador Torres Guerola",
-                "llicencia": "CC BY-SA 3.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "PC199",
-            "colla": "Muixeranga d'Algemesí",
-            "castell": "Muixeranga ",
-            "data_castell": "",
-            "data_placa": "",
-            "incidencies": "Localització no clara, possiblement a la Capella de la Troballa",
-            "castells": "",
-            "muixerangues": "Sí",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3._Taulells_de_la_muixeranga_a_la_capella_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
-                "text": "",
-                "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:3._Taulells_de_la_muixeranga_a_la_capella_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
-                "autor": "Vicenç Salvador Torres Guerola",
-                "llicencia": "CC BY-SA 3.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "id": "PC203",
-            "colla": "Muixeranga d'Algemesí",
+            "colla": "Muixeranga d'Algemesí, Nova Muixeranga d'Algemesí",
             "castell": "Km. 0 Muixeranguer",
             "data_castell": "",
             "data_placa": "",
@@ -737,6 +548,7 @@
         "colles": [],
         "colles_relacionades": [
           "Muixeranga d'Algemesí",
+          "Nova Muixeranga d'Algemesí",
           "Colla Jove Xiquets de Tarragona"
         ],
         "monuments": [],
@@ -744,10 +556,10 @@
         "mesinfo": [
           {
             "id": "DC2",
-            "colla": "Colla Jove Xiquets de Tarragona",
-            "info": "Primera plaça de 9 al País Valencià.",
+            "colla": "Colla Jove Xiquets de Tarragona, Muixeranga d'Algemesí, Nova Muixeranga d'Algemesí",
+            "info": "Primera plaça de 9 al País Valencià.\nEscenari de les processons de la Mare de Déu de la Salut (7 i 8 de setembre), amb els recorreguts entre la Basílica de Sant Jaume i la Capella de la Troballa, acompanyades dels balls populars de la vila, entre ells les muixerangues. Les primeres referències són del 1724.",
             "castells": "Sí",
-            "muixerangues": "",
+            "muixerangues": "Sí",
             "falcons": "",
             "fotos": [
               {
@@ -91483,6 +91295,517 @@
         ],
         "colles_relacionades": [
           "Colla Castellera Sant Pere i Sant Pau"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7304098,
+          41.2209981
+        ]
+      },
+      "properties": {
+        "id": "LC465",
+        "nom": "Plaça d’Eduard Maristany",
+        "poblacio": "Vilanova i la Geltrú",
+        "comarca": "Garraf",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Xiquets de Valls (s.XIX)"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC54",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Al s.XIX arran de les celebracions per l’inici de les obres del ferrocarril BCN-Valls passant per Vilanova, les 2 colles vallenques hi van ser presents i s’hi va fer el 3 i 4 de 9 (10/07/1878) .",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.43699263386520215,
+          39.186896079648704
+        ]
+      },
+      "properties": {
+        "id": "LC466",
+        "nom": "Capella de la Troballa",
+        "poblacio": "Algemesí",
+        "comarca": "Ribera Alta",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC198",
+            "colla": "Muixeranga d'Algemesí",
+            "castell": "40 anys Muixeranga (1973-2013) ",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Muixeranga_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
+                "text": "",
+                "font": "Wikimedia Commons",
+                "font_url": "https://commons.wikimedia.org/wiki/File:Muixeranga_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
+                "autor": "Vicenç Salvador Torres Guerola",
+                "llicencia": "CC BY-SA 3.0",
+                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC199",
+            "colla": "Muixeranga d'Algemesí, Nova Muixeranga d'Algemesí",
+            "castell": "Muixeranga ",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3._Taulells_de_la_muixeranga_a_la_capella_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
+                "text": "",
+                "font": "Wikimedia Commons",
+                "font_url": "https://commons.wikimedia.org/wiki/File:3._Taulells_de_la_muixeranga_a_la_capella_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
+                "autor": "Vicenç Salvador Torres Guerola",
+                "llicencia": "CC BY-SA 3.0",
+                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Muixeranga d'Algemesí",
+          "Nova Muixeranga d'Algemesí"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4391811,
+          39.1901649
+        ]
+      },
+      "properties": {
+        "id": "LC467",
+        "nom": "Carrer Nou del Convent",
+        "poblacio": "Algemesí",
+        "comarca": "Ribera Alta",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC197",
+            "colla": "Muixeranga d'Algemesí",
+            "castell": "Record 40 anys del 1er assaig en la recuperació de la muixeranga (1973)",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/La_muixeranga.jpg",
+                "text": "",
+                "font": "Wikimedia Commons",
+                "font_url": "https://commons.wikimedia.org/wiki/File:La_muixeranga.jpg",
+                "autor": "Vicenç Salvador Torres Guerola",
+                "llicencia": "CC BY-SA 3.0",
+                "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Muixeranga d'Algemesí"
         ],
         "monuments": [],
         "carrers": [],
