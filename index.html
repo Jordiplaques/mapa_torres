@@ -572,7 +572,7 @@ html, body, #map {
     </p>
 
     <p>
-  Per fer aquestes seccions s'han consultat  <a href="https://castellscat.cat/ca/base-de-dades">les bases de dades de la Coordinadora</a>,  <a href="https://enciclopedia.castellscat.cat/">l'Enciclopèdia Castellera</a>,  <a href="https://ca.wikipedia.org/wiki/Portada">la Viquipèdia</a>, les federacions de <a href="https://federaciofalcons.cat/">falcons</a> i <a href="https://fcmuixerangues.org/">muixerangues</a>, i webs com <a href="https://castell.manies.cat/">castell.manies.cat</a>.
+  Per fer aquestes seccions s'han consultat  <a href="https://castellscat.cat/ca/base-de-dades">les bases de dades de la Coordinadora</a>,  <a href="https://enciclopedia.castellscat.cat/">l'Enciclopèdia Castellera</a>,  <a href="https://ca.wikipedia.org/wiki/Portada">la Viquipèdia</a>, les federacions de <a href="https://federaciofalcons.cat/">falcons</a> i <a href="https://fcmuixerangues.org/">muixerangues</a>, i webs com <a href="https://castell.manies.cat/">castell.manies.cat</a>, <a href="https://www.elmoncasteller.cat/">elmoncasteller.cat</a> i articles de la <a href="https://revistacastells.cat/">Revista Castells</a>.
     </p>
 
       
@@ -5230,166 +5230,6 @@ var carrersFiltrats = p.carrers.filter(function (carrer) {
 
 
 
-       if (
-    carrersFiltrats.length &&
-    mostrarSeccioPopup("fcarrers")
-) {
-
-    html += "<li>🔎 " +
-        carrersFiltrats.length +
-        (carrersFiltrats.length === 1 ? " localització" : " localitzacions") +
-        "</li>";
-
-    html += "<ul>";
-
-    carrersFiltrats.forEach(function (carrer) {
-
-        var teMotiu =
-            carrer.motiu &&
-            carrer.motiu.trim();
-
-        var teFotos =
-            carrer.fotos &&
-            carrer.fotos.some(function (foto) {
-                return (
-                    (foto.url && foto.url.trim()) ||
-                    (foto.enllac_extern &&
-                     foto.enllac_extern.trim())
-                );
-            });
-
-        // Només creem l'element si hi ha alguna informació
-        if (teMotiu || teFotos) {
-
-            html += "<li>";
-
-            // MOTIU
-            if (teMotiu) {
-
-                html += "<strong>Motiu:</strong> " +
-                    carrer.motiu;
-
-            }
-
-            // FOTOGRAFIES
-            if (teFotos) {
-
-                carrer.fotos.forEach(function (foto) {
-
-                    // FOTO LOCAL O AMB URL DIRECTA
-                    if (foto.url && foto.url.trim()) {
-
-   if (teMotiu) {
-    html += "<br><br>";
-}
-    if (foto.text && foto.text.trim()) {
-
-                            html += "<em>" +
-                                foto.text +
-                                "</em><br>";
-
-                        }
-
-                        html += "<a href=\"" +
-                            foto.url +
-                            "\" target=\"_blank\">" +
-                            "<img src=\"" +
-                            foto.url +
-                            "\" style=\"max-width:100%; height:auto;\">" +
-                            "</a>";
-
-                        if (foto.autor && foto.autor.trim()) {
-
-                            html += "<br><strong>Autor/a de la foto:</strong> " +
-                                foto.autor;
-
-                        }
-
-                        if (foto.font && foto.font.trim()) {
-
-                            html += "<br><strong>Font:</strong> ";
-
-                            if (
-                                foto.font_url &&
-                                foto.font_url.trim()
-                            ) {
-
-                                html += "<a href=\"" +
-                                    foto.font_url +
-                                    "\" target=\"_blank\">" +
-                                    foto.font +
-                                    "</a>";
-
-                            } else {
-
-                                html += foto.font;
-
-                            }
-
-                        }
-
-                        if (foto.llicencia &&
-                            foto.llicencia.trim()) {
-
-                            html += "<br><strong>Llicència:</strong> ";
-
-                            if (
-                                foto.llicencia_url &&
-                                foto.llicencia_url.trim()
-                            ) {
-
-                                html += "<a href=\"" +
-                                    foto.llicencia_url +
-                                    "\" target=\"_blank\">" +
-                                    foto.llicencia +
-                                    "</a>";
-
-                            } else {
-
-                                html += foto.llicencia;
-
-                            }
-
-                        }
-
-                    }
-
-                    // ENLLAÇ EXTERN
-                    else if (
-                        foto.enllac_extern &&
-                        foto.enllac_extern.trim()
-                    ) {
-
-                        var textEnllac =
-                            foto.text &&
-                            foto.text.trim()
-                                ? foto.text
-                                : "Veure fotografia";
-
-if (teMotiu) {
-    html += "<br>";
-}
-
-html += "🔗 " +                            "<a href=\"" +
-                            foto.enllac_extern +
-                            "\" target=\"_blank\">" +
-                            textEnllac +
-                            "</a>";
-
-                    }
-
-                });
-
-            }
-
-            html += "</li>";
-
-        }
-
-    });
-
-    html += "</ul>";
-}      
 
 
 var collesFiltrades = p.colles.filter(function (colla) {
@@ -5619,6 +5459,170 @@ if (colla.padrines && colla.padrines.trim()) {
 
     html += "</ul>";
 }
+
+
+       if (
+    carrersFiltrats.length &&
+    mostrarSeccioPopup("fcarrers")
+) {
+
+    html += "<li>🔎 " +
+        carrersFiltrats.length +
+        (carrersFiltrats.length === 1 ? " localització" : " localitzacions") +
+        "</li>";
+
+    html += "<ul>";
+
+    carrersFiltrats.forEach(function (carrer) {
+
+        var teMotiu =
+            carrer.motiu &&
+            carrer.motiu.trim();
+
+        var teFotos =
+            carrer.fotos &&
+            carrer.fotos.some(function (foto) {
+                return (
+                    (foto.url && foto.url.trim()) ||
+                    (foto.enllac_extern &&
+                     foto.enllac_extern.trim())
+                );
+            });
+
+        // Només creem l'element si hi ha alguna informació
+        if (teMotiu || teFotos) {
+
+            html += "<li>";
+
+            // MOTIU
+            if (teMotiu) {
+
+                html += "<strong>Motiu:</strong> " +
+                    carrer.motiu;
+
+            }
+
+            // FOTOGRAFIES
+            if (teFotos) {
+
+                carrer.fotos.forEach(function (foto) {
+
+                    // FOTO LOCAL O AMB URL DIRECTA
+                    if (foto.url && foto.url.trim()) {
+
+   if (teMotiu) {
+    html += "<br><br>";
+}
+    if (foto.text && foto.text.trim()) {
+
+                            html += "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html += "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+
+                            html += "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.font;
+
+                            }
+
+                        }
+
+                        if (foto.llicencia &&
+                            foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+
+                                html += "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.llicencia;
+
+                            }
+
+                        }
+
+                    }
+
+                    // ENLLAÇ EXTERN
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text &&
+                            foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+if (teMotiu) {
+    html += "<br>";
+}
+
+html += "🔗 " +                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a>";
+
+                    }
+
+                });
+
+            }
+
+            html += "</li>";
+
+        }
+
+    });
+
+    html += "</ul>";
+}      
+
+
 
 // -----------------------------------------------------------------
 // ALTRES DADES

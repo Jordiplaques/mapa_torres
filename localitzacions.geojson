@@ -7799,7 +7799,7 @@
       "properties": {
         "id": "LC34",
         "nom": "Parc del Centre del Poblenou",
-        "poblacio": "Barcelona (Sant Martí)",
+        "poblacio": "Barcelona (Poblenou)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -7865,7 +7865,7 @@
           {
             "castell": "3d9f",
             "colla": "Castellers de la Vila de Gràcia",
-            "diada": "Diada del Poblenou",
+            "diada": "Festa Major del Poblenou",
             "data": "14 de setembre de 2014",
             "castells": "Sí",
             "muixerangues": "",
@@ -10601,7 +10601,68 @@
           "Ganàpies de la UAB"
         ],
         "monuments": [],
-        "carrers": [],
+        "carrers": [
+          {
+            "emplaçament": "UAB",
+            "motiu": "Mural 20 anys Ganàpies de l’Autònoma (fet el 2014, no localitzat el 2025)",
+            "colla": "Ganàpies de la UAB",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Foto a l’instagram de la colla @ganapies",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/uAxLZrOYCF/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "mesinfo": []
       }
     },
@@ -19856,13 +19917,13 @@
             "fotos": [
               {
                 "url": "",
-                "text": "",
+                "text": "Mural a l’interior del local (Instagram de l’autora @nuria_riba_bosch)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "https://www.instagram.com/p/BR0STibgERM/"
               },
               {
                 "url": "",
@@ -42376,13 +42437,13 @@
               },
               {
                 "url": "",
-                "text": "",
+                "text": "Mural a l’interior de Cal Reig fet per Núria Riba Bosch",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "https://www.instagram.com/p/DQoZL1nCP-V/?img_index=1"
               },
               {
                 "url": "",
@@ -50435,7 +50496,7 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Mural pilar de 9 / preu del raïm (data foto 2024).",
+            "motiu": "Mural pilar de 9 / preu del raïm (data foto 2024). Autora Núria Riba Bosch.",
             "colla": "Castellers de Vilafranca",
             "castells": "Sí",
             "muixerangues": "",
@@ -62753,13 +62814,13 @@
             "fotos": [
               {
                 "url": "",
-                "text": "",
+                "text": "Mural a l’interior del local (Instagram de l’autor @xiriflaxx)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": ""
+                "enllac_extern": "https://www.instagram.com/p/DcUPJZsxNam/"
               },
               {
                 "url": "",
@@ -65153,7 +65214,7 @@
       },
       "properties": {
         "id": "LC293",
-        "nom": "Sant Pere i Sant Pau",
+        "nom": "Plaça de Cuba",
         "poblacio": "Tarragona (Sant Pere i Sant Pau)",
         "comarca": "Tarragonès",
         "territori": "",
@@ -67922,13 +67983,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.8267238,
-          41.7272001
+          1.8296228390560714,
+          41.727196879492936
         ]
       },
       "properties": {
         "id": "LC311",
-        "nom": "",
+        "nom": "Casa de la Caritat",
         "poblacio": "Manresa",
         "comarca": "Bages",
         "territori": "",
@@ -68064,7 +68125,68 @@
           "Tirallongues de Manresa"
         ],
         "monuments": [],
-        "carrers": [],
+        "carrers": [
+          {
+            "emplaçament": "Casa de la Caritat",
+            "motiu": "Mural 30 anys dels Tirallongues de Manresa (4d8, fet el desembre de 2013, autors Sara Villarta Rodó i Quim Tura Córdoba)",
+            "colla": "Tirallongues de Manresa",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Instagram de Quim Córdoba @mus_al_mur",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/C0jIVp1KqmO/?img_index=2"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "mesinfo": []
       }
     },
@@ -91523,9 +91645,9 @@
         ],
         "plaques": [
           {
-            "id": "PC198",
-            "colla": "Muixeranga d'Algemesí",
-            "castell": "40 anys Muixeranga (1973-2013) ",
+            "id": "PC199",
+            "colla": "Muixeranga d'Algemesí, Nova Muixeranga d'Algemesí",
+            "castell": "Muixeranga ",
             "data_castell": "",
             "data_placa": "",
             "incidencies": "",
@@ -91534,10 +91656,10 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Muixeranga_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3._Taulells_de_la_muixeranga_a_la_capella_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
                 "text": "",
                 "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:Muixeranga_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
+                "font_url": "https://commons.wikimedia.org/wiki/File:3._Taulells_de_la_muixeranga_a_la_capella_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
                 "autor": "Vicenç Salvador Torres Guerola",
                 "llicencia": "CC BY-SA 3.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
@@ -91586,9 +91708,9 @@
             ]
           },
           {
-            "id": "PC199",
-            "colla": "Muixeranga d'Algemesí, Nova Muixeranga d'Algemesí",
-            "castell": "Muixeranga ",
+            "id": "PC198",
+            "colla": "Muixeranga d'Algemesí",
+            "castell": "40 anys Muixeranga (1973-2013) ",
             "data_castell": "",
             "data_placa": "",
             "incidencies": "",
@@ -91597,10 +91719,10 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3._Taulells_de_la_muixeranga_a_la_capella_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Muixeranga_%28Algemes%C3%AD%2C_Pa%C3%ADs_Valenci%C3%A0%29.jpg",
                 "text": "",
                 "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:3._Taulells_de_la_muixeranga_a_la_capella_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
+                "font_url": "https://commons.wikimedia.org/wiki/File:Muixeranga_(Algemes%C3%AD,_Pa%C3%ADs_Valenci%C3%A0).jpg",
                 "autor": "Vicenç Salvador Torres Guerola",
                 "llicencia": "CC BY-SA 3.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
@@ -91739,7 +91861,7 @@
           {
             "id": "PC197",
             "colla": "Muixeranga d'Algemesí",
-            "castell": "Record 40 anys del 1er assaig en la recuperació de la muixeranga (1973)",
+            "castell": "Record 40 anys del 1er assaig en la recuperació de la muixeranga (1973-2013)",
             "data_castell": "",
             "data_placa": "",
             "incidencies": "",
@@ -91809,6 +91931,740 @@
         ],
         "monuments": [],
         "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9824476,
+          46.547174
+        ]
+      },
+      "properties": {
+        "id": "LC468",
+        "nom": "“Top of Europe”",
+        "poblacio": "Jungfraujoch",
+        "comarca": "Suïssa",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Barcelona",
+          "Castellers de Lausanne"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC55",
+            "colla": "Castellers de Barcelona, Castellers de Lausanne",
+            "info": "Punt més elevat on s’hi ha fet un castell de 7 pisos (3450 m.), els castellers de Barcelona hi van descarregar el 3d7, 4d7, 5d6 i quatre pd4 el 25 de juny de 2026, els castellers de Lausanne també hi van fer un pd4.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0717174,
+          41.3601604
+        ]
+      },
+      "properties": {
+        "id": "LC469",
+        "nom": "Carreters d’Esplugues",
+        "poblacio": "Cornellà de Llobregat",
+        "comarca": "Baix Llobregat",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Cornellà"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Carretera d’Esplugues 85",
+            "motiu": "Mural castellers de Cornellà. [Actualment desapregut -2026-]",
+            "colla": "Castellers de Cornellà",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "El podeu veure en el Twitter de la colla @CastCornella",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://x.com/CastCornella/header_photo"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6252505162913167,
+          41.581353544537166
+        ]
+      },
+      "properties": {
+        "id": "LC470",
+        "nom": "Supermas plaça de les Tortugues",
+        "poblacio": "Igualada",
+        "comarca": "Anoia",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Moixiganguers d'Igualada"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Supermercat Mas plaça de les tortugues",
+            "motiu": "Mural Moixiganguers d’Igualada (pinya, fet al 2019, a l’interior de l’establiment)",
+            "colla": "Moixiganguers d'Igualada",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Intsagram de l’autora nuria_riba_bosch",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/BuGedMDgqWR/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6156862168803912,
+          41.57802664613328
+        ]
+      },
+      "properties": {
+        "id": "LC471",
+        "nom": "Carrer de Sant Faust",
+        "poblacio": "Igualada",
+        "comarca": "Anoia",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Moixiganguers d'Igualada"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Carrer de Sant Faust",
+            "motiu": "Mural Moixiganguers d’Igualada (tronc de 5, fet al 2018)",
+            "colla": "Moixiganguers d'Igualada",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Intsagram de l’autora nuria_riba_bosch",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/BiuqvteAK_q/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.204110243465493,
+          41.40436173284732
+        ]
+      },
+      "properties": {
+        "id": "LC472",
+        "nom": "Carrer Pujades",
+        "poblacio": "Barcelona (Poblenou)",
+        "comarca": "Barcelonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Carrer Pujades",
+            "motiu": "Mural “Fer llenya” de Gonzalo Borondo, fet el 2015 i actualment -2026- no visible.",
+            "colla": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Entrada a Barcelona lowdown",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://barcelonalowdown.com/fer-llenya-mural-borondo/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "mesinfo": []
       }
     }
