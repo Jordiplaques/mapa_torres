@@ -7947,7 +7947,7 @@
       "properties": {
         "id": "LC35",
         "nom": "Pati del Castell de Montjuïc",
-        "poblacio": "Barcelona (Sants-Monthjuich)",
+        "poblacio": "Barcelona (Sants-Montjuïc)",
         "comarca": "Barcelonès",
         "territori": "Catalunya",
         "pais": "PPCC",
@@ -10604,7 +10604,7 @@
         "carrers": [
           {
             "emplaçament": "UAB",
-            "motiu": "Mural 20 anys Ganàpies de l’Autònoma (fet el 2014, no localitzat el 2025)",
+            "motiu": "Mural 20 anys Ganàpies de l’Autònoma (fet el 2014, no localitzat el 2025).",
             "colla": "Ganàpies de la UAB",
             "castells": "Sí",
             "muixerangues": "",
@@ -50514,7 +50514,7 @@
               },
               {
                 "url": "",
-                "text": "Mural (2).",
+                "text": "Mural (2)",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -68128,7 +68128,7 @@
         "carrers": [
           {
             "emplaçament": "Casa de la Caritat",
-            "motiu": "Mural 30 anys dels Tirallongues de Manresa (4d8, fet el desembre de 2013, autors Sara Villarta Rodó i Quim Tura Córdoba)",
+            "motiu": "Mural 30 anys dels Tirallongues de Manresa (4d8, fet el desembre de 2013, autors Sara Villarta Rodó i Quim Tura Córdoba).",
             "colla": "Tirallongues de Manresa",
             "castells": "Sí",
             "muixerangues": "",
@@ -76427,7 +76427,7 @@
         "carrers": [
           {
             "emplaçament": "Carrer de Sant Antoni",
-            "motiu": "Mural de la ciutat amb dibuix d’un castell a La Paeria (data foto 2025, autor del mural Cactusoup)",
+            "motiu": "Mural de la ciutat amb dibuix d’un castell a La Paeria (data foto 2025, autor del mural Cactusoup).",
             "colla": "",
             "castells": "Sí",
             "muixerangues": "",
@@ -85856,7 +85856,7 @@
         "carrers": [
           {
             "emplaçament": "Agrupació Balls populars",
-            "motiu": "Rajola a l’interior de l’Agrupació amb diferents balls populars i un ventall falconer",
+            "motiu": "Rajola a l’interior de l’Agrupació amb diferents balls populars i un ventall falconer.",
             "colla": "Agrupació de Balls Populars de Vilanova",
             "castells": "",
             "muixerangues": "Sí",
@@ -88390,7 +88390,7 @@
         "carrers": [
           {
             "emplaçament": "",
-            "motiu": "Mural 4d9",
+            "motiu": "4d9 descarregat castellers de Vilafranca (01/11/2012).",
             "colla": "Castellers de Vilafranca",
             "castells": "Sí",
             "muixerangues": "",
@@ -89138,7 +89138,7 @@
         "carrers": [
           {
             "emplaçament": "C/Economina",
-            "motiu": "Rajoles decoratives amb un 4d7 dels Bordegassos",
+            "motiu": "Rajoles decoratives amb un 4d7 dels Bordegassos.",
             "colla": "Bordegassos de Vilanova",
             "castells": "Sí",
             "muixerangues": "",
@@ -92314,7 +92314,7 @@
         "carrers": [
           {
             "emplaçament": "Supermercat Mas plaça de les tortugues",
-            "motiu": "Mural Moixiganguers d’Igualada (pinya, fet al 2019, a l’interior de l’establiment)",
+            "motiu": "Mural Moixiganguers d’Igualada (pinya, fet al 2019, a l’interior de l’establiment).",
             "colla": "Moixiganguers d'Igualada",
             "castells": "Sí",
             "muixerangues": "",
@@ -92461,7 +92461,7 @@
         "carrers": [
           {
             "emplaçament": "Carrer de Sant Faust",
-            "motiu": "Mural Moixiganguers d’Igualada (tronc de 5, fet al 2018)",
+            "motiu": "Mural Moixiganguers d’Igualada (tronc de 5, fet al 2018).",
             "colla": "Moixiganguers d'Igualada",
             "castells": "Sí",
             "muixerangues": "",
@@ -92621,6 +92621,722 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "https://barcelonalowdown.com/fer-llenya-mural-borondo/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1244779,
+          41.398777
+        ]
+      },
+      "properties": {
+        "id": "LC473",
+        "nom": "FGC Sarrià (accés Jaume Piquet)",
+        "poblacio": "Barcelona (Sarrià)",
+        "comarca": "Barcelonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Sarrià"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "FGC Sarrià",
+            "motiu": "Mural “Fem Pinya Fem Vila” (fet el 2022, data fotos 2026).",
+            "colla": "Castellers de Sarrià",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/XC39a.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "Mural (2)",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "fotos/carrers/XC39b.jpeg"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0101541331253543,
+          41.56414381037493
+        ]
+      },
+      "properties": {
+        "id": "LC474",
+        "nom": "Plaça Didó",
+        "poblacio": "Terrassa",
+        "comarca": "Vallès Occidental",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC228",
+            "colla": "Castellers de Terrassa",
+            "castell": "11 anys d’agermanament amb els fallaires del Pont de Suert (2015-2026) en memòria de Mario Pena",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Foto a monterrassa.cat",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://monterrassa.cat/app/uploads/sites/19/2026/09/mural-castellers-falles-11-1600x1067.webp"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Terrassa"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Terrassa",
+            "motiu": "Mural agermanament castellers de Terrassa i fallaires del Pont de Suert (fet el 2026).",
+            "colla": "Castellers de Terrassa",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Intsagram dels castellers de Terrassa @castellersdeterrassa",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/DdNEtr4CKDR/?img_index=9"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7414283680496396,
+          42.408218919085414
+        ]
+      },
+      "properties": {
+        "id": "LC475",
+        "nom": "Campo de la Vila",
+        "poblacio": "El Pont de Suert",
+        "comarca": "Alta Ribagorça",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC227",
+            "colla": "Castellers de Terrassa",
+            "castell": "10 anys d’agermanament amb els fallaires del Pont de Suert (2015-2025)",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Imatge a Google Maps",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.google.com/maps/place/Mural+Falles+i+Castells,+Patrimoni+de+la+Humanitat/@42.4082285,0.7411766,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBUREmik5fMmopj8tCrrTfH!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWkI3_NV1f2TgSeeIYX9ElNlcbN13m7rVf7qfA6IPWPaHevouJ3qjSviFUSDRi6DEdtzD06s23OK8qOAbtUObbylybGA2-IBOiNyPGQgBj59cFFC3XnUsZadauq25Ffpn7_E0P2X84VqF4nM%3Dw203-h114-k-no!7i4032!8i2268!4m7!3m6!1s0x12a62f0059cebcb9:0x87c2125a9418fbd7!8m2!3d42.4082421!4d0.7412033!10e5!16s%2Fg%2F11z5yvlg7m?entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Terrassa"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "El Pont de Suert",
+            "motiu": "Mural agermanament castellers de Terrassa i fallaires del Pont de Suert (fet el 2025).",
+            "colla": "Castellers de Terrassa",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia a Pirineus Digital",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://pirineusdigital.cat/el-pont-de-suert-inaugura-un-mural-que-uneix-falles-i-castellers/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1469967,
+          41.3694408
+        ]
+      },
+      "properties": {
+        "id": "LC476",
+        "nom": "Poble Espanyol",
+        "poblacio": "Barcelona (Sants-Montjuïc)",
+        "comarca": "Barcelonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Sants"
+        ],
+        "monuments": [],
+        "carrers": [
+          {
+            "emplaçament": "Barcelona (Sants-Montjuich)",
+            "motiu": "Mosaic 2d9fm castellers de Sants (a l’interior del recinte).",
+            "colla": "Castellers de Sants",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Facebook del Poble Espanyol",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.facebook.com/photo/?fbid=1463337282508174&set=pcb.1463337335841502"
               },
               {
                 "url": "",
