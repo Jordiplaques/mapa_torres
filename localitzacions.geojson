@@ -282,7 +282,7 @@
           {
             "id": "DC1",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f? 1880) al s.XIX.",
+            "info": "Plaça de 9 (3d9f? Fet per la colla Vella a les Fires d’Octubre de 1880) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -1204,7 +1204,7 @@
           {
             "id": "DC3",
             "colla": "Xiquets de Valls (s.XIX), Castellers d'Altafulla",
-            "info": "Plaça de gamma extra al s.XIX (pd8fm, 1878).\nPunt d’inici del pilar caminant que realitza el dia de Sant Martí (11/11) la colla local fins a l’església del patró pujant 41 esglaons (~100 m.). Ja es realitzava al segle XIX.",
+            "info": "Plaça de gamma extra al s.XIX (pd8fm, colla Vella 11/11/1878).\nPunt d’inici del pilar caminant que realitza el dia de Sant Martí (11/11) la colla local fins a l’església del patró pujant 41 esglaons (~100 m.). Ja es realitzava al segle XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -8533,8 +8533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.1189584,
-          41.3993108
+          2.121639029041802,
+          41.399283
         ]
       },
       "properties": {
@@ -11028,7 +11028,7 @@
           {
             "id": "DC8",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f, 1879)",
+            "info": "Plaça de 9 al s.XIX (3d9f, Festa Major, juliol de 1879)",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -12872,7 +12872,7 @@
           {
             "id": "DC9",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (1879).",
+            "info": "Plaça de 9 al s.XIX (1/08/1879 colles Vella i Nova).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -14102,7 +14102,7 @@
           {
             "id": "DC10",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f(c), 1877) i de gamma extra (4d9(c), 1881) al s.XIX.",
+            "info": "Plaça de 9 (3d9f carregat el 1877 i descarregat al 1879 per la colla Nova a la festa Major, a finals d’agost) i de gamma extra (4d9(c), colla Nova, 29/08/1881) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -15745,7 +15745,7 @@
           {
             "id": "DC11",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, 1881) .",
+            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, colla Vella, 6/08/1881). Darrer castell de 9 documentat al s.XIX (colla vella, finals de juliol de 1893).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -20626,7 +20626,7 @@
           {
             "id": "DC13",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, 1883).",
+            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, colla Vella? Principis de setembre de 1883).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -23802,7 +23802,7 @@
           {
             "id": "DC15",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, 1881) .",
+            "info": "Plaça de 9 al s.XIX (3d9f -colla Vella-, 4d9f -colla Nova i colla Vella-, 19/07/1881) .",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -24358,8 +24358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.6905723,
-          41.3738253
+          1.6931702915859717,
+          41.37388394355935
         ]
       },
       "properties": {
@@ -25701,7 +25701,7 @@
             "nom": "Falcons de Llorenç del Penedès",
             "fundacio": "1942",
             "inactiva": "",
-            "maxim_castell": "Figures dinàmiques destil més gimnàstic, piràmides evolutives, escala de 8",
+            "maxim_castell": "Figures dinàmiques d’estil més gimnàstic, piràmides evolutives, escala de 8",
             "web": "https://elcentre.cat/seccions/falcons/",
             "padrines": "",
             "altres": "Colla més tradicional basada pels principis gimnàstics del Sokol i menys influïda per les tècniques castelleres.",
@@ -29798,7 +29798,7 @@
           {
             "id": "DC18",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f, ~1864) al s.XIX.",
+            "info": "Plaça de 9 (3d9f, 8 de maig de ~1864) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -31988,7 +31988,7 @@
           {
             "id": "DC21",
             "colla": "Xiquets de Valls (s.XIX), Xiquets de Reus, Ganxets de Reus",
-            "info": "Plaça de 9 (3d9f, 1856) al s.XIX.\nEls Xiquets de Reus (també ho havien fet els Ganxets) alcen un pilar al Prioral de Sant Pere que camina fins al Mercadal (~200 m.) la vigíla de Sant Pere (28/06), ",
+            "info": "Plaça de 9 (3d9f, 14/09/1856) al s.XIX.\nEls Xiquets de Reus (també ho havien fet els Ganxets) alcen un pilar al Prioral de Sant Pere que camina fins al Mercadal (~200 m.) la vigíla de Sant Pere (28/06), ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -38081,7 +38081,7 @@
           {
             "id": "DC22",
             "colla": "Xiquets de Valls (s.XIX), Xiquets de Tarragona, Colla Jove Xiquets de Tarragona, Xiquets del Serrallo, Colla Castellera Sant Pere i Sant Pau",
-            "info": "Plaça de 9 (3d9f, 1851, primer castell de 9 documentat) i de gamma extra (1881, 4d9, 3d8ps) al s.XIX.\nPunt d’inici del pilar caminant que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.), fins els anys 80 el pilar entrava a l’ajuntament i hi pujava les escales fins el primer pis. Les primeres referències de pilars que pujaven les escales de la catedral són de 1845, i s’han fet de 5 i de 6 (arribant a pujar 13 esglaons).",
+            "info": "Plaça de 9 (3d9f, colla dels Menestrals, 23/09/1851, primer castell de 9 documentat) i de gamma extra (pd8fm per Santa Tecla de 1878 fet per les 2 colles de valls i el 4d9 -colla Vella-, 3d8ps -colla Vella i Nova- fets per Santa Tecla de 1881) al s.XIX.\nPunt d’inici del pilar caminant que les colles tarragonines alcen el dia de la Mercè, i que un cop puja les escales de la catedral acaba a la plaça de la Font (460 m.), fins els anys 80 el pilar entrava a l’ajuntament i hi pujava les escales fins el primer pis. Les primeres referències de pilars que pujaven les escales de la catedral són de 1845, i s’han fet de 5 i de 6 (arribant a pujar 13 esglaons).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -43193,7 +43193,7 @@
           {
             "id": "DC24",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f, 4d9f) i de gamma extra (3d8ps) al s.XIX (1852).",
+            "info": "Plaça de 9 (3d9f, 4d9f) i de gamma extra (3d8ps) al s.XIX (festa major de Torredembarra, setembre de 1852).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -43947,7 +43947,7 @@
           {
             "id": "DC25",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de gamma extra al s.XIX (pd8fm, 1858) .",
+            "info": "Plaça de gamma extra al s.XIX (pd8fm, 19/08/1858 colla del Roser) .",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -44616,7 +44616,7 @@
           {
             "id": "DC26",
             "colla": "Xiquets de Valls (s.XIX), Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
-            "info": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791).\nPlaça de 9 (3d9f, 1852) i de gamma extra al s.XIX (3d8ps, 1879 i 5d9f, 1883).\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i de 10, i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+            "info": "Referència als “Noys de Castells”, embrió de les colles castelleres vallenques (Festes Decennals de la Candela, 1791).\nPlaça de 9 (3d9f, Sant Joan de 1852, possiblement colla dels Menestrals) i de gamma extra al s.XIX (pd8fm? Decennals de la Candelera de 1881, 3d8ps, 1879 i 5d9f, 28/10/1883 descarregat per la Vella i possiblement carregat per la Noiva).\nPrimers 3d9 sense folre carregats de la història (27/10/19). \nPrimera vila amb 2 colles de 9 (1986) i de 10, i primera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -49053,7 +49053,7 @@
           {
             "id": "DC27",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (1860) i de gamma extra (3d8ps, pd8fm, 1880) al s.XIX.\nTotes les colles que han fet algun castell de gamma extra en el s.XXI, n’han fet almenys un en aquesta plaça.",
+            "info": "Plaça de 9 (Sant Fèlix de 1860, fet per les 2 colles de Valls) i de gamma extra (3d8ps 30/08/1880 fet per les 2 colles valelnques i pd8fm el 31/08/1880 fet per la colla Vella) al s.XIX.\nTotes les colles que han fet algun castell de gamma extra en el s.XXI, n’han fet almenys un en aquesta plaça.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -50335,7 +50335,8 @@
         "places10": [],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Vilafranca"
+          "Castellers de Vilafranca",
+          "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [
           {
@@ -50363,7 +50364,68 @@
           }
         ],
         "carrers": [],
-        "mesinfo": []
+        "mesinfo": [
+          {
+            "id": "DC56",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 al s.XIX (1880) on les 2 colles de Valls hi van fer el 3d9f a l’entrada d’ofici el dia de Sant Fèlix.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -52256,7 +52318,7 @@
           {
             "id": "DC28",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f, Festa Major de les Neus 5/08/1852) al s.XIX.",
+            "info": "Plaça de 9 (3d9f, colla del Roser, Festa Major de les Neus 5/08/1852) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -88032,7 +88094,7 @@
           {
             "id": "DC30",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de gamma extra al s.XIX (pd8fm, 1858) .",
+            "info": "Plaça de gamma extra al s.XIX (pd8fm, 24/08/1858, colla dels Pagesos) .",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -88245,7 +88307,7 @@
           {
             "id": "DC31",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f? 1879).",
+            "info": "Plaça de 9 al s.XIX (3d9f?, principis de setembre de 1879).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -93382,6 +93444,304 @@
           }
         ],
         "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.229301249228115,
+          39.75204412304163
+        ]
+      },
+      "properties": {
+        "id": "LC477",
+        "nom": "",
+        "poblacio": "Almenara",
+        "comarca": "Plana Baixa",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [
+          {
+            "nom": "Muixeranga d’Almenara",
+            "fundacio": "2026",
+            "inactiva": "",
+            "maxim_castell": "",
+            "web": "https://www.instagram.com/muixerangadalmenara/",
+            "padrines": "",
+            "altres": "En formació",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles_relacionades": [
+          "Muixeranga d’Almenara"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2489135,
+          41.2823
+        ]
+      },
+      "properties": {
+        "id": "LC478",
+        "nom": "Plaça del Carme",
+        "poblacio": "Valls (barri del Carme)",
+        "comarca": "Alt Camp",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Xiquets de Valls (s.XIX)"
+        ],
+        "monuments": [],
+        "carrers": [],
+        "mesinfo": [
+          {
+            "id": "DC57",
+            "colla": "Xiquets de Valls (s.XIX)",
+            "info": "Plaça de 9 al s.XIX (1881) on la colla Vella hi va fer el 3d9f per les festes del barri (diumenge proper al 16/07).",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ]
       }
     }
   ]
