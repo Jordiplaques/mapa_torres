@@ -59467,13 +59467,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.9702635,
-          41.2825332
+          1.9733056,
+          41.2830139
         ]
       },
       "properties": {
         "id": "LC255",
-        "nom": "",
+        "nom": "Agrupació de Cultura Popular de Castelldefels",
         "poblacio": "Castelldefels",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -59544,7 +59544,7 @@
             "nom": "Castellers de Castelldefels",
             "fundacio": "1982",
             "inactiva": "",
-            "maxim_castell": "4d8 (2025)",
+            "maxim_castell": "4d8 (2025), 3d8(c) (2026)",
             "web": "https://www.castelldefels.org/ca/serveis/cultura/festes/agenda-festes/festa-major-estiu",
             "padrines": "",
             "altres": "",
@@ -66535,13 +66535,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.7932893,
-          41.9781801
+          2.796045312523546,
+          41.978269516425456
         ]
       },
       "properties": {
         "id": "LC301",
-        "nom": "",
+        "nom": "Factoria Cultural Coma-Cros",
         "poblacio": "Salt",
         "comarca": "Gironès",
         "territori": "",
@@ -66612,7 +66612,7 @@
             "nom": "Marrecs de Salt",
             "fundacio": "1996",
             "inactiva": "",
-            "maxim_castell": "3d9f (2017)",
+            "maxim_castell": "3d9f (2017), 4d9f (2026)",
             "web": "https://marrecs.cat/",
             "padrines": "Castellers de Terrassa, Ganxets de Reus.",
             "altres": "",
@@ -69622,7 +69622,7 @@
       },
       "properties": {
         "id": "LC321",
-        "nom": "",
+        "nom": "Moll de la Costa",
         "poblacio": "Tarragona (El Serrallo)",
         "comarca": "Tarragonès",
         "territori": "",
@@ -69693,7 +69693,7 @@
             "nom": "Xiquets del Serrallo",
             "fundacio": "1988",
             "inactiva": "",
-            "maxim_castell": "3d8, 2d8f(c) (2026)",
+            "maxim_castell": "3d8, 2d8f (2026)",
             "web": "https://www.xiquetsdelserrallo.cat/",
             "padrines": "Xiquets de Tarragona, Colla Jove Xiquets de Tarragona.",
             "altres": "",

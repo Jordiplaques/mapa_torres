@@ -178,6 +178,55 @@ html, body, #map {
     margin-bottom: 5px;
 
 }
+
+
+.grupFiltres {
+    margin-top: 5px;
+}
+
+.capcaleraGrup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 4px;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.capcaleraGrup span {
+    font-size: 14px;
+}
+
+.contingutGrup {
+    padding-left: 4px;
+}
+
+.contingutGrup.tancat {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #titolMapa {
     position: absolute;
     top: 10px;
@@ -456,46 +505,75 @@ html, body, #map {
 
 <h4>Elements patrimonials</h4>
 
-<label>
-    <input type="checkbox" id="f9">
-    9️⃣ Places de 9
-</label>
+<div class="grupFiltres">
+
+    <div class="capcaleraGrup" onclick="alternarGrup('grupFites')">
+        FITES <span>▾</span>
+    </div>
+
+    <div id="grupFites" class="contingutGrup">
+
+        <label>
+            <input type="checkbox" id="f9">
+            9️⃣ Places de 9
+        </label>
+
+        <label>
+            <input type="checkbox" id="fge">
+            ⭐ Places de Gamma Extra
+        </label>
+
+        <label>
+            <input type="checkbox" id="f10">
+            🔟 Places de 10
+        </label>
+
+        <label>
+            <input type="checkbox" id="fmesinfo">
+            ℹ️ Altres dades
+        </label>
+
+    </div>
 
 
-<label>
-    <input type="checkbox" id="fge">
-    ⭐ Places de Gamma Extra
-</label>
+    <div class="capcaleraGrup" onclick="alternarGrup('grupPatrimoni')">
+        PATRIMONI FÍSIC <span>▸</span>
+    </div>
 
-<label>
-    <input type="checkbox" id="f10">
-    🔟 Places de 10
-</label>
+    <div id="grupPatrimoni" class="contingutGrup tancat">
 
-<label>
-    <input type="checkbox" id="fplaques">
-    🪧 Plaques commemoratives
-</label>
+        <label>
+            <input type="checkbox" id="fplaques">
+            🪧 Plaques commemoratives
+        </label>
 
-<label>
-    <input type="checkbox" id="fmonuments">
-    🏛️ Monuments
-</label>
+        <label>
+            <input type="checkbox" id="fmonuments">
+            🏛️ Monuments
+        </label>
 
-<label>
-    <input type="checkbox" id="fcolles">
-    🏠 Local/localització de colla
-</label>
+        <label>
+            <input type="checkbox" id="fcarrers">
+            🔎 Altres elements
+        </label>
 
-<label>
-    <input type="checkbox" id="fcarrers">
-    🔎 Altres elements
-</label>
+    </div>
 
-<label>
-    <input type="checkbox" id="fmesinfo">
-    ℹ️ Altres dades
-</label>
+
+    <div class="capcaleraGrup" onclick="alternarGrup('grupColles')">
+        COLLES <span>▸</span>
+    </div>
+
+    <div id="grupColles" class="contingutGrup tancat">
+
+        <label>
+            <input type="checkbox" id="fcolles">
+            🏠 Local o localització
+        </label>
+
+    </div>
+
+</div>
 
 <hr>
 
@@ -1888,6 +1966,28 @@ if (
 
 }
 
+
+window.alternarGrup = function(id) {
+
+    var grup = document.getElementById(id);
+
+    var capcalera = grup.previousElementSibling;
+
+    var fletxa = capcalera.querySelector("span");
+
+    if (grup.classList.contains("tancat")) {
+
+        grup.classList.remove("tancat");
+        fletxa.textContent = "▾";
+
+    } else {
+
+        grup.classList.add("tancat");
+        fletxa.textContent = "▸";
+
+    }
+
+};
 
 function compleixFiltres(p) {
 
