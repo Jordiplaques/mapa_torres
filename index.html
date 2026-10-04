@@ -2357,14 +2357,49 @@ if (
             '</linearGradient>' +
         '</defs>' +
 
-        // Petjada esquerra
-        '<ellipse cx="9" cy="9" rx="2.2" ry="3.5" ' +
-        'transform="rotate(-25 9 9)" ' +
+                // Enxaneta fent l'aleta
+        '<circle cx="12" cy="7" r="2.2" ' +
         'fill="url(#' + idGradientPcaminant + ')"/>' +
 
-        // Petjada dreta
-        '<ellipse cx="15" cy="15" rx="2.2" ry="3.5" ' +
-        'transform="rotate(-25 15 15)" ' +
+        // Cos
+        '<path d="M10.2 9.2 ' +
+        'C10.2 8.5 10.8 8.2 12 8.2 ' +
+        'C13.2 8.2 13.8 8.5 13.8 9.2 ' +
+        'L14.2 14.2 ' +
+        'L12.8 14.2 ' +
+        'L12.5 11.5 ' +
+        'L12.2 14.2 ' +
+        'L10.8 14.2 Z" ' +
+        'fill="url(#' + idGradientPcaminant + ')"/>' +
+
+        // Braç fent l'aleta
+        '<path d="M13.4 9.5 ' +
+        'L15.5 7.4 ' +
+        'L16.2 5.2 ' +
+        'C16.3 4.8 16.7 4.6 17 4.8 ' +
+        'C17.3 5 17.3 5.4 17.1 5.8 ' +
+        'L16.3 8.2 ' +
+        'L14.5 11 Z" ' +
+        'fill="url(#' + idGradientPcaminant + ')"/>' +
+
+        // Braç contrari
+        '<path d="M10.5 9.5 ' +
+        'L9 11.5 ' +
+        'L10 12.3 ' +
+        'L11.5 10.8 Z" ' +
+        'fill="url(#' + idGradientPcaminant + ')"/>' +
+
+        // Cames
+        '<path d="M11.1 13.5 ' +
+        'L11.8 13.5 ' +
+        'L11.1 18.5 ' +
+        'L9.9 18.5 Z" ' +
+        'fill="url(#' + idGradientPcaminant + ')"/>' +
+
+        '<path d="M12.6 13.5 ' +
+        'L13.3 13.5 ' +
+        'L14.5 18.5 ' +
+        'L13.3 18.5 Z" ' +
         'fill="url(#' + idGradientPcaminant + ')"/>' +
 
         '</svg>';
@@ -2533,24 +2568,27 @@ if (
             '</linearGradient>' +
         '</defs>' +
 
-        // Pinzell
-        '<path d="M7 16.5 ' +
-        'C7 14.8 8.1 13.7 9.8 13.7 ' +
+               // Paleta de pintura
+        '<path d="M5.2 12.2 ' +
+        'C5.2 7.9 8.5 4.8 12.8 4.8 ' +
+        'C17.2 4.8 20 7.8 20 11.6 ' +
+        'C20 14.8 17.8 16.8 15.1 16.8 ' +
         'H13.2 ' +
-        'L17.5 9.4 ' +
-        'C18.2 8.7 18.2 7.6 17.5 6.9 ' +
-        'C16.8 6.2 15.7 6.2 15 6.9 ' +
-        'L10.7 11.2 ' +
-        'V14.6 ' +
-        'C9.2 14.6 8.1 15.2 7 16.5 Z" ' +
+        'C12.5 16.8 12.1 17.4 12.4 18.1 ' +
+        'C12.8 19 12.1 20 11.1 20 ' +
+        'C7.8 20 5.2 16.8 5.2 12.2 Z" ' +
         'fill="url(#' + idGradientMurals + ')"/>' +
 
-        // Mànec del pinzell
-        '<rect x="6.5" y="16.5" width="5" height="2" ' +
-        'rx="1" fill="url(#' + idGradientMurals + ')"/>' +
+        // Forat de la paleta
+        '<ellipse cx="9.2" cy="15.5" rx="1.7" ry="2.2" ' +
+        'fill="white"/>' +
 
-        '</svg>';
-}
+        // Taques de pintura
+        '<circle cx="9" cy="9" r="1.3" fill="white"/>' +
+        '<circle cx="13" cy="7.5" r="1.3" fill="white"/>' +
+        '<circle cx="16.5" cy="10" r="1.3" fill="white"/>' +
+
+        '</svg>';}
 
 
 
