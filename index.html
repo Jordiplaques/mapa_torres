@@ -508,7 +508,7 @@ html, body, #map {
 <div class="grupFiltres">
 
     <div class="capcaleraGrup" onclick="alternarGrup('grupFites')">
-        FITES <span>▾</span>
+        PATRIMONI IMMATERIAL <span>▾</span>
     </div>
 
     <div id="grupFites" class="contingutGrup">
@@ -535,14 +535,14 @@ html, body, #map {
 
         <label>
             <input type="checkbox" id="fpcaminant">
-           🚶 Pilars caminant
+           🎊 Cercaviles, processons, i pilars caminant
         </label>
 
 
 
         <label>
             <input type="checkbox" id="fmesinfo">
-            ℹ️ Altres dades
+            ℹ️ Diades i altres dades
         </label>
 
     </div>
@@ -637,7 +637,7 @@ html, body, #map {
     </p>
 
     <p>
-     <strong>Les fites ens mostren construccions alçades en la localització: </strong>
+     <strong>El Patrimoni Immaterial ens mostra construccions alçades en la localització, fites històriques i dades sobre actuacions: </strong>
     </p>
 
 
@@ -653,18 +653,18 @@ html, body, #map {
     </p>
     
 <p>
-<strong>🚶 Pilars caminant</strong><br>
-       Recull de pilars caminant diferents als clàssics d'entrada a plaça, especificant quan disposem de la informació les colles que el fan, data aproximada, distància, etc.
+<strong>⛪ Processons, 🎉 cercaviles i 🚶 Pilars caminant</strong><br>
+       Recull d'actuacions singulars que no són estàtiques; processons, cercaviles, pilars caminant especials, etc. especificant la informació que disposem de les colles que el fan, data aproximada, distància recorreguda pels pilars, etc.
            </p>
     
         <p>
-<strong>ℹ️ Altres dades</strong><br>
-       Dades històriques modernes (s.XX-XXI), localitzacions de diades especials, anècodtes... (que no apareixen ja en altres elements de la localització).
+<strong>ℹ️ Diades i altres dades</strong><br>
+       Llistat de diades en cada localització, en alguns casos s'inclouen dades com els màxims castells, les colles amifitriones, etc. També s'inclouen algunes dades històriques modernes (s.XX-XXI), localitzacions de diades especials, anècdotes... (que no apareixen ja en altres elements de la localització).
     </p>
 
 
  <p>
-     <strong>El patrimoni físic ens mostra elements físics presents en la localització: </strong>
+     <strong>El Patrimoni Físic ens mostra elements físics relacionats amb les torres humanes presents en la localització: </strong>
     </p>
 
 
@@ -770,6 +770,7 @@ fetch("localitzacions.geojson")
 
 
 var numeroCarruselPlaques = 0;
+var numeroCarruselDiades = 0;
 
 window.canviaPlaca = function(idCarrusel, direccio) {
 
@@ -3010,6 +3011,9 @@ return (
         }
 
     }
+    
+       
+    
 
     // -------------------------------------------------------------
     // PLAQUES
@@ -4077,36 +4081,127 @@ if (p.infoantiga.length) {
 
 }
 
-
 // PILARS CAMINANT
 
 if (p.pcaminant.length) {
 
-    html += "<li><b>🚶 Pilars caminant</b></li>";
+var tipusPcaminant = [];
+
+p.pcaminant.forEach(function(pilar) {
+
+    if (
+        pilar.pilar &&
+        pilar.pilar.trim() &&
+        !tipusPcaminant.includes("🚶 Pilar caminant")
+    ) {
+        tipusPcaminant.push("🚶 Pilar caminant");
+    }
+
+    if (
+        pilar.processo &&
+        pilar.processo.trim() &&
+        !tipusPcaminant.includes("⛪ Processó")
+    ) {
+        tipusPcaminant.push("⛪ Processó");
+    }
+
+    if (
+        pilar.cercavila &&
+        pilar.cercavila.trim() &&
+        !tipusPcaminant.includes("🎉 Cercavila")
+    ) {
+        tipusPcaminant.push("🎉 Cercavila");
+    }
+
+});
+html += "<li><b>" +
+    tipusPcaminant.join(" / ") +
+    "</b></li>";
 
     html += "<ul>";
 
     p.pcaminant.forEach(function(pilar) {
 
-        html += "<li>";
+        
 
-        if (pilar.colla && pilar.colla.trim()) {
+        // TIPUS D'ACTIVITAT
 
-            html += "<strong>" +
-                pilar.colla +
-                "</strong>";
+        var tipusActivitat = [];
+
+        if (
+            pilar.pilar &&
+            pilar.pilar.trim()
+        ) {
+            tipusActivitat.push("Pilar caminant");
+        }
+
+        if (
+            pilar.processo &&
+            pilar.processo.trim()
+        ) {
+            tipusActivitat.push("Processó");
+        }
+
+        if (
+            pilar.cercavila &&
+            pilar.cercavila.trim()
+        ) {
+            tipusActivitat.push("Cercavila");
+        }
+
+        
+
+        // DIADA
+
+        if (
+            pilar.diada &&
+            pilar.diada.trim()
+        ) {
+
+            html += "<strong>" + pilar.diada + "</strong>";
 
         }
 
-        if (pilar.info && pilar.info.trim()) {
 
-            if (pilar.colla && pilar.colla.trim()) {
-                html += "<br>";
-            }
+        // DATA
 
-            html += pilar.info;
+        if (
+            pilar.data &&
+            pilar.data.trim()
+        ) {
+
+            html += "<br>" +
+                pilar.data;
 
         }
+
+
+        // PARTICIPANTS
+
+        if (
+            pilar.participants &&
+            pilar.participants.trim()
+        ) {
+
+            html += "<br><strong>Participants:</strong> " +
+                pilar.participants + ".";
+
+        }
+
+        // INFORMACIÓ
+
+        if (
+            pilar.info &&
+            pilar.info.trim()
+        ) {
+
+            html += "<br>👉" +
+                pilar.info;
+
+        }
+
+
+        // FOTOGRAFIES
 
         if (pilar.fotos && pilar.fotos.length) {
 
@@ -4211,6 +4306,300 @@ if (p.pcaminant.length) {
     html += "</ul>";
 
 }
+// -----------------------------------------------------------------
+// ALTRES DADES
+// -----------------------------------------------------------------
+
+if (
+    p.mesinfo &&
+    p.mesinfo.length
+) {
+
+    // Separem les files amb data de les que no en tenen
+    var mesinfoAmbData = p.mesinfo.filter(function (mesinfo) {
+        return mesinfo.data && mesinfo.data.trim();
+    });
+
+    var mesinfoSenseData = p.mesinfo.filter(function (mesinfo) {
+        return !mesinfo.data || !mesinfo.data.trim();
+    });
+
+
+    // =========================================================
+    // DIADA / DIADES
+    // =========================================================
+
+    if (mesinfoAmbData.length === 1) {
+
+        html += "<li>🗓️ Diada</li>";
+
+        html += "<ul>";
+
+        mesinfoAmbData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // DATA
+            html += "<b>Data:</b> " +
+                mesinfo.data +
+                "<br>";
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "<br>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "<br>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "👉" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "<br>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    } 
+    
+    else if (mesinfoAmbData.length > 1) {
+
+    html += "<li>🗓️ Diades</li>";
+
+    numeroCarruselDiades++;
+
+    var idCarruselDiades =
+        "carrusel-diades-" +
+        numeroCarruselDiades;
+
+    html += "<div id=\"" +
+        idCarruselDiades +
+        "\">";
+
+
+    // ---------------------------------------------------------
+    // CONTROLS DEL CARRUSEL
+    // ---------------------------------------------------------
+
+    html +=
+        "<div class=\"placa-carrusel-controls\">" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', -1)\">" +
+        "‹" +
+        "</button>" +
+
+        "<span class=\"placa-comptador\">" +
+        "1 / " +
+        mesinfoAmbData.length +
+        "</span>" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', 1)\">" +
+        "›" +
+        "</button>" +
+
+        "</div>";
+
+
+    // ---------------------------------------------------------
+    // DIADES
+    // ---------------------------------------------------------
+
+    mesinfoAmbData.forEach(function (mesinfo, index) {
+
+        html +=
+            "<div class=\"placa-carrusel " +
+            (index === 0
+                ? "placa-carrusel-activa"
+                : "") +
+            "\">";
+
+
+// NOM
+
+if (
+    mesinfo.nom &&
+    mesinfo.nom.trim()
+) {
+
+    html +=
+        "<b>· " +
+        mesinfo.nom +
+        "</b><br>";
+
+}
+
+
+// DATA
+
+html +=
+    "<b>Data:</b> " +
+    mesinfo.data +
+    "<br>";
+
+
+// AMFITRIONS
+
+if (
+    mesinfo.amfitrions &&
+    mesinfo.amfitrions.trim()
+) {
+
+    html +=
+        "<b>Amfitrions:</b> " +
+        mesinfo.amfitrions +
+        "<br>";
+
+}
+
+
+// PRINCIPALS CASTELLS
+
+if (
+    mesinfo.principals_castells &&
+    mesinfo.principals_castells.trim()
+) {
+
+    html +=
+        "<b>Principals castells:</b> " +
+        mesinfo.principals_castells +
+        "<br>";
+
+}
+
+        // INFORMACIÓ
+
+        if (
+            mesinfo.info &&
+            mesinfo.info.trim()
+        ) {
+
+            html +=
+                "👉" +
+                mesinfo.info.replace(/\n/g, "<br>") +
+                "<br>";
+
+        }
+
+
+        html += "</div>";
+
+    });
+
+
+    html += "</div>";
+}
+
+
+    // =========================================================
+    // ALTRES DADES (FILES SENSE DATA)
+    // =========================================================
+
+    if (mesinfoSenseData.length) {
+
+        html += "<li>ℹ️ Altres dades</li>";
+
+        html += "<ul>";
+
+        mesinfoSenseData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<li><b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "</li>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<li><b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "</li>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "<li>👉" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "</li>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    }
+
+}
+
+
+
 
     
 if (plaquesFiltrades.length) {    
@@ -6092,7 +6481,39 @@ if (
     mostrarSeccioPopup("fpcaminant")
 ) {
 
-    html += "<li><b>🚶 Pilars caminant</b></li>";
+var tipusPcaminant = [];
+
+pcaminantFiltrats.forEach(function(pilar) {
+
+    if (
+        pilar.pilar &&
+        pilar.pilar.trim() &&
+        !tipusPcaminant.includes("🚶 Pilar caminant")
+    ) {
+        tipusPcaminant.push("🚶 Pilar caminant");
+    }
+
+    if (
+        pilar.processo &&
+        pilar.processo.trim() &&
+        !tipusPcaminant.includes("⛪ Processó")
+    ) {
+        tipusPcaminant.push("⛪ Processó");
+    }
+
+    if (
+        pilar.cercavila &&
+        pilar.cercavila.trim() &&
+        !tipusPcaminant.includes("🎉 Cercavila")
+    ) {
+        tipusPcaminant.push("🎉 Cercavila");
+    }
+
+});
+
+html += "<li><b>" +
+    tipusPcaminant.join(" / ") +
+    "</b></li>";
 
     html += "<ul>";
 
@@ -6100,23 +6521,86 @@ if (
 
         html += "<li>";
 
-        if (pilar.colla && pilar.colla.trim()) {
 
-            html += "<strong>" +
-                pilar.colla +
-                "</strong>";
+        // TIPUS D'ACTIVITAT
+
+        var tipusActivitat = [];
+
+        if (
+            pilar.pilar &&
+            pilar.pilar.trim()
+        ) {
+            tipusActivitat.push("Pilar caminant");
+        }
+
+        if (
+            pilar.processo &&
+            pilar.processo.trim()
+        ) {
+            tipusActivitat.push("Processó");
+        }
+
+        if (
+            pilar.cercavila &&
+            pilar.cercavila.trim()
+        ) {
+            tipusActivitat.push("Cercavila");
+        }
+
+        
+
+        // DIADA
+
+        if (
+            pilar.diada &&
+            pilar.diada.trim()
+        ) {
+
+            html += "<strong>" + pilar.diada + "</strong>";
 
         }
 
-        if (pilar.info && pilar.info.trim()) {
 
-            if (pilar.colla && pilar.colla.trim()) {
-                html += "<br>";
-            }
+        // DATA
 
-            html += pilar.info;
+        if (
+            pilar.data &&
+            pilar.data.trim()
+        ) {
+
+            html += "<br>" +
+                pilar.data;
 
         }
+
+
+        // PARTICIPANTS
+
+        if (
+            pilar.participants &&
+            pilar.participants.trim()
+        ) {
+
+            html += "<br><strong>Participants:</strong> " +
+                pilar.participants + ".";
+
+        }
+
+
+        // INFORMACIÓ
+
+        if (
+            pilar.info &&
+            pilar.info.trim()
+        ) {
+
+            html += "<br>👉" +
+                pilar.info;
+
+        }
+
+
+        // FOTOGRAFIES
 
         if (pilar.fotos && pilar.fotos.length) {
 
@@ -6220,8 +6704,7 @@ if (
 
     html += "</ul>";
 
-}    
-    
+}
     
     function mostrarSeccioPopup(idFiltre) {
 
@@ -7492,34 +7975,293 @@ var mesinfoFiltrades = p.mesinfo.filter(function (mesinfo) {
 });
 
 
+
+
 if (
     mesinfoFiltrades.length &&
     mostrarSeccioPopup("fmesinfo")
 ) {
 
-    html += "<li>ℹ️ Altres dades</li>";
+    // Separem les files amb data de les que no en tenen
+    var mesinfoAmbData = mesinfoFiltrades.filter(function (mesinfo) {
+        return mesinfo.data && mesinfo.data.trim();
+    });
 
-    html += "<ul>";
+    var mesinfoSenseData = mesinfoFiltrades.filter(function (mesinfo) {
+        return !mesinfo.data || !mesinfo.data.trim();
+    });
 
-    mesinfoFiltrades.forEach(function (mesinfo) {
+
+    // =========================================================
+    // DIADA / DIADES
+    // =========================================================
+
+    if (mesinfoAmbData.length === 1) {
+
+        html += "<li>🗓️ Diada</li>";
+
+        html += "<ul>";
+
+        mesinfoAmbData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // DATA
+            html += "<b>Data:</b> " +
+                mesinfo.data +
+                "<br>";
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "<br>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "<br>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "👉" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "<br>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    } 
+else if (mesinfoAmbData.length > 1) {
+
+    html += "<li>🗓️ Diades</li>";
+
+    numeroCarruselDiades++;
+
+    var idCarruselDiades =
+        "carrusel-diades-" +
+        numeroCarruselDiades;
+
+    html += "<div id=\"" +
+        idCarruselDiades +
+        "\">";
+
+
+    // ---------------------------------------------------------
+    // CONTROLS DEL CARRUSEL
+    // ---------------------------------------------------------
+
+    html +=
+        "<div class=\"placa-carrusel-controls\">" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', -1)\">" +
+        "‹" +
+        "</button>" +
+
+        "<span class=\"placa-comptador\">" +
+        "1 / " +
+        mesinfoAmbData.length +
+        "</span>" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', 1)\">" +
+        "›" +
+        "</button>" +
+
+        "</div>";
+
+
+    // ---------------------------------------------------------
+    // DIADES
+    // ---------------------------------------------------------
+
+    mesinfoAmbData.forEach(function (mesinfo, index) {
+
+        html +=
+            "<div class=\"placa-carrusel " +
+            (index === 0
+                ? "placa-carrusel-activa"
+                : "") +
+            "\">";
+
+
+// NOM
+
+if (
+    mesinfo.nom &&
+    mesinfo.nom.trim()
+) {
+
+    html +=
+        "<b>· " +
+        mesinfo.nom +
+        "</b><br>";
+
+}
+
+
+// DATA
+
+html +=
+    "<b>Data:</b> " +
+    mesinfo.data +
+    "<br>";
+
+
+// AMFITRIONS
+
+if (
+    mesinfo.amfitrions &&
+    mesinfo.amfitrions.trim()
+) {
+
+    html +=
+        "<b>Amfitrions:</b> " +
+        mesinfo.amfitrions +
+        "<br>";
+
+}
+
+
+// PRINCIPALS CASTELLS
+
+if (
+    mesinfo.principals_castells &&
+    mesinfo.principals_castells.trim()
+) {
+
+    html +=
+        "<b>Principals castells:</b> " +
+        mesinfo.principals_castells +
+        "<br>";
+
+}
+
+        // INFORMACIÓ
 
         if (
             mesinfo.info &&
             mesinfo.info.trim()
         ) {
 
-            html += "<li>" +
+            html +=
+                "👉" +
                 mesinfo.info.replace(/\n/g, "<br>") +
-                "</li>";
+                "<br>";
 
         }
 
+
+        html += "</div>";
+
     });
 
-    html += "</ul>";
 
+    html += "</div>";
 }
 
+    // =========================================================
+    // ALTRES DADES (FILES SENSE DATA)
+    // =========================================================
+
+    if (mesinfoSenseData.length) {
+
+        html += "<li>ℹ️ Altres dades</li>";
+
+        html += "<ul>";
+
+        mesinfoSenseData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<li><b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "</li>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<li><b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "</li>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "<li>" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "</li>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    }
+
+}
 
 
        if (
