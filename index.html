@@ -4331,7 +4331,7 @@ if (
 
     if (mesinfoAmbData.length === 1) {
 
-        html += "<li>🗓️ Diada</li>";
+        html += "<li><b>🗓️ Diada</b></li>";
 
         html += "<ul>";
 
@@ -4398,7 +4398,7 @@ if (
     
     else if (mesinfoAmbData.length > 1) {
 
-    html += "<li>🗓️ Diades</li>";
+    html += "<li><b>🗓️ Diades</b></li>";
 
     numeroCarruselDiades++;
 
@@ -4536,7 +4536,7 @@ if (
 
     if (mesinfoSenseData.length) {
 
-        html += "<li>ℹ️ Altres dades</li>";
+        html += "<li><b>ℹ️ Altres dades</b></li>";
 
         html += "<ul>";
 
@@ -4604,10 +4604,10 @@ if (
     
 if (plaquesFiltrades.length) {    
 
-    html += "<li>🪧 " +
+    html += "<li><b>🪧 " +
         plaquesFiltrades.length +
         (plaquesFiltrades.length === 1 ? " placa" : " plaques") +
-        "</li>";
+        "</b></li>";
 
     numeroCarruselPlaques++;
 
@@ -4866,10 +4866,10 @@ plaquesFiltrades.forEach(function(placa, index) {
 }
         if (p.monuments.length) {
 
-    html += "<li>🏛️ " +
+    html += "<li><b>🏛️ " +
         p.monuments.length +
         (p.monuments.length === 1 ? " monument" : " monuments") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -5135,10 +5135,10 @@ if (p.murals.length) {
 
    if (p.carrers.length) {
 
-    html += "<li>🔎 " +
+    html += "<li><b>🔎 " +
         p.carrers.length +
         (p.carrers.length === 1 ? " Carrer" : " Carrers") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -5293,10 +5293,10 @@ html += "🔗 " +
 }
          if (p.colles.length) {
 
-    html += "<li>🏠 " +
+    html += "<li><b>🏠 " +
         p.colles.length +
         (p.colles.length === 1 ? " colla" : " colles") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -5479,9 +5479,9 @@ if (colla.padrines && colla.padrines.trim()) {
 }
             if (p.altres) {
 
-               html += "<li>ℹ️ " +
+               html += "<li><b>ℹ️ " +
                   p.altres.replace(/\n/g, "<br>") +
-                  "</li>";
+                  "</b></li>";
 
             }
 
@@ -6734,6 +6734,346 @@ html += "<li><b>" +
 
 }
     
+// -----------------------------------------------------------------
+// ALTRES DADES
+// -----------------------------------------------------------------
+
+var mesinfoFiltrades = p.mesinfo.filter(function (mesinfo) {
+
+    // FILTRE PER COLLA
+
+    if (collaCerca) {
+
+        if (
+            !mesinfo.colla ||
+            !mesinfo.colla
+                .split(",")
+                .map(function (c) {
+                    return c.trim();
+                })
+                .includes(collaCerca)
+        ) {
+            return false;
+        }
+    }
+
+
+    // FILTRE PER TRADICIÓ
+
+    if (
+        document.getElementById("fcastells").checked &&
+        mesinfo.castells === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("fmuixerangues").checked &&
+        mesinfo.muixerangues === "Sí"
+    ) {
+        return true;
+    }
+
+    if (
+        document.getElementById("ffalcons").checked &&
+        mesinfo.falcons === "Sí"
+    ) {
+        return true;
+    }
+
+    return false;
+
+});
+
+
+
+
+if (
+    mesinfoFiltrades.length &&
+    mostrarSeccioPopup("fmesinfo")
+) {
+
+    // Separem les files amb data de les que no en tenen
+    var mesinfoAmbData = mesinfoFiltrades.filter(function (mesinfo) {
+        return mesinfo.data && mesinfo.data.trim();
+    });
+
+    var mesinfoSenseData = mesinfoFiltrades.filter(function (mesinfo) {
+        return !mesinfo.data || !mesinfo.data.trim();
+    });
+
+
+    // =========================================================
+    // DIADA / DIADES
+    // =========================================================
+
+    if (mesinfoAmbData.length === 1) {
+
+        html += "<li><b>🗓️ Diada</b></li>";
+
+        html += "<ul>";
+
+        mesinfoAmbData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // DATA
+            html += "<b>Data:</b> " +
+                mesinfo.data +
+                "<br>";
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "<br>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "<br>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "👉" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "<br>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    } 
+else if (mesinfoAmbData.length > 1) {
+
+    html += "<li><b>🗓️ Diades</b></li>";
+
+    numeroCarruselDiades++;
+
+    var idCarruselDiades =
+        "carrusel-diades-" +
+        numeroCarruselDiades;
+
+    html += "<div id=\"" +
+        idCarruselDiades +
+        "\">";
+
+
+    // ---------------------------------------------------------
+    // CONTROLS DEL CARRUSEL
+    // ---------------------------------------------------------
+
+    html +=
+        "<div class=\"placa-carrusel-controls\">" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', -1)\">" +
+        "‹" +
+        "</button>" +
+
+        "<span class=\"placa-comptador\">" +
+        "1 / " +
+        mesinfoAmbData.length +
+        "</span>" +
+
+        "<button class=\"placa-carrusel-boto\" " +
+        "onclick=\"canviaPlaca('" +
+        idCarruselDiades +
+        "', 1)\">" +
+        "›" +
+        "</button>" +
+
+        "</div>";
+
+
+    // ---------------------------------------------------------
+    // DIADES
+    // ---------------------------------------------------------
+
+    mesinfoAmbData.forEach(function (mesinfo, index) {
+
+        html +=
+            "<div class=\"placa-carrusel " +
+            (index === 0
+                ? "placa-carrusel-activa"
+                : "") +
+            "\">";
+
+
+// NOM
+
+if (
+    mesinfo.nom &&
+    mesinfo.nom.trim()
+) {
+
+    html +=
+        "<b>· " +
+        mesinfo.nom +
+        "</b><br>";
+
+}
+
+
+// DATA
+
+html +=
+    "<b>Data:</b> " +
+    mesinfo.data +
+    "<br>";
+
+
+// AMFITRIONS
+
+if (
+    mesinfo.amfitrions &&
+    mesinfo.amfitrions.trim()
+) {
+
+    html +=
+        "<b>Amfitrions:</b> " +
+        mesinfo.amfitrions +
+        "<br>";
+
+}
+
+
+// PRINCIPALS CASTELLS
+
+if (
+    mesinfo.principals_castells &&
+    mesinfo.principals_castells.trim()
+) {
+
+    html +=
+        "<b>Principals castells:</b> " +
+        mesinfo.principals_castells +
+        "<br>";
+
+}
+
+        // INFORMACIÓ
+
+        if (
+            mesinfo.info &&
+            mesinfo.info.trim()
+        ) {
+
+            html +=
+                "👉" +
+                mesinfo.info.replace(/\n/g, "<br>") +
+                "<br>";
+
+        }
+
+
+        html += "</div>";
+
+    });
+
+
+    html += "</div>";
+}
+
+    // =========================================================
+    // ALTRES DADES (FILES SENSE DATA)
+    // =========================================================
+
+    if (mesinfoSenseData.length) {
+
+        html += "<li><b>ℹ️ Altres dades</b></li>";
+
+        html += "<ul>";
+
+        mesinfoSenseData.forEach(function (mesinfo) {
+
+            // NOM
+            if (
+                mesinfo.nom &&
+                mesinfo.nom.trim()
+            ) {
+
+                html += "<li><b>" +
+                    mesinfo.nom +
+                    "</b></li>";
+
+            }
+
+            // AMFITRIONS
+            if (
+                mesinfo.amfitrions &&
+                mesinfo.amfitrions.trim()
+            ) {
+
+                html += "<li><b>Amfitrions:</b> " +
+                    mesinfo.amfitrions +
+                    "</li>";
+
+            }
+
+            // PRINCIPALS CASTELLS
+            if (
+                mesinfo.principals_castells &&
+                mesinfo.principals_castells.trim()
+            ) {
+
+                html += "<li><b>Principals castells:</b> " +
+                    mesinfo.principals_castells +
+                    "</li>";
+
+            }
+
+            // INFORMACIÓ
+            if (
+                mesinfo.info &&
+                mesinfo.info.trim()
+            ) {
+
+                html += "<li>" +
+                    mesinfo.info.replace(/\n/g, "<br>") +
+                    "</li>";
+
+            }
+
+        });
+
+        html += "</ul>";
+
+    }
+
+}
+
     
     
     
@@ -6789,10 +7129,10 @@ if (
     mostrarSeccioPopup("fplaques")
 ) {
 
-    html += "<li>🪧 " +
+    html += "<li><b>🪧 " +
         plaquesFiltrades.length +
         (plaquesFiltrades.length === 1 ? " placa" : " plaques") +
-        "</li>";
+        "</b></li>";
 
     numeroCarruselPlaques++;
 
@@ -7152,10 +7492,10 @@ var monumentsFiltrats = p.monuments.filter(function (monument) {
     mostrarSeccioPopup("fmonuments")
 ) {
 
-    html += "<li>🏛️ " +
+    html += "<li><b>🏛️ " +
         monumentsFiltrats.length +
         (monumentsFiltrats.length === 1 ? " monument" : " monuments") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -7575,10 +7915,10 @@ if (
     mostrarSeccioPopup("fcolles")
 ) {
 
-    html += "<li>🏠 " +
+    html += "<li><b>🏠 " +
         collesFiltrades.length +
         (collesFiltrades.length === 1 ? " colla" : " colles") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -7765,10 +8105,10 @@ if (colla.padrines && colla.padrines.trim()) {
     mostrarSeccioPopup("fcarrers")
 ) {
 
-    html += "<li>🔎 " +
+    html += "<li><b>🔎 " +
         carrersFiltrats.length +
         (carrersFiltrats.length === 1 ? " Carrer" : " Carrers") +
-        "</li>";
+        "</b></li>";
 
     html += "<ul>";
 
@@ -7922,346 +8262,6 @@ html += "🔗 " +                            "<a href=\"" +
 }      
 
 
-
-// -----------------------------------------------------------------
-// ALTRES DADES
-// -----------------------------------------------------------------
-
-var mesinfoFiltrades = p.mesinfo.filter(function (mesinfo) {
-
-    // FILTRE PER COLLA
-
-    if (collaCerca) {
-
-        if (
-            !mesinfo.colla ||
-            !mesinfo.colla
-                .split(",")
-                .map(function (c) {
-                    return c.trim();
-                })
-                .includes(collaCerca)
-        ) {
-            return false;
-        }
-    }
-
-
-    // FILTRE PER TRADICIÓ
-
-    if (
-        document.getElementById("fcastells").checked &&
-        mesinfo.castells === "Sí"
-    ) {
-        return true;
-    }
-
-    if (
-        document.getElementById("fmuixerangues").checked &&
-        mesinfo.muixerangues === "Sí"
-    ) {
-        return true;
-    }
-
-    if (
-        document.getElementById("ffalcons").checked &&
-        mesinfo.falcons === "Sí"
-    ) {
-        return true;
-    }
-
-    return false;
-
-});
-
-
-
-
-if (
-    mesinfoFiltrades.length &&
-    mostrarSeccioPopup("fmesinfo")
-) {
-
-    // Separem les files amb data de les que no en tenen
-    var mesinfoAmbData = mesinfoFiltrades.filter(function (mesinfo) {
-        return mesinfo.data && mesinfo.data.trim();
-    });
-
-    var mesinfoSenseData = mesinfoFiltrades.filter(function (mesinfo) {
-        return !mesinfo.data || !mesinfo.data.trim();
-    });
-
-
-    // =========================================================
-    // DIADA / DIADES
-    // =========================================================
-
-    if (mesinfoAmbData.length === 1) {
-
-        html += "<li>🗓️ Diada</li>";
-
-        html += "<ul>";
-
-        mesinfoAmbData.forEach(function (mesinfo) {
-
-            // NOM
-            if (
-                mesinfo.nom &&
-                mesinfo.nom.trim()
-            ) {
-
-                html += "<li><b>" +
-                    mesinfo.nom +
-                    "</b></li>";
-
-            }
-
-            // DATA
-            html += "<b>Data:</b> " +
-                mesinfo.data +
-                "<br>";
-
-            // AMFITRIONS
-            if (
-                mesinfo.amfitrions &&
-                mesinfo.amfitrions.trim()
-            ) {
-
-                html += "<b>Amfitrions:</b> " +
-                    mesinfo.amfitrions +
-                    "<br>";
-
-            }
-
-            // PRINCIPALS CASTELLS
-            if (
-                mesinfo.principals_castells &&
-                mesinfo.principals_castells.trim()
-            ) {
-
-                html += "<b>Principals castells:</b> " +
-                    mesinfo.principals_castells +
-                    "<br>";
-
-            }
-
-            // INFORMACIÓ
-            if (
-                mesinfo.info &&
-                mesinfo.info.trim()
-            ) {
-
-                html += "👉" +
-                    mesinfo.info.replace(/\n/g, "<br>") +
-                    "<br>";
-
-            }
-
-        });
-
-        html += "</ul>";
-
-    } 
-else if (mesinfoAmbData.length > 1) {
-
-    html += "<li>🗓️ Diades</li>";
-
-    numeroCarruselDiades++;
-
-    var idCarruselDiades =
-        "carrusel-diades-" +
-        numeroCarruselDiades;
-
-    html += "<div id=\"" +
-        idCarruselDiades +
-        "\">";
-
-
-    // ---------------------------------------------------------
-    // CONTROLS DEL CARRUSEL
-    // ---------------------------------------------------------
-
-    html +=
-        "<div class=\"placa-carrusel-controls\">" +
-
-        "<button class=\"placa-carrusel-boto\" " +
-        "onclick=\"canviaPlaca('" +
-        idCarruselDiades +
-        "', -1)\">" +
-        "‹" +
-        "</button>" +
-
-        "<span class=\"placa-comptador\">" +
-        "1 / " +
-        mesinfoAmbData.length +
-        "</span>" +
-
-        "<button class=\"placa-carrusel-boto\" " +
-        "onclick=\"canviaPlaca('" +
-        idCarruselDiades +
-        "', 1)\">" +
-        "›" +
-        "</button>" +
-
-        "</div>";
-
-
-    // ---------------------------------------------------------
-    // DIADES
-    // ---------------------------------------------------------
-
-    mesinfoAmbData.forEach(function (mesinfo, index) {
-
-        html +=
-            "<div class=\"placa-carrusel " +
-            (index === 0
-                ? "placa-carrusel-activa"
-                : "") +
-            "\">";
-
-
-// NOM
-
-if (
-    mesinfo.nom &&
-    mesinfo.nom.trim()
-) {
-
-    html +=
-        "<b>· " +
-        mesinfo.nom +
-        "</b><br>";
-
-}
-
-
-// DATA
-
-html +=
-    "<b>Data:</b> " +
-    mesinfo.data +
-    "<br>";
-
-
-// AMFITRIONS
-
-if (
-    mesinfo.amfitrions &&
-    mesinfo.amfitrions.trim()
-) {
-
-    html +=
-        "<b>Amfitrions:</b> " +
-        mesinfo.amfitrions +
-        "<br>";
-
-}
-
-
-// PRINCIPALS CASTELLS
-
-if (
-    mesinfo.principals_castells &&
-    mesinfo.principals_castells.trim()
-) {
-
-    html +=
-        "<b>Principals castells:</b> " +
-        mesinfo.principals_castells +
-        "<br>";
-
-}
-
-        // INFORMACIÓ
-
-        if (
-            mesinfo.info &&
-            mesinfo.info.trim()
-        ) {
-
-            html +=
-                "👉" +
-                mesinfo.info.replace(/\n/g, "<br>") +
-                "<br>";
-
-        }
-
-
-        html += "</div>";
-
-    });
-
-
-    html += "</div>";
-}
-
-    // =========================================================
-    // ALTRES DADES (FILES SENSE DATA)
-    // =========================================================
-
-    if (mesinfoSenseData.length) {
-
-        html += "<li>ℹ️ Altres dades</li>";
-
-        html += "<ul>";
-
-        mesinfoSenseData.forEach(function (mesinfo) {
-
-            // NOM
-            if (
-                mesinfo.nom &&
-                mesinfo.nom.trim()
-            ) {
-
-                html += "<li><b>" +
-                    mesinfo.nom +
-                    "</b></li>";
-
-            }
-
-            // AMFITRIONS
-            if (
-                mesinfo.amfitrions &&
-                mesinfo.amfitrions.trim()
-            ) {
-
-                html += "<li><b>Amfitrions:</b> " +
-                    mesinfo.amfitrions +
-                    "</li>";
-
-            }
-
-            // PRINCIPALS CASTELLS
-            if (
-                mesinfo.principals_castells &&
-                mesinfo.principals_castells.trim()
-            ) {
-
-                html += "<li><b>Principals castells:</b> " +
-                    mesinfo.principals_castells +
-                    "</li>";
-
-            }
-
-            // INFORMACIÓ
-            if (
-                mesinfo.info &&
-                mesinfo.info.trim()
-            ) {
-
-                html += "<li>" +
-                    mesinfo.info.replace(/\n/g, "<br>") +
-                    "</li>";
-
-            }
-
-        });
-
-        html += "</ul>";
-
-    }
-
-}
 
 
        if (

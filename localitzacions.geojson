@@ -685,7 +685,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC185",
+            "id": "DC190",
             "nom": "Trobada de Muixerangues d’Algemesí",
             "data": "Mitjans de juny.",
             "amfitrions": "Nova Muixeranga d'Algemesí",
@@ -749,7 +749,7 @@
             ]
           },
           {
-            "id": "DC186",
+            "id": "DC191",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -1499,7 +1499,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC86",
+            "id": "DC87",
             "nom": "Diada de les Cultures",
             "data": "Cap al 10 de juliol (dissabte tarda).",
             "amfitrions": "Castellers d'Altafulla",
@@ -1563,7 +1563,7 @@
             ]
           },
           {
-            "id": "DC87",
+            "id": "DC88",
             "nom": "Festa Major Petita",
             "data": "Cap al 10 de setembre (dissbte tarda).",
             "amfitrions": "Castellers d'Altafulla",
@@ -2741,7 +2741,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC6",
             "nom": "Diada de les Festes de Maig",
             "data": "Diumenge a mitjans de maig.",
             "amfitrions": "Castellers de Badalona",
@@ -2805,7 +2805,7 @@
             ]
           },
           {
-            "id": "DC6",
+            "id": "DC7",
             "nom": "Diada dels Castellers de Badalona",
             "data": "Principis de novembre.",
             "amfitrions": "Castellers de Badalona",
@@ -3213,7 +3213,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC184",
+            "id": "DC189",
             "nom": "Diada de Festa Major",
             "data": "Principis de juliol.",
             "amfitrions": "",
@@ -3999,7 +3999,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC164",
+            "id": "DC169",
             "nom": "Diada Falconera de Santa Eulàlia",
             "data": "Diumenge proper al 12 de febrer pel matí.",
             "amfitrions": "Falcons de Barcelona",
@@ -4063,7 +4063,7 @@
             ]
           },
           {
-            "id": "DC165",
+            "id": "DC170",
             "nom": "Diada de Santa Eulàlia ",
             "data": "Diumenge proper al 12 de febrer.",
             "amfitrions": "Colles locals de Barcelona",
@@ -4127,7 +4127,7 @@
             ]
           },
           {
-            "id": "DC166",
+            "id": "DC171",
             "nom": "Corpus",
             "data": "Diumenge de corpus.",
             "amfitrions": "Falcons de Barcelona",
@@ -4191,7 +4191,7 @@
             ]
           },
           {
-            "id": "DC167",
+            "id": "DC172",
             "nom": "Aniversari Castellers de Barcelona",
             "data": "Cap al 20 de juny.",
             "amfitrions": "Castellers de Barcelona",
@@ -4255,7 +4255,7 @@
             ]
           },
           {
-            "id": "DC168",
+            "id": "DC173",
             "nom": "Diada de la Mercè (Barcelona)",
             "data": "24 de setembre.",
             "amfitrions": "Colles locals de Barcelona",
@@ -4319,7 +4319,7 @@
             ]
           },
           {
-            "id": "DC169",
+            "id": "DC174",
             "nom": "Matí Falconer (Festes de la Mercè)",
             "data": "Diumenge proper al 24 de setembre pel matí.",
             "amfitrions": "Falcons de Barcelona",
@@ -4383,7 +4383,7 @@
             ]
           },
           {
-            "id": "DC170",
+            "id": "DC175",
             "nom": "Diada de la Mercè Històrica (Barcelona)",
             "data": "Diumenge proper al 24 de setembre (migdia).",
             "amfitrions": "Castellers de Barcelona",
@@ -4953,7 +4953,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC144",
+            "id": "DC149",
             "nom": "Diada 1714",
             "data": "11 de setembre pel matí.",
             "amfitrions": "Colla Castellera Jove de Barcelona",
@@ -5017,7 +5017,7 @@
             ]
           },
           {
-            "id": "DC145",
+            "id": "DC150",
             "nom": "Diada dels Falcons de Barcelona",
             "data": "Diumenge a finals d’octubre al migdia.",
             "amfitrions": "Falcons de Barcelona",
@@ -5387,7 +5387,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC187",
+            "id": "DC192",
             "nom": "Diada del Pla de la Seu",
             "data": "Finals de maig.",
             "amfitrions": "Castellers de Sants",
@@ -5792,7 +5792,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC116",
+            "id": "DC121",
             "nom": "Festa Major del Clot",
             "data": "Diumenge a mitjans de novembre pel migdia.",
             "amfitrions": "Castellers de Barcelona",
@@ -7032,7 +7032,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC93",
+            "id": "DC95",
             "nom": "Aniversari Castellers de la Vila de Gràcia",
             "data": "Mitjans de maig (diumenge matí).",
             "amfitrions": "Castellers de la Vila de Gràcia",
@@ -7096,7 +7096,7 @@
             ]
           },
           {
-            "id": "DC94",
+            "id": "DC96",
             "nom": "Festa Major de Gràcia",
             "data": "Cap al 16 d’agost.",
             "amfitrions": "Castellers de la Vila de Gràcia",
@@ -7160,7 +7160,7 @@
             ]
           },
           {
-            "id": "",
+            "id": "DC97",
             "nom": "Diada dels Castellers de la Vila de Gràcia",
             "data": "Diumenge a principis de novembre pel migdia.",
             "amfitrions": "Castellers de la Vila de Gràcia",
@@ -7224,7 +7224,7 @@
             ]
           },
           {
-            "id": "DC95",
+            "id": "DC98",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -8587,7 +8587,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC94",
             "nom": "Festa Major de les Corts",
             "data": "12 d’octubre o diumenge proper al migdia.",
             "amfitrions": "Castellers de Sants, Castellers de Barcelona",
@@ -9539,7 +9539,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC92",
+            "id": "DC93",
             "nom": "Festa Major del Poblenou (comissió Bac de Roda)",
             "data": "Cap al 10 de setembre (diumenge o 11/09 pel matí).",
             "amfitrions": "Castellers de Barcelona",
@@ -9907,7 +9907,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC90",
+            "id": "DC91",
             "nom": "Diada d’Estiu",
             "data": "Cap al 10 de juliol (dissabte tarda).",
             "amfitrions": "Castellers de Sants",
@@ -10558,7 +10558,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC88",
+            "id": "DC89",
             "nom": "Festa Major de Sarrià",
             "data": "Diumenge cap al 10 d’octubre al migdia.",
             "amfitrions": "Castellers de Sarrià",
@@ -11830,7 +11830,7 @@
         ],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC78",
             "nom": "Aniversari Castellers de Sants",
             "data": "Principis de maig (diumenge tarda).",
             "amfitrions": "Castellers de Sants",
@@ -11894,7 +11894,7 @@
             ]
           },
           {
-            "id": "DC77",
+            "id": "DC79",
             "nom": "Trobada de Muixerangues de Barcelona",
             "data": "Principis de juny.",
             "amfitrions": "Muixeranga de Barcelona",
@@ -11958,7 +11958,7 @@
             ]
           },
           {
-            "id": "DC78",
+            "id": "DC80",
             "nom": "Festa Major de Sants",
             "data": "Dissabte a finals d’agost per la tarda.",
             "amfitrions": "Castellers de Sants",
@@ -12022,7 +12022,7 @@
             ]
           },
           {
-            "id": "DC79",
+            "id": "DC81",
             "nom": "Diada dels Castellers de Sants",
             "data": "Diumenge a mitjans d’octubre pel matí.",
             "amfitrions": "Castellers de Sants",
@@ -12929,7 +12929,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC69",
+            "id": "DC70",
             "nom": "Diada dels Quatre Fuets",
             "data": "Finals de maig (diumenge matí).",
             "amfitrions": "Castellers de Berga",
@@ -14563,7 +14563,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC28",
+            "id": "DC29",
             "nom": "Diada de Festa Major",
             "data": "15 d’agost.",
             "amfitrions": "Castellers de Castelldefels",
@@ -15359,7 +15359,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC27",
+            "id": "DC28",
             "nom": "Festa Major de Corpus",
             "data": "Diumenge a principis de juny .",
             "amfitrions": "Castellers de Cornellà",
@@ -15791,7 +15791,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC26",
+            "id": "DC27",
             "nom": "Aniversari dels Castellers de la Sagrada Família",
             "data": "Diumenge a finals d’octubre al migdia.",
             "amfitrions": "Castellers de la Sagrada Família",
@@ -16448,7 +16448,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC24",
+            "id": "DC25",
             "nom": "Festa Major del Catllar",
             "data": "Cap al 25 d’agost (dissabte tarda).",
             "amfitrions": "",
@@ -16512,7 +16512,7 @@
             ]
           },
           {
-            "id": "DC25",
+            "id": "DC26",
             "nom": "Diada de Juliol",
             "data": "Mitjans de juliol (dissabte tarda).",
             "amfitrions": "",
@@ -17204,7 +17204,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC23",
+            "id": "DC24",
             "nom": "Diada de Festa Major",
             "data": "Finals de setembre.",
             "amfitrions": "Castellers del Prat",
@@ -17972,7 +17972,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC20",
+            "id": "DC21",
             "nom": "Aniversari Nens del Vendrell",
             "data": "Principis de juliol.",
             "amfitrions": "Nens del Vendrell",
@@ -18036,7 +18036,7 @@
             ]
           },
           {
-            "id": "DC21",
+            "id": "DC22",
             "nom": "Diada de Santa Anna",
             "data": "26 de juliol (migdia).",
             "amfitrions": "Nens del Vendrell",
@@ -18100,7 +18100,7 @@
             ]
           },
           {
-            "id": "DC22",
+            "id": "DC23",
             "nom": "Santa Teresa",
             "data": "Diumenge cap al 10 d’octubre al migdia.",
             "amfitrions": "Nens del Vendrell",
@@ -19259,7 +19259,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC20",
             "nom": "Diada de Colles Campiones del Concurs",
             "data": "Principis de juny (diumenge matí).",
             "amfitrions": "Nens del Vendrell",
@@ -21315,7 +21315,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC16",
+            "id": "DC17",
             "nom": "Diada de Sant Narcís",
             "data": "Diumenge proper al 29 d’octubre pel migdia.",
             "amfitrions": "Marrecs de Salt",
@@ -21725,7 +21725,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC12",
+            "id": "DC14",
             "nom": "Fires de l’Ascensió",
             "data": "Mitjans de maig.",
             "amfitrions": "Xics de Granollers",
@@ -21789,7 +21789,7 @@
             ]
           },
           {
-            "id": "DC13",
+            "id": "DC15",
             "nom": "Diada de Festa Major",
             "data": "Finals d’agost .",
             "amfitrions": "Xics de Granollers",
@@ -21853,7 +21853,7 @@
             ]
           },
           {
-            "id": "DC14",
+            "id": "DC16",
             "nom": "Diada dels Xics de Granollers",
             "data": "Diumenge a principis de novembre pel migdia.",
             "amfitrions": "Xics de Granollers",
@@ -22200,7 +22200,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC11",
+            "id": "DC13",
             "nom": "Diada de Festa Major",
             "data": "Principis de setembre.",
             "amfitrions": "Margenes de Guissona",
@@ -23102,7 +23102,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC9",
+            "id": "DC11",
             "nom": "Festa Major d’Igualada",
             "data": "Cap al 25 d’agost (diumenge matí).",
             "amfitrions": "Moixiganguers d'Igualada",
@@ -23166,7 +23166,7 @@
             ]
           },
           {
-            "id": "DC10",
+            "id": "DC12",
             "nom": "Diada dels Moixiganguers d’Igualada",
             "data": "Dissabte a finals d’octubre per la tarda.",
             "amfitrions": "Moixiganguers d'Igualada",
@@ -23600,7 +23600,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC8",
+            "id": "DC10",
             "nom": "Aniversari Moixiganguers d’Igualada",
             "data": "Diumenge a finals d’abril al migdia.",
             "amfitrions": "Moixiganguers d'Igualada",
@@ -24231,7 +24231,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC8",
             "nom": "Festa Major de l’Arboç",
             "data": "Cap al 25 d’agost (diumenge matí).",
             "amfitrions": "Minyons de l’Arboç",
@@ -24295,7 +24295,7 @@
             ]
           },
           {
-            "id": "DC7",
+            "id": "DC9",
             "nom": "Diada de Santa Llúcia",
             "data": "Cap al 13 de desembre.",
             "amfitrions": "",
@@ -28942,7 +28942,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC182",
+            "id": "DC187",
             "nom": "Sant Anastasi ",
             "data": "Diumenge proper al 10 de maig.",
             "amfitrions": "Castellers de Lleida",
@@ -29006,7 +29006,7 @@
             ]
           },
           {
-            "id": "DC183",
+            "id": "DC188",
             "nom": "Diada de Sant Miquel",
             "data": "Diumenge a finals de setembre (migdia).",
             "amfitrions": "Castellers de Lleida",
@@ -30104,7 +30104,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC180",
+            "id": "DC185",
             "nom": "Vigília de Festa Major",
             "data": "9 d’agost per la nit.",
             "amfitrions": "Gent de Llorenç",
@@ -30168,7 +30168,7 @@
             ]
           },
           {
-            "id": "DC181",
+            "id": "DC186",
             "nom": "Diada de Festa Major",
             "data": "Cap al 10 d’agost (dissabte tarda).",
             "amfitrions": "",
@@ -30753,7 +30753,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC178",
+            "id": "DC183",
             "nom": "Fires i Festes de Manacor",
             "data": "Mitjans de maig.",
             "amfitrions": "Al·lots de Llevant",
@@ -30817,7 +30817,7 @@
             ]
           },
           {
-            "id": "DC179",
+            "id": "DC184",
             "nom": "Diada Al·lots de Llevant",
             "data": "",
             "amfitrions": "Al·lots de Llevant",
@@ -31034,7 +31034,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC177",
+            "id": "DC182",
             "nom": "Trobada de colles de l’Eix",
             "data": "Mitjans de juny.",
             "amfitrions": "Castellers de Lleida, Sagals d’Osona, Marrecs de Salt, Tirallongues de Manresa",
@@ -32389,7 +32389,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC176",
+            "id": "DC181",
             "nom": "Diada de les Santes",
             "data": "Cap al 26 de juliol (dissabte tarda).",
             "amfitrions": "Capgrossos de Mataró",
@@ -32885,7 +32885,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC174",
+            "id": "DC179",
             "nom": "Aniversari Capgrossos de Mataró",
             "data": "Principis de juny .",
             "amfitrions": "Capgrossos de Mataró",
@@ -32949,7 +32949,7 @@
             ]
           },
           {
-            "id": "DC175",
+            "id": "DC180",
             "nom": "Diada Mariona Galindo",
             "data": "Diumenge a principis de novembre pel migdia.",
             "amfitrions": "Capgrossos de Mataró",
@@ -34024,7 +34024,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC173",
+            "id": "DC178",
             "nom": "Trobada de colles dels Vallès Oriental",
             "data": "Principis de juny.",
             "amfitrions": "Xics de Granollers, Castellers de Mollet, Castellers de Caldes de Montbui",
@@ -34434,7 +34434,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC172",
+            "id": "DC177",
             "nom": "Festes de la Serra",
             "data": "Principis de setembre (diumenge matí).",
             "amfitrions": "Torraires de Montblanc",
@@ -35817,7 +35817,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC171",
+            "id": "DC176",
             "nom": "Diada dels Castellers de Mallorca",
             "data": "Finals d’octubre.",
             "amfitrions": "Castellers de Mallorca",
@@ -36728,7 +36728,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC161",
+            "id": "DC166",
             "nom": "Diada de Sant Pere",
             "data": "cap al 20 de juny (dissabte tarda).",
             "amfitrions": "Xiquets de Reus",
@@ -36792,7 +36792,7 @@
             ]
           },
           {
-            "id": "DC162",
+            "id": "DC167",
             "nom": "Diada de la Misericòrdia",
             "data": "Cap al 20 de setembre (dissabte tarda).",
             "amfitrions": "Xiquets de Reus",
@@ -36856,7 +36856,7 @@
             ]
           },
           {
-            "id": "DC163",
+            "id": "DC168",
             "nom": "Diada del Mercadal",
             "data": "Primer dissabte d’octubre per la tarda (anys senars).",
             "amfitrions": "Xiquets de Reus",
@@ -37143,7 +37143,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC160",
+            "id": "DC165",
             "nom": "Diada del Pallol",
             "data": "Cap al 20 de maig (dissabte tarda).",
             "amfitrions": "Xiquets de Reus",
@@ -37767,7 +37767,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC157",
+            "id": "DC162",
             "nom": "Aniversari Castellers de Sabadell",
             "data": "Mitjans de juny (diumenge matí).",
             "amfitrions": "Castellers de Sabadell",
@@ -37831,7 +37831,7 @@
             ]
           },
           {
-            "id": "DC158",
+            "id": "DC163",
             "nom": "Diada de Festa Major",
             "data": "Principis de setembre (diumenge matí).",
             "amfitrions": "Castellers de Sabadell",
@@ -37895,7 +37895,7 @@
             ]
           },
           {
-            "id": "DC159",
+            "id": "DC164",
             "nom": "Diada dels Castellers de Sabadell",
             "data": "Diumenge a mitjans d’octubre pel matí.",
             "amfitrions": "Castellers de Sabadell",
@@ -38114,7 +38114,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC156",
+            "id": "DC161",
             "nom": "Festa Major de la Creu Alta",
             "data": "Finals de maig.",
             "amfitrions": "Castellers de Sabadell",
@@ -38608,7 +38608,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC154",
+            "id": "DC159",
             "nom": "Aniversari Marrecs de Salt",
             "data": "Mitjans abril (dissabte tarda).",
             "amfitrions": "Marrecs de Salt",
@@ -38672,7 +38672,7 @@
             ]
           },
           {
-            "id": "DC155",
+            "id": "DC160",
             "nom": "Diada de Festa Major",
             "data": "Finals de juliol (diumenge matí).",
             "amfitrions": "Marrecs de Salt",
@@ -39511,7 +39511,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC152",
+            "id": "DC157",
             "nom": "Diada de Festa Major",
             "data": "Dissabte proper al 29 de juny (tarda) .",
             "amfitrions": "Castellers de Sant Cugat",
@@ -39575,7 +39575,7 @@
             ]
           },
           {
-            "id": "DC153",
+            "id": "DC158",
             "nom": "Diada dels Gausacs",
             "data": "Diumenge a mirtans de novembre pel migdia.",
             "amfitrions": "Castellers de Sant Cugat",
@@ -41455,13 +41455,13 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC151",
+            "id": "DC156",
             "nom": "Actuació dels grups Folklòrics per Festa Major",
             "data": "Mitjans d’agost (dissabte tarda).",
-            "amfitrions": "Falcons de Vilafranca del Penedès",
+            "amfitrions": "",
             "colla": "Falcons de Vilafranca del Penedès",
             "principals_castells": "",
-            "info": "S’inicia amb un cercavila a l’Avinguda Montserrat.",
+            "info": "S’inicia amb un cercavila a l’Avinguda Montserrat, tradicionalment <b>hi participen els Falcons de Vilafranca</b>..",
             "castells": "",
             "muixerangues": "",
             "falcons": "Sí",
@@ -42514,7 +42514,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC150",
+            "id": "DC155",
             "nom": "Memorial Pepe Rodríguez",
             "data": "Mitjans de juliol (dissabte tarda).",
             "amfitrions": "Colla Jove de Castellers de Sitges",
@@ -42987,7 +42987,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC149",
+            "id": "DC154",
             "nom": "Diada de Festa Major",
             "data": "Finals d’agost (dissabte tarda).",
             "amfitrions": "Colla Jove de Castellers de Sitges",
@@ -44019,7 +44019,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC147",
+            "id": "DC152",
             "nom": "Diada de Sant Magí",
             "data": "19 d’agost al migdia.",
             "amfitrions": "Colles locals de Tarragona",
@@ -44083,7 +44083,7 @@
             ]
           },
           {
-            "id": "DC148",
+            "id": "DC153",
             "nom": "Diada de la Mercè",
             "data": "24 de setembre al migdia.",
             "amfitrions": "Colles locals de Tarragona",
@@ -44519,7 +44519,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC146",
+            "id": "DC151",
             "nom": "Sant Jordi a Tarragona",
             "data": "23 d’abril vespre.",
             "amfitrions": "Colles locals de Tarragona",
@@ -45144,7 +45144,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC141",
+            "id": "DC146",
             "nom": "Segona sessió del Concurs de Castells",
             "data": "Primer dissabte d’octubre per la tarda (anys parells).",
             "amfitrions": "",
@@ -45208,7 +45208,7 @@
             ]
           },
           {
-            "id": "DC142",
+            "id": "DC147",
             "nom": "Tercera sessió del Concurs de Castells",
             "data": "Primer diumenge d’octubre pel matí (anys parells).",
             "amfitrions": "",
@@ -45272,7 +45272,7 @@
             ]
           },
           {
-            "id": "DC143",
+            "id": "DC148",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -45568,7 +45568,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC137",
+            "id": "DC142",
             "nom": "Diada de Sant Joan",
             "data": "24 de juny (vespre).",
             "amfitrions": "Colles locals de Tarragona",
@@ -45632,7 +45632,7 @@
             ]
           },
           {
-            "id": "DC138",
+            "id": "DC143",
             "nom": "Primer Diumenge de Festes",
             "data": "Cap al 20 de setembre (diumenge migdia).",
             "amfitrions": "Xiquets de Tarragona, Colla Jove Xiquets de Tarragona",
@@ -45696,7 +45696,7 @@
             ]
           },
           {
-            "id": "DC139",
+            "id": "DC144",
             "nom": "Diada de Santa Tecla",
             "data": "23 de setembre al migdia.",
             "amfitrions": "Colles locals de Tarragona",
@@ -45760,7 +45760,7 @@
             ]
           },
           {
-            "id": "DC140",
+            "id": "DC145",
             "nom": "Diada de Colles Internacionals",
             "data": "Primer dissabte d’octubre pel migdia (anys parells).",
             "amfitrions": "",
@@ -46305,7 +46305,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC134",
+            "id": "DC139",
             "nom": "Diada del Pla de la Seu",
             "data": "Finals de juny (dissabte tarda).",
             "amfitrions": "Xiquets de Tarragona",
@@ -46369,7 +46369,7 @@
             ]
           },
           {
-            "id": "DC135",
+            "id": "DC140",
             "nom": "Diada Nacional",
             "data": "11 de setembre pel migdia.",
             "amfitrions": "Colles locals de Tarragona",
@@ -46433,7 +46433,7 @@
             ]
           },
           {
-            "id": "DC136",
+            "id": "DC141",
             "nom": "Diada de l’Esperidió",
             "data": "Diumenge a mitjans d’octubre pel matí.",
             "amfitrions": "Colla Jove Xiquets de Tarragona",
@@ -46955,7 +46955,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC133",
+            "id": "DC138",
             "nom": "Diada 1855",
             "data": "Mitjans de juny (dissabte tarda).",
             "amfitrions": "Xiquets de Tarragona",
@@ -47435,7 +47435,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC130",
+            "id": "DC135",
             "nom": "Sant Jordi a Terrassa",
             "data": "23 d’abril vespre.",
             "amfitrions": "Minyons de Terrassa, Castellers de Terrassa",
@@ -47499,7 +47499,7 @@
             ]
           },
           {
-            "id": "DC131",
+            "id": "DC136",
             "nom": "Vigília diada dels Minyons",
             "data": "Dissabte a finals de novembre per la tarda.",
             "amfitrions": "Minyons de Terrassa",
@@ -47563,7 +47563,7 @@
             ]
           },
           {
-            "id": "DC132",
+            "id": "DC137",
             "nom": "Diada dels Minyons de Terrassa",
             "data": "Diumenge a finals de novembre pel migdia.",
             "amfitrions": "Minyons de Terrassa",
@@ -48169,7 +48169,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC129",
+            "id": "DC134",
             "nom": "Diada de Festa Major",
             "data": "Principis de juliol.",
             "amfitrions": "Colles locals de Terrassa",
@@ -48666,7 +48666,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC128",
+            "id": "DC133",
             "nom": "Diada dels Patrimoni",
             "data": "Cap al 20 de maig (dissabte tarda).",
             "amfitrions": "Minyons de Terrassa",
@@ -50166,7 +50166,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC126",
+            "id": "DC131",
             "nom": "Diada del Quadre de Santa Rosalia",
             "data": "Cap al 10 de juliol (diumenge matí).",
             "amfitrions": "Nois de la Torre",
@@ -50230,7 +50230,7 @@
             ]
           },
           {
-            "id": "DC127",
+            "id": "DC132",
             "nom": "Diada de Santa Rosalia",
             "data": "Principis de setembre (diumenge matí).",
             "amfitrions": "Nois de la Torre",
@@ -51694,7 +51694,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC120",
+            "id": "DC125",
             "nom": "Completes Sant Joan",
             "data": "23 de juny per la nit.",
             "amfitrions": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
@@ -51758,7 +51758,7 @@
             ]
           },
           {
-            "id": "DC121",
+            "id": "DC126",
             "nom": "Diada de Sant Joan",
             "data": "24 de juny (migdia).",
             "amfitrions": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
@@ -51822,7 +51822,7 @@
             ]
           },
           {
-            "id": "DC122",
+            "id": "DC127",
             "nom": "Firagost",
             "data": "Dimecres al vespre a principis d’agost .",
             "amfitrions": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
@@ -51886,7 +51886,7 @@
             ]
           },
           {
-            "id": "DC123",
+            "id": "DC128",
             "nom": "Diada Nacional",
             "data": "Vespre del 10 de setembre .",
             "amfitrions": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
@@ -51950,7 +51950,7 @@
             ]
           },
           {
-            "id": "DC124",
+            "id": "DC129",
             "nom": "Diada de Santa Úrsula",
             "data": "Diumenge proper al 21 d’octubre pel migdia.",
             "amfitrions": "Colla Vella dels Xiques de Valls, colla Joves dels Xiquets de Valls",
@@ -52014,7 +52014,7 @@
             ]
           },
           {
-            "id": "DC125",
+            "id": "DC130",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -52490,7 +52490,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC119",
+            "id": "DC124",
             "nom": "Diada del Pati",
             "data": "Mitjans de juny (dissabte tarda).",
             "amfitrions": "Colla Joves dels Xiquets de Valls",
@@ -53162,7 +53162,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC117",
+            "id": "DC122",
             "nom": "Diada Món Casteller",
             "data": "Finals de maig (dissabte tarda).",
             "amfitrions": "Colla Vella dels Xiques de Valls",
@@ -53226,7 +53226,7 @@
             ]
           },
           {
-            "id": "DC118",
+            "id": "DC123",
             "nom": "Dada del Museu Casteller",
             "data": "Dissabte cap al 10 d’octubre per la tarda.",
             "amfitrions": "Colla Joves dels Xiquets de Valls",
@@ -54569,7 +54569,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC115",
+            "id": "DC120",
             "nom": "Diada dels Pagesos",
             "data": "Diumenge propera al 15 de maig (matí).",
             "amfitrions": "Colla Vella dels Xiques de Valls",
@@ -54853,7 +54853,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC114",
+            "id": "DC119",
             "nom": "Diada de Festa Major",
             "data": "Cap al 10 de juliol (diumenge matí).",
             "amfitrions": "Sagals d’Osona",
@@ -55132,7 +55132,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC113",
+            "id": "DC118",
             "nom": "Fira de Vila-Rodona",
             "data": "Diumenge a principis de novembre pel migdia.",
             "amfitrions": "",
@@ -55413,7 +55413,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC112",
+            "id": "DC117",
             "nom": "Diada de Festa Major",
             "data": "Principis d’agost (dissabte vespre).",
             "amfitrions": "Xiquets de Vila-seca",
@@ -57155,7 +57155,7 @@
         ],
         "mesinfo": [
           {
-            "id": "",
+            "id": "DC110",
             "nom": "Fires de Maig a Vilafranca",
             "data": "Mitjans de maig (diumenge matí).",
             "amfitrions": "Castellers de Vilafranca, Xicots de Vilafranca",
@@ -57219,7 +57219,7 @@
             ]
           },
           {
-            "id": "DC106",
+            "id": "DC111",
             "nom": "Vigília de Sant Fèlix",
             "data": "29 d’agost al migdia.",
             "amfitrions": "Colles locals de castellers i falcons de Vilafranca",
@@ -57283,12 +57283,12 @@
             ]
           },
           {
-            "id": "DC107",
+            "id": "DC112",
             "nom": "Sant Fèlix",
             "data": "30 d’agost al migdia.",
             "amfitrions": "",
-            "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Minyons de Terrassa, Colla Jove Xiquets de Tarragona, Falcons de Vilafranca del Penedès",
-            "principals_castells": "Castellers de Vilafranca: Pd9fmp, 2d9f(c), 9d9f(c), 4d10fm, 3d10fm, 2d8.\n<br>Colla Vella Xiquets de Valls: 4d10fm(c), 3d10 fm, 2d8, 4d9, 4d9fa.  \n<br>Colla Joves Xiquets de Valls: 2d8, 4d9, 5d9f, pd8fm.\n<br>Minyons de Terrassa: 3d10fm, 5d9f, 2d9fm, pd8fm.\n<br>Jove de Tarragona: 3d10fm, 5d9f, 2d9fm, pd8fm,",
+            "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Minyons de Terrassa, Colla Jove Xiquets de Tarragona",
+            "principals_castells": "Castellers de Vilafranca: Pd9fmp, 2d9f(c), 9d9f(c), 4d10fm, 3d10fm, 2d8.\n<br>Colla Vella Xiquets de Valls: 4d10fm(c), 3d10fm, 2d8, 4d9, 4d9fa.  \n<br>Colla Joves Xiquets de Valls: 2d8, 4d9, 5d9f, pd8fm.\n<br>Minyons de Terrassa: 3d10fm, 5d9f, 2d9fm, pd8fm.\n<br>Jove de Tarragona: 3d10fm, 5d9f, 2d9fm, pd8fm,",
             "info": "",
             "castells": "Sí",
             "muixerangues": "",
@@ -57347,7 +57347,7 @@
             ]
           },
           {
-            "id": "DC108",
+            "id": "DC113",
             "nom": "Sant Ramon",
             "data": "31 d’agost al migdia.",
             "amfitrions": "Colles locals de castellers i falcons de Vilafranca",
@@ -57411,7 +57411,7 @@
             ]
           },
           {
-            "id": "DC109",
+            "id": "DC114",
             "nom": "Diada del Roser",
             "data": "Dissabte a finals d’octubre per la tarda.",
             "amfitrions": "Xicots de Vilafranca",
@@ -57475,7 +57475,7 @@
             ]
           },
           {
-            "id": "DC110",
+            "id": "DC115",
             "nom": "Tots Sants",
             "data": "1 de novembre pel matí.",
             "amfitrions": "Castellers de Vilafranca",
@@ -57539,7 +57539,7 @@
             ]
           },
           {
-            "id": "DC111",
+            "id": "DC116",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -58082,8 +58082,8 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC105",
-            "nom": "Diada de Màrtis Street",
+            "id": "DC109",
+            "nom": "Diada de Màrtirs Street",
             "data": "Principis d’agost (dissabte vespre).",
             "amfitrions": "Xicots de Vilafranca, Castellers de Barcelona",
             "colla": "Xicots de Vilafranca, Castellers de Barcelona",
@@ -58427,7 +58427,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC104",
+            "id": "DC108",
             "nom": "Diada de Sant Miquel",
             "data": "Finals de setembre (diumenge matí).",
             "amfitrions": "Castellers de Vilafranca",
@@ -58833,7 +58833,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC103",
+            "id": "DC107",
             "nom": "Homenatge Heroïnes Anònimes “Carme Alomà”",
             "data": "Diumenge proper al 8 de març pel matí.",
             "amfitrions": "Xicots de Vilafranca",
@@ -59249,7 +59249,7 @@
             "data": "30 d’agost vespre/nit",
             "colla": "Castellers de Vilafranca, Xicots de Vilafranca, Falcons de Vilafranca del Penedès",
             "participants": "Colles locals de castellers i falcons de Vilafranca",
-            "info": "Comença amb la sortida del Sant de la Basílica de Santa Maria i recorre la vila acompnyat dels balls populars i les colles castelleres, acaba amb l’espectacular entrada de nou a la basílica on les colles castelleres i falconeres alcen pilars. El dia anterior i posterior també hi ha processons que porten la figura del Sant de casa de l’administrador que el custodia fins la basílica (29/08) i de la basílica a l’administrador que el custodiarà fins l’any següent (31/08). ",
+            "info": "Comença amb la sortida del Sant de la Basílica de Santa Maria i recorre la vila acompanyat dels balls populars i les colles castelleres, acaba amb l’espectacular entrada de nou a la basílica on les colles castelleres i falconeres alcen pilars. El dia anterior i posterior també hi ha processons que porten la figura del Sant de casa de l’administrador que el custodia fins la basílica (29/08) i de la basílica a l’administrador que el custodiarà fins l’any següent (31/08). ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "Sí",
@@ -60479,7 +60479,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC102",
+            "id": "DC106",
             "nom": "Diada del Graller ",
             "data": "Mitjans abril (diumenge matí).",
             "amfitrions": "Castellers de Vilafranca",
@@ -60695,7 +60695,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC101",
+            "id": "DC105",
             "nom": "Aniversari dels Falcons de Vilafranca",
             "data": "8 de desembre.",
             "amfitrions": "Falcons de Vilafranca del Penedès",
@@ -61101,7 +61101,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC100",
+            "id": "DC104",
             "nom": "Memorial Pau de Magrinyà",
             "data": "Finals de juliol (diumenge tarda).",
             "amfitrions": "",
@@ -61992,7 +61992,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC96",
+            "id": "DC99",
             "nom": "Diada de Sant Jordi",
             "data": "23 d’abril per la tarda.",
             "amfitrions": "Falcons de Vilanova i la Geltrú",
@@ -62056,7 +62056,7 @@
             ]
           },
           {
-            "id": "",
+            "id": "DC100",
             "nom": "Sant Jordi a Vilanova",
             "data": "Diumenge proper al 23 d’abril (matí).",
             "amfitrions": "Bordegassos de Vilanova",
@@ -62120,8 +62120,8 @@
             ]
           },
           {
-            "id": "DC97",
-            "nom": "Diada de les Neus",
+            "id": "DC101",
+            "nom": "Diada Castellera de les Neus",
             "data": "Principis d’agost (dissabte tarda).",
             "amfitrions": "Bordegassos de Vilanova",
             "colla": "Bordegassos de Vilanova",
@@ -62184,8 +62184,8 @@
             ]
           },
           {
-            "id": "DC98",
-            "nom": "Diada de les Neus",
+            "id": "DC102",
+            "nom": "Diada Falconera de les Neus",
             "data": "Principis d’agost (dumenge tarda).",
             "amfitrions": "Falcons de Vilanova i la Geltrú",
             "colla": "Falcons de Vilanova i la Geltrú",
@@ -62248,7 +62248,7 @@
             ]
           },
           {
-            "id": "DC99",
+            "id": "DC103",
             "nom": "Dia de la Colla",
             "data": "Mitjans d’octubre.",
             "amfitrions": "Falcons de Vilanova i la Geltrú",
@@ -84734,7 +84734,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC91",
+            "id": "DC92",
             "nom": "Trobada Neus Capella, aniversari de la Muixeranga de Torrent",
             "data": "Finals de novembre.",
             "amfitrions": "Muixeranga La Torrentina",
@@ -87259,7 +87259,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC89",
+            "id": "DC90",
             "nom": "Mostra de Falcons (Festa Major de Castellcir)",
             "data": "Cap al 15 d’agost",
             "amfitrions": "Falcons de Castellcir",
@@ -87787,7 +87787,7 @@
         "mesinfo": [],
         "colles": [
           {
-            "nom": "Falcons de Vilanova dEspoia",
+            "nom": "Falcons de Vilanova d’Espoia",
             "fundacio": "2013",
             "inactiva": "",
             "maxim_castell": "Escala de 6 (2016)",
@@ -87852,7 +87852,7 @@
           }
         ],
         "colles_relacionades": [
-          "Falcons de Vilanova dEspoia"
+          "Falcons de Vilanova d’Espoia"
         ],
         "monuments": [],
         "murals": [],
@@ -92317,7 +92317,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC85",
+            "id": "DC86",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -92844,7 +92844,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC84",
+            "id": "DC85",
             "nom": "Diada de la Independència",
             "data": "Finals de març",
             "amfitrions": "Castellers de la Vila de Gràcia",
@@ -95565,7 +95565,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC83",
+            "id": "DC84",
             "nom": "Diada de Festa Major",
             "data": "Principis d’agost (dissabte tarda).",
             "amfitrions": "Castellers del Riberal",
@@ -97319,7 +97319,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC82",
+            "id": "DC83",
             "nom": "Diada de Festa Major",
             "data": "Mitjans de juliol.",
             "amfitrions": "",
@@ -98000,7 +98000,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC81",
+            "id": "DC82",
             "nom": "Festa de la Bona del Batre",
             "data": "Dissabte a mitjans de juliol",
             "amfitrions": "Falcons de Malla",
@@ -100029,7 +100029,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC75",
+            "id": "DC76",
             "nom": "“Concur7” (fins 2013)/Primera sessió Concurs de Castells (a partir 2014)",
             "data": "Últim diumenge de setembre pel matí (anys parells).",
             "amfitrions": "",
@@ -100093,7 +100093,7 @@
             ]
           },
           {
-            "id": "DC76",
+            "id": "DC77",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -100399,7 +100399,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC73",
+            "id": "DC74",
             "nom": "Diada dels Antics Trofeus Can Jorba-Preciados",
             "data": "Diumenge de març/abril al migdia.",
             "amfitrions": "Castellers de Barcelona",
@@ -100463,7 +100463,7 @@
             ]
           },
           {
-            "id": "DC74",
+            "id": "DC75",
             "nom": "",
             "data": "",
             "amfitrions": "",
@@ -100997,7 +100997,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC71",
+            "id": "DC72",
             "nom": "Festes del Tura",
             "data": "Cap al 8 de setembre.",
             "amfitrions": "Xerrics d’Olot",
@@ -101061,7 +101061,7 @@
             ]
           },
           {
-            "id": "DC72",
+            "id": "DC73",
             "nom": "Diada dels Xerrics",
             "data": "Mitjans d’octubre.",
             "amfitrions": "Xerrics d’Olot",
@@ -103203,7 +103203,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC70",
+            "id": "DC71",
             "nom": "Actuació Especial a la Glacera d'Aletsch ",
             "data": "25 de juny de 2026,",
             "amfitrions": "Castellers de Lausane",
@@ -105312,7 +105312,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC68",
+            "id": "DC69",
             "nom": "Festa Major del Poblenou",
             "data": "Diumenge cap al 17 de setembre (matí).",
             "amfitrions": "Colla Castellera Jove de Barcelona",
@@ -105466,7 +105466,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC67",
+            "id": "DC68",
             "nom": "Festa Major de Sant Andreu",
             "data": "Diumenge a principis de desembre al migdia.",
             "amfitrions": "Colla Castellera Jove de Barcelona",
@@ -105620,7 +105620,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC66",
+            "id": "DC67",
             "nom": "Diada del local Capgrossos",
             "data": "Mitjans abril (diumenge matí).",
             "amfitrions": "Capgrossos de Mataró",
@@ -105774,7 +105774,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC65",
+            "id": "DC66",
             "nom": "Homenatge a Pau Casals",
             "data": "Mitjans abril (diumenge matí).",
             "amfitrions": "Nens del Vendrell",
@@ -105928,7 +105928,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC64",
+            "id": "DC65",
             "nom": "Memorial Josep Sala",
             "data": "Finals de maig (diumenge matí).",
             "amfitrions": "Castellers de Barcelona",
@@ -106082,7 +106082,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC63",
+            "id": "DC64",
             "nom": "Aplec dels Ports",
             "data": "Finals de juliol.",
             "amfitrions": "Conlloga Muixeranga de Castelló, Muixeranga de Vinaròs entre d’altres.",
@@ -106460,7 +106460,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC62",
+            "id": "DC63",
             "nom": "Trobada de Muixerangues de Vinaròs",
             "data": "Octubre-novembre.",
             "amfitrions": "Muixeranga de Vinaròs",
@@ -106614,7 +106614,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC61",
+            "id": "DC62",
             "nom": "Trobada de la Jove Muixeranga de València",
             "data": "Per la Gran Fira de València (principis de juliol).",
             "amfitrions": "Jove Muixeranga de València ",
@@ -106768,9 +106768,9 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC60",
+            "id": "DC61",
             "nom": "Diada de Muixerangues d'Alacant",
-            "data": "Cap al 3er diumenge de juny (coincidint amb les festes de les Fogeures de Sant Joan).",
+            "data": "Cap al 3er diumenge de juny (coincidint amb les festes de les Fogueres de Sant Joan).",
             "amfitrions": "Muixeranga d'Alacant",
             "colla": "Muixeranga d'Alacant",
             "principals_castells": "",
@@ -106922,7 +106922,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC59",
+            "id": "DC60",
             "nom": "Aniversari de la Muixeranga de Sueca",
             "data": "Finals de maig.",
             "amfitrions": "Muixeranga de Sueca",
@@ -107544,7 +107544,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC58",
+            "id": "DC59",
             "nom": "Torrent de Muixerangues",
             "data": "Mitjans de juliol.",
             "amfitrions": "Muixeranga La Torrentina",
@@ -107698,7 +107698,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC57",
+            "id": "DC58",
             "nom": "Aniversari de la Muixeranga de Segària",
             "data": "Durant la tardor (Setembre-octubre).",
             "amfitrions": "Muixeranga de Segària",
@@ -107919,7 +107919,7 @@
         ],
         "mesinfo": [
           {
-            "id": "DC56",
+            "id": "DC57",
             "nom": "Trobada de Muixerangues de Guadassuar",
             "data": "Cap a l’abril/maig dels anys parells.",
             "amfitrions": "Muixeranga la Carabassota",
@@ -108227,7 +108227,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC55",
+            "id": "DC56",
             "nom": "Festes de Sant Antoni del barri de l’Ermiteta",
             "data": "Finals de gener.",
             "amfitrions": "Muixeranga de la Vall d'Albaida ",
@@ -108381,7 +108381,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC54",
+            "id": "DC55",
             "nom": "Trobada de Muixerangues de Borriol",
             "data": "Mitjans de març.",
             "amfitrions": "Conlloga Muixeranga de Castelló",
@@ -108535,7 +108535,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC53",
+            "id": "DC54",
             "nom": "Aplec de la Plana",
             "data": "Dissabte a principis de març.",
             "amfitrions": "",
@@ -108687,7 +108687,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC52",
+            "id": "DC53",
             "nom": "Trobada de Muixerangues de Castelló",
             "data": "Mitjans de març (diumenge migdia).",
             "amfitrions": "Conlloga Muixeranga de Castelló",
@@ -108997,7 +108997,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC51",
+            "id": "DC52",
             "nom": "Fira del llibre de Vinaròs",
             "data": "Al voltant del 23 d’abril.",
             "amfitrions": "Muixeranga de Vinaròs",
@@ -109151,7 +109151,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC49",
+            "id": "DC50",
             "nom": "Homenatge als Maulets",
             "data": "Cap al 25 d’abril.",
             "amfitrions": "Muixeranga de Xàtiva",
@@ -109215,7 +109215,7 @@
             ]
           },
           {
-            "id": "DC50",
+            "id": "DC51",
             "nom": "Trobada Muixerangues de Xàtiva",
             "data": "Mitjans de juny.",
             "amfitrions": "Muixeranga de Xàtiva",
@@ -109369,7 +109369,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC48",
+            "id": "DC49",
             "nom": "Festival Xalònia",
             "data": "Mitjans de maig.",
             "amfitrions": "Muixeranga de Segària",
@@ -109523,7 +109523,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC47",
+            "id": "DC48",
             "nom": "Aplec de Penyagolosa",
             "data": "Darrer cap de setmana de juny.",
             "amfitrions": "Conlloga Muixeranga de Castelló",
@@ -109677,7 +109677,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC46",
+            "id": "DC47",
             "nom": "Diada de la Muixeranga del Carraixet",
             "data": "Mitjans de novembre.",
             "amfitrions": "Muixeranga del Carraixet",
@@ -109831,7 +109831,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC45",
+            "id": "DC46",
             "nom": "Diada de la Muixeranga de la Safor",
             "data": "Principis de novembre.",
             "amfitrions": "Muixeranga de la Safor",
@@ -109985,7 +109985,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC44",
+            "id": "DC45",
             "nom": "Marxeranga",
             "data": "Mitjans de juliol.",
             "amfitrions": "Muixeranga El Campello",
@@ -110139,7 +110139,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC43",
+            "id": "DC44",
             "nom": "Festes del Carme a Porto Cristo",
             "data": "Mitjans de juliol.",
             "amfitrions": "Al·lots de Llevant",
@@ -110447,7 +110447,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC42",
+            "id": "DC43",
             "nom": "Fires de Maig a Vilafranca",
             "data": "Mitjans de maig (dissabte tarda).",
             "amfitrions": "Falcons de Vilafranca del Penedès",
@@ -110601,9 +110601,9 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC40",
+            "id": "DC41",
             "nom": "Trobada Nacional de Falcons",
-            "data": "",
+            "data": "Variable",
             "amfitrions": "Federació de Falcons de Catalunya",
             "colla": "",
             "principals_castells": "",
@@ -110665,7 +110665,7 @@
             ]
           },
           {
-            "id": "DC41",
+            "id": "DC42",
             "nom": "Aniversari dels Falcons de Piera",
             "data": "Dissabte a finals d’abril.",
             "amfitrions": "Falcons de Piera",
@@ -110819,7 +110819,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC39",
+            "id": "DC40",
             "nom": "Actuació de Festa Major",
             "data": "Principis de setembre.",
             "amfitrions": "Falcons de Piera",
@@ -110973,7 +110973,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC38",
+            "id": "DC39",
             "nom": "Actuació de Festa Major de Can Bou",
             "data": "Finals de juliol.",
             "amfitrions": "Falcons de Piera",
@@ -111127,7 +111127,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC37",
+            "id": "DC38",
             "nom": "Festa Major de la Palmera",
             "data": "Diumenge a mitjans de juny.",
             "amfitrions": "Falcons de Barcelona",
@@ -111281,7 +111281,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC36",
+            "id": "DC37",
             "nom": "Festes de Sant Josep Oriol",
             "data": "Diumenge a finals de març.",
             "amfitrions": "Falcons de Barcelona",
@@ -111435,7 +111435,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC35",
+            "id": "DC36",
             "nom": "Actuació per la Diada Nacional a Badalona",
             "data": "11 de setembre pel matí.",
             "amfitrions": "Castellers de Badalona",
@@ -111589,7 +111589,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC34",
+            "id": "DC35",
             "nom": "Jornada de la Dona dels Falcons de Vilanova",
             "data": "Diumenge proper al 8 de març pel matí.",
             "amfitrions": "Falcons de Vilanova i la Geltrú",
@@ -111743,7 +111743,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC33",
+            "id": "DC34",
             "nom": "Actuació de Pasqua",
             "data": "Diumenge de Pasqua a la sortida d’ofici",
             "amfitrions": "Falcons de Malla",
@@ -112053,7 +112053,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC32",
+            "id": "DC33",
             "nom": "Diades Airenovenques",
             "data": "Mitjans de novembre.",
             "amfitrions": "Castellers del Riberal",
@@ -112207,7 +112207,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC31",
+            "id": "DC32",
             "nom": "Identi’Cat",
             "data": "Finals de Maig.",
             "amfitrions": "Castellers del Riberal",
@@ -112361,7 +112361,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC30",
+            "id": "DC31",
             "nom": "Diada Pau Casals",
             "data": "Principis d’abril",
             "amfitrions": "",
@@ -112513,7 +112513,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC29",
+            "id": "DC30",
             "nom": "Aniversari Arreplegats de la Zona Universitària",
             "data": "Dijous per la tarda a mitjans de desembre",
             "amfitrions": "Arreplegats de la Zona Universitària",
