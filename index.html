@@ -535,7 +535,7 @@ html, body, #map {
 
         <label>
             <input type="checkbox" id="fpcaminant">
-           🎊 Cercaviles, processons, i pilars caminant
+           🎊 Cercaviles, processons i pilars caminant
         </label>
 
 
@@ -603,7 +603,7 @@ html, body, #map {
     <h4>Sobre aquest mapa</h4>
 
     <p>
-        El <strong>Mapa del patrimoni casteller dels Països Catalans</strong> recull i situa elements relacionats amb la història i la memòria de les torres humanes (castells, muixerangues i falcons), com ara places històriques, plaques commemoratives, monuments, carrers, locals de colles i altres elements patrimonials.
+        <strong>Terra de Pilars és un mapa que localitza el patrimoni de les construccions humanes dels Països Catalans</strong>; recull i situa elements relacionats amb la història i la memòria de les torres humanes (castells, muixerangues i falcons), com ara places històriques, plaques commemoratives, monuments, carrers, locals de colles i altres elements patrimonials.
 </p>
     </p>
     <p>
@@ -633,7 +633,7 @@ html, body, #map {
 
    
     <p>
-        Hi trobaràs diferents tipus d'elements patrimonials dividits en 3 categories;<b> Fites, patrimoni físic i colles</b>:
+        Hi trobaràs diferents tipus d'elements patrimonials dividits en 3 categories;<b> Patrimoni Immaterial, Patrimoni Físic i Colles</b>:
     </p>
 
     <p>
@@ -654,12 +654,12 @@ html, body, #map {
     
 <p>
 <strong>⛪ Processons, 🎉 cercaviles i 🚶 Pilars caminant</strong><br>
-       Recull d'actuacions singulars que no són estàtiques; processons, cercaviles, pilars caminant especials, etc. especificant la informació que disposem de les colles que el fan, data aproximada, distància recorreguda pels pilars, etc.
+       Recull d'actuacions singulars que no són estàtiques; processons, cercaviles, pilars caminant, etc. especificant informació sobre les colles que hi participen, data aproximada, distància recorreguda pels pilars, etc.
            </p>
     
         <p>
 <strong>ℹ️ Diades i altres dades</strong><br>
-       Llistat de diades en cada localització, en alguns casos s'inclouen dades com els màxims castells, les colles amifitriones, etc. També s'inclouen algunes dades històriques modernes (s.XX-XXI), localitzacions de diades especials, anècdotes... (que no apareixen ja en altres elements de la localització).
+       Llistat de diades en cada localització, en alguns casos s'inclouen dades com els màxims castells, les colles més vinculades a l'esdeveniment (referenciades com a "amifitriones"), etc. Per fer el llistat de diades s'ha emprat la base de dades de la Coordinadora, buscant diades que es fessin en més d'un any (en el període 2020-2026), i mirant de cobrir el màxim de domini territorial. Pels falcons i muixerangues hem cercat dades a les webs de les federacions i les pròpies colles. <br> També s'inclouen per a algunes localitzacions dades històriques modernes (s.XX-XXI), localitzacions de diades especials, anècdotes... (que no apareixen ja en altres elements de la localització).
     </p>
 
 
@@ -771,6 +771,7 @@ fetch("localitzacions.geojson")
 
 var numeroCarruselPlaques = 0;
 var numeroCarruselDiades = 0;
+var numeroCarruselColles = 0;
 
 window.canviaPlaca = function(idCarrusel, direccio) {
 
@@ -942,35 +943,37 @@ if (!algunElementPatrimonial) {
         }
 
 
-        return (
+      return (
 
-            '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-            'xmlns="http://www.w3.org/2000/svg">' +
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-            '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientLocalitzacio + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientLocalitzacio +
+        '</linearGradient>' +
+    '</defs>' +
 
-            '<defs>' +
-                '<linearGradient id="' + idGradientLocalitzacio + '" ' +
-                'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                    gradientLocalitzacio +
-                '</linearGradient>' +
-            '</defs>' +
+    // Cercle exterior acolorit segons la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientLocalitzacio + ')"/>' +
 
-            // Pin de localització
-            '<path d="M12 2.5 ' +
-            'C8 2.5 5 5.5 5 9.5 ' +
-            'C5 14.5 12 21 12 21 ' +
-            'C12 21 19 14.5 19 9.5 ' +
-            'C19 5.5 16 2.5 12 2.5 Z" ' +
-            'fill="url(#' + idGradientLocalitzacio + ')"/>' +
+    // Pin blanc
+    '<path d="M12 2.5 ' +
+    'C8 2.5 5 5.5 5 9.5 ' +
+    'C5 14.5 12 21 12 21 ' +
+    'C12 21 19 14.5 19 9.5 ' +
+    'C19 5.5 16 2.5 12 2.5 Z" ' +
+    'fill="white"/>' +
 
-            // Cercle interior
-            '<circle cx="12" cy="9.5" r="2.7" fill="white"/>' +
+    // Cercle interior acolorit
+    '<circle cx="12" cy="9.5" r="2.7" ' +
+    'fill="url(#' + idGradientLocalitzacio + ')"/>' +
 
-            '</svg>'
+    '</svg>'
 
-        );
-
+);
     }
 
 
@@ -1009,19 +1012,21 @@ if (
 ) {
 
     icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    // Cercle vermell
+    '<circle cx="12" cy="12" r="12" fill="#c62828"/>' +
 
-        '<text x="12" y="17" ' +
-        'text-anchor="middle" ' +
-        'font-family="Arial, sans-serif" ' +
-        'font-size="17" ' +
-        'font-weight="bold" ' +
-        'fill="#c62828">9</text>' +
+    // Número blanc
+    '<text x="12" y="17" ' +
+    'text-anchor="middle" ' +
+    'font-family="Arial, sans-serif" ' +
+    'font-size="17" ' +
+    'font-weight="bold" ' +
+    'fill="white">9</text>' +
 
-        '</svg>';
+    '</svg>';
 }
 var hiHaPlaçaGE = p.placesge.some(function (plaça) {
 
@@ -1051,25 +1056,27 @@ if (
     hiHaPlaçaGE
 ) {
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    // Cercle vermell
+    '<circle cx="12" cy="12" r="12" fill="#c62828"/>' +
 
-        '<path d="M12 4.5 ' +
-        'L14.1 9.1 ' +
-        'L19.1 9.7 ' +
-        'L15.4 13.1 ' +
-        'L16.4 18 ' +
-        'L12 15.5 ' +
-        'L7.6 18 ' +
-        'L8.6 13.1 ' +
-        'L4.9 9.7 ' +
-        'L9.9 9.1 Z" ' +
-        'fill="#c62828"/>' +
+    // Estrella blanca
+    '<path d="M12 4.5 ' +
+    'L14.1 9.1 ' +
+    'L19.1 9.7 ' +
+    'L15.4 13.1 ' +
+    'L16.4 18 ' +
+    'L12 15.5 ' +
+    'L7.6 18 ' +
+    'L8.6 13.1 ' +
+    'L4.9 9.7 ' +
+    'L9.9 9.1 Z" ' +
+    'fill="white"/>' +
 
-        '</svg>';
+    '</svg>';
 }
  var hiHaPlaça10 = p.places10.some(function (plaça) {
 
@@ -1099,20 +1106,22 @@ if (
     hiHaPlaça10
 ) {
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    // Cercle vermell
+    '<circle cx="12" cy="12" r="12" fill="#c62828"/>' +
 
-        '<text x="12" y="17" ' +
-        'text-anchor="middle" ' +
-        'font-family="Arial, sans-serif" ' +
-        'font-size="14" ' +
-        'font-weight="bold" ' +
-        'fill="#c62828">10</text>' +
+    // Número blanc
+    '<text x="12" y="17" ' +
+    'text-anchor="middle" ' +
+    'font-family="Arial, sans-serif" ' +
+    'font-size="14" ' +
+    'font-weight="bold" ' +
+    'fill="white">10</text>' +
 
-        '</svg>';
+    '</svg>';
 }
 
 
@@ -1271,34 +1280,34 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientPlaca + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientPlaca +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientPlaca + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientPlaca +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientPlaca + ')"/>' +
 
-        // Placa
-        '<rect x="5" y="5" width="14" height="14" rx="1.5" ' +
-        'fill="url(#' + idGradientPlaca + ')"/>' +
+    // Placa blanca
+    '<rect x="5" y="5" width="14" height="14" rx="1.5" ' +
+    'fill="white"/>' +
 
-        // Petit detall interior de la placa
-        '<line x1="8" y1="9" x2="16" y2="9" ' +
-        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
+    // Tres línies gruixudes i ben visibles
+    '<path d="M8 9 H16 M8 12 H16 M8 15 H14" ' +
+    'fill="none" ' +
+    'stroke="url(#' + idGradientPlaca + ')" ' +
+    'stroke-width="2" ' +
+    'stroke-linecap="round" ' +
+    'stroke-linejoin="round"/>' +
 
-        '<line x1="8" y1="12" x2="16" y2="12" ' +
-        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
-
-        '<line x1="8" y1="15" x2="14" y2="15" ' +
-        'stroke="white" stroke-width="1.3" stroke-linecap="round"/>' +
-
-        '</svg>';
+    '</svg>';
 }
 var hiHaMonument = p.monuments.some(function (monument) {
 
@@ -1473,38 +1482,44 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientMonument + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientMonument +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientMonument + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientMonument +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientMonument + ')"/>' +
 
-        '<path d="M3 9L12 4L21 9H3Z" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    // Frontó blanc
+    '<path d="M3 9L12 4L21 9H3Z" ' +
+    'fill="white"/>' +
 
-        '<rect x="4" y="9" width="16" height="2" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    // Entaulament blanc
+    '<rect x="4" y="9" width="16" height="2" ' +
+    'fill="white"/>' +
 
-        '<rect x="5" y="11" width="3" height="7" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    // Columnes blanques
+    '<rect x="5" y="11" width="3" height="7" ' +
+    'fill="white"/>' +
 
-        '<rect x="10.5" y="11" width="3" height="7" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    '<rect x="10.5" y="11" width="3" height="7" ' +
+    'fill="white"/>' +
 
-        '<rect x="16" y="11" width="3" height="7" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    '<rect x="16" y="11" width="3" height="7" ' +
+    'fill="white"/>' +
 
-        '<rect x="3" y="18" width="18" height="2" ' +
-        'fill="url(#' + idGradientMonument + ')"/>' +
+    // Base blanca
+    '<rect x="3" y="18" width="18" height="2" ' +
+    'fill="white"/>' +
 
-        '</svg>';
+    '</svg>';
 }
 var hiHaCarrer = p.carrers.some(function (carrer) {
 
@@ -1654,30 +1669,32 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientCarrer + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientCarrer +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientCarrer + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientCarrer +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientCarrer + ')"/>' +
 
-        // Cercle de la lupa
-        '<circle cx="10" cy="10" r="5.5" ' +
-        'fill="none" stroke="url(#' + idGradientCarrer + ')" ' +
-        'stroke-width="3"/>' +
+    // Cercle blanc de la lupa
+    '<circle cx="10" cy="10" r="5.5" ' +
+    'fill="none" stroke="white" ' +
+    'stroke-width="3"/>' +
 
-        // Mànec
-        '<line x1="14" y1="14" x2="20" y2="20" ' +
-        'stroke="url(#' + idGradientCarrer + ')" ' +
-        'stroke-width="3" stroke-linecap="round"/>' +
+    // Mànec blanc
+    '<line x1="14" y1="14" x2="20" y2="20" ' +
+    'stroke="white" ' +
+    'stroke-width="3" stroke-linecap="round"/>' +
 
-        '</svg>';
+    '</svg>';
 }
 
 
@@ -1807,24 +1824,26 @@ if (
             '<stop offset="100%" stop-color="' + colorsCases[2] + '"/>';
     }
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradient + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradient +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradient + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradient +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradient + ')"/>' +
 
-        '<path d="M12 3L3 10v10h6v-6h6v6h6V10l-9-7z" ' +
-        'fill="url(#' + idGradient + ')"/>' +
+    // Casa blanca una mica més petita
+    '<path d="M12 5L5 10.5v8h5v-5h4v5h5v-8L12 5z" ' +
+    'fill="white"/>' +
 
-        '</svg>';
-
+    '</svg>';
 }
 
 }
@@ -1988,31 +2007,33 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientMesinfo + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientMesinfo +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientMesinfo + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientMesinfo +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientMesinfo + ')"/>' +
 
-// Cercle interior
-'<circle cx="12" cy="12" r="8" ' +
-'fill="url(#' + idGradientMesinfo + ')"/>' +
+    // Cercle interior blanc
+    '<circle cx="12" cy="12" r="8" fill="white"/>' +
 
-// Punt de la i
-'<circle cx="12" cy="7.8" r="1.35" fill="white"/>' +
+    // Punt de la i amb els colors de la tradició
+    '<circle cx="12" cy="7.8" r="1.35" ' +
+    'fill="url(#' + idGradientMesinfo + ')"/>' +
 
-// Pal de la i
-'<rect x="10.45" y="10.2" width="3.1" height="7.8" ' +
-'rx="1.55" fill="white"/>' +
+    // Pal de la i amb els colors de la tradició
+    '<rect x="10.45" y="10.2" width="3.1" height="7.8" ' +
+    'rx="1.55" fill="url(#' + idGradientMesinfo + ')"/>' +
 
-        '</svg>';
+    '</svg>';
 }
 
 // FITES S. XIX
@@ -2170,30 +2191,30 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientInfoAntiga + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientInfoAntiga +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientInfoAntiga + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientInfoAntiga +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientInfoAntiga + ')"/>' +
 
-// Text XIX
-'<text x="12" y="15" ' +
-'text-anchor="middle" ' +
-'font-family="Arial, sans-serif" ' +
-'font-size="11" ' +
-'font-weight="bold" ' +
-'fill="url(#' + idGradientInfoAntiga + ')">XIX</text>' +
+    // Text XIX en blanc
+    '<text x="12" y="15" ' +
+    'text-anchor="middle" ' +
+    'font-family="Arial, sans-serif" ' +
+    'font-size="11" ' +
+    'font-weight="bold" ' +
+    'fill="white">XIX</text>' +
 
-'</svg>';
-         
-                '</svg>';
+    '</svg>';
 }
 
 
@@ -2346,65 +2367,66 @@ if (
 
 
     icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientPcaminant + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientPcaminant +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientPcaminant + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientPcaminant +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientPcaminant + ')"/>' +
 
-                // Enxaneta fent l'aleta
-        '<circle cx="12" cy="7" r="2.2" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Enxaneta fent l'aleta: cap blanc
+    '<circle cx="12" cy="7" r="2.2" fill="white"/>' +
 
-        // Cos
-        '<path d="M10.2 9.2 ' +
-        'C10.2 8.5 10.8 8.2 12 8.2 ' +
-        'C13.2 8.2 13.8 8.5 13.8 9.2 ' +
-        'L14.2 14.2 ' +
-        'L12.8 14.2 ' +
-        'L12.5 11.5 ' +
-        'L12.2 14.2 ' +
-        'L10.8 14.2 Z" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Cos blanc
+    '<path d="M10.2 9.2 ' +
+    'C10.2 8.5 10.8 8.2 12 8.2 ' +
+    'C13.2 8.2 13.8 8.5 13.8 9.2 ' +
+    'L14.2 14.2 ' +
+    'L12.8 14.2 ' +
+    'L12.5 11.5 ' +
+    'L12.2 14.2 ' +
+    'L10.8 14.2 Z" ' +
+    'fill="white"/>' +
 
-        // Braç fent l'aleta
-        '<path d="M13.4 9.5 ' +
-        'L15.5 7.4 ' +
-        'L16.2 5.2 ' +
-        'C16.3 4.8 16.7 4.6 17 4.8 ' +
-        'C17.3 5 17.3 5.4 17.1 5.8 ' +
-        'L16.3 8.2 ' +
-        'L14.5 11 Z" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Braç fent l'aleta
+    '<path d="M13.4 9.5 ' +
+    'L15.5 7.4 ' +
+    'L16.2 5.2 ' +
+    'C16.3 4.8 16.7 4.6 17 4.8 ' +
+    'C17.3 5 17.3 5.4 17.1 5.8 ' +
+    'L16.3 8.2 ' +
+    'L14.5 11 Z" ' +
+    'fill="white"/>' +
 
-        // Braç contrari
-        '<path d="M10.5 9.5 ' +
-        'L9 11.5 ' +
-        'L10 12.3 ' +
-        'L11.5 10.8 Z" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Braç contrari
+    '<path d="M10.5 9.5 ' +
+    'L9 11.5 ' +
+    'L10 12.3 ' +
+    'L11.5 10.8 Z" ' +
+    'fill="white"/>' +
 
-        // Cames
-        '<path d="M11.1 13.5 ' +
-        'L11.8 13.5 ' +
-        'L11.1 18.5 ' +
-        'L9.9 18.5 Z" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Cama esquerra
+    '<path d="M11.1 13.5 ' +
+    'L11.8 13.5 ' +
+    'L11.1 18.5 ' +
+    'L9.9 18.5 Z" ' +
+    'fill="white"/>' +
 
-        '<path d="M12.6 13.5 ' +
-        'L13.3 13.5 ' +
-        'L14.5 18.5 ' +
-        'L13.3 18.5 Z" ' +
-        'fill="url(#' + idGradientPcaminant + ')"/>' +
+    // Cama dreta
+    '<path d="M12.6 13.5 ' +
+    'L13.3 13.5 ' +
+    'L14.5 18.5 ' +
+    'L13.3 18.5 Z" ' +
+    'fill="white"/>' +
 
-        '</svg>';
-}
+    '</svg>';}
 
 
 
@@ -2556,40 +2578,47 @@ if (
     }
 
 
-    icona +=
-        '<svg width="22" height="22" viewBox="0 0 24 24" ' +
-        'xmlns="http://www.w3.org/2000/svg">' +
+   icona +=
+    '<svg width="22" height="22" viewBox="0 0 24 24" ' +
+    'xmlns="http://www.w3.org/2000/svg">' +
 
-        '<circle cx="12" cy="12" r="12" fill="white"/>' +
+    '<defs>' +
+        '<linearGradient id="' + idGradientMurals + '" ' +
+        'x1="0%" y1="0%" x2="100%" y2="0%">' +
+            gradientMurals +
+        '</linearGradient>' +
+    '</defs>' +
 
-        '<defs>' +
-            '<linearGradient id="' + idGradientMurals + '" ' +
-            'x1="0%" y1="0%" x2="100%" y2="0%">' +
-                gradientMurals +
-            '</linearGradient>' +
-        '</defs>' +
+    // Cercle exterior amb els colors de la tradició
+    '<circle cx="12" cy="12" r="12" ' +
+    'fill="url(#' + idGradientMurals + ')"/>' +
 
-               // Paleta de pintura
-        '<path d="M5.2 12.2 ' +
-        'C5.2 7.9 8.5 4.8 12.8 4.8 ' +
-        'C17.2 4.8 20 7.8 20 11.6 ' +
-        'C20 14.8 17.8 16.8 15.1 16.8 ' +
-        'H13.2 ' +
-        'C12.5 16.8 12.1 17.4 12.4 18.1 ' +
-        'C12.8 19 12.1 20 11.1 20 ' +
-        'C7.8 20 5.2 16.8 5.2 12.2 Z" ' +
-        'fill="url(#' + idGradientMurals + ')"/>' +
+    // Paleta de pintura blanca
+    '<path d="M5.2 12.2 ' +
+    'C5.2 7.9 8.5 4.8 12.8 4.8 ' +
+    'C17.2 4.8 20 7.8 20 11.6 ' +
+    'C20 14.8 17.8 16.8 15.1 16.8 ' +
+    'H13.2 ' +
+    'C12.5 16.8 12.1 17.4 12.4 18.1 ' +
+    'C12.8 19 12.1 20 11.1 20 ' +
+    'C7.8 20 5.2 16.8 5.2 12.2 Z" ' +
+    'fill="white"/>' +
 
-        // Forat de la paleta
-        '<ellipse cx="9.2" cy="15.5" rx="1.7" ry="2.2" ' +
-        'fill="white"/>' +
+    // Forat de la paleta amb els colors de la tradició
+    '<ellipse cx="9.2" cy="15.5" rx="1.7" ry="2.2" ' +
+    'fill="url(#' + idGradientMurals + ')"/>' +
 
-        // Taques de pintura
-        '<circle cx="9" cy="9" r="1.3" fill="white"/>' +
-        '<circle cx="13" cy="7.5" r="1.3" fill="white"/>' +
-        '<circle cx="16.5" cy="10" r="1.3" fill="white"/>' +
+    // Taques de pintura amb els colors de la tradició
+    '<circle cx="9" cy="9" r="1.3" ' +
+    'fill="url(#' + idGradientMurals + ')"/>' +
 
-        '</svg>';}
+    '<circle cx="13" cy="7.5" r="1.3" ' +
+    'fill="url(#' + idGradientMurals + ')"/>' +
+
+    '<circle cx="16.5" cy="10" r="1.3" ' +
+    'fill="url(#' + idGradientMurals + ')"/>' +
+
+    '</svg>';}
 
 
 
@@ -4081,223 +4110,227 @@ if (p.infoantiga.length) {
 
 }
 
-// PILARS CAMINANT
+
+// -----------------------------------------------------------------
+// PILARS CAMINANT — POPUP GENERAL AMB ACTIVITATS AGRUPADES
+// -----------------------------------------------------------------
 
 if (p.pcaminant.length) {
 
-var tipusPcaminant = [];
+    // AGRUPAR LES ACTIVITATS PER TIPUS
 
-p.pcaminant.forEach(function(pilar) {
-
-    if (
-        pilar.pilar &&
-        pilar.pilar.trim() &&
-        !tipusPcaminant.includes("🚶 Pilar caminant")
-    ) {
-        tipusPcaminant.push("🚶 Pilar caminant");
-    }
-
-    if (
-        pilar.processo &&
-        pilar.processo.trim() &&
-        !tipusPcaminant.includes("⛪ Processó")
-    ) {
-        tipusPcaminant.push("⛪ Processó");
-    }
-
-    if (
-        pilar.cercavila &&
-        pilar.cercavila.trim() &&
-        !tipusPcaminant.includes("🎉 Cercavila")
-    ) {
-        tipusPcaminant.push("🎉 Cercavila");
-    }
-
-});
-html += "<li><b>" +
-    tipusPcaminant.join(" / ") +
-    "</b></li>";
-
-    html += "<ul>";
+    var grupsPcaminant = [
+        {
+            camp: "pilar",
+            singular: "🚶 Pilar caminant",
+            plural: "🚶 Pilars caminants",
+            registres: []
+        },
+        {
+            camp: "processo",
+            singular: "⛪ Processó",
+            plural: "⛪ Processons",
+            registres: []
+        },
+        {
+            camp: "cercavila",
+            singular: "🎉 Cercavila",
+            plural: "🎉 Cercaviles",
+            registres: []
+        }
+    ];
 
     p.pcaminant.forEach(function(pilar) {
 
-        
+        grupsPcaminant.forEach(function(grup) {
 
-        // TIPUS D'ACTIVITAT
+            if (
+                pilar[grup.camp] &&
+                pilar[grup.camp].trim()
+            ) {
+                grup.registres.push(pilar);
+            }
 
-        var tipusActivitat = [];
+        });
 
-        if (
-            pilar.pilar &&
-            pilar.pilar.trim()
-        ) {
-            tipusActivitat.push("Pilar caminant");
+    });
+
+
+    // MOSTRAR CADA GRUP D'ACTIVITAT
+
+    html += "<ul style='list-style:disc; padding-left:0; margin-left:0;'>";
+
+    grupsPcaminant.forEach(function(grup) {
+
+        if (!grup.registres.length) {
+            return;
         }
 
-        if (
-            pilar.processo &&
-            pilar.processo.trim()
-        ) {
-            tipusActivitat.push("Processó");
-        }
+        // TÍTOL AMB EL RECOMPTE
 
-        if (
-            pilar.cercavila &&
-            pilar.cercavila.trim()
-        ) {
-            tipusActivitat.push("Cercavila");
-        }
+        var titol =
+            grup.registres.length === 1
+                ? grup.singular
+                : grup.registres.length + " " + grup.plural;
 
-        
+        html += "<li><b>" + titol + "</b>";
 
-        // DIADA
+        // DADES DE CADA REGISTRE DEL GRUP
 
-        if (
-            pilar.diada &&
-            pilar.diada.trim()
-        ) {
+        grup.registres.forEach(function(pilar) {
 
-            html += "<strong>" + pilar.diada + "</strong>";
+            html += "<div style='margin-left:15px;'>";
 
-        }
+            // DIADA
 
+            if (
+                pilar.diada &&
+                pilar.diada.trim()
+            ) {
+                html += "<strong>" +
+                    pilar.diada +
+                    "</strong>";
+            }
 
-        // DATA
+            // DATA
 
-        if (
-            pilar.data &&
-            pilar.data.trim()
-        ) {
+            if (
+                pilar.data &&
+                pilar.data.trim()
+            ) {
 
-            html += "<br>" +
-                pilar.data;
-
-        }
-
-
-        // PARTICIPANTS
-
-        if (
-            pilar.participants &&
-            pilar.participants.trim()
-        ) {
-
-            html += "<br><strong>Participants:</strong> " +
-                pilar.participants + ".";
-
-        }
-
-        // INFORMACIÓ
-
-        if (
-            pilar.info &&
-            pilar.info.trim()
-        ) {
-
-            html += "<br>👉" +
-                pilar.info;
-
-        }
-
-
-        // FOTOGRAFIES
-
-        if (pilar.fotos && pilar.fotos.length) {
-
-            pilar.fotos.forEach(function(foto) {
-
-                if (foto.url && foto.url.trim()) {
-
-                    html += "<br><br>";
-
-                    if (foto.text && foto.text.trim()) {
-
-                        html += "<em>" +
-                            foto.text +
-                            "</em><br>";
-
-                    }
-
-                    html += "<a href=\"" +
-                        foto.url +
-                        "\" target=\"_blank\">" +
-                        "<img src=\"" +
-                        foto.url +
-                        "\" style=\"max-width:100%; height:auto;\">" +
-                        "</a>";
-
-                    if (foto.autor && foto.autor.trim()) {
-
-                        html += "<br><strong>Autor/a de la foto:</strong> " +
-                            foto.autor;
-
-                    }
-
-                    if (foto.font && foto.font.trim()) {
-
-                        html += "<br><strong>Font:</strong> ";
-
-                        if (foto.font_url && foto.font_url.trim()) {
-
-                            html += "<a href=\"" +
-                                foto.font_url +
-                                "\" target=\"_blank\">" +
-                                foto.font +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.font;
-
-                        }
-
-                    }
-
-                    if (foto.llicencia && foto.llicencia.trim()) {
-
-                        html += "<br><strong>Llicència:</strong> ";
-
-                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
-
-                            html += "<a href=\"" +
-                                foto.llicencia_url +
-                                "\" target=\"_blank\">" +
-                                foto.llicencia +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.llicencia;
-
-                        }
-
-                    }
-
-                }
-
-                else if (
-                    foto.enllac_extern &&
-                    foto.enllac_extern.trim()
+                if (
+                    pilar.diada &&
+                    pilar.diada.trim()
                 ) {
-
-                    var textEnllac =
-                        foto.text && foto.text.trim()
-                            ? foto.text
-                            : "Veure fotografia";
-
-                    html += "<br>🔗 " +
-                        "<a href=\"" +
-                        foto.enllac_extern +
-                        "\" target=\"_blank\">" +
-                        textEnllac +
-                        "</a>";
-
+                    html += "<br>";
                 }
 
-            });
+                html += pilar.data;
+            }
 
-        }
+            // PARTICIPANTS
+
+            if (
+                pilar.participants &&
+                pilar.participants.trim()
+            ) {
+                html += "<br><strong>Participants:</strong> " +
+                    pilar.participants + ".";
+            }
+
+            // INFORMACIÓ
+
+            if (
+                pilar.info &&
+                pilar.info.trim()
+            ) {
+                html += "<br>👉" +
+                    pilar.info;
+            }
+
+            // FOTOGRAFIES
+
+            if (pilar.fotos && pilar.fotos.length) {
+
+                pilar.fotos.forEach(function(foto) {
+
+                    if (foto.url && foto.url.trim()) {
+
+                        html += "<br><br>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+                            html += "<em>" +
+                                foto.text +
+                                "</em><br>";
+                        }
+
+                        html += "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (
+                            foto.autor &&
+                            foto.autor.trim()
+                        ) {
+                            html += "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+                        }
+
+                        if (
+                            foto.font &&
+                            foto.font.trim()
+                        ) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+                                html += "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                    foto.font +
+                                    "</a>";
+                            } else {
+                                html += foto.font;
+                            }
+                        }
+
+                        if (
+                            foto.llicencia &&
+                            foto.llicencia.trim()
+                        ) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+                                html += "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                    foto.llicencia +
+                                    "</a>";
+                            } else {
+                                html += foto.llicencia;
+                            }
+                        }
+
+                    } else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text && foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html += "<br>🔗 " +
+                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                            textEnllac +
+                            "</a>";
+                    }
+
+                });
+
+            }
+
+            html += "</div>";
+
+        });
 
         html += "</li>";
 
@@ -4306,6 +4339,8 @@ html += "<li><b>" +
     html += "</ul>";
 
 }
+
+
 // -----------------------------------------------------------------
 // ALTRES DADES
 // -----------------------------------------------------------------
@@ -4331,7 +4366,7 @@ if (
 
     if (mesinfoAmbData.length === 1) {
 
-        html += "<li><b>🗓️ Diada</b></li>";
+        html += "<li><b>🗓️ 1 Diada</b></li>";
 
         html += "<ul>";
 
@@ -4398,7 +4433,10 @@ if (
     
     else if (mesinfoAmbData.length > 1) {
 
-    html += "<li><b>🗓️ Diades</b></li>";
+    html += "<li><b>🗓️ " +
+    mesinfoAmbData.length +
+    (mesinfoAmbData.length === 1 ? " Diada" : " Diades") +
+    "</b></li>";
 
     numeroCarruselDiades++;
 
@@ -5291,35 +5329,82 @@ html += "🔗 " +
 
     html += "</ul>";
 }
-         if (p.colles.length) {
+// -----------------------------------------------------------------
+// COLLES — CARRUSEL
+// -----------------------------------------------------------------
+
+if (p.colles.length) {
 
     html += "<li><b>🏠 " +
         p.colles.length +
         (p.colles.length === 1 ? " colla" : " colles") +
         "</b></li>";
 
-    html += "<ul>";
+    // CREEM EL CARRUSEL NOMÉS SI HI HA DUES COLLES O MÉS
+    var idCarruselColles = "";
 
-    p.colles.forEach(function (colla) {
+    if (p.colles.length > 1) {
 
-        var teFotos =
-            colla.fotos &&
-            colla.fotos.some(function (foto) {
-                return (
-                    (foto.url && foto.url.trim()) ||
-                    (foto.enllac_extern &&
-                     foto.enllac_extern.trim())
-                );
-            });
+        numeroCarruselColles++;
 
-        html += "<li>";
+        idCarruselColles =
+            "carrusel-colles-" + numeroCarruselColles;
+
+        html += "<div id=\"" + idCarruselColles + "\">";
+
+        // CONTROLS DEL CARRUSEL
+        html +=
+            "<div class=\"placa-carrusel-controls\">" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarruselColles +
+            "', -1)\">‹</button>" +
+
+            "<span class=\"placa-comptador\">" +
+            "1 / " + p.colles.length +
+            "</span>" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarruselColles +
+            "', 1)\">›</button>" +
+
+            "</div>";
+
+    } else {
+
+        // UNA SOLA COLLA: MOSTREM LA INFORMACIÓ DIRECTAMENT
+        html += "<ul>";
+
+    }
+
+    // INFORMACIÓ DE CADA COLLA
+    p.colles.forEach(function (colla, index) {
+
+        // AMB DIVERSES COLLES, CADA COLLA ÉS UNA DIAPOSITIVA
+        // AMB UNA SOLA COLLA, MOSTREM EL CONTINGUT DIRECTAMENT
+        if (p.colles.length > 1) {
+
+            html +=
+                "<div class=\"placa-carrusel " +
+                (index === 0
+                    ? "placa-carrusel-activa"
+                    : "") +
+                "\">";
+
+        } else {
+
+            html += "<li>";
+
+        }
 
         // NOM DE LA COLLA
         if (colla.web && colla.web.trim()) {
 
-            html += "<strong><a href='" +
+            html += "<strong><a href=\"" +
                 colla.web +
-                "' target='_blank'>" +
+                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
                 colla.nom +
                 "</a></strong>";
 
@@ -5348,23 +5433,20 @@ html += "🔗 " +
                 colla.maxim_castell;
         }
 
-// COLLES PADRINES
-if (colla.padrines && colla.padrines.trim()) {
-    html += "<br><strong>Colles padrines:</strong> " +
-       colla.padrines.replace(/\n/g, "<br>");
-}
+        // COLLES PADRINES
+        if (colla.padrines && colla.padrines.trim()) {
+            html += "<br><strong>Colles padrines:</strong> " +
+                colla.padrines.replace(/\n/g, "<br>");
+        }
 
-
-
-
-// ALTRES
+        // INFORMACIÓ ADDICIONAL
         if (colla.altres && colla.altres.trim()) {
             html += "<br><strong>Informació addicional:</strong> " +
-               colla.altres.replace(/\n/g, "<br>");
-}
+                colla.altres.replace(/\n/g, "<br>");
+        }
 
         // FOTOGRAFIES
-        if (teFotos) {
+        if (colla.fotos && colla.fotos.length) {
 
             colla.fotos.forEach(function (foto) {
 
@@ -5373,41 +5455,38 @@ if (colla.padrines && colla.padrines.trim()) {
 
                     html += "<br><br>";
 
+                    // TEXT DE LA FOTO
                     if (foto.text && foto.text.trim()) {
-
                         html += "<em>" +
                             foto.text +
                             "</em><br>";
-
                     }
 
+                    // IMATGE
                     html += "<a href=\"" +
                         foto.url +
-                        "\" target=\"_blank\">" +
+                        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
                         "<img src=\"" +
                         foto.url +
                         "\" style=\"max-width:100%; height:auto;\">" +
                         "</a>";
 
+                    // AUTOR/A
                     if (foto.autor && foto.autor.trim()) {
-
                         html += "<br><strong>Autor/a de la foto:</strong> " +
                             foto.autor;
-
                     }
 
+                    // FONT
                     if (foto.font && foto.font.trim()) {
 
                         html += "<br><strong>Font:</strong> ";
 
-                        if (
-                            foto.font_url &&
-                            foto.font_url.trim()
-                        ) {
+                        if (foto.font_url && foto.font_url.trim()) {
 
                             html += "<a href=\"" +
                                 foto.font_url +
-                                "\" target=\"_blank\">" +
+                                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
                                 foto.font +
                                 "</a>";
 
@@ -5416,11 +5495,10 @@ if (colla.padrines && colla.padrines.trim()) {
                             html += foto.font;
 
                         }
-
                     }
 
-                    if (foto.llicencia &&
-                        foto.llicencia.trim()) {
+                    // LLICÈNCIA
+                    if (foto.llicencia && foto.llicencia.trim()) {
 
                         html += "<br><strong>Llicència:</strong> ";
 
@@ -5431,7 +5509,7 @@ if (colla.padrines && colla.padrines.trim()) {
 
                             html += "<a href=\"" +
                                 foto.llicencia_url +
-                                "\" target=\"_blank\">" +
+                                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
                                 foto.llicencia +
                                 "</a>";
 
@@ -5440,11 +5518,9 @@ if (colla.padrines && colla.padrines.trim()) {
                             html += foto.llicencia;
 
                         }
-
                     }
 
                 }
-
 
                 // FOTO EXTERNA
                 else if (
@@ -5453,15 +5529,13 @@ if (colla.padrines && colla.padrines.trim()) {
                 ) {
 
                     var textEnllac =
-                        foto.text &&
-                        foto.text.trim()
+                        foto.text && foto.text.trim()
                             ? foto.text
                             : "Veure fotografia";
 
-                    html += "<br>🔗 " +
-                        "<a href=\"" +
+                    html += "<br>🔗 <a href=\"" +
                         foto.enllac_extern +
-                        "\" target=\"_blank\">" +
+                        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
                         textEnllac +
                         "</a>";
 
@@ -5471,13 +5545,33 @@ if (colla.padrines && colla.padrines.trim()) {
 
         }
 
-        html += "</li>";
+        // TANQUEM LA DIAPOSITIVA O L'ÚNICA COLLA
+        if (p.colles.length > 1) {
+
+            html += "</div>";
+
+        } else {
+
+            html += "</li>";
+
+        }
 
     });
 
-    html += "</ul>";
-}
-            if (p.altres) {
+    // TANQUEM EL CARRUSEL O LA LLISTA
+    if (p.colles.length > 1) {
+
+        html += "</div>";
+
+    } else {
+
+        html += "</ul>";
+
+    }
+
+}          
+
+  if (p.altres) {
 
                html += "<li><b>ℹ️ " +
                   p.altres.replace(/\n/g, "<br>") +
@@ -6421,8 +6515,9 @@ if (
     html += "</ul>";
 
 }    
-
-// PILARS CAMINANT
+// -----------------------------------------------------------------
+// PILARS CAMINANT — POPUP AMB FILTRES I ACTIVITATS AGRUPADES
+// -----------------------------------------------------------------
 
 var pcaminantFiltrats = p.pcaminant.filter(function(pilar) {
 
@@ -6437,7 +6532,7 @@ var pcaminantFiltrats = p.pcaminant.filter(function(pilar) {
         var coincideixColla =
             pilar.colla
                 .split(",")
-                .map(function (c) {
+                .map(function(c) {
                     return c.trim();
                 })
                 .includes(collaCerca);
@@ -6446,7 +6541,6 @@ var pcaminantFiltrats = p.pcaminant.filter(function(pilar) {
             return false;
         }
     }
-
 
     // FILTRE PER TRADICIÓ
 
@@ -6481,222 +6575,220 @@ if (
     mostrarSeccioPopup("fpcaminant")
 ) {
 
-var tipusPcaminant = [];
+    // AGRUPAR LES ACTIVITATS PER TIPUS
 
-pcaminantFiltrats.forEach(function(pilar) {
-
-    if (
-        pilar.pilar &&
-        pilar.pilar.trim() &&
-        !tipusPcaminant.includes("🚶 Pilar caminant")
-    ) {
-        tipusPcaminant.push("🚶 Pilar caminant");
-    }
-
-    if (
-        pilar.processo &&
-        pilar.processo.trim() &&
-        !tipusPcaminant.includes("⛪ Processó")
-    ) {
-        tipusPcaminant.push("⛪ Processó");
-    }
-
-    if (
-        pilar.cercavila &&
-        pilar.cercavila.trim() &&
-        !tipusPcaminant.includes("🎉 Cercavila")
-    ) {
-        tipusPcaminant.push("🎉 Cercavila");
-    }
-
-});
-
-html += "<li><b>" +
-    tipusPcaminant.join(" / ") +
-    "</b></li>";
-
-    html += "<ul>";
+    var grupsPcaminant = [
+        {
+            camp: "pilar",
+            singular: "🚶 Pilar caminant",
+            plural: "🚶 Pilars caminant",
+            registres: []
+        },
+        {
+            camp: "processo",
+            singular: "⛪ Processó",
+            plural: "⛪ Processons",
+            registres: []
+        },
+        {
+            camp: "cercavila",
+            singular: "🎉 Cercavila",
+            plural: "🎉 Cercaviles",
+            registres: []
+        }
+    ];
 
     pcaminantFiltrats.forEach(function(pilar) {
 
-        html += "<li>";
+        grupsPcaminant.forEach(function(grup) {
+
+            if (
+                pilar[grup.camp] &&
+                pilar[grup.camp].trim()
+            ) {
+                grup.registres.push(pilar);
+            }
+
+        });
+
+    });
 
 
-        // TIPUS D'ACTIVITAT
+    // MOSTRAR CADA GRUP D'ACTIVITAT
 
-        var tipusActivitat = [];
+    html += "<ul style='list-style:disc; padding-left:0; margin-left:0;'>";
 
-        if (
-            pilar.pilar &&
-            pilar.pilar.trim()
-        ) {
-            tipusActivitat.push("Pilar caminant");
+    grupsPcaminant.forEach(function(grup) {
+
+        if (!grup.registres.length) {
+            return;
         }
 
-        if (
-            pilar.processo &&
-            pilar.processo.trim()
-        ) {
-            tipusActivitat.push("Processó");
-        }
+        // TÍTOL AMB EL RECOMPTE
 
-        if (
-            pilar.cercavila &&
-            pilar.cercavila.trim()
-        ) {
-            tipusActivitat.push("Cercavila");
-        }
+        var titol =
+            grup.registres.length === 1
+                ? grup.singular
+                : grup.registres.length + " " + grup.plural;
 
-        
+        html += "<b>" + titol + "</b>";
 
-        // DIADA
+        // DADES DE CADA REGISTRE DEL GRUP
 
-        if (
-            pilar.diada &&
-            pilar.diada.trim()
-        ) {
+        grup.registres.forEach(function(pilar) {
 
-            html += "<strong>" + pilar.diada + "</strong>";
+            html += "<div style='margin-left:15px;'>";
 
-        }
+            // DIADA
 
+            if (
+                pilar.diada &&
+                pilar.diada.trim()
+            ) {
+                html += "<li><strong>" +
+                    pilar.diada +
+                    "</strong>";
+            }
 
-        // DATA
+            // DATA
 
-        if (
-            pilar.data &&
-            pilar.data.trim()
-        ) {
+            if (
+                pilar.data &&
+                pilar.data.trim()
+            ) {
 
-            html += "<br>" +
-                pilar.data;
-
-        }
-
-
-        // PARTICIPANTS
-
-        if (
-            pilar.participants &&
-            pilar.participants.trim()
-        ) {
-
-            html += "<br><strong>Participants:</strong> " +
-                pilar.participants + ".";
-
-        }
-
-
-        // INFORMACIÓ
-
-        if (
-            pilar.info &&
-            pilar.info.trim()
-        ) {
-
-            html += "<br>👉" +
-                pilar.info;
-
-        }
-
-
-        // FOTOGRAFIES
-
-        if (pilar.fotos && pilar.fotos.length) {
-
-            pilar.fotos.forEach(function(foto) {
-
-                if (foto.url && foto.url.trim()) {
-
-                    html += "<br><br>";
-
-                    if (foto.text && foto.text.trim()) {
-
-                        html += "<em>" +
-                            foto.text +
-                            "</em><br>";
-
-                    }
-
-                    html += "<a href=\"" +
-                        foto.url +
-                        "\" target=\"_blank\">" +
-                        "<img src=\"" +
-                        foto.url +
-                        "\" style=\"max-width:100%; height:auto;\">" +
-                        "</a>";
-
-                    if (foto.autor && foto.autor.trim()) {
-
-                        html += "<br><strong>Autor/a de la foto:</strong> " +
-                            foto.autor;
-
-                    }
-
-                    if (foto.font && foto.font.trim()) {
-
-                        html += "<br><strong>Font:</strong> ";
-
-                        if (foto.font_url && foto.font_url.trim()) {
-
-                            html += "<a href=\"" +
-                                foto.font_url +
-                                "\" target=\"_blank\">" +
-                                foto.font +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.font;
-
-                        }
-
-                    }
-
-                    if (foto.llicencia && foto.llicencia.trim()) {
-
-                        html += "<br><strong>Llicència:</strong> ";
-
-                        if (foto.llicencia_url && foto.llicencia_url.trim()) {
-
-                            html += "<a href=\"" +
-                                foto.llicencia_url +
-                                "\" target=\"_blank\">" +
-                                foto.llicencia +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.llicencia;
-
-                        }
-
-                    }
-
-                }
-
-                else if (
-                    foto.enllac_extern &&
-                    foto.enllac_extern.trim()
+                if (
+                    pilar.diada &&
+                    pilar.diada.trim()
                 ) {
-
-                    var textEnllac =
-                        foto.text && foto.text.trim()
-                            ? foto.text
-                            : "Veure fotografia";
-
-                    html += "<br>🔗 " +
-                        "<a href=\"" +
-                        foto.enllac_extern +
-                        "\" target=\"_blank\">" +
-                        textEnllac +
-                        "</a>";
-
+                    html += "<br>";
                 }
 
-            });
+                html += pilar.data;
+            }
 
-        }
+            // PARTICIPANTS
+
+            if (
+                pilar.participants &&
+                pilar.participants.trim()
+            ) {
+                html += "<br><strong>Participants:</strong> " +
+                    pilar.participants + ".";
+            }
+
+            // INFORMACIÓ
+
+            if (
+                pilar.info &&
+                pilar.info.trim()
+            ) {
+                html += "<br>👉" +
+                    pilar.info;
+            }
+
+            // FOTOGRAFIES
+
+            if (pilar.fotos && pilar.fotos.length) {
+
+                pilar.fotos.forEach(function(foto) {
+
+                    if (foto.url && foto.url.trim()) {
+
+                        html += "<br><br>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+                            html += "<em>" +
+                                foto.text +
+                                "</em><br>";
+                        }
+
+                        html += "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (
+                            foto.autor &&
+                            foto.autor.trim()
+                        ) {
+                            html += "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+                        }
+
+                        if (
+                            foto.font &&
+                            foto.font.trim()
+                        ) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+                                html += "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                    foto.font +
+                                    "</a>";
+                            } else {
+                                html += foto.font;
+                            }
+                        }
+
+                        if (
+                            foto.llicencia &&
+                            foto.llicencia.trim()
+                        ) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+                                html += "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                    foto.llicencia +
+                                    "</a>";
+                            } else {
+                                html += foto.llicencia;
+                            }
+                        }
+
+                    } else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text && foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html += "<br>🔗 " +
+                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                            textEnllac +
+                            "</a>";
+                    }
+
+                });
+
+            }
+
+            html += "</div>";
+
+        });
 
         html += "</li>";
 
@@ -6809,7 +6901,7 @@ if (
 
     if (mesinfoAmbData.length === 1) {
 
-        html += "<li><b>🗓️ Diada</b></li>";
+        html += "<li><b>🗓️ 1 Diada</b></li>";
 
         html += "<ul>";
 
@@ -6875,8 +6967,11 @@ if (
     } 
 else if (mesinfoAmbData.length > 1) {
 
-    html += "<li><b>🗓️ Diades</b></li>";
-
+    html += "<li><b>🗓️ " +
+    mesinfoAmbData.length +
+    (mesinfoAmbData.length === 1 ? " Diada" : " Diades") +
+    "</b></li>";
+     
     numeroCarruselDiades++;
 
     var idCarruselDiades =
@@ -7910,195 +8005,6 @@ var collesFiltrades = p.colles.filter(function (colla) {
 
 });
 
-if (
-    collesFiltrades.length &&
-    mostrarSeccioPopup("fcolles")
-) {
-
-    html += "<li><b>🏠 " +
-        collesFiltrades.length +
-        (collesFiltrades.length === 1 ? " colla" : " colles") +
-        "</b></li>";
-
-    html += "<ul>";
-
-    collesFiltrades.forEach(function (colla) {
-
-        var teFotos =
-            colla.fotos &&
-            colla.fotos.some(function (foto) {
-                return (
-                    (foto.url && foto.url.trim()) ||
-                    (foto.enllac_extern &&
-                     foto.enllac_extern.trim())
-                );
-            });
-
-        html += "<li>";
-
-        // NOM DE LA COLLA
-        if (colla.web && colla.web.trim()) {
-
-            html += "<strong><a href='" +
-                colla.web +
-                "' target='_blank'>" +
-                colla.nom +
-                "</a></strong>";
-
-        } else {
-
-            html += "<strong>" +
-                colla.nom +
-                "</strong>";
-
-        }
-
-        // FUNDACIÓ
-        if (colla.fundacio && colla.fundacio.trim()) {
-            html += "<br>" + colla.fundacio;
-        }
-
-        // INACTIVA
-        if (colla.inactiva && colla.inactiva.trim()) {
-            html += "<br><strong>Inactiva:</strong> " +
-                colla.inactiva;
-        }
-
-        // ESTRUCTURES MÀXIMES
-        if (colla.maxim_castell && colla.maxim_castell.trim()) {
-            html += "<br><strong>Estructures màximes:</strong> " +
-                colla.maxim_castell;
-        }
-
-// COLLES PADRINES
-if (colla.padrines && colla.padrines.trim()) {
-    html += "<br><strong>Colles padrines:</strong> " +
-       colla.padrines.replace(/\n/g, "<br>");
-}
-
-
-
-// ALTRES
-        if (colla.altres && colla.altres.trim()) {
-            html += "<br><strong>Informació addicional:</strong> " +
-               colla.altres.replace(/\n/g, "<br>");
-        }
-
-        // FOTOGRAFIES
-        if (teFotos) {
-
-            colla.fotos.forEach(function (foto) {
-
-                // FOTO LOCAL O URL DIRECTA
-                if (foto.url && foto.url.trim()) {
-
-                    html += "<br><br>";
-
-                    if (foto.text && foto.text.trim()) {
-
-                        html += "<em>" +
-                            foto.text +
-                            "</em><br>";
-
-                    }
-
-                    html += "<a href=\"" +
-                        foto.url +
-                        "\" target=\"_blank\">" +
-                        "<img src=\"" +
-                        foto.url +
-                        "\" style=\"max-width:100%; height:auto;\">" +
-                        "</a>";
-
-                    if (foto.autor && foto.autor.trim()) {
-
-                        html += "<br><strong>Autor/a de la foto:</strong> " +
-                            foto.autor;
-
-                    }
-
-                    if (foto.font && foto.font.trim()) {
-
-                        html += "<br><strong>Font:</strong> ";
-
-                        if (
-                            foto.font_url &&
-                            foto.font_url.trim()
-                        ) {
-
-                            html += "<a href=\"" +
-                                foto.font_url +
-                                "\" target=\"_blank\">" +
-                                foto.font +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.font;
-
-                        }
-
-                    }
-
-                    if (foto.llicencia &&
-                        foto.llicencia.trim()) {
-
-                        html += "<br><strong>Llicència:</strong> ";
-
-                        if (
-                            foto.llicencia_url &&
-                            foto.llicencia_url.trim()
-                        ) {
-
-                            html += "<a href=\"" +
-                                foto.llicencia_url +
-                                "\" target=\"_blank\">" +
-                                foto.llicencia +
-                                "</a>";
-
-                        } else {
-
-                            html += foto.llicencia;
-
-                        }
-
-                    }
-
-                }
-
-
-                // FOTO EXTERNA
-                else if (
-                    foto.enllac_extern &&
-                    foto.enllac_extern.trim()
-                ) {
-
-                    var textEnllac =
-                        foto.text &&
-                        foto.text.trim()
-                            ? foto.text
-                            : "Veure fotografia";
-
-                    html += "<br>🔗 " +
-                        "<a href=\"" +
-                        foto.enllac_extern +
-                        "\" target=\"_blank\">" +
-                        textEnllac +
-                        "</a>";
-
-                }
-
-            });
-
-        }
-
-        html += "</li>";
-
-    });
-
-    html += "</ul>";
-}
-
 
        if (
     carrersFiltrats.length &&
@@ -8260,6 +8166,255 @@ html += "🔗 " +                            "<a href=\"" +
 
     html += "</ul>";
 }      
+
+
+
+
+// -----------------------------------------------------------------
+// COLLES FILTRADES — CARRUSEL
+// -----------------------------------------------------------------
+
+if (
+    collesFiltrades.length &&
+    mostrarSeccioPopup("fcolles")
+) {
+
+    html += "<li><b>🏠 " +
+        collesFiltrades.length +
+        (collesFiltrades.length === 1 ? " colla" : " colles") +
+        "</b></li>";
+
+    // CARRUSEL NOMÉS SI HI HA DUES COLLES O MÉS
+    var idCarruselColles = "";
+
+    if (collesFiltrades.length > 1) {
+
+        numeroCarruselColles++;
+
+        idCarruselColles =
+            "carrusel-colles-" + numeroCarruselColles;
+
+        html += "<div id=\"" + idCarruselColles + "\">";
+
+        // CONTROLS DEL CARRUSEL
+        html +=
+            "<div class=\"placa-carrusel-controls\">" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarruselColles +
+            "', -1)\">‹</button>" +
+
+            "<span class=\"placa-comptador\">" +
+            "1 / " + collesFiltrades.length +
+            "</span>" +
+
+            "<button class=\"placa-carrusel-boto\" " +
+            "onclick=\"canviaPlaca('" +
+            idCarruselColles +
+            "', 1)\">›</button>" +
+
+            "</div>";
+
+    } else {
+
+        // UNA SOLA COLLA: INFORMACIÓ DIRECTA
+        html += "<ul>";
+
+    }
+
+    // INFORMACIÓ DE LES COLLES
+    collesFiltrades.forEach(function (colla, index) {
+
+        // DIAPOSITIVA O ELEMENT DIRECTE
+        if (collesFiltrades.length > 1) {
+
+            html +=
+                "<div class=\"placa-carrusel " +
+                (index === 0
+                    ? "placa-carrusel-activa"
+                    : "") +
+                "\">";
+
+        } else {
+
+            html += "<li>";
+
+        }
+
+        // NOM DE LA COLLA
+        if (colla.web && colla.web.trim()) {
+
+            html += "<strong><a href=\"" +
+                colla.web +
+                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                colla.nom +
+                "</a></strong>";
+
+        } else {
+
+            html += "<strong>" +
+                colla.nom +
+                "</strong>";
+
+        }
+
+        // FUNDACIÓ
+        if (colla.fundacio && colla.fundacio.trim()) {
+            html += "<br>" + colla.fundacio;
+        }
+
+        // INACTIVA
+        if (colla.inactiva && colla.inactiva.trim()) {
+            html += "<br><strong>Inactiva:</strong> " +
+                colla.inactiva;
+        }
+
+        // ESTRUCTURES MÀXIMES
+        if (colla.maxim_castell && colla.maxim_castell.trim()) {
+            html += "<br><strong>Estructures màximes:</strong> " +
+                colla.maxim_castell;
+        }
+
+        // COLLES PADRINES
+        if (colla.padrines && colla.padrines.trim()) {
+            html += "<br><strong>Colles padrines:</strong> " +
+                colla.padrines.replace(/\n/g, "<br>");
+        }
+
+        // INFORMACIÓ ADDICIONAL
+        if (colla.altres && colla.altres.trim()) {
+            html += "<br><strong>Informació addicional:</strong> " +
+                colla.altres.replace(/\n/g, "<br>");
+        }
+
+        // FOTOGRAFIES
+        if (colla.fotos && colla.fotos.length) {
+
+            colla.fotos.forEach(function (foto) {
+
+                // FOTO LOCAL O URL DIRECTA
+                if (foto.url && foto.url.trim()) {
+
+                    html += "<br><br>";
+
+                    // TEXT DE LA FOTO
+                    if (foto.text && foto.text.trim()) {
+                        html += "<em>" +
+                            foto.text +
+                            "</em><br>";
+                    }
+
+                    // IMATGE
+                    html += "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                        "<img src=\"" +
+                        foto.url +
+                        "\" style=\"max-width:100%; height:auto;\">" +
+                        "</a>";
+
+                    // AUTOR/A
+                    if (foto.autor && foto.autor.trim()) {
+                        html += "<br><strong>Autor/a de la foto:</strong> " +
+                            foto.autor;
+                    }
+
+                    // FONT
+                    if (foto.font && foto.font.trim()) {
+
+                        html += "<br><strong>Font:</strong> ";
+
+                        if (foto.font_url && foto.font_url.trim()) {
+
+                            html += "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    // LLICÈNCIA
+                    if (foto.llicencia && foto.llicencia.trim()) {
+
+                        html += "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html += "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                // FOTO EXTERNA
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text && foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html += "<br>🔗 <a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+                        textEnllac +
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+        // TANQUEM LA DIAPOSITIVA O L'ELEMENT DIRECTE
+        if (collesFiltrades.length > 1) {
+
+            html += "</div>";
+
+        } else {
+
+            html += "</li>";
+
+        }
+
+    });
+
+    // TANQUEM EL CARRUSEL O LA LLISTA
+    if (collesFiltrades.length > 1) {
+
+        html += "</div>";
+
+    } else {
+
+        html += "</ul>";
+
+    }
+
+}
 
 
 
