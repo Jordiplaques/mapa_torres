@@ -4120,18 +4120,19 @@ if (p.pcaminant.length) {
     // AGRUPAR LES ACTIVITATS PER TIPUS
 
     var grupsPcaminant = [
-        {
-            camp: "pilar",
-            singular: "🚶 Pilar caminant",
-            plural: "🚶 Pilars caminants",
-            registres: []
-        },
-        {
+       {
             camp: "processo",
             singular: "⛪ Processó",
             plural: "⛪ Processons",
             registres: []
         },
+        {
+            camp: "pilar",
+            singular: "🚶 Pilar caminant",
+            plural: "🚶 Pilars caminant",
+            registres: []
+        },
+
         {
             camp: "cercavila",
             singular: "🎉 Cercavila",
@@ -4158,15 +4159,13 @@ if (p.pcaminant.length) {
 
     // MOSTRAR CADA GRUP D'ACTIVITAT
 
-    html += "<ul style='list-style:disc; padding-left:0; margin-left:0;'>";
-
     grupsPcaminant.forEach(function(grup) {
 
         if (!grup.registres.length) {
             return;
         }
 
-        // TÍTOL AMB EL RECOMPTE
+        // TÍTOL AMB EL RECOMPTE I EL PUNT NEGRE
 
         var titol =
             grup.registres.length === 1
@@ -4336,8 +4335,6 @@ if (p.pcaminant.length) {
 
     });
 
-    html += "</ul>";
-
 }
 
 
@@ -4476,6 +4473,7 @@ if (
         "</button>" +
 
         "</div>";
+
 
 
     // ---------------------------------------------------------
@@ -6578,18 +6576,19 @@ if (
     // AGRUPAR LES ACTIVITATS PER TIPUS
 
     var grupsPcaminant = [
+       {
+            camp: "processo",
+            singular: "⛪ Processó",
+            plural: "⛪ Processons",
+            registres: []
+        },
         {
             camp: "pilar",
             singular: "🚶 Pilar caminant",
             plural: "🚶 Pilars caminant",
             registres: []
         },
-        {
-            camp: "processo",
-            singular: "⛪ Processó",
-            plural: "⛪ Processons",
-            registres: []
-        },
+
         {
             camp: "cercavila",
             singular: "🎉 Cercavila",
@@ -6614,24 +6613,22 @@ if (
     });
 
 
-    // MOSTRAR CADA GRUP D'ACTIVITAT
+   // MOSTRAR CADA GRUP D'ACTIVITAT
 
-    html += "<ul style='list-style:disc; padding-left:0; margin-left:0;'>";
+grupsPcaminant.forEach(function(grup) {
 
-    grupsPcaminant.forEach(function(grup) {
+    if (!grup.registres.length) {
+        return;
+    }
 
-        if (!grup.registres.length) {
-            return;
-        }
+    // TÍTOL AMB EL RECOMPTE I EL PUNT NEGRE
 
-        // TÍTOL AMB EL RECOMPTE
+    var titol =
+        grup.registres.length === 1
+            ? grup.singular
+            : grup.registres.length + " " + grup.plural;
 
-        var titol =
-            grup.registres.length === 1
-                ? grup.singular
-                : grup.registres.length + " " + grup.plural;
-
-        html += "<b>" + titol + "</b>";
+    html += "<li><b>" + titol + "</b>";
 
         // DADES DE CADA REGISTRE DEL GRUP
 
@@ -6645,7 +6642,7 @@ if (
                 pilar.diada &&
                 pilar.diada.trim()
             ) {
-                html += "<li><strong>" +
+                html += "<strong>" +
                     pilar.diada +
                     "</strong>";
             }
@@ -6794,8 +6791,7 @@ if (
 
     });
 
-    html += "</ul>";
-
+    
 }
     
     function mostrarSeccioPopup(idFiltre) {
