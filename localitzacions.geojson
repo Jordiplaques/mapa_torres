@@ -88301,7 +88301,7 @@
             "maxim_castell": "3d9f, 4d9f (2024) ",
             "web": "https://nensdelvendrell.cat",
             "padrines": "",
-            "altres": "📖 La colla més antiga que ha mantigut el mateix nom.\n🏆 Guanyadors del concurs de castells de Tarragona en 2 ocasions  (1952 i 1970). guanyadors del concurs de castells de Barcelona de 1936 i de Valls de 1941 (empatat amb els Xiquets de Valls unificats), i dels trofeus Anxaneta de Plata (Vilafranca del Penedès, 1968, 1969, 1970 i 1971).",
+            "altres": "📖 La colla més antiga que s’ha mantingut estable respecte nom, etc.\n🏆 Guanyadors del concurs de castells de Tarragona en 2 ocasions  (1952 i 1970). guanyadors del concurs de castells de Barcelona de 1936 i de Valls de 1941 (empatat amb els Xiquets de Valls unificats), i dels trofeus Anxaneta de Plata (Vilafranca del Penedès, 1968, 1969, 1970 i 1971).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -106656,13 +106656,16 @@
         "pcaminant": [],
         "mesinfo": [],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Colla Vella dels Xiquets de Valls",
+          "Colla Joves dels Xiquets de Valls"
+        ],
         "monuments": [],
         "murals": [
           {
             "emplaçament": "",
             "motiu": "Restes mural bar l’enxaneta (data foto 2024).",
-            "colla": "",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "localitzacio": "",
             "material": "",
             "castells": "Sí",
@@ -106681,13 +106684,75 @@
               },
               {
                 "url": "",
-                "text": "Mural paret (localització no determinada, data foto 2024).",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/carrers/XC25b.jpeg"
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "emplaçament": "",
+            "motiu": "Pintura amb elements vallencs en una paret (localització no determinada, possiblement carrer de la Cort,  data foto 2024).",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
+            "localitzacio": "",
+            "material": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/XC25b.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -120862,7 +120927,7 @@
             "amfitrions": "Muixeranga La Torrentina",
             "colla": "Muixeranga La Torrentina",
             "principals_castells": "",
-            "info": "Trobada de Muixerangues i balls tradicionals a Torrent, no ens queda clar si se celebra actualment.",
+            "info": "Trobada de Muixerangues i balls tradicionals a Torrent.",
             "castells": "",
             "muixerangues": "Sí",
             "falcons": "",
@@ -120926,7 +120991,7 @@
             "amfitrions": "Muixeranga La Torrentina",
             "colla": "Muixeranga La Torrentina",
             "principals_castells": "",
-            "info": "Trobada de Muixerangues a Torrent, no ens queda clar si se celebra actualment.",
+            "info": "Trobada de Muixerangues a Torrent.",
             "castells": "",
             "muixerangues": "Sí",
             "falcons": "",
@@ -135197,7 +135262,7 @@
         "mesinfo": [
           {
             "id": "DC370",
-            "nom": "Festes de Sant Pasqueal",
+            "nom": "Festes de Sant Pasqual",
             "data": "Principis de maig.",
             "amfitrions": "Conlloga Muixeranga de Castelló",
             "colla": "Conlloga Muixeranga de Castelló",
@@ -153210,7 +153275,7 @@
           {
             "id": "DC507",
             "nom": "Trobada de Muixerangues Ciutat de Dénia (Diada de la Muixeranga de la Marina Alta)",
-            "data": "Cap al 10 d’octubre",
+            "data": "Cap al 10 d’octubre.",
             "amfitrions": "Muixeranga de la Marina Alta",
             "colla": "Muixeranga de la Marina Alta",
             "principals_castells": "",
@@ -153364,7 +153429,7 @@
           {
             "id": "DC508",
             "nom": "Cloenda del Porrat del Real de Gandia",
-            "data": "Mitjans d’octubre (diumenge)",
+            "data": "Mitjans d’octubre (diumenge).",
             "amfitrions": "Muixeranga de la Marina Alta",
             "colla": "Muixeranga de la Marina Alta",
             "principals_castells": "",
