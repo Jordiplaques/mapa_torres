@@ -14749,7 +14749,7 @@
           },
           {
             "id": "DC257",
-            "nom": "Diada Xavi Batriu",
+            "nom": "Diada Xavi Batriu Sibila",
             "data": "Mitjans d’octubre.",
             "amfitrions": "Castellers de Berga",
             "colla": "Castellers de Berga",
@@ -15521,9 +15521,9 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC283",
-            "nom": "Diada dels Castellers de Caldes",
-            "data": "Miitjans de novembre.",
+            "id": "DC397",
+            "nom": "Festa Major",
+            "data": "12 d’octubre al migdia.",
             "amfitrions": "Castellers de Caldes de Montbui",
             "colla": "Castellers de Caldes de Montbui",
             "principals_castells": "",
@@ -48355,7 +48355,7 @@
           {
             "id": "DC68",
             "nom": "Festa Major",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "Castellers de Sant Vicenç dels Horts",
             "colla": "Castellers de Sant Vicenç dels Horts",
             "principals_castells": "",
@@ -91108,7 +91108,7 @@
             "maxim_castell": "castells de 6, pd5",
             "web": "https://castellersgava.wordpress.com/",
             "padrines": "Castellers de Cornellà.",
-            "altres": "",
+            "altres": "📖 Fins el 2024 el nom de la colla era “Castellers de Gavà”.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -113889,7 +113889,7 @@
       "properties": {
         "id": "LC454",
         "nom": "Església del Carme",
-        "poblacio": "Manresa",
+        "poblacio": "",
         "comarca": "Bages",
         "territori": "",
         "pais": "",
@@ -114904,7 +114904,72 @@
             ]
           }
         ],
-        "mesinfo": [],
+        "mesinfo": [
+          {
+            "id": "DC283",
+            "nom": "Diada dels Escaldats",
+            "data": "Miitjans de novembre.",
+            "amfitrions": "Castellers de Caldes de Montbui",
+            "colla": "Castellers de Caldes de Montbui",
+            "principals_castells": "",
+            "info": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles": [],
         "colles_relacionades": [
           "Castellers de Caldes de Montbui"
@@ -134275,7 +134340,7 @@
           {
             "id": "DC362",
             "nom": "Santa Magdalena – Memorial David Carreras",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "Castellers d’Esplugues",
             "colla": "Castellers d’Esplugues",
             "principals_castells": "",
@@ -138264,224 +138329,6 @@
         "colles": [],
         "colles_relacionades": [
           "Colla Castellera de Cerdanya"
-        ],
-        "monuments": [],
-        "murals": [],
-        "carrers": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.162808757103676,
-          41.63248413378088
-        ]
-      },
-      "properties": {
-        "id": "LC601",
-        "nom": "Plaça de l’Església",
-        "poblacio": "Caldes de Montbui",
-        "comarca": "Vallès Oriental",
-        "territori": "",
-        "pais": "",
-        "adreca": "",
-        "castells": "Sí",
-        "muixerangues": "",
-        "falcons": "",
-        "altres": "",
-        "fotos": [
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          }
-        ],
-        "plaques": [],
-        "places9": [],
-        "placesge": [],
-        "places10": [],
-        "infoantiga": [],
-        "pcaminant": [],
-        "mesinfo": [
-          {
-            "id": "DC396",
-            "nom": "Diada de Primavera",
-            "data": "Mitjans de maig.",
-            "amfitrions": "Castellers de Caldes de Montbui",
-            "colla": "Castellers de Caldes de Montbui",
-            "principals_castells": "",
-            "info": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
-            "id": "DC397",
-            "nom": "Festa Major",
-            "data": "12 d’octubre al migdia.",
-            "amfitrions": "Castellers de Caldes de Montbui",
-            "colla": "Castellers de Caldes de Montbui",
-            "principals_castells": "",
-            "info": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
-        "colles": [],
-        "colles_relacionades": [
-          "Castellers de Caldes de Montbui"
         ],
         "monuments": [],
         "murals": [],
@@ -143273,7 +143120,72 @@
         "places10": [],
         "infoantiga": [],
         "pcaminant": [],
-        "mesinfo": [],
+        "mesinfo": [
+          {
+            "id": "DC396",
+            "nom": "Diada de Primavera",
+            "data": "Mitjans de maig.",
+            "amfitrions": "Castellers de Caldes de Montbui",
+            "colla": "Castellers de Caldes de Montbui",
+            "principals_castells": "",
+            "info": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles": [],
         "colles_relacionades": [
           "Castellers de Caldes de Montbui"
@@ -151518,7 +151430,7 @@
           {
             "id": "DC495",
             "nom": "Festa Major de Gallecs",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "Castellers de Mollet",
             "colla": "Castellers de Mollet",
             "principals_castells": "",
@@ -151672,7 +151584,7 @@
           {
             "id": "DC496",
             "nom": "Diada Ebrenca",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "Xiqüelos i Xiqüeles del Delta",
             "colla": "Xiqüelos i Xiqüeles del Delta",
             "principals_castells": "",
@@ -151826,7 +151738,7 @@
           {
             "id": "DC497",
             "nom": "Santa Anna",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -151978,7 +151890,7 @@
           {
             "id": "DC498",
             "nom": "Festa Major de la Minerva",
-            "data": "Cal al 20 de juliol.",
+            "data": "Cap al 20 de juliol.",
             "amfitrions": "Colla Castellera de l'Alt Maresme i la Selva Marítima, Capgrossos de Mataró (anteriorment)",
             "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima, Capgrossos de Mataró ",
             "principals_castells": "",
