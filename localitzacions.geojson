@@ -6965,24 +6965,24 @@
                 "enllac_extern": ""
               },
               {
+                "url": "fotos/colles/CC184cplaca.jpg",
+                "text": "Detall de la placa a l’entrada",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
                 "url": "",
-                "text": "Exteriors local",
+                "text": "Entrada al bar",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "fotos/colles/CC184b.jpg"
-              },
-              {
-                "url": "",
-                "text": "Exteriors local",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": "fotos/colles/CC184c.jpg"
               },
               {
                 "url": "",
@@ -20702,7 +20702,7 @@
           {
             "id": "AC6",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, colla Vella, 6/08/1881). Darrer castell de 9 documentat al s.XIX (colla vella, finals de juliol de 1893).",
+            "info": "Plaça de 9 al s.XIX (3d9f, 4d9f, colla Vella, 6/08/1881). <b>Darrer castell de 9 documentat al s.XIX</b> (colla Vella, finals de juliol de 1893).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -50955,7 +50955,7 @@
           {
             "id": "AC11",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f, colla dels Menestrals/Roser, 23/09/1851, primer castell de 9 documentat) i de gamma extra (pd8fm per Santa Tecla de 1878 fet per les 2 colles de Valls i el 4d9 -colla Vella-, 3d8ps -colla Vella i Nova- fets per Santa Tecla de 1881) al s.XIX.",
+            "info": "Plaça de 9 (3d9f, colla dels Menestrals/Roser, 23/09/1851, <b<primer castell de 9 documentat</b>) i de gamma extra (pd8fm per Santa Tecla de 1878 fet per les 2 colles de Valls i el 4d9 -colla Vella-, 3d8ps -colla Vella i Nova- fets per Santa Tecla de 1881) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -68734,7 +68734,7 @@
             "data": "30 d’agost vespre/nit.",
             "colla": "Castellers de Vilafranca, Xicots de Vilafranca, Falcons de Vilafranca del Penedès",
             "participants": "Colles locals de castellers i falcons de Vilafranca",
-            "info": "Comença amb la sortida del Sant de la Basílica de Santa Maria i recorre la vila acompanyat dels balls populars i les colles castelleres, acaba amb l’espectacular entrada de nou a la basílica on les colles castelleres i falconeres alcen pilars. El dia anterior i posterior també hi ha processons que porten la figura del Sant de casa de l’administrador que el custodia fins la basílica (29/08) i de la basílica a l’administrador que el custodiarà fins l’any següent (31/08). ",
+            "info": "Comença amb la sortida del Sant de la Basílica de Santa Maria i recorre la vila acompanyat dels balls populars i les colles castelleres, acaba amb l’espectacular entrada de nou a la basílica on les colles castelleres i falconeres alcen pilars. <br><b>El dia anterior i posterior també hi ha processons</b> que porten la figura del Sant de casa de l’administrador que el custodia fins la basílica (29/08) i de la basílica a l’administrador que el custodiarà fins l’any següent (31/08). ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "Sí",
@@ -73906,7 +73906,7 @@
         "murals": [
           {
             "emplaçament": "Local capgrossos",
-            "motiu": "Mural al local (data foto 2025)",
+            "motiu": "Mural al local (data foto 2025).",
             "colla": "Capgrossos de Mataró",
             "localitzacio": "Pintura",
             "material": "Paret",
@@ -73968,7 +73968,7 @@
           },
           {
             "emplaçament": "Local capgrossos",
-            "motiu": "Mural 25 aniversari (data foto 2025, autor Robert R. Verde @Elektrobeer)",
+            "motiu": "Mural 25 aniversari (data foto 2025).",
             "colla": "Capgrossos de Mataró",
             "localitzacio": "Pintura",
             "material": "Paret",
@@ -105249,13 +105249,75 @@
               },
               {
                 "url": "",
-                "text": "Paret pintada amb una pinya (localització desconeguda, data foto 2026).",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "fotos/carrers/XC14b.jpeg"
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "emplaçament": "",
+            "motiu": "Paret pintada amb una pinya (localització desconeguda, data foto 2026).",
+            "colla": "Castellers d’Esparreguera",
+            "localitzacio": "",
+            "material": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/XC14b.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
               },
               {
                 "url": "",
