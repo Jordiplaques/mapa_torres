@@ -32110,7 +32110,7 @@
             ]
           },
           {
-            "id": "DC653",
+            "id": "DC654",
             "nom": "Santa Margarida",
             "data": "Proper al 20 de juliol, al vespre.",
             "amfitrions": "Espigolats de la Riera de Gaià",
@@ -47664,7 +47664,71 @@
             "amfitrions": "Els Castellers Ribetans",
             "colla": "Els Castellers Ribetans",
             "principals_castells": "",
-            "info": "Fan un pilar a la sortidia d’ofici (plaça de l’església) i després un castell a la plaça dem l’ajuntament.",
+            "info": "Fan un pilar a la sortidia d’ofici (plaça de l’església) i després un castell a la plaça de l’ajuntament.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "DC653",
+            "nom": "Festa Major de Sant Pere",
+            "data": "Dissabte proper al 29/06 per la tarda",
+            "amfitrions": "",
+            "colla": "",
+            "principals_castells": "",
+            "info": "",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -64018,7 +64082,7 @@
           {
             "id": "DC138",
             "nom": "Diada del Mercat del Ram",
-            "data": "Diumenge de rams.",
+            "data": "Diumenge de Rams.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -66580,8 +66644,8 @@
             "data": "30 d’agost al migdia.",
             "amfitrions": "",
             "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Minyons de Terrassa, Colla Jove Xiquets de Tarragona",
-            "principals_castells": "Castellers de Vilafranca: Pd9fmp, 2d9f(c), 9d9f(c), 4d10fm, 3d10fm, 2d8.\n<br>Colla Vella Xiquets de Valls: 4d10fm(c), 3d10fm, 2d8, 4d9, 4d9fa.  \n<br>Colla Joves Xiquets de Valls: 2d8, 4d9, 5d9f, pd8fm.\n<br>Minyons de Terrassa: 3d10fm, 5d9f, 2d9fm, pd8fm.\n<br>Jove de Tarragona: 3d10fm, 5d9f, 2d9fm, pd8fm,",
-            "info": "Primera diada on es descarreguen quatre pd8fm (2025) i tres pd8fm + un pd9fmp (2026) (en els dos casos decsarregats per Verds, Jove de Tarragona, i Vella i Joves de Valls).",
+            "principals_castells": "Castellers de Vilafranca: Pd9fmp, 2d9f(c), 9d9f(c), 4d10fm, 3d10fm, 2d8.\n<br>Colla Vella Xiquets de Valls: 4d10fm(c), 3d10fm, 2d8, 4d9, 4d9fa.  \n<br>Colla Joves Xiquets de Valls: 2d8, 4d9, 5d9f, pd8fm.\n<br>Minyons de Terrassa: 3d10fm, 5d9f, 2d9fm, pd8fm.\n<br>Jove de Tarragona: 3d10fm, 5d9f, 2d9fm, pd8fm.",
+            "info": "Primera diada on es descarreguen quatre pd8fm (2025) i tres pd8fm + un pd9fmp (2026) (en els dos casos descarregats per Verds, Jove de Tarragona, i Vella i Joves de Valls).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -69921,7 +69985,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC658",
+            "id": "DC659",
             "nom": "Aniversari de Cal Figarot",
             "data": "Finals de juliol/principis d’agost (dissabte tarda).",
             "amfitrions": "Castellers de Vilafranca",
@@ -138402,6 +138466,162 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.2135007130442546,
+          41.53900344931745
+        ]
+      },
+      "properties": {
+        "id": "LC601",
+        "nom": "Escales de l’Esglèsia de Sant Vicenç",
+        "poblacio": "Mollet del Vallès",
+        "comarca": "Vallès Oriental",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [
+          {
+            "id": "PC66",
+            "pilar": "Sí",
+            "processo": "",
+            "cercavila": "",
+            "diada": "Diada de la Colla",
+            "data": "Final d’octubre abans de l’inici de la diada.",
+            "colla": "Castellers de Mollet",
+            "participants": "Castellers de Mollet",
+            "info": "Tradicionalment, el pilar d’entrada a la seva diada el fan baixant les escales que van des de l’esglèsia fins a la plaça Prat de la Riba.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "mesinfo": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Castellers de Mollet"
+        ],
+        "monuments": [],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.1421083518176545,
           41.375282969204164
         ]
@@ -148082,8 +148302,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7480956,
-          41.2282771
+          1.7721138063898536,
+          41.26040448961007
         ]
       },
       "properties": {
@@ -148157,70 +148377,6 @@
         "infoantiga": [],
         "pcaminant": [],
         "mesinfo": [
-          {
-            "id": "DC471",
-            "nom": "Diada de Festa Major",
-            "data": "Principis de juliol.",
-            "amfitrions": "",
-            "colla": "",
-            "principals_castells": "",
-            "info": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
           {
             "id": "DC652",
             "nom": "Sant Pau",
@@ -168737,7 +168893,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC657",
+            "id": "DC658",
             "nom": "Baixada de les Falles",
             "data": "Nit de Sant Joan.",
             "amfitrions": "Castellers de Terrassa",
@@ -168891,7 +169047,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC656",
+            "id": "DC657",
             "nom": "Aplec de Bruguers",
             "data": "Segona Pasqua (Diumenge).",
             "amfitrions": "Colla Castellera Els Encantats de Begues, Castellers de Castelldefels, Colla Castellera de Gavà",
@@ -169047,7 +169203,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC655",
+            "id": "DC656",
             "nom": "Aplec a l'Ermita de la Llacuneta",
             "data": "Cap al 10 de maig.",
             "amfitrions": "Minyons de l’Arboç",
@@ -169201,7 +169357,7 @@
         "pcaminant": [],
         "mesinfo": [
           {
-            "id": "DC654",
+            "id": "DC655",
             "nom": "Aplec de l’Ermita del Puig",
             "data": "Cap al 20 d’abril.",
             "amfitrions": "Castellers d’Esparreguera",
