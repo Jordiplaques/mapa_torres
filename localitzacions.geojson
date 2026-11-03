@@ -6610,7 +6610,7 @@
             "any": "1978",
             "figura": "Font urbana amb trencadís i 3 pedres portades de Montserrat",
             "autor": "C. Calbet (Decoració font)",
-            "altres": "La font original decorada amb trencadís va desaparéixer (2012, actualment hi ha una font sense decoració), el suport on hi ha les pedres tenia una placa metàl·lica que també va desaparéixer (2022).",
+            "altres": "La font original decorada amb trencadís va desaparéixer (2012, actualment n’hi ha una sense decoració), el suport on hi ha les pedres tenia una placa metàl·lica que també va desaparéixer (2022).",
             "colla": "Castellers de Barcelona",
             "castells": "Sí",
             "muixerangues": "",
@@ -45588,7 +45588,7 @@
             "castell": "Fundació",
             "data_castell": "1994",
             "data_placa": "24/11/2002",
-            "incidencies": "",
+            "incidencies": "A l’interior de Can Massallera",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -45601,6 +45601,69 @@
                 "autor": "enric",
                 "llicencia": "CC BY-SA 4.0",
                 "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC236",
+            "colla": "",
+            "castell": "Vestíbul de les gralles",
+            "data_castell": "",
+            "data_placa": "24/11/2002",
+            "incidencies": "A l’interior de Can Massallera",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC236.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
                 "enllac_extern": ""
               },
               {
@@ -58171,7 +58234,7 @@
             "maxim_castell": "3d10fm, 4d10fm (2015)",
             "web": "https://minyons.cat/",
             "padrines": "Castelleres de Barcelona, Bordegassos de Vilanova.",
-            "altres": "💪🏻 Primera colla en carregar un castell de gamma extra al s.XX (2d9fm(c), 21/11/1993),\nPrimera colla en descarregar un castell de 10 (3d10fm, 22/11/1998) i en descarregar 2 castells de 10 en una mateixa diada (3d10fm i 4d10fm, 22/11/2015).\n🎨 A la categoria “murals” podeu veure fotos de murals en el local de la colla.",
+            "altres": "💪🏻 Primera colla en carregar un castell de gamma extra al s.XX (2d9fm(c), 21/11/1993), i única colla en carregar el primer intent de castell de gamma extra que realitza. \nPrimera colla en descarregar un castell de 10 (3d10fm, 22/11/1998) i en descarregar 2 castells de 10 en una mateixa diada (3d10fm i 4d10fm, 22/11/2015).\n🎨 A la categoria “murals” podeu veure fotos de murals en el local de la colla.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -108221,7 +108284,7 @@
             "castell": "2d7, 4d8, 5d7, 3d7a, 4d7a, 3d7, vd5",
             "data_castell": "05/08/2017",
             "data_placa": "",
-            "incidencies": "Sembla que hi podria haver una altra placa referent a un castell de 7 del Riberal",
+            "incidencies": "",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -108255,6 +108318,69 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": "https://tirallongues.cat/mhan-parlat-amb-catala-suposo-que-degut-al-meu-accent-i-mha-agradat-molt/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "PC237",
+            "colla": "Castellers del Riberal",
+            "castell": "",
+            "data_castell": "",
+            "data_placa": "",
+            "incidencies": "Sembla que hi podria haver una altra placa anteior referent a un castell de 7 del Riberal, sense més informació",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "Castellers del Riberal",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -167589,8 +167715,8 @@
         "pais": "",
         "adreca": "",
         "castells": "Sí",
-        "muixerangues": "",
-        "falcons": "",
+        "muixerangues": "Sí",
+        "falcons": "Sí",
         "altres": "",
         "fotos": [
           {
@@ -168825,7 +168951,7 @@
         "id": "LC788",
         "nom": "Plaça Major",
         "poblacio": "El Pont de Suert",
-        "comarca": "",
+        "comarca": "Alta Ribagorça",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -169738,6 +169864,255 @@
           "Vailets de Gelida"
         ],
         "monuments": [],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.727652171445044,
+          41.23251464180356
+        ]
+      },
+      "properties": {
+        "id": "LC794",
+        "nom": "Cementiri",
+        "poblacio": "Vilanova i la Geltrú",
+        "comarca": "Garraf",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Bordegassos de Vilanova"
+        ],
+        "monuments": [
+          {
+            "nom": "Monument als Castellers Difunts",
+            "any": "2012",
+            "figura": "Interpretació d’una estructura de castell feta amb pedres",
+            "autor": "Toni Massana",
+            "altres": "",
+            "colla": "Bordegassos de Vilanova",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Notícia de la inauguració a Vilanova.cat",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.vilanova.cat/noticies/detall?id=46741809"
+              }
+            ]
+          }
+        ],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.255631,
+          41.2929999
+        ]
+      },
+      "properties": {
+        "id": "LC795",
+        "nom": "Cementiri",
+        "poblacio": "Valls",
+        "comarca": "Alt Camp",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [],
+        "colles": [],
+        "colles_relacionades": [
+          "Colla Vella dels Xiquets de Valls"
+        ],
+        "monuments": [
+          {
+            "nom": "Sepultura de la Colla Vella",
+            "any": "Des del 1948, quan es cedeix la sepultura per a enterrar un membre de la colla",
+            "figura": "",
+            "autor": "",
+            "altres": "",
+            "colla": "Colla Vella dels Xiquets de Valls",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Fotos de l’ofrena per Tots Sants de 2021 al web de la Colla Vella",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.collavella.cat/actualitat/pilar-per-tot-sants-al-cementiri-2/"
+              }
+            ]
+          },
+          {
+            "nom": "Capella de la Colla Vella",
+            "any": "",
+            "figura": "",
+            "autor": "",
+            "altres": "",
+            "colla": "Colla Vella dels Xiquets de Valls",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Ruta pel cementiri de Valls, amb explicacions de la sepultura i la capella al Diari de Tarragona",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.diaridetarragona.com/tarragona/146775/ruta-pels-cementiris-de-la-demarcacio-valls-on-els-castellers-senterren-amb-la-colla-20201122-0013-bidt202011220013_amp.html"
+              }
+            ]
+          }
+        ],
         "murals": [],
         "carrers": []
       }
