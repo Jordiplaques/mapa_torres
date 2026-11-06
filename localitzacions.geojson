@@ -21277,6 +21277,70 @@
             ]
           },
           {
+            "nom": "Castellers del Club d’Esports del Vendrell",
+            "fundacio": "~1930",
+            "inactiva": "~1930",
+            "maxim_castell": "Sense més informació",
+            "web": "",
+            "padrines": "",
+            "altres": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
             "nom": "Colla Jove del Vendrell",
             "fundacio": "1974",
             "inactiva": "1975",
@@ -21414,6 +21478,7 @@
           "Nens del Vendrell – colla del Truià",
           "Nens del Vendrell – colla del Caio",
           "Mirons del Vendrell",
+          "Castellers del Club d’Esports del Vendrell",
           "Colla Jove del Vendrell",
           "Colla Nova del Vendrell",
           "Xiquets de Valls (s.XIX)"
@@ -42236,7 +42301,7 @@
           {
             "castell": "2d9fm",
             "colla": "Castellers de Vilafranca, Minyons de Terrassa",
-            "diada": "",
+            "diada": "Diada del Mercadal",
             "data": "3 d’octubre de 1999",
             "castells": "Sí",
             "muixerangues": "",
@@ -42440,8 +42505,8 @@
         "mesinfo": [
           {
             "id": "DC42",
-            "nom": "Diada de Sant Pere",
-            "data": "cap al 20 de juny (dissabte tarda).",
+            "nom": "Sant Jordi a Reus",
+            "data": "23 d’abril",
             "amfitrions": "Xiquets de Reus",
             "colla": "Xiquets de Reus",
             "principals_castells": "",
@@ -42504,8 +42569,8 @@
           },
           {
             "id": "DC43",
-            "nom": "Sant Jordi a Reus",
-            "data": "23 d’abril",
+            "nom": "Diada de Sant Pere",
+            "data": "cap al 20 de juny (dissabte tarda).",
             "amfitrions": "Xiquets de Reus",
             "colla": "Xiquets de Reus",
             "principals_castells": "",
@@ -45594,13 +45659,13 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/141_Can_Massallera%2C_c._Mallorca_30-34_%28Sant_Boi_de_Llobregat%29%2C_vest%C3%ADbul_de_la_colla_castellera.jpg",
+                "url": "fotos/plaques/PC125.jpeg",
                 "text": "",
-                "font": "Wikimedia Commons",
-                "font_url": "https://commons.wikimedia.org/wiki/File:141_Can_Massallera,_c._Mallorca_30-34_(Sant_Boi_de_Llobregat),_vest%C3%ADbul_de_la_colla_castellera.jpg",
-                "autor": "enric",
-                "llicencia": "CC BY-SA 4.0",
-                "llicencia_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
                 "enllac_extern": ""
               },
               {
@@ -51082,7 +51147,7 @@
           {
             "id": "AC11",
             "colla": "Xiquets de Valls (s.XIX)",
-            "info": "Plaça de 9 (3d9f, colla dels Menestrals/Roser, 23/09/1851, <b<primer castell de 9 documentat</b>) i de gamma extra (pd8fm per Santa Tecla de 1878 fet per les 2 colles de Valls i el 4d9 -colla Vella-, 3d8ps -colla Vella i Nova- fets per Santa Tecla de 1881) al s.XIX.",
+            "info": "Plaça de 9 (3d9f, colla dels Menestrals/Roser, 23/09/1851, <b>primer castell de 9 documentat</b>) i de gamma extra (pd8fm per Santa Tecla de 1878 fet per les 2 colles de Valls i el 4d9 -colla Vella-, 3d8ps -colla Vella i Nova- fets per Santa Tecla de 1881) al s.XIX.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -56387,7 +56452,7 @@
             "castell": "4d8",
             "data_castell": "22/11/1987",
             "data_placa": "",
-            "incidencies": "No localitzada (2025) menció a https://www.terrassa.cat/plaques-commemoratives-i-inaugurals",
+            "incidencies": "No localitzada al seu lloc original, actualment al local dels Castellers",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -64423,7 +64488,7 @@
           {
             "castell": "3d8ps",
             "colla": "Colla Vella dels Xiquets de Valls",
-            "diada": "Diada de Festa Major",
+            "diada": "Fira de Vila-rodona",
             "data": "7 de novembre de 1999",
             "castells": "Sí",
             "muixerangues": "",
@@ -66906,8 +66971,8 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/localitzacions/LC198.jpeg",
+                "text": "Pancarta en record a Agustí Forné visible a la plaça durant la diada de Tots Sants de 2024",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -105418,7 +105483,7 @@
           },
           {
             "emplaçament": "",
-            "motiu": "Paret pintada amb una pinya (localització desconeguda, data foto 2026).",
+            "motiu": "Paret pintada amb una pinya (localització no determinada, data foto 2026).",
             "colla": "Castellers d’Esparreguera",
             "localitzacio": "",
             "material": "",
@@ -128837,7 +128902,7 @@
       },
       "properties": {
         "id": "LC541",
-        "nom": "Carrer de Sant Jordi (cantonada Càceres)",
+        "nom": "Mercat de Sants (Sant Jordi cantonada Càceres)",
         "poblacio": "Barcelona (Sants)",
         "comarca": "Barcelonès",
         "territori": "",
@@ -128976,7 +129041,70 @@
           "Castellers de Sants"
         ],
         "monuments": [],
-        "murals": [],
+        "murals": [
+          {
+            "emplaçament": "",
+            "motiu": "Persiana pintada amb pilar dels castellers de Sans (data foto 2026).",
+            "colla": "Castellers de Sants",
+            "localitzacio": "",
+            "material": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/MC45.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "carrers": []
       }
     },

@@ -4102,6 +4102,7 @@ if (p.infoantiga.length) {
 
             html += "</li>";
 
+
         });
 
         html += "</ul>";
@@ -4421,6 +4422,150 @@ if (
                     "<br>";
 
             }
+            
+            
+            // -----------------------------------------------------
+            // FOTOGRAFIES DE LA DIADA
+            // -----------------------------------------------------
+
+            if (
+                mesinfo.fotos &&
+                mesinfo.fotos.length
+            ) {
+
+                mesinfo.fotos.forEach(function (foto) {
+
+                    // FOTO LOCAL O URL DIRECTA
+
+                    if (
+                        foto.url &&
+                        foto.url.trim()
+                    ) {
+
+                        html += "<br><br>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+
+                            html +=
+                                "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html +=
+                            "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+
+                            "<img src=\"" +
+                            foto.url +
+                            "\" " +
+                            "style=\"max-width:100%; height:auto;\">" +
+
+                            "</a>";
+
+                        if (
+                            foto.autor &&
+                            foto.autor.trim()
+                        ) {
+
+                            html +=
+                                "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+
+                        }
+
+                        if (
+                            foto.font &&
+                            foto.font.trim()
+                        ) {
+
+                            html +=
+                                "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+
+                                html +=
+                                    "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.font;
+
+                            }
+
+                        }
+
+                        if (
+                            foto.llicencia &&
+                            foto.llicencia.trim()
+                        ) {
+
+                            html +=
+                                "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+
+                                html +=
+                                    "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.llicencia;
+
+                            }
+
+                        }
+
+                    }
+
+                    // FOTO EXTERNA
+
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text &&
+                            foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html +=
+                            "<br>🔗 " +
+
+                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+
+                            textEnllac +
+
+                            "</a>";
+
+                    }
+
+                });
+
+            }            
 
         });
 
@@ -4557,10 +4702,156 @@ if (
         }
 
 
+        // -----------------------------------------------------
+        // FOTOGRAFIES DE LA DIADA
+        // -----------------------------------------------------
+
+        if (
+            mesinfo.fotos &&
+            mesinfo.fotos.length
+        ) {
+
+            mesinfo.fotos.forEach(function (foto) {
+
+                // FOTO LOCAL O URL DIRECTA
+
+                if (
+                    foto.url &&
+                    foto.url.trim()
+                ) {
+
+                    html += "<br><br>";
+
+                    if (
+                        foto.text &&
+                        foto.text.trim()
+                    ) {
+
+                        html +=
+                            "<em>" +
+                            foto.text +
+                            "</em><br>";
+
+                    }
+
+                    html +=
+                        "<a href=\"" +
+                        foto.url +
+                        "\" target=\"_blank\">" +
+
+                        "<img src=\"" +
+                        foto.url +
+                        "\" " +
+                        "style=\"max-width:100%; height:auto;\">" +
+
+                        "</a>";
+
+                    if (
+                        foto.autor &&
+                        foto.autor.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Autor/a de la foto:</strong> " +
+                            foto.autor;
+
+                    }
+
+                    if (
+                        foto.font &&
+                        foto.font.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Font:</strong> ";
+
+                        if (
+                            foto.font_url &&
+                            foto.font_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.font_url +
+                                "\" target=\"_blank\">" +
+                                foto.font +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.font;
+
+                        }
+
+                    }
+
+                    if (
+                        foto.llicencia &&
+                        foto.llicencia.trim()
+                    ) {
+
+                        html +=
+                            "<br><strong>Llicència:</strong> ";
+
+                        if (
+                            foto.llicencia_url &&
+                            foto.llicencia_url.trim()
+                        ) {
+
+                            html +=
+                                "<a href=\"" +
+                                foto.llicencia_url +
+                                "\" target=\"_blank\">" +
+                                foto.llicencia +
+                                "</a>";
+
+                        } else {
+
+                            html += foto.llicencia;
+
+                        }
+
+                    }
+
+                }
+
+                // FOTO EXTERNA
+
+                else if (
+                    foto.enllac_extern &&
+                    foto.enllac_extern.trim()
+                ) {
+
+                    var textEnllac =
+                        foto.text &&
+                        foto.text.trim()
+                            ? foto.text
+                            : "Veure fotografia";
+
+                    html +=
+                        "<br>🔗 " +
+
+                        "<a href=\"" +
+                        foto.enllac_extern +
+                        "\" target=\"_blank\">" +
+
+                        textEnllac +
+
+                        "</a>";
+
+                }
+
+            });
+
+        }
+
+
+
         html += "</div>";
 
-    });
 
+
+    });
 
     html += "</div>";
 }
@@ -4625,6 +4916,141 @@ if (
                     "</li>";
 
             }
+
+            // FOTOGRAFIES
+
+            if (
+                mesinfo.fotos &&
+                mesinfo.fotos.length
+            ) {
+
+                mesinfo.fotos.forEach(function (foto) {
+
+                    if (
+                        foto.url &&
+                        foto.url.trim()
+                    ) {
+
+                        html += "<li>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+
+                            html +=
+                                "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html +=
+                            "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+
+                            "</a>";
+
+                        if (
+                            foto.autor &&
+                            foto.autor.trim()
+                        ) {
+
+                            html +=
+                                "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+
+                        }
+
+                        if (
+                            foto.font &&
+                            foto.font.trim()
+                        ) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (
+                                foto.font_url &&
+                                foto.font_url.trim()
+                            ) {
+
+                                html +=
+                                    "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.font;
+
+                            }
+
+                        }
+
+                        if (
+                            foto.llicencia &&
+                            foto.llicencia.trim()
+                        ) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (
+                                foto.llicencia_url &&
+                                foto.llicencia_url.trim()
+                            ) {
+
+                                html +=
+                                    "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+
+                            } else {
+
+                                html += foto.llicencia;
+
+                            }
+
+                        }
+
+                        html += "</li>";
+
+                    }
+
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text &&
+                            foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html +=
+                            "<li>🔗 " +
+                            "<a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a></li>";
+
+                    }
+
+                });
+
+            }
+
+
 
         });
 
@@ -6956,6 +7382,108 @@ if (
 
             }
 
+            // -----------------------------------------------------
+            // FOTOGRAFIES DE LA DIADA
+            // -----------------------------------------------------
+
+            if (
+                mesinfo.fotos &&
+                mesinfo.fotos.length
+            ) {
+
+                mesinfo.fotos.forEach(function (foto) {
+
+                    if (
+                        foto.url &&
+                        foto.url.trim()
+                    ) {
+
+                        html += "<br><br>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+
+                            html +=
+                                "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html +=
+                            "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+                            html +=
+                                "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (foto.font_url && foto.font_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+                            } else {
+                                html += foto.font;
+                            }
+                        }
+
+                        if (foto.llicencia && foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (foto.llicencia_url && foto.llicencia_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+                            } else {
+                                html += foto.llicencia;
+                            }
+                        }
+
+                    }
+
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text && foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html +=
+                            "<br>🔗 <a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a>";
+
+                    }
+
+                });
+
+            }
+
         });
 
         html += "</ul>";
@@ -7089,6 +7617,109 @@ if (
         }
 
 
+            // -----------------------------------------------------
+            // FOTOGRAFIES DE LA DIADA
+            // -----------------------------------------------------
+
+            if (
+                mesinfo.fotos &&
+                mesinfo.fotos.length
+            ) {
+
+                mesinfo.fotos.forEach(function (foto) {
+
+                    if (
+                        foto.url &&
+                        foto.url.trim()
+                    ) {
+
+                        html += "<br><br>";
+
+                        if (
+                            foto.text &&
+                            foto.text.trim()
+                        ) {
+
+                            html +=
+                                "<em>" +
+                                foto.text +
+                                "</em><br>";
+
+                        }
+
+                        html +=
+                            "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+                            html +=
+                                "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (foto.font_url && foto.font_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+                            } else {
+                                html += foto.font;
+                            }
+                        }
+
+                        if (foto.llicencia && foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (foto.llicencia_url && foto.llicencia_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+                            } else {
+                                html += foto.llicencia;
+                            }
+                        }
+
+                    }
+
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text && foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html +=
+                            "<br>🔗 <a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a>";
+
+                    }
+
+                });
+
+            }
+
+
         html += "</div>";
 
     });
@@ -7156,6 +7787,106 @@ if (
                     "</li>";
 
             }
+
+            // -----------------------------------------------------
+            // FOTOGRAFIES
+            // -----------------------------------------------------
+
+            if (
+                mesinfo.fotos &&
+                mesinfo.fotos.length
+            ) {
+
+                mesinfo.fotos.forEach(function (foto) {
+
+                    if (
+                        foto.url &&
+                        foto.url.trim()
+                    ) {
+
+                        html += "<li>";
+
+                        if (foto.text && foto.text.trim()) {
+                            html +=
+                                "<em>" +
+                                foto.text +
+                                "</em><br>";
+                        }
+
+                        html +=
+                            "<a href=\"" +
+                            foto.url +
+                            "\" target=\"_blank\">" +
+                            "<img src=\"" +
+                            foto.url +
+                            "\" style=\"max-width:100%; height:auto;\">" +
+                            "</a>";
+
+                        if (foto.autor && foto.autor.trim()) {
+                            html +=
+                                "<br><strong>Autor/a de la foto:</strong> " +
+                                foto.autor;
+                        }
+
+                        if (foto.font && foto.font.trim()) {
+
+                            html += "<br><strong>Font:</strong> ";
+
+                            if (foto.font_url && foto.font_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.font_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.font +
+                                    "</a>";
+                            } else {
+                                html += foto.font;
+                            }
+                        }
+
+                        if (foto.llicencia && foto.llicencia.trim()) {
+
+                            html += "<br><strong>Llicència:</strong> ";
+
+                            if (foto.llicencia_url && foto.llicencia_url.trim()) {
+                                html +=
+                                    "<a href=\"" +
+                                    foto.llicencia_url +
+                                    "\" target=\"_blank\">" +
+                                    foto.llicencia +
+                                    "</a>";
+                            } else {
+                                html += foto.llicencia;
+                            }
+                        }
+
+                        html += "</li>";
+
+                    }
+
+                    else if (
+                        foto.enllac_extern &&
+                        foto.enllac_extern.trim()
+                    ) {
+
+                        var textEnllac =
+                            foto.text && foto.text.trim()
+                                ? foto.text
+                                : "Veure fotografia";
+
+                        html +=
+                            "<li>🔗 <a href=\"" +
+                            foto.enllac_extern +
+                            "\" target=\"_blank\">" +
+                            textEnllac +
+                            "</a></li>";
+
+                    }
+
+                });
+
+            }
+
 
         });
 
