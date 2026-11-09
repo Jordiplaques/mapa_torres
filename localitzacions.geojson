@@ -60820,7 +60820,7 @@
           {
             "id": "DC124",
             "nom": "Diada de les Festes Decennals de la Mare de Déu de la Candela",
-            "data": "2 de febrer al migdia dels anys cabats en 1.",
+            "data": "2 de febrer al migdia dels anys acabats en 1.",
             "amfitrions": "Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "principals_castells": "Colla Vella: 3d9f (2001)",
@@ -62921,7 +62921,7 @@
             "amfitrions": "Colla Vella dels Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
-            "info": "",
+            "info": "S’ha celebrat en aquesta plaça o a la propera plaça del Mig. ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -63927,7 +63927,7 @@
           {
             "id": "DC137",
             "nom": "Diada dels Pagesos",
-            "data": "Diumenge propera al 15 de maig (matí).",
+            "data": "Diumenge proper al 15 de maig (matí).",
             "amfitrions": "Colla Vella dels Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -64556,9 +64556,9 @@
             "nom": "Fira de Vila-Rodona",
             "data": "Diumenge a principis de novembre pel migdia.",
             "amfitrions": "",
-            "colla": "",
+            "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "principals_castells": "",
-            "info": "",
+            "info": "Primer 3d8ps descarregat al segle XX (Colla Vella, 7/11/1999). Primer intent en l’era moderna de pd7 sense folre (Colla Joves, 2/11/2025).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -64619,7 +64619,8 @@
         "colles": [],
         "colles_relacionades": [
           "Minyons de Terrassa",
-          "Colla Vella dels Xiquets de Valls"
+          "Colla Vella dels Xiquets de Valls",
+          "Colla Joves dels Xiquets de Valls"
         ],
         "monuments": [],
         "murals": [],
@@ -67029,7 +67030,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "Totes les colles que han fet algun castell de gamma extra en el s.XXI, n’han fet almenys un en aquesta plaça.",
+            "info": "Totes les colles que han fet algun castell de gamma extra n’han fet almenys un en aquesta plaça.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -78284,13 +78285,13 @@
             "fotos": [
               {
                 "url": "",
-                "text": "Foto en Notícia a Regió7",
+                "text": "",
                 "font": "",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "https://www.regio7.cat/manresa/2026/05/28/crist-rei-placa-neus-catala-130755696.html"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -118922,7 +118923,7 @@
             "data": "Primer dissabte després del diumenge de Pasqua",
             "colla": "Muixeranga de Cullera",
             "participants": "Muixeranga de Cullera",
-            "info": "Processó on s’hi fan diversos balls populars entre ells la muixeranga. Recorre el nucli antic des de Santuari de la Mare de Déu del Castell fins a la Parròquia dels Sants Joans.",
+            "info": "Processó on s’hi fan diversos balls populars entre ells la muixeranga. Recorre el nucli antic des del Santuari de la Mare de Déu del Castell fins a la Parròquia dels Sants Joans.",
             "castells": "",
             "muixerangues": "Sí",
             "falcons": "",
@@ -170241,6 +170242,160 @@
             ]
           }
         ],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160483,
+          41.3977661
+        ]
+      },
+      "properties": {
+        "id": "LC796",
+        "nom": "Casa València a Barcelona",
+        "poblacio": "Barcelona (Gràcia)",
+        "comarca": "Barcelonès",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "",
+        "muixerangues": "Sí",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [
+          {
+            "id": "DC471",
+            "nom": "Jornada de les Normes de Castelló",
+            "data": "Cap al 20 de novembre.",
+            "amfitrions": "Muixeranga de Barcelona",
+            "colla": "Muixeranga de Barcelona",
+            "principals_castells": "",
+            "info": "",
+            "castells": "",
+            "muixerangues": "Sí",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles": [],
+        "colles_relacionades": [
+          "Muixeranga de Barcelona"
+        ],
+        "monuments": [],
         "murals": [],
         "carrers": []
       }
