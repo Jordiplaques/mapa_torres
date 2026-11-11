@@ -26609,10 +26609,10 @@
         ],
         "placesge": [
           {
-            "castell": "2d9fm",
-            "colla": "Colla Joves dels Xiquets de Valls",
+            "castell": "9d8",
+            "colla": "Minyons de Terrassa",
             "diada": "Diada de Festa Major",
-            "data": "27 d’agost de 2017",
+            "data": "24 d’agost de 2014",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -26874,7 +26874,8 @@
         "colles_relacionades": [
           "Colla Vella dels Xiquets de Valls",
           "Moixiganguers d'Igualada",
-          "Colla Joves dels Xiquets de Valls"
+          "Colla Joves dels Xiquets de Valls",
+          "Minyons de Terrassa"
         ],
         "monuments": [],
         "murals": [],
@@ -33420,7 +33421,7 @@
         ],
         "placesge": [
           {
-            "castell": "5d9f",
+            "castell": "5d9f, 9d8",
             "colla": "Colla Vella dels Xiquets de Valls",
             "diada": "Diada de Sant Miquel",
             "data": "30 de setembre de 2017",
@@ -51628,7 +51629,7 @@
             "nom": "Colla Jove Xiquets de Tarragona",
             "fundacio": "1979",
             "inactiva": "",
-            "maxim_castell": "4d9(c), 3d10fm (2016)",
+            "maxim_castell": "4d9(c) (2017), 3d10fm (2016), 4d10fm(c) (2026)",
             "web": "https://jovedetarragona.cat/",
             "padrines": "Brivalls de Cornudella.",
             "altres": "💜 Primera colla en fer un castell de 10 amb una dona de cap de colla (Gina Fort, 3d10fm, 30/08/2026).\n🎨 A la categoria “murals” podeu veure fotos de murals en el local de la colla.",
@@ -52727,7 +52728,7 @@
             "data": "Primer diumenge d’octubre pel matí (anys parells).",
             "amfitrions": "",
             "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Colla Jove Xiquets de Tarragona, Capgrossos de Mataró, Castellers de Sants, Xiquets de Tarragona",
-            "principals_castells": "Castellers de Vilafranca: 9d9f, 4d10fm, 3d10fm, 2d8 <br> Colla Vella dels Xiquets de Valls: 3d9, 4d10fm(c), 4d9, 2d8 <br> Colla Joves dels Xiquets de Valls: 3d10fm(c), 2d8(c), 4d9 <br>Jove Xiquets de Tarragona: 3d10fm, 4d10fm(c), 5d9f <br>Capgrossos de Mataró: 2d9fm <br>Castellers de Sants: 2d9fm <br>Xiquets de Tarragona: 2d9fm(c) ",
+            "principals_castells": "Castellers de Vilafranca: 9d9f, 4d10fm, 3d10fm, 2d8 <br> Colla Vella dels Xiquets de Valls: 3d9(c), 4d10fm(c), 4d9, 2d8 <br> Colla Joves dels Xiquets de Valls: 3d10fm(c), 2d8(c), 4d9 <br>Jove Xiquets de Tarragona: 3d10fm, 4d10fm(c), 5d9f <br>Capgrossos de Mataró: 2d9fm <br>Castellers de Sants: 2d9fm <br>Xiquets de Tarragona: 2d9fm(c) ",
             "info": "Actualment a la sessió de diumenge hi són convidades les 12 millors colles segons el “rànquing Estrella” (considerant renúncies).\nA l’edició de 1986 les 2 colles de Valls hi van carregar castells de 9, convertint Valls en el primer municipi amb 2 colles de 9 a l’era moderna.\nPrimer 9d9f descarregat de la história (Castellers de Vilafranca, 4/10/2026).",
             "castells": "Sí",
             "muixerangues": "",
@@ -56578,7 +56579,7 @@
             "castell": "2d9fm(c)",
             "colla": "Minyons de Terrassa",
             "diada": "XV Diada dels Minyons de Terrassa",
-            "data": "21 d enovembre de 1993",
+            "data": "21 de novembre de 1993",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -58970,10 +58971,10 @@
         ],
         "placesge": [
           {
-            "castell": "5d9f",
-            "colla": "Colla Vella dels Xiquets de Valls",
+            "castell": "9d8(c)",
+            "colla": "Castellers de Vilafranca",
             "diada": "Diada del Quadre de Santa Rosalia",
-            "data": "14 de juliol de 2018",
+            "data": "13 de juliol de 2014",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -59487,6 +59488,7 @@
           "Nois de la Torre",
           "Colla Jove Xiquets de Tarragona",
           "Colla Vella dels Xiquets de Valls",
+          "Castellers de Vilafranca",
           "Xiquets de la Torre",
           "Xiquets de Torredembarra",
           "Xiquets de Valls (s.XIX)"
