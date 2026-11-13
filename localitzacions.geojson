@@ -12625,8 +12625,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.1124168,
-          41.3873
+          2.1133279483693173,
+          41.38850694579156
         ]
       },
       "properties": {
@@ -12770,7 +12770,7 @@
             "data": "Cap al maig.",
             "amfitrions": "Arreplegats de la Zona Universitària",
             "colla": "Arreplegats de la Zona Universitària",
-            "principals_castells": "",
+            "principals_castells": "Arreplegats: 4d8, 3d7ps.",
             "info": "",
             "castells": "Sí",
             "muixerangues": "",
@@ -52454,7 +52454,7 @@
       },
       "properties": {
         "id": "LC161",
-        "nom": "Plaça de braus (Tarraco Arena)",
+        "nom": "Tarraco Arena Plaça (antiga plaça de braus)",
         "poblacio": "Tarragona",
         "comarca": "Tarragonès",
         "territori": "Catalunya",
@@ -52729,7 +52729,7 @@
             "amfitrions": "",
             "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Colla Jove Xiquets de Tarragona, Capgrossos de Mataró, Castellers de Sants, Xiquets de Tarragona",
             "principals_castells": "Castellers de Vilafranca: 9d9f, 4d10fm, 3d10fm, 2d8 <br> Colla Vella dels Xiquets de Valls: 3d9(c), 4d10fm(c), 4d9, 2d8 <br> Colla Joves dels Xiquets de Valls: 3d10fm(c), 2d8(c), 4d9 <br>Jove Xiquets de Tarragona: 3d10fm, 4d10fm(c), 5d9f <br>Capgrossos de Mataró: 2d9fm <br>Castellers de Sants: 2d9fm <br>Xiquets de Tarragona: 2d9fm(c) ",
-            "info": "Actualment a la sessió de diumenge hi són convidades les 12 millors colles segons el “rànquing Estrella” (considerant renúncies).\nA l’edició de 1986 les 2 colles de Valls hi van carregar castells de 9, convertint Valls en el primer municipi amb 2 colles de 9 a l’era moderna.\nPrimer 9d9f descarregat de la história (Castellers de Vilafranca, 4/10/2026).",
+            "info": "Actualment a la sessió de diumenge hi són convidades les 12 millors colles segons el “rànquing Estrella” (considerant renúncies).\nA l’edició de 1986 les 2 colles de Valls hi van carregar castells de 9, sent la primera diada on 2 colles diferents hi feien castells de 9 a l’era moderna.\nPrimer 9d9f descarregat de la história (Castellers de Vilafranca, 4/10/2026).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -52793,7 +52793,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anterios el 1932, 1933, 1952, 1954, 1956 i 1970.\nPrimera diada amb castells de 9 carregats per 2 colles diferens (Joves i Vella de Valls, 1986).\nPrimer 9d9f descarregat de la história (Castellers de Vilafranca, 4/10/2026).",
+            "info": "Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anterios el 1932, 1933, 1952, 1954, 1956 i 1970.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -126474,7 +126474,7 @@
             "data": "Dijous per la tarda a mitjans de desembre",
             "amfitrions": "Arreplegats de la Zona Universitària",
             "colla": "Arreplegats de la Zona Universitària",
-            "principals_castells": "",
+            "principals_castells": "Arreplegats: 4d8, 3d8(c) (2025).",
             "info": "",
             "castells": "Sí",
             "muixerangues": "",
@@ -163763,96 +163763,9 @@
       },
       "properties": {
         "id": "LC754",
-        "nom": "Plaça Església",
+        "nom": "Plaça de l’Església",
         "poblacio": "Tordera",
         "comarca": "La Selva",
-        "territori": "",
-        "pais": "",
-        "adreca": "",
-        "castells": "Sí",
-        "muixerangues": "",
-        "falcons": "",
-        "altres": "",
-        "fotos": [
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          },
-          {
-            "url": "",
-            "text": "",
-            "font": "",
-            "font_url": "",
-            "autor": "",
-            "llicencia": "",
-            "llicencia_url": "",
-            "enllac_extern": ""
-          }
-        ],
-        "plaques": [],
-        "places9": [],
-        "placesge": [],
-        "places10": [],
-        "infoantiga": [],
-        "pcaminant": [],
-        "mesinfo": [],
-        "colles": [],
-        "colles_relacionades": [],
-        "monuments": [],
-        "murals": [],
-        "carrers": []
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4459468271872424,
-          41.69317556997652
-        ]
-      },
-      "properties": {
-        "id": "LC755",
-        "nom": "Plaça de la Vila",
-        "poblacio": "Santa Maria de Palautordera",
-        "comarca": "Vallès Oriental",
         "territori": "",
         "pais": "",
         "adreca": "",
@@ -163982,7 +163895,161 @@
                 "enllac_extern": ""
               }
             ]
+          }
+        ],
+        "colles": [],
+        "colles_relacionades": [
+          "Colla Castellera de l'Alt Maresme i la Selva Marítima"
+        ],
+        "monuments": [],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4459468271872424,
+          41.69317556997652
+        ]
+      },
+      "properties": {
+        "id": "LC755",
+        "nom": "Plaça de la Vila",
+        "poblacio": "Santa Maria de Palautordera",
+        "comarca": "Vallès Oriental",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
           },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [
+          {
+            "id": "PC238",
+            "colla": "Castellers del Baix Montseny",
+            "castell": "Bateig, 4d6, 3d6a, 3d6, 4pd4, pd4ps",
+            "data_castell": "15/10/2023",
+            "data_placa": "Octubre 2026",
+            "incidencies": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/plaques/PC238.jpeg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "Ona Miró",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [
           {
             "id": "DC582",
             "nom": "Aniversari Colla Castellera del Baix Montseny",
@@ -164114,7 +164181,6 @@
         ],
         "colles": [],
         "colles_relacionades": [
-          "Colla Castellera de l'Alt Maresme i la Selva Marítima",
           "Castellers del Baix Montseny"
         ],
         "monuments": [],
@@ -168072,7 +168138,7 @@
             "data": "Dijous a mitjans de novembre per la tarda.",
             "amfitrions": "Pataquers de la URV",
             "colla": "Pataquers de la URV",
-            "principals_castells": "",
+            "principals_castells": "Pataquers: 3d8f.",
             "info": "",
             "castells": "Sí",
             "muixerangues": "",
@@ -170399,6 +170465,156 @@
         ],
         "monuments": [],
         "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2509602,
+          41.2902036
+        ]
+      },
+      "properties": {
+        "id": "LC797",
+        "nom": "Carrer Francesc Blasi Vallespinosa",
+        "poblacio": "Valls",
+        "comarca": "Alt Camp",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [],
+        "colles": [],
+        "colles_relacionades": [],
+        "monuments": [],
+        "murals": [
+          {
+            "emplaçament": "",
+            "motiu": "Pilar de 5 (obra de  Joan Rafí al 1968)",
+            "colla": "",
+            "localitzacio": "Pintura",
+            "material": "Paret",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Fotos a l’Instagram de Carles Cubos Serra (@carles_cubos)",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://www.instagram.com/p/DWRrVqBDOCd/?img_index=1"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "carrers": []
       }
     }
