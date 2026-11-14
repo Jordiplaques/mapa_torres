@@ -56322,7 +56322,7 @@
             ]
           },
           {
-            "id": "PC148",
+            "id": "PC149",
             "colla": "Minyons de Terrassa",
             "castell": "4d8(c)",
             "data_castell": "21/11/1982",
@@ -56386,19 +56386,19 @@
           },
           {
             "id": "PC147",
-            "colla": "Minyons de Terrassa",
-            "castell": "2d9fm(c)",
-            "data_castell": "21/11/1993",
+            "colla": "Castellers de Terrassa",
+            "castell": "4d8",
+            "data_castell": "22/11/1987",
             "data_placa": "",
-            "incidencies": "No localitzada (2025)",
+            "incidencies": "Canviada de localització, actualment al local dels Castellers de Terrassa.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
             "fotos": [
               {
-                "url": "fotos/plaques/PC148.jpeg",
+                "url": "fotos/plaques/PC147.JPG",
                 "text": "",
-                "font": "Arxiu Minyons de Terrassa",
+                "font": "Castellers de Terrassa",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
@@ -56448,25 +56448,25 @@
             ]
           },
           {
-            "id": "PC149",
-            "colla": "Castellers de Terrassa",
-            "castell": "4d8",
-            "data_castell": "22/11/1987",
+            "id": "PC148",
+            "colla": "Minyons de Terrassa",
+            "castell": "2d9fm(c)",
+            "data_castell": "21/11/1993",
             "data_placa": "",
-            "incidencies": "No localitzada al seu lloc original, actualment al local dels Castellers",
+            "incidencies": "No localitzada (2025)",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
             "fotos": [
               {
-                "url": "",
-                "text": "Menció a www.terrassa.cat",
-                "font": "",
+                "url": "fotos/plaques/PC148.jpeg",
+                "text": "",
+                "font": "Arxiu Minyons de Terrassa",
                 "font_url": "",
                 "autor": "",
                 "llicencia": "",
                 "llicencia_url": "",
-                "enllac_extern": "https://www.terrassa.cat/plaques-commemoratives-i-inaugurals"
+                "enllac_extern": ""
               },
               {
                 "url": "",
@@ -99787,6 +99787,70 @@
             "id": "DC217",
             "nom": "Mostra de Falcons (Festa Major de Castellcir)",
             "data": "Cap al 15 d’agost",
+            "amfitrions": "Falcons de Castellcir",
+            "colla": "Falcons de Castellcir",
+            "principals_castells": "",
+            "info": "",
+            "castells": "",
+            "muixerangues": "",
+            "falcons": "Sí",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "",
+            "nom": "Festes de Sant Andreu",
+            "data": "Finals de novembre.",
             "amfitrions": "Falcons de Castellcir",
             "colla": "Falcons de Castellcir",
             "principals_castells": "",
