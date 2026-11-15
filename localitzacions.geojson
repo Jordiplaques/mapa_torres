@@ -14055,12 +14055,78 @@
         "places10": [],
         "infoantiga": [],
         "pcaminant": [],
-        "mesinfo": [],
+        "mesinfo": [
+          {
+            "id": "DC252",
+            "nom": "Festa Major d’Estiu",
+            "data": "Finals de juliol.",
+            "amfitrions": "Colla Castellera Els Encantats de Begues",
+            "colla": "Colla Castellera Els Encantats de Begues",
+            "principals_castells": "",
+            "info": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles": [],
         "colles_relacionades": [
           "Encantats de Begues",
           "Castellers de Barcelona",
-          "Castellers de Castelldefels"
+          "Castellers de Castelldefels",
+          "Colla Castellera Els Encantats de Begues"
         ],
         "monuments": [],
         "murals": [],
@@ -52660,11 +52726,11 @@
         "mesinfo": [
           {
             "id": "DC85",
-            "nom": "Segona sessió del Concurs de Castells",
+            "nom": "Segona sessió del Concurs de Castells de Tarragona",
             "data": "Primer dissabte d’octubre per la tarda (anys parells).",
             "amfitrions": "",
-            "colla": "",
-            "principals_castells": "",
+            "colla": "Marrecs de Salt, Xiquets de Hangzhou, Xicots de Vilafranca, Xiquets de Reus, Moixiganguers d'Igualada",
+            "principals_castells": "3d9f (Xicots de Vilafranca 2016(c), Xiquets de Hangzhou 2016, Xiquets de Reus 2018, Moixiganguers d’Igualada 2018), 4d9f (Marrecs de Salt 2026).",
             "info": "Hi són convidades les 18 colles que han quedat entre les posicions 13 i 30 del “rànquing Estrella” (considerant renúncies)",
             "castells": "Sí",
             "muixerangues": "",
@@ -52724,7 +52790,7 @@
           },
           {
             "id": "DC86",
-            "nom": "Tercera sessió del Concurs de Castells",
+            "nom": "Tercera sessió del Concurs de Castells de Tarragona",
             "data": "Primer diumenge d’octubre pel matí (anys parells).",
             "amfitrions": "",
             "colla": "Castellers de Vilafranca, Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls, Colla Jove Xiquets de Tarragona, Capgrossos de Mataró, Castellers de Sants, Xiquets de Tarragona",
@@ -52793,7 +52859,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anterios el 1932, 1933, 1952, 1954, 1956 i 1970.",
+            "info": "🏆Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anteriors el 1932, 1933, 1952, 1954, 1956 i 1970.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -52855,6 +52921,11 @@
         "colles_relacionades": [
           "Colla Vella dels Xiquets de Valls",
           "Castellers de Vilafranca",
+          "Marrecs de Salt",
+          "Xiquets de Hangzhou",
+          "Xicots de Vilafranca",
+          "Xiquets de Reus",
+          "Moixiganguers d'Igualada",
           "Colla Joves dels Xiquets de Valls",
           "Colla Jove Xiquets de Tarragona",
           "Capgrossos de Mataró",
@@ -64560,7 +64631,7 @@
             "amfitrions": "",
             "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "principals_castells": "",
-            "info": "Primer 3d8ps descarregat al segle XX (Colla Vella, 7/11/1999). Primer intent en l’era moderna de pd7 sense folre (Colla Joves, 2/11/2025).",
+            "info": "Primer 3d8ps descarregat al segle XX (Vella Xiquets de Valls, 7/11/1999). Primer intent en l’era moderna de pd7 sense folre (Joves de Valls, 2/11/2025).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -113598,11 +113669,11 @@
         "mesinfo": [
           {
             "id": "DC243",
-            "nom": "“Concur7” (fins 2013)/Primera sessió Concurs de Castells (a partir 2014)",
+            "nom": "“Concur7” (fins 2013)/Primera sessió Concurs de Castells de Tarragona (a partir 2014)",
             "data": "Últim diumenge de setembre pel matí (anys parells).",
             "amfitrions": "",
-            "colla": "",
-            "principals_castells": "",
+            "colla": "Nois de la Torre, Castellers de Berga, Castellers de Badalona, Colla Castellera de Figueres, Castellers del Poble Sec, Castellers d’Esplugues, Castellers de Lleida, Castellers de Castelldefels, Colla Castellera de l'Alt Maresme i la Selva Marítima, Castellers de Cerdanyola",
+            "principals_castells": "<br><b>Concur7</b>: 2d7 (Castellers del Poble Sec 2013, Catellers d’Esplugues 2011(c), Castellers de Lleida 2001(c) i 1999).<br><b>1a sessió Concurs de Castells de Tarragona</b>: 4d8 (Castellers de Badalona 2016, Castellers de Castelldefels 2024(c)), 2d7 (Castellers de Figueres 2016, 2018 i 2026, Castellers de Castelldefels 2018(c), Colla Castellera de l’Alt Maresme 2018(c), Nois de la Torre 2024(c), Castellers de Cerdanyola 2026).",
             "info": "Hi són convidades les 12 colles que han quedat entre les posicions 31 i 42 del “rànquing Estrella” (considerant renúncies)",
             "castells": "Sí",
             "muixerangues": "",
@@ -113667,7 +113738,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "Seu del Concurs de Castells Vila de Torredembarra (“Concurs7”) organitzat bianualment pels Nois de la Torre entre els anys 1997 i 2013, seu de la primera sessió del Concurs de Castells de Tarragona a partir de 2014. ",
+            "info": "🏆Seu del Concurs de Castells Vila de Torredembarra (“Concurs7”) organitzat bianualment pels Nois de la Torre entre els anys 1997 i 2013, i des de 2014 seu de la primera sessió del Concurs de Castells de Tarragona. ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -113726,7 +113797,18 @@
           }
         ],
         "colles": [],
-        "colles_relacionades": [],
+        "colles_relacionades": [
+          "Nois de la Torre",
+          "Castellers de Berga",
+          "Castellers de Badalona",
+          "Colla Castellera de Figueres",
+          "Castellers del Poble Sec",
+          "Castellers d’Esplugues",
+          "Castellers de Lleida",
+          "Castellers de Castelldefels",
+          "Colla Castellera de l'Alt Maresme i la Selva Marítima",
+          "Castellers de Cerdanyola"
+        ],
         "monuments": [],
         "murals": [],
         "carrers": []
@@ -114037,7 +114119,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "Seu del concurs de castells Gran Trofeu Jorba-Preciados amb 3 edicions entre els anys 1964 i 1966.",
+            "info": "🏆Seu del concurs de castells Gran Trofeu Jorba-Preciados amb 3 edicions entre els anys 1964 i 1966.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -117026,77 +117108,12 @@
                 "enllac_extern": ""
               }
             ]
-          },
-          {
-            "id": "DC252",
-            "nom": "Festa Major d’Estiu",
-            "data": "Finals de juliol.",
-            "amfitrions": "Colla Castellera Els Encantats de Begues",
-            "colla": "Colla Castellera Els Encantats de Begues",
-            "principals_castells": "",
-            "info": "",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
           }
         ],
         "colles": [],
         "colles_relacionades": [
           "Castellers de Barcelona",
-          "Castellers de Lausanne",
-          "Colla Castellera Els Encantats de Begues"
+          "Castellers de Lausanne"
         ],
         "monuments": [],
         "murals": [],
