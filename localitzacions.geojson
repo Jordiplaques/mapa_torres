@@ -8022,8 +8022,8 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/localitzacions/LC23.jpeg",
+                "text": "Construcció de 3d9f en la diada del 2026",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -69152,6 +69152,16 @@
                 "llicencia": "",
                 "llicencia_url": "",
                 "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "Part posterior amb la inscripció de la inaguració (Festa Major 1963)",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "fotos/monuments/MC15b.jpeg"
               }
             ]
           }
@@ -85224,7 +85234,7 @@
             "nom": "Colla Castellera de Figueres",
             "fundacio": "1996",
             "inactiva": "",
-            "maxim_castell": "2d7(c), pd6(c) (2000)",
+            "maxim_castell": "2d7(c), pd6(c) (2000), 4d8 (2026)",
             "web": "http://www.castellersdefigueres.cat/",
             "padrines": "Castellers de Barcelona, Castellers de Sant Pere i Sant Pau.",
             "altres": "",
@@ -91679,7 +91689,7 @@
             "nom": "Colla Castellera d'Horta",
             "fundacio": "2026",
             "inactiva": "",
-            "maxim_castell": "Pd4 (2026)",
+            "maxim_castell": "Pd4, castells de 6 (2026)",
             "web": "https://www.instagram.com/collacastelleradhorta/",
             "padrines": "Castellers d’Esplugues, Castellers de Sarrià.",
             "altres": "🔰 En formació",
@@ -119768,7 +119778,74 @@
         "placesge": [],
         "places10": [],
         "infoantiga": [],
-        "pcaminant": [],
+        "pcaminant": [
+          {
+            "id": "PC67",
+            "pilar": "",
+            "processo": "",
+            "cercavila": "Sí",
+            "diada": "Festa Major del Clot",
+            "data": "Diumenge a mitjans de novembre pel matí.",
+            "colla": "Falcons de Barcelona",
+            "participants": "Falcons de Barcelona",
+            "info": "Es fa una primera actuació a la plaça del Mercat i després es va en cercavila fins a la plaça Valentí Almirall on es realitza una segona actuació.",
+            "castells": "",
+            "muixerangues": "",
+            "falcons": "Sí",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "mesinfo": [
           {
             "id": "DC262",
@@ -119837,7 +119914,8 @@
         ],
         "colles": [],
         "colles_relacionades": [
-          "Castellers de Barcelona"
+          "Castellers de Barcelona",
+          "Falcons de Barcelona"
         ],
         "monuments": [],
         "murals": [],
