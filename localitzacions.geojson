@@ -207,7 +207,7 @@
           {
             "id": "DC1",
             "nom": "Festa Major",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -271,70 +271,6 @@
         ],
         "colles": [
           {
-            "nom": "Xiquets d’Alcover",
-            "fundacio": "2012",
-            "inactiva": "2019",
-            "maxim_castell": "castells de 6",
-            "web": "",
-            "padrines": "",
-            "altres": "📖 Refundació dels Xiquets de la Vila d’Alcover.",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          },
-          {
             "nom": "Xiquets de la Vila d’Alcover",
             "fundacio": "1984",
             "inactiva": "2009",
@@ -397,12 +333,76 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "nom": "Xiquets d’Alcover",
+            "fundacio": "2012",
+            "inactiva": "2019",
+            "maxim_castell": "castells de 6",
+            "web": "",
+            "padrines": "",
+            "altres": "📖 Refundació dels Xiquets de la Vila d’Alcover.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "colles_relacionades": [
           "Colla Jove Xiquets de Tarragona",
-          "Xiquets d’Alcover",
           "Xiquets de la Vila d’Alcover",
+          "Xiquets d’Alcover",
           "Xiquets de Valls (s.XIX)"
         ],
         "monuments": [],
@@ -752,7 +752,7 @@
           {
             "id": "DC151",
             "nom": "Trobada de Muixerangues d’Algemesí",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Nova Muixeranga d'Algemesí",
             "colla": "Nova Muixeranga d'Algemesí, Muixeranga d'Algemesí",
             "principals_castells": "",
@@ -3266,7 +3266,7 @@
           {
             "id": "DC632",
             "nom": "Diada de les Festes de Maig",
-            "data": "Diumenge a mitjans de maig.",
+            "data": "Diumenge a mitjan maig.",
             "amfitrions": "Castellers de Badalona",
             "colla": "Castellers de Badalona",
             "principals_castells": "",
@@ -4173,7 +4173,7 @@
           {
             "id": "DC22",
             "nom": "Festa Major del Raval",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers de Barcelona",
             "colla": "Castellers de Barcelona",
             "principals_castells": "",
@@ -6449,7 +6449,7 @@
           {
             "id": "DC136",
             "nom": "Festa Major del Clot",
-            "data": "Diumenge a mitjans de novembre pel migdia.",
+            "data": "Diumenge a mitjan novembre pel migdia.",
             "amfitrions": "Castellers de Barcelona",
             "colla": "Castellers de Barcelona",
             "principals_castells": "Castellers de Barcelona: 9d8, 3d9f, 4d9f.",
@@ -7820,7 +7820,7 @@
           {
             "id": "DC175",
             "nom": "Aniversari Castellers de la Vila de Gràcia",
-            "data": "Mitjans de maig (diumenge matí).",
+            "data": "Mitjan maig (diumenge matí).",
             "amfitrions": "Castellers de la Vila de Gràcia",
             "colla": "Castellers de la Vila de Gràcia",
             "principals_castells": "",
@@ -9165,7 +9165,7 @@
           {
             "id": "DC190",
             "nom": "Festa Major d’Horta",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -9940,7 +9940,7 @@
           {
             "id": "DC402",
             "nom": "Festa Major de Nou Barris (matí falconer)",
-            "data": "Mitjans de maig (abans de l’actuació castellera)",
+            "data": "Mitjan maig (abans de l’actuació castellera)",
             "amfitrions": "Falcons de Barcelona",
             "colla": "Falcons de Barcelona",
             "principals_castells": "",
@@ -10004,7 +10004,7 @@
           {
             "id": "DC403",
             "nom": "Festa Major de Nou Barris",
-            "data": "Mitjans de maig al migida.",
+            "data": "Mitjan maig al migida.",
             "amfitrions": "Castellers de Barcelona",
             "colla": "Castellers de Barcelona",
             "principals_castells": "",
@@ -10413,7 +10413,7 @@
           {
             "id": "DC196",
             "nom": "Diada de la Tardor Bandarra",
-            "data": "Miitjans de novembre.",
+            "data": "Mitjan novembre.",
             "amfitrions": "Castellers del Poble Sec",
             "colla": "Castellers del Poble Sec",
             "principals_castells": "",
@@ -13586,7 +13586,7 @@
           {
             "id": "DC242",
             "nom": "Diada dels Castellers de Sants",
-            "data": "Diumenge a mitjans d’octubre pel matí.",
+            "data": "Diumenge a mitjan octubre pel matí.",
             "amfitrions": "Castellers de Sants",
             "colla": "Castellers de Sants",
             "principals_castells": "",
@@ -14280,7 +14280,7 @@
           {
             "id": "DC253",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Ganàpies de la UAB",
             "colla": "Ganàpies de la UAB",
             "principals_castells": "",
@@ -14344,7 +14344,7 @@
           {
             "id": "DC254",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Ganàpies de la UAB",
             "colla": "Ganàpies de la UAB",
             "principals_castells": "",
@@ -14752,7 +14752,7 @@
           {
             "id": "DC256",
             "nom": "Aniversari dels Castellers de Berga",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers de Berga",
             "colla": "Castellers de Berga",
             "principals_castells": "",
@@ -14816,7 +14816,7 @@
           {
             "id": "DC257",
             "nom": "Diada Xavi Batriu Sibila",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Castellers de Berga",
             "colla": "Castellers de Berga",
             "principals_castells": "",
@@ -15933,7 +15933,7 @@
           {
             "id": "DC294",
             "nom": "Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "principals_castells": "",
@@ -17142,7 +17142,7 @@
           {
             "id": "DC349",
             "nom": "Diada del local",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Cerdanyola",
             "colla": "Castellers de Cerdanyola",
             "principals_castells": "",
@@ -18306,7 +18306,7 @@
           {
             "id": "DC394",
             "nom": "Festa Major",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "Brivalls de Cornudella",
             "colla": "Brivalls de Cornudella",
             "principals_castells": "",
@@ -19180,7 +19180,7 @@
           {
             "id": "DC421",
             "nom": "Diada de Juliol",
-            "data": "Mitjans de juliol (dissabte tarda).",
+            "data": "Mitjan juliol (dissabte tarda).",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -22900,7 +22900,7 @@
           {
             "id": "DC554",
             "nom": "Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers d’Esparreguera",
             "colla": "Castellers d’Esparreguera",
             "principals_castells": "",
@@ -23529,7 +23529,7 @@
           {
             "id": "DC576",
             "nom": "Diada de Santa Eulàlia ",
-            "data": "Mitjans de febrer.",
+            "data": "Mitjan febrer.",
             "amfitrions": "Castellers d’Esparreguera",
             "colla": "Castellers d’Esparreguera",
             "principals_castells": "",
@@ -24220,7 +24220,7 @@
           {
             "id": "DC600",
             "nom": "Aniversari dels Castellers de Figueres",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Colla Castellera de Figueres",
             "colla": "Colla Castellera de Figueres",
             "principals_castells": "",
@@ -25174,7 +25174,7 @@
           {
             "id": "DC614",
             "nom": "Fires de l’Ascensió",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Xics de Granollers",
             "colla": "Xics de Granollers",
             "principals_castells": "",
@@ -27093,7 +27093,7 @@
           {
             "id": "DC623",
             "nom": "Diada de les Cotxeres",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Moixiganguers d'Igualada",
             "colla": "Moixiganguers d'Igualada",
             "principals_castells": "",
@@ -28260,7 +28260,7 @@
           {
             "id": "DC628",
             "nom": "Diada del Record",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Minyons de l’Arboç",
             "colla": "Minyons de l’Arboç",
             "principals_castells": "",
@@ -30589,7 +30589,7 @@
           {
             "id": "DC636",
             "nom": "Concurs Quarts Amunt",
-            "data": "Mitjans de setembre (dissabte tarda).",
+            "data": "Mitjan setembre (dissabte tarda).",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -31343,7 +31343,7 @@
           {
             "id": "DC641",
             "nom": "Festa Major",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "Colla Jove Xiquets de Tarragona, Xiquets del Serrallo",
             "colla": "Colla Jove Xiquets de Tarragona, Xiquets del Serrallo",
             "principals_castells": "",
@@ -32180,7 +32180,7 @@
           {
             "id": "DC643",
             "nom": "Festa Major ",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -33747,7 +33747,7 @@
           {
             "id": "DC6",
             "nom": "Diada dels Castellers de Lleida",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Castellers de Lleida",
             "colla": "Castellers de Lleida",
             "principals_castells": "",
@@ -35559,7 +35559,7 @@
           {
             "id": "DC10",
             "nom": "Fires i Festes de Manacor",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -35623,7 +35623,7 @@
           {
             "id": "DC11",
             "nom": "Diada dels Al·lots de Llevant",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -35840,7 +35840,7 @@
           {
             "id": "DC12",
             "nom": "Trobada de colles de l’Eix",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers de Lleida, Sagals d’Osona, Marrecs de Salt, Tirallongues de Manresa",
             "colla": "Castellers de Lleida, Sagals d'Osona, Marrecs de Salt, Tirallongues de Manresa",
             "principals_castells": "",
@@ -36187,7 +36187,7 @@
           {
             "id": "DC13",
             "nom": "Fira Mediterrània",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Tirallongues de Manresa",
             "colla": "Tirallongues de Manresa",
             "principals_castells": "",
@@ -37456,7 +37456,7 @@
           {
             "id": "DC17",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Capgrossos de Mataró",
             "colla": "Capgrossos de Mataró",
             "principals_castells": "",
@@ -39220,7 +39220,7 @@
           {
             "id": "DC23",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Mollet",
             "colla": "Castellers de Mollet",
             "principals_castells": "",
@@ -39348,7 +39348,7 @@
           {
             "id": "DC25",
             "nom": "Festa Major",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "Castellers de Mollet",
             "colla": "Castellers de Mollet",
             "principals_castells": "",
@@ -39953,7 +39953,7 @@
           {
             "id": "DC28",
             "nom": "Festes de Sant Maties",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Torraires de Montblanc",
             "colla": "Torraires de Montblanc",
             "principals_castells": "",
@@ -40302,7 +40302,7 @@
           {
             "id": "DC30",
             "nom": "Romeria vilafranquina a Montserrat",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Grups de cultura popular de Vilafranca",
             "colla": "Castellers de Vilafranca, Falcons de Vilafranca del Penedès",
             "principals_castells": "",
@@ -42029,7 +42029,7 @@
           {
             "id": "DC41",
             "nom": "Festa Major de Premià de Mar",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Capgrossos de Mataró",
             "colla": "Capgrossos de Mataró",
             "principals_castells": "",
@@ -43461,7 +43461,7 @@
           {
             "id": "DC50",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Castellers de Rubí",
             "colla": "Castellers de Rubí",
             "principals_castells": "",
@@ -43998,7 +43998,7 @@
           {
             "id": "DC52",
             "nom": "Aniversari Castellers de Sabadell",
-            "data": "Mitjans de juny (diumenge matí).",
+            "data": "Mitjan juny (diumenge matí).",
             "amfitrions": "Castellers de Sabadell",
             "colla": "Castellers de Sabadell",
             "principals_castells": "",
@@ -44254,7 +44254,7 @@
           {
             "id": "DC56",
             "nom": "Diada dels Castellers de Sabadell",
-            "data": "Diumenge a mitjans d’octubre pel matí.",
+            "data": "Diumenge a mitjan octubre pel matí.",
             "amfitrions": "Castellers de Sabadell",
             "colla": "Castellers de Sabadell",
             "principals_castells": "",
@@ -44537,7 +44537,7 @@
           {
             "id": "DC58",
             "nom": "Vigília de la Diada dels Castellers de Sabadell",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Castellers de Sabadell",
             "colla": "Castellers de Sabadell",
             "principals_castells": "",
@@ -44753,7 +44753,7 @@
           {
             "id": "DC59",
             "nom": "Actuació a l’Hotel Calypso",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Colla Vella dels Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -45096,7 +45096,7 @@
           {
             "id": "DC60",
             "nom": "Aniversari Marrecs de Salt",
-            "data": "Mitjans abril (dissabte tarda).",
+            "data": "Mitjan abril (dissabte tarda).",
             "amfitrions": "Marrecs de Salt",
             "colla": "Marrecs de Salt",
             "principals_castells": "",
@@ -45503,7 +45503,7 @@
           {
             "id": "DC62",
             "nom": "Diada de Festa Major",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -46319,7 +46319,7 @@
           {
             "id": "DC66",
             "nom": "Diada dels Gausacs",
-            "data": "Diumenge a mitjans de novembre pel migdia.",
+            "data": "Diumenge a mitjan novembre pel migdia.",
             "amfitrions": "Castellers de Sant Cugat",
             "colla": "Castellers de Sant Cugat",
             "principals_castells": "",
@@ -48328,7 +48328,7 @@
           {
             "id": "DC67",
             "nom": "Actuació dels grups Folklòrics per Festa Major",
-            "data": "Mitjans d’agost (dissabte tarda).",
+            "data": "Mitjan agost (dissabte tarda).",
             "amfitrions": "",
             "colla": "Falcons de Vilafranca del Penedès",
             "principals_castells": "",
@@ -49647,7 +49647,7 @@
           {
             "id": "DC72",
             "nom": "Memorial Pepe Rodríguez",
-            "data": "Mitjans de juliol (dissabte tarda).",
+            "data": "Mitjan juliol (dissabte tarda).",
             "amfitrions": "Colla Jove de Castellers de Sitges",
             "colla": "Colla Jove de Castellers de Sitges",
             "principals_castells": "",
@@ -52373,7 +52373,7 @@
           {
             "id": "DC83",
             "nom": "Diada del local Colla Jove Xiquets de Tarragona",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Colla Jove Xiquets de Tarragona",
             "colla": "Colla Jove Xiquets de Tarragona",
             "principals_castells": "",
@@ -52859,7 +52859,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "🏆Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anteriors el 1932, 1933, 1952, 1954, 1956 i 1970.",
+            "info": "?Seu històrica del concurs de castells, se celebra cada 2 anys des de 1980, amb edicions anteriors el 1932, 1933, 1952, 1954, 1956 i 1970.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -53155,7 +53155,7 @@
           {
             "id": "DC88",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Xiquets de Tarragona",
             "colla": "Xiquets de Tarragona",
             "principals_castells": "",
@@ -54214,7 +54214,7 @@
           {
             "id": "DC96",
             "nom": "Diada de l’Esperidió",
-            "data": "Mitjans/finals d’octubre.",
+            "data": "Mitjan/finals d’octubre.",
             "amfitrions": "Colla Jove Xiquets de Tarragona",
             "colla": "Colla Jove Xiquets de Tarragona, Nens del Vendrell",
             "principals_castells": "",
@@ -54628,7 +54628,7 @@
           {
             "id": "DC100",
             "nom": "Diada del Carme",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Xiquets del Serrallo",
             "colla": "Xiquets del Serrallo",
             "principals_castells": "",
@@ -54912,7 +54912,7 @@
           {
             "id": "DC101",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Xiquets del Serrallo",
             "colla": "Xiquets del Serrallo",
             "principals_castells": "",
@@ -54976,7 +54976,7 @@
           {
             "id": "DC102",
             "nom": "Aniversari del local",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Xiquets del Serrallo",
             "colla": "Xiquets del Serrallo",
             "principals_castells": "",
@@ -55257,7 +55257,7 @@
           {
             "id": "DC104",
             "nom": "Diada 1885",
-            "data": "Mitjans de juny (dissabte tarda).",
+            "data": "Mitjan juny (dissabte tarda).",
             "amfitrions": "Xiquets de Tarragona",
             "colla": "Xiquets de Tarragona",
             "principals_castells": "",
@@ -55800,7 +55800,7 @@
           {
             "id": "DC105",
             "nom": "Jornada Solidària dels Castellers de Terrassa",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Terrassa",
             "colla": "Castellers de Terrassa",
             "principals_castells": "",
@@ -56124,7 +56124,7 @@
             "amfitrions": "Minyons de Terrassa",
             "colla": "Minyons de Terrassa",
             "principals_castells": "",
-            "info": "",
+            "info": "Primers 2d9fm(c) (21/11/93), 3d9fa(c) (16/11/2008), 3d10fm (22/11/1998) i 4d10fm (22/11/2015) de la història.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -56790,7 +56790,7 @@
           {
             "id": "DC112",
             "nom": "Diada de l’Avi Emili Miró",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers de Terrassa",
             "colla": "Castellers de Terrassa",
             "principals_castells": "",
@@ -59299,7 +59299,7 @@
           {
             "id": "DC120",
             "nom": "Diada de la Verdura",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Nois de la Torre",
             "colla": "Nois de la Torre",
             "principals_castells": "",
@@ -60352,7 +60352,7 @@
           {
             "id": "DC123",
             "nom": "Festa Major d’Estiu",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "Colla Vella dels Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -61217,7 +61217,7 @@
             "amfitrions": "Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls, Colla Joves dels Xiquets de Valls",
             "principals_castells": "Colla Vella: 3d9(c), 4d10fm, 3d10fm, 2d8 <br>Colla Joves:3d9(c), 2d9f(c), 3d10fm(c), 2d8",
-            "info": "Primers 3d9 sense folre carregats de la història (27/10/19). \nPrimera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (27/10/2024).",
+            "info": "Primer 5d9f descarregat de l’època moderna (27/10/1996, colla Vella). Primers 3d9 sense folre carregats de la història (27/10/19). \nPrimera actuació amb 2 castells de 10 carregats per 2 colles de la mateixa vila (3d10fm carregat per la Joves i 4d10fm descarregat per la Vella el 27/10/2024) i amb 2 castells de gamma extra assolits per 2 colles diferents (2d9fm carregat per la Joves i descarregat per la Vella el 23/10/1994).",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -61531,6 +61531,70 @@
                 "enllac_extern": ""
               }
             ]
+          },
+          {
+            "nom": "Castellers de la Il·lusió",
+            "fundacio": "2012",
+            "inactiva": "2023",
+            "maxim_castell": "pd4, 3d6, estructures de muixeranga, etc.",
+            "web": "https://www.instagram.com/castellers_de_la_il.lusio/",
+            "padrines": "",
+            "altres": "📖 Projecte de colla inclusiva",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "Referència a la Revista Castells",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": "https://revistacastells.cat/2023/06/els-castellers-de-la-illusio-tanquen-un-cercle/"
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
           }
         ],
         "colles_relacionades": [
@@ -61538,7 +61602,8 @@
           "Colla Vella dels Xiquets de Valls",
           "Xiquets de Valls (s.XIX)",
           "Xiquets de Valls unificats (s.XX)",
-          "Xicots de Valls"
+          "Xicots de Valls",
+          "Castellers de la Il·lusió"
         ],
         "monuments": [],
         "murals": [],
@@ -61752,7 +61817,7 @@
           {
             "id": "DC131",
             "nom": "Diada del Pati",
-            "data": "Mitjans de juny (dissabte tarda).",
+            "data": "Mitjan juny (dissabte tarda).",
             "amfitrions": "Colla Joves dels Xiquets de Valls",
             "colla": "Colla Joves dels Xiquets de Valls",
             "principals_castells": "",
@@ -62990,7 +63055,7 @@
           {
             "id": "DC135",
             "nom": "Festa Major del Barri de la Colla Vella",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Colla Vella dels Xiquets de Valls",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -64973,7 +65038,7 @@
           {
             "id": "DC142",
             "nom": "Diada dels Xiquets de Vila-seca",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Xiquets de Vila-seca",
             "colla": "Xiquets de Vila-seca",
             "principals_castells": "",
@@ -66715,7 +66780,7 @@
           {
             "id": "DC143",
             "nom": "Fires de Maig a Vilafranca",
-            "data": "Mitjans de maig (diumenge matí).",
+            "data": "Mitjan maig (diumenge matí).",
             "amfitrions": "Castellers de Vilafranca, Xicots de Vilafranca",
             "colla": "Castellers de Vilafranca, Xicots de Vilafranca",
             "principals_castells": "",
@@ -67104,6 +67169,70 @@
             "colla": "",
             "principals_castells": "",
             "info": "Totes les colles que han fet algun castell de gamma extra n’han fet almenys un en aquesta plaça.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          },
+          {
+            "id": "DC660",
+            "nom": "Diada del 3 de 10",
+            "data": "15 de novembre de 1998",
+            "amfitrions": "Castellers de Vilafranca",
+            "colla": "Castellers de Vilafranca",
+            "principals_castells": "3d10fm(c)",
+            "info": "Després de quedar-se molt a prop per Tots Sants, els Verds van crear aquesta diada per tornar a intentar (i carregar) el primer castell de 10 de la història.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -69062,7 +69191,7 @@
           {
             "id": "DC158",
             "nom": "Aniversari dels Xicots de Vilafranca",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Xicots de Vilafranca",
             "colla": "Xicots de Vilafranca",
             "principals_castells": "",
@@ -69253,7 +69382,7 @@
           {
             "id": "DC159",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Xicots de Vilafranca",
             "colla": "Xicots de Vilafranca",
             "principals_castells": "",
@@ -69642,7 +69771,7 @@
           {
             "id": "DC160",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Vilafranca",
             "colla": "Castellers de Vilafranca",
             "principals_castells": "",
@@ -70566,7 +70695,7 @@
           {
             "id": "DC161",
             "nom": "Diada del Graller ",
-            "data": "Mitjans abril (diumenge matí).",
+            "data": "Mitjan abril (diumenge matí).",
             "amfitrions": "Castellers de Vilafranca",
             "colla": "Castellers de Vilafranca",
             "principals_castells": "",
@@ -72335,7 +72464,7 @@
           {
             "id": "DC168",
             "nom": "Dia de la Colla",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Falcons de Vilanova i la Geltrú",
             "colla": "Falcons de Vilanova i la Geltrú",
             "principals_castells": "",
@@ -72399,7 +72528,7 @@
           {
             "id": "DC169",
             "nom": "Diada dels Bordegassos",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Bordegassos de Vilanova",
             "colla": "Bordegassos de Vilanova",
             "principals_castells": "",
@@ -73349,7 +73478,7 @@
           {
             "id": "DC170",
             "nom": "Diada de la Grallada ",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Bordegassos de Vilanova",
             "colla": "Bordegassos de Vilanova",
             "principals_castells": "",
@@ -75010,13 +75139,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.0002064,
-          41.3037821
+          1.999665714156265,
+          41.303908465250345
         ]
       },
       "properties": {
         "id": "LC226",
-        "nom": "",
+        "nom": "Plaça de Jaume Balmes",
         "poblacio": "Gavà",
         "comarca": "Baix Llobregat",
         "territori": "Catalunya",
@@ -75084,7 +75213,72 @@
         "places10": [],
         "infoantiga": [],
         "pcaminant": [],
-        "mesinfo": [],
+        "mesinfo": [
+          {
+            "id": "DC662",
+            "nom": "Diada dels Castellers de Gavà",
+            "data": "Octubre-novembre.",
+            "amfitrions": "Colla Castellera de Gavà",
+            "colla": "Colla Castellera de Gavà",
+            "principals_castells": "",
+            "info": "Celebrada de forma intermitent els darrers anys i en diverses localitzacions de la vila.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "colles": [
           {
             "nom": "Xiquets de l’Eramprunyà",
@@ -75217,7 +75411,8 @@
         ],
         "colles_relacionades": [
           "Xiquets de l’Eramprunyà",
-          "Xiquets de Gavà"
+          "Xiquets de Gavà",
+          "Colla Castellera de Gavà"
         ],
         "monuments": [],
         "murals": [],
@@ -78973,7 +79168,7 @@
       },
       "properties": {
         "id": "LC250",
-        "nom": "Carrer Josep Argemí",
+        "nom": "La Closca dels Cargolins",
         "poblacio": "Esplugues de Llobregat",
         "comarca": "Baix Llobregat",
         "territori": "",
@@ -79056,7 +79251,7 @@
             "falcons": "",
             "fotos": [
               {
-                "url": "",
+                "url": "fotos/colles/CC8.jpg",
                 "text": "",
                 "font": "",
                 "font_url": "",
@@ -79066,8 +79261,8 @@
                 "enllac_extern": ""
               },
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/colles/CC8b.jpg",
+                "text": "local",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -80191,14 +80386,14 @@
             "maxim_castell": "4d8 (1995)",
             "web": "https://castellersdecornella.cat/",
             "padrines": "Castellers de Barcelona, Minyons de Terrassa.",
-            "altres": "",
+            "altres": "🎨 A la categoria “murals” podeu veure fotos de murals en el local de la colla.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
             "fotos": [
               {
-                "url": "",
-                "text": "",
+                "url": "fotos/colles/CC15.jpg",
+                "text": "Lones al voltant del local",
                 "font": "",
                 "font_url": "",
                 "autor": "",
@@ -80253,7 +80448,70 @@
           "Castellers de Cornellà"
         ],
         "monuments": [],
-        "murals": [],
+        "murals": [
+          {
+            "emplaçament": "",
+            "motiu": "Mural a la façana i porta del local",
+            "colla": "Castellers de Cornellà",
+            "localitzacio": "Pintura",
+            "material": "Paret i porta",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "fotos/carrers/MC47.jpg",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
         "carrers": []
       }
     },
@@ -90390,7 +90648,7 @@
           {
             "id": "DC194",
             "nom": "Diada del local",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Xiquets de Cambrils",
             "colla": "Xiquets de Cambrils",
             "principals_castells": "",
@@ -91841,7 +92099,7 @@
           {
             "id": "DC197",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Bergants del Campus de Terrassa ",
             "colla": "Bergants del Campus de Terrassa ",
             "principals_castells": "",
@@ -92626,7 +92884,7 @@
           {
             "id": "DC202",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Engrescats de la URL",
             "colla": "Engrescats de la URL",
             "principals_castells": "",
@@ -92999,7 +93257,7 @@
           {
             "id": "DC204",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Grillats del Campus del Baix Llobregat",
             "colla": "Grillats del Campus del Baix Llobregat",
             "principals_castells": "",
@@ -93063,7 +93321,7 @@
           {
             "id": "DC205",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Grillats del Campus del Baix Llobregat",
             "colla": "Grillats del Campus del Baix Llobregat",
             "principals_castells": "",
@@ -93938,7 +94196,7 @@
           {
             "id": "DC209",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Penjats del Campus de Manresa",
             "colla": "Penjats del Campus de Manresa",
             "principals_castells": "",
@@ -94002,7 +94260,7 @@
           {
             "id": "DC210",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Penjats del Campus de Manresa",
             "colla": "Penjats del Campus de Manresa",
             "principals_castells": "",
@@ -94670,13 +94928,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.3107567,
-          40.5580447
+          8.321005,
+          40.5532666
         ]
       },
       "properties": {
         "id": "LC339",
-        "nom": "ESTUDIAR",
+        "nom": "Sala Ex-Seminari",
         "poblacio": "L'Alguer",
         "comarca": "Sardenya",
         "territori": "",
@@ -94744,72 +95002,7 @@
         "places10": [],
         "infoantiga": [],
         "pcaminant": [],
-        "mesinfo": [
-          {
-            "id": "DC212",
-            "nom": "Sant Joan a l’Alguer",
-            "data": "Prop del 23 de juny.",
-            "amfitrions": "Colla Castellera Los Mataresos de l'Alguer",
-            "colla": "Colla Castellera Los Mataresos de l'Alguer",
-            "principals_castells": "",
-            "info": "Es va fer per primer cop al 2025 comptant amb els castellers de Sants, al 2026 van actuar només els de l’Alguer.",
-            "castells": "Sí",
-            "muixerangues": "",
-            "falcons": "",
-            "fotos": [
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              },
-              {
-                "url": "",
-                "text": "",
-                "font": "",
-                "font_url": "",
-                "autor": "",
-                "llicencia": "",
-                "llicencia_url": "",
-                "enllac_extern": ""
-              }
-            ]
-          }
-        ],
+        "mesinfo": [],
         "colles": [
           {
             "nom": "Colla Castellera Los Mataresos de l'Alguer",
@@ -109765,7 +109958,7 @@
           {
             "id": "DC230",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Marracos de la UdL",
             "colla": "Marracos de la UdL",
             "principals_castells": "",
@@ -109829,7 +110022,7 @@
           {
             "id": "DC231",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Marracos de la UdL",
             "colla": "Marracos de la UdL",
             "principals_castells": "",
@@ -110266,7 +110459,7 @@
           {
             "id": "DC233",
             "nom": "Diada dels Castellers del Foix",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers del Foix de Cubelles",
             "colla": "Castellers del Foix de Cubelles",
             "principals_castells": "",
@@ -110769,7 +110962,7 @@
           {
             "id": "DC235",
             "nom": "Diada de Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -111450,7 +111643,7 @@
           {
             "id": "DC236",
             "nom": "Festa de la Bona del Batre",
-            "data": "Dissabte a mitjans de juliol",
+            "data": "Dissabte a mitjan juliol",
             "amfitrions": "Falcons de Malla",
             "colla": "Falcons de Malla",
             "principals_castells": "",
@@ -112776,7 +112969,7 @@
           {
             "id": "DC237",
             "nom": "Festa major de Vallvidoreix",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers de Sant Cugat",
             "colla": "Castellers de Sant Cugat",
             "principals_castells": "",
@@ -113309,7 +113502,7 @@
           {
             "id": "DC238",
             "nom": "Sant Bartomeu",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -113748,7 +113941,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "🏆Seu del Concurs de Castells Vila de Torredembarra (“Concurs7”) organitzat bianualment pels Nois de la Torre entre els anys 1997 i 2013, i des de 2014 seu de la primera sessió del Concurs de Castells de Tarragona. ",
+            "info": "?Seu del Concurs de Castells Vila de Torredembarra (“Concurs7”) organitzat bianualment pels Nois de la Torre entre els anys 1997 i 2013, i des de 2014 seu de la primera sessió del Concurs de Castells de Tarragona. ",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -114129,7 +114322,7 @@
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
-            "info": "🏆Seu del concurs de castells Gran Trofeu Jorba-Preciados amb 3 edicions entre els anys 1964 i 1966.",
+            "info": "?Seu del concurs de castells Gran Trofeu Jorba-Preciados amb 3 edicions entre els anys 1964 i 1966.",
             "castells": "Sí",
             "muixerangues": "",
             "falcons": "",
@@ -114787,7 +114980,7 @@
           {
             "id": "DC249",
             "nom": "Diada dels Xerrics",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Xerrics d’Olot",
             "colla": "Xerrics d’Olot",
             "principals_castells": "",
@@ -114851,7 +115044,7 @@
           {
             "id": "DC250",
             "nom": "Fira de Sant Lluc",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Xerrics d’Olot",
             "colla": "Xerrics d’Olot",
             "principals_castells": "",
@@ -119475,7 +119668,7 @@
           {
             "id": "DC260",
             "nom": "Diada del local Capgrossos",
-            "data": "Mitjans abril (diumenge matí).",
+            "data": "Mitjan abril (diumenge matí).",
             "amfitrions": "Capgrossos de Mataró",
             "colla": "Capgrossos de Mataró",
             "principals_castells": "",
@@ -119629,7 +119822,7 @@
           {
             "id": "DC261",
             "nom": "Homenatge a Pau Casals",
-            "data": "Mitjans abril (diumenge matí).",
+            "data": "Mitjan abril (diumenge matí).",
             "amfitrions": "Nens del Vendrell",
             "colla": "Nens del Vendrell",
             "principals_castells": "",
@@ -121531,7 +121724,7 @@
           {
             "id": "DC268",
             "nom": "Torrent de Muixerangues",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Muixeranga La Torrentina",
             "colla": "Muixeranga La Torrentina",
             "principals_castells": "",
@@ -122368,7 +122561,7 @@
           {
             "id": "DC272",
             "nom": "Trobada de Muixerangues de Borriol",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Conlloga Muixeranga de Castelló",
             "colla": "Conlloga Muixeranga de Castelló",
             "principals_castells": "",
@@ -122674,7 +122867,7 @@
           {
             "id": "DC274",
             "nom": "Trobada de Muixerangues de Castelló",
-            "data": "Mitjans de març (diumenge migdia).",
+            "data": "Mitjan març (diumenge migdia).",
             "amfitrions": "Conlloga Muixeranga de Castelló",
             "colla": "Conlloga Muixeranga de Castelló",
             "principals_castells": "",
@@ -123202,7 +123395,7 @@
           {
             "id": "DC277",
             "nom": "Trobada Muixerangues de Xàtiva",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Muixeranga de Xàtiva",
             "colla": "Muixeranga de Xàtiva",
             "principals_castells": "",
@@ -123356,7 +123549,7 @@
           {
             "id": "DC278",
             "nom": "Festival Xalònia",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Muixeranga de Segària",
             "colla": "Muixeranga de Segària",
             "principals_castells": "",
@@ -123664,7 +123857,7 @@
           {
             "id": "DC280",
             "nom": "Diada de la Muixeranga del Carraixet",
-            "data": "Mitjans de novembre.",
+            "data": "Mitjan novembre.",
             "amfitrions": "Muixeranga del Carraixet",
             "colla": "Muixeranga del Carraixet",
             "principals_castells": "",
@@ -123882,7 +124075,7 @@
           {
             "id": "DC282",
             "nom": "Jornada de Béns Immaterials dels País Valencià",
-            "data": "Mitjans de novembre (dissabte migdia)",
+            "data": "Mitjan novembre (dissabte migdia)",
             "amfitrions": "Muixeranga de la Marina Alta",
             "colla": "Muixeranga de la Marina Alta",
             "principals_castells": "",
@@ -124037,7 +124230,7 @@
           {
             "id": "DC284",
             "nom": "Marxeranga",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Muixeranga El Campello",
             "colla": "Muixeranga El Campello",
             "principals_castells": "",
@@ -124191,7 +124384,7 @@
           {
             "id": "DC285",
             "nom": "Festes del Carme a Porto Cristo",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -124499,7 +124692,7 @@
           {
             "id": "DC286",
             "nom": "Fires de Maig a Vilafranca",
-            "data": "Mitjans de maig (dissabte tarda).",
+            "data": "Mitjan maig (dissabte tarda).",
             "amfitrions": "Falcons de Vilafranca del Penedès",
             "colla": "Falcons de Vilafranca del Penedès",
             "principals_castells": "",
@@ -125179,7 +125372,7 @@
           {
             "id": "DC291",
             "nom": "Festa Major de la Palmera",
-            "data": "Diumenge a mitjans de juny.",
+            "data": "Diumenge a mitjan juny.",
             "amfitrions": "Falcons de Barcelona",
             "colla": "Falcons de Barcelona",
             "principals_castells": "",
@@ -126170,7 +126363,7 @@
           {
             "id": "DC298",
             "nom": "Diades Airenovenques",
-            "data": "Mitjans de novembre.",
+            "data": "Mitjan novembre.",
             "amfitrions": "Castellers del Riberal",
             "colla": "Castellers del Riberal",
             "principals_castells": "",
@@ -126630,7 +126823,7 @@
           {
             "id": "DC301",
             "nom": "Aniversari Arreplegats de la Zona Universitària",
-            "data": "Dijous per la tarda a mitjans de desembre",
+            "data": "Dijous per la tarda a mitjan desembre",
             "amfitrions": "Arreplegats de la Zona Universitària",
             "colla": "Arreplegats de la Zona Universitària",
             "principals_castells": "Arreplegats: 4d8, 3d8(c) (2025).",
@@ -126848,7 +127041,7 @@
           {
             "id": "DC302",
             "nom": "Festa Major del Fort Pienc",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers de la Sagrada Família",
             "colla": "Castellers de la Sagrada Família",
             "principals_castells": "",
@@ -127439,7 +127632,7 @@
           {
             "id": "DC307",
             "nom": "Festa Major d’Hivern",
-            "data": "Mitjans de gener.",
+            "data": "Mitjan gener.",
             "amfitrions": "Castellers de Viladecans",
             "colla": "Castellers de Viladecans",
             "principals_castells": "",
@@ -128212,7 +128405,7 @@
           {
             "id": "DC312",
             "nom": "Sant Josep Oriol",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Barcelona",
             "colla": "Castellers de Barcelona",
             "principals_castells": "",
@@ -128366,7 +128559,7 @@
           {
             "id": "DC313",
             "nom": "Diada de l’Escorxador",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers d’Esparreguera",
             "colla": "Castellers d’Esparreguera",
             "principals_castells": "",
@@ -128520,7 +128713,7 @@
           {
             "id": "DC314",
             "nom": "Diada Castellum",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Marrecs de Salt",
             "colla": "Marrecs de Salt",
             "principals_castells": "",
@@ -128674,7 +128867,7 @@
           {
             "id": "DC315",
             "nom": "Diada del Tèxtil",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Sabadell",
             "colla": "Castellers de Sabadell",
             "principals_castells": "",
@@ -128828,7 +129021,7 @@
           {
             "id": "DC316",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Santpedor",
             "colla": "Castellers de Santpedor",
             "principals_castells": "",
@@ -128982,7 +129175,7 @@
           {
             "id": "DC317",
             "nom": "Diada de Santa Madrona",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers del Poble Sec",
             "colla": "Castellers del Poble Sec",
             "principals_castells": "",
@@ -129136,7 +129329,7 @@
           {
             "id": "DC318",
             "nom": "Diada del Mercat de Sants",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Sants",
             "colla": "Castellers de Sants",
             "principals_castells": "",
@@ -129353,7 +129546,7 @@
           {
             "id": "DC319",
             "nom": "Diada del local",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Margenes de Guissona",
             "colla": "Margenes de Guissona",
             "principals_castells": "",
@@ -129507,7 +129700,7 @@
           {
             "id": "DC320",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Colla Jove de Castellers de Sitges",
             "colla": "Colla Jove de Castellers de Sitges",
             "principals_castells": "",
@@ -129661,7 +129854,7 @@
           {
             "id": "DC321",
             "nom": "Festa Major del barri de Can Palet",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Minyons de Terrassa",
             "colla": "Minyons de Terrassa",
             "principals_castells": "",
@@ -129815,7 +130008,7 @@
           {
             "id": "DC322",
             "nom": "Fira de Sant Josep",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -129967,7 +130160,7 @@
           {
             "id": "DC323",
             "nom": "Diada de la Salut",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Sant Feliu",
             "colla": "Castellers de Sant Feliu",
             "principals_castells": "",
@@ -130121,7 +130314,7 @@
           {
             "id": "DC324",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de Badalona",
             "colla": "Castellers de Badalona",
             "principals_castells": "",
@@ -130275,7 +130468,7 @@
           {
             "id": "DC325",
             "nom": "Aniversari Al·lots de Llevant",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -130542,7 +130735,7 @@
           {
             "id": "DC328",
             "nom": "Sant Josep",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -130696,7 +130889,7 @@
           {
             "id": "DC329",
             "nom": "Diada de la Neu",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers d'Andorra",
             "colla": "Castellers d'Andorra",
             "principals_castells": "",
@@ -130850,7 +131043,7 @@
           {
             "id": "DC330",
             "nom": "Diada d’inici de temporada",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Xiquets de Reus",
             "colla": "Xiquets de Reus",
             "principals_castells": "",
@@ -131004,7 +131197,7 @@
           {
             "id": "DC331",
             "nom": "Actuació a Sant Joan de Déu",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "",
             "colla": "Colla Vella dels Xiquets de Valls",
             "principals_castells": "",
@@ -131158,7 +131351,7 @@
           {
             "id": "DC332",
             "nom": "Diada del Safreig",
-            "data": "Mitjans de març.",
+            "data": "Mitjan març.",
             "amfitrions": "Castellers de la Sagrada Família",
             "colla": "Castellers de la Sagrada Família",
             "principals_castells": "",
@@ -132384,7 +132577,7 @@
           {
             "id": "DC341",
             "nom": "Actuació de Rams",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Castellers de Sants",
             "colla": "Castellers de Sants",
             "principals_castells": "",
@@ -132538,7 +132731,7 @@
           {
             "id": "DC342",
             "nom": "Diada del ViArt",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -132690,7 +132883,7 @@
           {
             "id": "DC343",
             "nom": "Diada de Primavera",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Castellers de Cornellà",
             "colla": "Castellers de Cornellà",
             "principals_castells": "",
@@ -132844,7 +133037,7 @@
           {
             "id": "DC344",
             "nom": "Diada del Sindicat",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -132996,7 +133189,7 @@
           {
             "id": "DC345",
             "nom": "Diada de Primavera",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Castellers del Baix Montseny",
             "colla": "Castellers del Baix Montseny",
             "principals_castells": "",
@@ -133150,7 +133343,7 @@
           {
             "id": "DC346",
             "nom": "Aniversari Castellers de Castellar",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Castellers de Castellar del Vallès",
             "colla": "Castellers de Castellar del Vallès",
             "principals_castells": "",
@@ -133304,7 +133497,7 @@
           {
             "id": "DC347",
             "nom": "Diada del local/Memorial Manolillo",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Vailets de Gelida",
             "colla": "Vailets de Gelida",
             "principals_castells": "",
@@ -133458,7 +133651,7 @@
           {
             "id": "DC348",
             "nom": "Plantada de l’Arbre de Maig",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Esperxats de l'Estany",
             "colla": "Esperxats de l'Estany",
             "principals_castells": "",
@@ -133612,7 +133805,7 @@
           {
             "id": "DC339",
             "nom": "Aplec de l’Ermita del Puig",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Castellers d’Esparreguera",
             "colla": "Castellers d’Esparreguera",
             "principals_castells": "",
@@ -134946,7 +135139,7 @@
           {
             "id": "DC363",
             "nom": "Prediada de Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers d’Esplugues",
             "colla": "Castellers d’Esplugues",
             "principals_castells": "",
@@ -136087,8 +136280,8 @@
           },
           {
             "id": "DC372",
-            "nom": "Nit del Tarot",
-            "data": "Mitjans de maig.",
+            "nom": "Nit del Tararot",
+            "data": "Mitjan maig.",
             "amfitrions": "Margeners de Guissona",
             "colla": "Margeners de Guissona",
             "principals_castells": "",
@@ -138498,7 +138691,7 @@
           {
             "id": "DC390",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig (dijous tarda)",
+            "data": "Mitjan maig (dijous tarda)",
             "amfitrions": "Pataquers de la URV",
             "colla": "Pataquers de la URV",
             "principals_castells": "",
@@ -138652,7 +138845,7 @@
           {
             "id": "DC391",
             "nom": "Diada dels Esperxats s Porqueres",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Esperxats de l'Estany",
             "colla": "Esperxats de l'Estany",
             "principals_castells": "",
@@ -138806,7 +138999,7 @@
           {
             "id": "DC395",
             "nom": "Festa del Castell",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Colla Castellera de Cerdanya",
             "colla": "Colla Castellera de Cerdanya",
             "principals_castells": "",
@@ -139116,7 +139309,7 @@
           {
             "id": "DC398",
             "nom": "Firentitats",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Castellers de Sants",
             "colla": "Castellers de Sants",
             "principals_castells": "",
@@ -139270,7 +139463,7 @@
           {
             "id": "DC399",
             "nom": "Diada de Festa Major",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -139422,7 +139615,7 @@
           {
             "id": "DC400",
             "nom": "Diada a la Roca del Vallès",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Xics de Granollers",
             "colla": "Xics de Granollers",
             "principals_castells": "",
@@ -139576,7 +139769,7 @@
           {
             "id": "DC401",
             "nom": "Fira de Maig",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -139730,7 +139923,7 @@
           {
             "id": "DC649",
             "nom": "Trobades d'Escoles en Valencià de les Valls del Vinalopo",
-            "data": "Mitjans d’abril.",
+            "data": "Mitjan abril.",
             "amfitrions": "Muixeranga Valls del Vinalopó",
             "colla": "Muixeranga Valls del Vinalopó",
             "principals_castells": "",
@@ -139884,7 +140077,7 @@
           {
             "id": "DC404",
             "nom": "Diada de Sant Isidre",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Colla Joves dels Xiquets de Valls",
             "colla": "Colla Joves dels Xiquets de Valls",
             "principals_castells": "",
@@ -142397,7 +142590,7 @@
           {
             "id": "DC425",
             "nom": "Diada d’Hivern",
-            "data": "Mitjans de desembre (dijous tarda).",
+            "data": "Mitjan desembre (dijous tarda).",
             "amfitrions": "Pataquers de la URV",
             "colla": "Pataquers de la URV",
             "principals_castells": "",
@@ -142769,7 +142962,7 @@
           {
             "id": "DC428",
             "nom": "Aniversari Laietans de Gramenet",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Laietans de Gramenet",
             "colla": "Laietans de Gramenet",
             "principals_castells": "",
@@ -142897,7 +143090,7 @@
           {
             "id": "DC430",
             "nom": "Trobada de la Tardor",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Castellers de Santa Coloma",
             "colla": "Castellers de Santa Coloma",
             "principals_castells": "",
@@ -143822,7 +144015,7 @@
           {
             "id": "DC396",
             "nom": "Diada de Primavera",
-            "data": "Mitjans de maig.",
+            "data": "Mitjan maig.",
             "amfitrions": "Castellers de Caldes de Montbui",
             "colla": "Castellers de Caldes de Montbui",
             "principals_castells": "",
@@ -144318,7 +144511,7 @@
           {
             "id": "DC438",
             "nom": "Aniversari dels Castellers de Montcada i Reixac",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Castellers de Montcada i Reixac",
             "colla": "Castellers de Montcada i Reixac",
             "principals_castells": "",
@@ -144780,7 +144973,7 @@
           {
             "id": "DC441",
             "nom": "Aniversari dels Castellers de Tortosa",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers de Tortosa",
             "colla": "Castellers de Tortosa",
             "principals_castells": "",
@@ -145065,7 +145258,7 @@
           {
             "id": "DC443",
             "nom": "Diada de l’Apadrinament Bous de la Bisbal",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Colla Castellera de La Bisbal del Penedès",
             "colla": "Colla Castellera de La Bisbal del Penedès",
             "principals_castells": "",
@@ -145283,7 +145476,7 @@
           {
             "id": "DC445",
             "nom": "Aniversari Esquerdats de l’Eixample",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Colla Castellera de l'Esquerra de l'Eixample",
             "colla": "Colla Castellera de l'Esquerra de l'Eixample",
             "principals_castells": "",
@@ -145502,7 +145695,7 @@
           {
             "id": "DC446",
             "nom": "Vígiles aniversari Castellers de Sabadell",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers de Sabadell",
             "colla": "Castellers de Sabadell",
             "principals_castells": "",
@@ -145656,7 +145849,7 @@
           {
             "id": "DC447",
             "nom": "Festes de la Parròquia d’Escaldes-Engordany",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers d'Andorra",
             "colla": "Castellers d'Andorra",
             "principals_castells": "",
@@ -145810,7 +146003,7 @@
           {
             "id": "DC450",
             "nom": "Diada a Can Vidalet",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers d’Esplugues",
             "colla": "Castellers d’Esplugues",
             "principals_castells": "",
@@ -145964,7 +146157,7 @@
           {
             "id": "DC451",
             "nom": "Festa Major de Sant Gervasi de Cassoles",
-            "data": "Mitjans de juny.",
+            "data": "Mitjan juny.",
             "amfitrions": "Castellers de Sarrià",
             "colla": "Castellers de Sarrià",
             "principals_castells": "",
@@ -149104,7 +149297,7 @@
           {
             "id": "DC476",
             "nom": "Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers del Foix de Cubelles",
             "colla": "Castellers del Foix de Cubelles",
             "principals_castells": "",
@@ -149938,7 +150131,7 @@
           {
             "id": "DC482",
             "nom": "Fiestas del Carmen",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Colla Castellera de Madrid",
             "colla": "Colla Castellera de Madrid",
             "principals_castells": "",
@@ -150092,7 +150285,7 @@
           {
             "id": "DC483",
             "nom": "Mare de Déu del Carme",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Xiquets de Cambrils",
             "colla": "Xiquets de Cambrils",
             "principals_castells": "",
@@ -150246,7 +150439,7 @@
           {
             "id": "DC484",
             "nom": "Diada de Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -150398,7 +150591,7 @@
           {
             "id": "DC485",
             "nom": "Festa Major de Palafrugell",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -150550,7 +150743,7 @@
           {
             "id": "DC486",
             "nom": "Diada de la Colla ",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Colla Jove de l'Hospitalet",
             "colla": "Colla Jove de l'Hospitalet",
             "principals_castells": "",
@@ -150704,7 +150897,7 @@
           {
             "id": "DC487",
             "nom": "Festa Major de Vilaverd",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -150923,7 +151116,7 @@
           {
             "id": "DC488",
             "nom": "Festes del Mar",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers de Castelldefels",
             "colla": "Castellers de Castelldefels",
             "principals_castells": "",
@@ -151077,7 +151270,7 @@
           {
             "id": "DC489",
             "nom": "Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -151296,7 +151489,7 @@
           {
             "id": "DC490",
             "nom": "Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Colla Castellera Sant Pere i Sant Pau",
             "colla": "Colla Castellera Sant Pere i Sant Pau",
             "principals_castells": "",
@@ -151450,7 +151643,7 @@
           {
             "id": "DC491",
             "nom": "Festes de Sant Jaume",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Al·lots de Llevant",
             "colla": "Al·lots de Llevant",
             "principals_castells": "",
@@ -151604,7 +151797,7 @@
           {
             "id": "DC492",
             "nom": "Festa Major",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Torraires de Montblanc",
             "colla": "Torraires de Montblanc",
             "principals_castells": "",
@@ -151758,7 +151951,7 @@
           {
             "id": "DC493",
             "nom": "Festa Major ",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -151910,7 +152103,7 @@
           {
             "id": "DC494",
             "nom": "Diada de la Llotgeta",
-            "data": "Mitjans de juliol.",
+            "data": "Mitjan juliol.",
             "amfitrions": "Castellers de Sant Cugat",
             "colla": "Castellers de Sant Cugat",
             "principals_castells": "",
@@ -153975,7 +154168,7 @@
           {
             "id": "DC508",
             "nom": "Cloenda del Porrat del Real de Gandia",
-            "data": "Mitjans d’octubre (diumenge).",
+            "data": "Mitjan octubre (diumenge).",
             "amfitrions": "Muixeranga de la Marina Alta",
             "colla": "Muixeranga de la Marina Alta",
             "principals_castells": "",
@@ -155206,7 +155399,7 @@
           {
             "id": "DC516",
             "nom": "Festes de la Minerva",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -155358,7 +155551,7 @@
           {
             "id": "DC520",
             "nom": "Festa Major",
-            "data": "Mitjans d’agost.",
+            "data": "Mitjan agost.",
             "amfitrions": "Vailets de Gelida",
             "colla": "Vailets de Gelida",
             "principals_castells": "",
@@ -159094,7 +159287,7 @@
           {
             "id": "DC547",
             "nom": "Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers del Riberal",
             "colla": "Castellers del Riberal",
             "principals_castells": "",
@@ -159248,7 +159441,7 @@
           {
             "id": "DC548",
             "nom": "Festa major de Vallvidrera",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers de Sarrià",
             "colla": "Castellers de Sarrià",
             "principals_castells": "",
@@ -159402,7 +159595,7 @@
           {
             "id": "DC549",
             "nom": "Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "principals_castells": "",
@@ -159556,7 +159749,7 @@
           {
             "id": "DC550",
             "nom": "Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers d’Esparreguera",
             "colla": "Castellers d’Esparreguera",
             "principals_castells": "",
@@ -159864,7 +160057,7 @@
           {
             "id": "DC552",
             "nom": "Aniversari dels Xiqüelos i Xiqüeles del Delta",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Xiqüelos i Xiqüeles del Delta",
             "colla": "Xiqüelos i Xiqüeles del Delta",
             "principals_castells": "",
@@ -160018,7 +160211,7 @@
           {
             "id": "DC553",
             "nom": "Diada de Tardor",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Xiquets de Vila-seca",
             "colla": "Xiquets de Vila-seca",
             "principals_castells": "",
@@ -160172,7 +160365,7 @@
           {
             "id": "DC555",
             "nom": "Diada Magenta",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers de Sant Feliu",
             "colla": "Castellers de Sant Feliu",
             "principals_castells": "",
@@ -160326,7 +160519,7 @@
           {
             "id": "DC556",
             "nom": "Diada Prèvia de la Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers del Prat",
             "colla": "Castellers del Prat",
             "principals_castells": "",
@@ -160480,7 +160673,7 @@
           {
             "id": "DC557",
             "nom": "Fira d’Artesans",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Castellers de Mollet",
             "colla": "Castellers de Mollet",
             "principals_castells": "",
@@ -160634,7 +160827,7 @@
           {
             "id": "DC558",
             "nom": "Festa Major",
-            "data": "Mitjans de setembre",
+            "data": "Mitjan setembre",
             "amfitrions": "Matossers de Molins de Rei",
             "colla": "Matossers de Molins de Rei",
             "principals_castells": "",
@@ -163316,7 +163509,7 @@
           {
             "id": "DC577",
             "nom": "Festes de Tardor del barri de Sant Antoni",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Castellers del Poble Sec",
             "colla": "Castellers del Poble Sec",
             "principals_castells": "",
@@ -163470,7 +163663,7 @@
           {
             "id": "DC578",
             "nom": "Vigílies Aniversari dels Castellers de la Sagrada Família",
-            "data": "Mitjans/finals d’octubre ",
+            "data": "Mitjan/finals d’octubre ",
             "amfitrions": "Castellers de la Sagrada Família",
             "colla": "Castellers de la Sagrada Família",
             "principals_castells": "",
@@ -163688,7 +163881,7 @@
           {
             "id": "DC579",
             "nom": "Diada Colla Castellera de Cerdanya",
-            "data": "Mitjans/finals d’octubre ",
+            "data": "Mitjan/finals d’octubre ",
             "amfitrions": "Colla Castellera de Cerdanya",
             "colla": "Colla Castellera de Cerdanya",
             "principals_castells": "",
@@ -163842,7 +164035,7 @@
           {
             "id": "DC580",
             "nom": "Fira del Vent",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "",
             "colla": "",
             "principals_castells": "",
@@ -163994,7 +164187,7 @@
           {
             "id": "DC581",
             "nom": "Aniversari dels Castellers de l’Alt Maresme",
-            "data": "Mitjans d’octubre (dissabte tarda).",
+            "data": "Mitjan octubre (dissabte tarda).",
             "amfitrions": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "colla": "Colla Castellera de l'Alt Maresme i la Selva Marítima",
             "principals_castells": "",
@@ -164212,7 +164405,7 @@
           {
             "id": "DC582",
             "nom": "Aniversari Colla Castellera del Baix Montseny",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Castellers del Baix Montseny",
             "colla": "Castellers del Baix Montseny",
             "principals_castells": "",
@@ -164430,7 +164623,7 @@
           {
             "id": "DC584",
             "nom": "El Castell de Tothom",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Laietans de Gramenet",
             "colla": "Laietans de Gramenet",
             "principals_castells": "",
@@ -164584,7 +164777,7 @@
           {
             "id": "DC585",
             "nom": "Festa de Tardor",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Castellers d’Esplugues",
             "colla": "Castellers d’Esplugues",
             "principals_castells": "",
@@ -164738,7 +164931,7 @@
           {
             "id": "DC586",
             "nom": "Festa Major",
-            "data": "Mitjans d’octubre.",
+            "data": "Mitjan octubre.",
             "amfitrions": "Esperxats de l'Estany",
             "colla": "Esperxats de l'Estany",
             "principals_castells": "",
@@ -168294,7 +168487,7 @@
           {
             "id": "DC613",
             "nom": "Sant Tolomet",
-            "data": "Dijous a mitjans de novembre per la tarda.",
+            "data": "Dijous a mitjan novembre per la tarda.",
             "amfitrions": "Pataquers de la URV",
             "colla": "Pataquers de la URV",
             "principals_castells": "Pataquers: 3d8f.",
@@ -170774,6 +170967,314 @@
             ]
           }
         ],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0068226,
+          41.3056694
+        ]
+      },
+      "properties": {
+        "id": "LC798",
+        "nom": "Plaça de Josep Tarradellas",
+        "poblacio": "Gavà",
+        "comarca": "Baix Llobregat",
+        "territori": "Catalunya",
+        "pais": "PPCC",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [
+          {
+            "id": "DC661",
+            "nom": "Sant Pere",
+            "data": "Finals de juny.",
+            "amfitrions": "Colla Castellera de Gavà",
+            "colla": "Colla Castellera de Gavà",
+            "principals_castells": "",
+            "info": "",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles": [],
+        "colles_relacionades": [
+          "Colla Castellera de Gavà"
+        ],
+        "monuments": [],
+        "murals": [],
+        "carrers": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.313755643138563,
+          40.57676906716057
+        ]
+      },
+      "properties": {
+        "id": "LC799",
+        "nom": "Platja de Sant Joan",
+        "poblacio": "L'Alguer",
+        "comarca": "Sardenya",
+        "territori": "",
+        "pais": "",
+        "adreca": "",
+        "castells": "Sí",
+        "muixerangues": "",
+        "falcons": "",
+        "altres": "",
+        "fotos": [
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          },
+          {
+            "url": "",
+            "text": "",
+            "font": "",
+            "font_url": "",
+            "autor": "",
+            "llicencia": "",
+            "llicencia_url": "",
+            "enllac_extern": ""
+          }
+        ],
+        "plaques": [],
+        "places9": [],
+        "placesge": [],
+        "places10": [],
+        "infoantiga": [],
+        "pcaminant": [],
+        "mesinfo": [
+          {
+            "id": "DC212",
+            "nom": "Sant Joan a l’Alguer",
+            "data": "Prop del 23 de juny.",
+            "amfitrions": "Colla Castellera Los Mataresos de l'Alguer",
+            "colla": "Colla Castellera Los Mataresos de l'Alguer",
+            "principals_castells": "",
+            "info": "Es va fer per primer cop al 2025 comptant amb els castellers de Sants, al 2026 van actuar només els de l’Alguer.",
+            "castells": "Sí",
+            "muixerangues": "",
+            "falcons": "",
+            "fotos": [
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              },
+              {
+                "url": "",
+                "text": "",
+                "font": "",
+                "font_url": "",
+                "autor": "",
+                "llicencia": "",
+                "llicencia_url": "",
+                "enllac_extern": ""
+              }
+            ]
+          }
+        ],
+        "colles": [],
+        "colles_relacionades": [
+          "Colla Castellera Los Mataresos de l'Alguer"
+        ],
+        "monuments": [],
+        "murals": [],
         "carrers": []
       }
     }
